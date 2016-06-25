@@ -32,6 +32,8 @@ void cadastrochamado::on_abreRACI_clicked()
     db.setPort(5432);
     erro = db.open("raciuser","raci");
 
+    //comentario sobre codigo
+
 
     modelo = new QSqlTableModel(parent(),db);
 
