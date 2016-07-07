@@ -29,7 +29,6 @@ void matrizRACI::on_raciCarregar_clicked()
     db.setPassword("raciuser");
     db.setUserName("raci");
     db.setPort(5432);
-    //comentario
     erro = db.open("raciuser","raci");
 
     modelo = new QSqlTableModel(this,db);

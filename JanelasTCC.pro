@@ -29,3 +29,5 @@ FORMS    += mainwindow.ui \
     cadastrochamado.ui \
     matrizraci.ui \
     cadastrodispositivo.ui
+
+DISTFILES +=
