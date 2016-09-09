@@ -25,11 +25,11 @@ void matrizRACI::on_raciCarregar_clicked()
     QString erro;
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
     db.setHostName("localhost");
-    db.setDatabaseName("TCC");
-    db.setPassword("raciuser");
-    db.setUserName("raci");
+    db.setDatabaseName("postgres");
+    db.setPassword("bu381025");
+    db.setUserName("tccnaybru");
     db.setPort(5432);
-    erro = db.open("raciuser","raci");
+    erro = db.open("postgres","bu381025");
 
     modelo = new QSqlTableModel(this,db);
 
