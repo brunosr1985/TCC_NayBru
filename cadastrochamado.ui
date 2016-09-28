@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>439</width>
-    <height>434</height>
+    <height>468</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,9 +16,9 @@
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>400</y>
-     <width>239</width>
+     <x>180</x>
+     <y>430</y>
+     <width>254</width>
      <height>25</height>
     </rect>
    </property>
@@ -52,7 +52,7 @@
      <x>10</x>
      <y>20</y>
      <width>421</width>
-     <height>361</height>
+     <height>396</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -83,6 +83,24 @@
        <widget class="QPushButton" name="abreRACI">
         <property name="text">
          <string>Abre RACI</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_12">
+      <item>
+       <widget class="QLabel" name="label_10">
+        <property name="text">
+         <string>Equipamento</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="abreDisp">
+        <property name="text">
+         <string>Abre Equipamentos</string>
         </property>
        </widget>
       </item>

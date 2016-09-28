@@ -36,6 +36,8 @@ private slots:
 
     void on_abreRACI_clicked();
 
+    void on_abreDisp_clicked();
+
 private:
     Ui::cadastrochamado *ui;
     QSqlTableModel *modelo;

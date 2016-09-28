@@ -59,6 +59,7 @@ void MainWindow::on_actionPessoas_x_Chamados_triggered()
     pessxcham->setModel(modelo);
     pessxcham->show();
     db.close();
+
 }
 
 void MainWindow::on_actionChamados_2_triggered()
@@ -83,6 +84,7 @@ void MainWindow::on_actionChamados_2_triggered()
     chamados->setModel(modelo);
     chamados->show();
     db.close();
+
 }
 
 void MainWindow::on_actionPessoas_x_Qtde_Chamados_triggered()

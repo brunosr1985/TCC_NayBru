@@ -31,12 +31,8 @@ void matrizRACI::on_raciCarregar_clicked()
     db.setPort(5432);
     erro = db.open("postgres","bu381025");
 
-    modelo = new QSqlTableModel(this,db);
 
-    modelo->setTable("matriz");
-    modelo->setEditStrategy(QSqlTableModel::OnManualSubmit);
-    modelo->select();
-    ui->raciTabela->setModel(modelo);
-    ui->raciTabela->show();
+    db.close();
+
 
 }

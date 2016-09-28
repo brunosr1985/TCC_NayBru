@@ -16,18 +16,21 @@ SOURCES += main.cpp\
     cadastropessoa.cpp \
     cadastrochamado.cpp \
     matrizraci.cpp \
-    cadastrodispositivo.cpp
+    cadastrodispositivo.cpp \
+    selecionadisp.cpp
 
 HEADERS  += mainwindow.h \
     cadastropessoa.h \
     cadastrochamado.h \
     matrizraci.h \
-    cadastrodispositivo.h
+    cadastrodispositivo.h \
+    selecionadisp.h
 
 FORMS    += mainwindow.ui \
     cadastropessoa.ui \
     cadastrochamado.ui \
     matrizraci.ui \
-    cadastrodispositivo.ui
+    cadastrodispositivo.ui \
+    selecionadisp.ui
 
 DISTFILES +=

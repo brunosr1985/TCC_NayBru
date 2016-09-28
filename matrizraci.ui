@@ -33,43 +33,104 @@
      <enum>QLayout::SetNoConstraint</enum>
     </property>
     <item>
-     <widget class="QTableView" name="raciTabela">
-      <property name="sizeIncrement">
-       <size>
-        <width>1</width>
-        <height>1</height>
-       </size>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="leftMargin">
+       <number>5</number>
       </property>
-      <property name="mouseTracking">
-       <bool>true</bool>
+      <property name="topMargin">
+       <number>5</number>
       </property>
-      <property name="autoFillBackground">
-       <bool>true</bool>
+      <property name="rightMargin">
+       <number>5</number>
       </property>
-      <property name="sizeAdjustPolicy">
-       <enum>QAbstractScrollArea::AdjustToContents</enum>
+      <property name="bottomMargin">
+       <number>5</number>
       </property>
-      <property name="gridStyle">
-       <enum>Qt::DashDotLine</enum>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QLabel" name="Chamado">
+            <property name="text">
+             <string>Chamado</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="linhaChamado"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QLabel" name="labelPessoa">
+            <property name="text">
+             <string>Pessoa</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboBox"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_4"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="Responsible">
+      <property name="text">
+       <string>Responsible</string>
       </property>
-      <property name="sortingEnabled">
-       <bool>true</bool>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="Accountable">
+      <property name="text">
+       <string>Accountable</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="Consulted">
+      <property name="text">
+       <string>Consulted</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="Informed">
+      <property name="text">
+       <string>Informed</string>
       </property>
      </widget>
     </item>
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <widget class="QPushButton" name="raciCarregar">
+       <widget class="QPushButton" name="incluirPessoa">
         <property name="text">
-         <string>Carregar</string>
+         <string>Incluir Pessoa</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="raciSalvar">
+        <property name="text">
+         <string>Salvar</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QPushButton" name="raciOK">
         <property name="text">
-         <string>OK</string>
+         <string>Cancelar</string>
         </property>
        </widget>
       </item>
@@ -89,22 +150,6 @@
     <hint type="sourcelabel">
      <x>215</x>
      <y>407</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>216</x>
-     <y>213</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>raciTabela</sender>
-   <signal>clicked(QModelIndex)</signal>
-   <receiver>matrizRACI</receiver>
-   <slot>update()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>215</x>
-     <y>199</y>
     </hint>
     <hint type="destinationlabel">
      <x>216</x>

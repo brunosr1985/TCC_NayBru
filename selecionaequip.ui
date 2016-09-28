@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Dialog</class>
- <widget class="QDialog" name="Dialog">
+ <class>selecionadisp</class>
+ <widget class="QDialog" name="selecionadisp">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>519</width>
-    <height>479</height>
+    <width>686</width>
+    <height>434</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Seleção de dispositivos</string>
   </property>
  </widget>
  <resources/>
