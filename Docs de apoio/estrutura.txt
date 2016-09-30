@@ -1,6 +1,9 @@
 Cap1 - Introdução (contexto, motivação, objetivo, algumas seções sobre gestão de desempenho e controle que é o tema né?)
-Cap2 - Elicitação de Requisitos (descrever melhor os problemas a se solucionar, assim identificando os requisitos, aqui tbm deve-se especificar bem quais são os requisitos/funcionalidades requeridas e identificadas para o sistema (da um pouco de trabalho sem um cliente real, se tiver cliente é mais facil) Aqui tbm deve conter a lista de casos de uso ao final do capitulo)
-Cap3 - Análise e Projeto (Neste capitulo deve conter apenas os diagramas de caso de uso (geral e individual com os atores), com suas respectivas descrições e protótipos de telas... neste capitulo deve conter também o Diagrama de Classes e outros mais da UML que tiver - Diagramas de Casos de Uso e de Classes são essenciais)
+Cap2 - Identificação de Requisitos (descrever melhor os problemas a se solucionar, assim identificando os requisitos, aqui tbm deve-se especificar bem quais são os 
+requisitos/funcionalidades requeridas e identificadas para o sistema (da um pouco de trabalho sem um cliente real, se tiver cliente é mais facil) Aqui tbm deve 
+conter a lista de casos de uso ao final do capitulo)
+Cap3 - Análise e Projeto (Neste capitulo deve conter apenas os diagramas de caso de uso (geral e individual com os atores), com suas respectivas descrições e 
+protótipos de telas... neste capitulo deve conter também o Diagrama de Classes e outros mais da UML que tiver - Diagramas de Casos de Uso e de Classes são essenciais)
 Cap 4 - Desenvolvimento (Aqui deve conter uma seção para as ferramentas utilizadas... também deve ser descrito os metodos e tecnicas utilizadas)
 Cap 5 - Conclusão (Aqui deve-se concluir o trabalho, descrevendo as contribuições e limitações do mesmo, lições aprendidas e trabalhos futuros)
 E por fim as Referências que no caso não é um capítulo kkkk 
@@ -8,33 +11,16 @@ Acho que ta bom kkkk
 lá no cap1... falar sobre o tema para contextualizar o leitor do que se trata, etc... até chegar na elicitação
 fiquem a vontade para alterar algo caso acham necessário
 talvez mudemos algo com o passar do tempo conforme for desenvolvendo... o importante é um capitulo se comunicar com o outro e as seções entre si... para não ter nada solto
-Jônatas • 4 minutos
-Nayane Araujo (nayaneafontes@gmail.com)
-Tudo bem!!! ????
-Nayane • 3 minutos
-Jônatas Leite de Oliveira (jonataslei@gmail.com)
 Ao inves de Elicitação
-Jônatas • 3 minutos
 vou deixar a nayane escrevendo e quanto ela terminar começo a programar, hehauehauehuaheuah
-3 minutos
-Jônatas Leite de Oliveira (jonataslei@gmail.com)
 pode ser Identificação
 pq acho que não tem cliente 100% né?
-Jônatas • 3 minutos
 cliente é sempre um problema
-3 minutos
-Nayane Araujo (nayaneafontes@gmail.com)
-Isso isso
-Kakakakakaka.  OK ??
-Nayane • 2 minutos
-Jônatas Leite de Oliveira (jonataslei@gmail.com)
+
  Técnica de obtenção de dados junto aos usuários detententores das informações, principalmente para a construção de um sistema
 Elicitação =   Técnica de obtenção de dados junto aos usuários detententores das informações, principalmente para a construção de um sistema
 como não tem usuário para levantar informação, é identificação então hAUhuA
-Jônatas • 2 minutos
-justo
-1 minuto
-Jônatas Leite de Oliveira (jonataslei@gmail.com)
+
 através de estudos que vc vai falar lá em cima, teorias, etc e tal, e problemas que identificou trabalhando, lendo na literatura pessoas que reclamam... vc vai identificar os requisitos
 ;D
 tendeu?
