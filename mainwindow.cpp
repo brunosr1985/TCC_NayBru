@@ -1,8 +1,8 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "cadastropessoa.h"
-#include "cadastrochamado.h"
-#include "cadastrodispositivo.h"
+#include "gerenciadispositivo.h"
+#include "gerenciachamados.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -110,4 +110,16 @@ void MainWindow::on_actionPessoas_x_Qtde_Chamados_triggered()
     pessxqtde->setModel(modelo);
     pessxqtde->show();
     db.close();
+}
+
+void MainWindow::on_actionChamados_triggered()
+{
+    gerenciaChamados *gc = new gerenciaChamados();
+    gc->show();
+}
+
+void MainWindow::on_actionDispositivos_triggered()
+{
+    gerenciaDispositivo *gd = new gerenciaDispositivo();
+    gd->show();
 }

@@ -32,8 +32,6 @@
       <string>Novo</string>
      </property>
      <addaction name="actionPessoa"/>
-     <addaction name="actionDispositivo"/>
-     <addaction name="actionChamado"/>
     </widget>
     <addaction name="menuNovo"/>
     <addaction name="separator"/>

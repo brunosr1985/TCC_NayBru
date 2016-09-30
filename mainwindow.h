@@ -45,6 +45,10 @@ private slots:
 
     void on_actionPessoas_x_Qtde_Chamados_triggered();
 
+    void on_actionChamados_triggered();
+
+    void on_actionDispositivos_triggered();
+
 private:
     Ui::MainWindow *ui;
     QSqlTableModel *modelo;
