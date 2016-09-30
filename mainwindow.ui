@@ -27,13 +27,8 @@
     <property name="title">
      <string>Arquivo</string>
     </property>
-    <widget class="QMenu" name="menuNovo">
-     <property name="title">
-      <string>Novo</string>
-     </property>
-     <addaction name="actionPessoa"/>
-    </widget>
-    <addaction name="menuNovo"/>
+    <addaction name="actionNovo_Grupo_de_Pessoas"/>
+    <addaction name="actionNovo_Tipo_de_Dispositivo"/>
     <addaction name="separator"/>
     <addaction name="actionSair"/>
    </widget>
@@ -72,11 +67,6 @@
    </attribute>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <action name="actionPessoa">
-   <property name="text">
-    <string>Pessoa</string>
-   </property>
-  </action>
   <action name="actionPessoas">
    <property name="text">
     <string>Pessoas</string>
@@ -110,6 +100,16 @@
   <action name="actionChamados_2">
    <property name="text">
     <string>Chamados</string>
+   </property>
+  </action>
+  <action name="actionNovo_Grupo_de_Pessoas">
+   <property name="text">
+    <string>Novo Grupo de Pessoas</string>
+   </property>
+  </action>
+  <action name="actionNovo_Tipo_de_Dispositivo">
+   <property name="text">
+    <string>Novo Tipo de Dispositivo</string>
    </property>
   </action>
  </widget>

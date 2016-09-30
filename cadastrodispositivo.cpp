@@ -1,5 +1,6 @@
 #include "cadastrodispositivo.h"
 #include "ui_cadastrodispositivo.h"
+#include "tipodisp.h"
 
 cadastrodispositivo::cadastrodispositivo(QWidget *parent) :
     QWidget(parent),
@@ -16,4 +17,10 @@ cadastrodispositivo::~cadastrodispositivo()
 void cadastrodispositivo::on_pushButton_3_clicked()
 {
     this->close();
+}
+
+void cadastrodispositivo::on_pushButton_4_clicked()
+{
+    tipoDisp *td = new tipoDisp();
+    td->show();
 }

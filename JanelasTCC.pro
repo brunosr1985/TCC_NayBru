@@ -20,7 +20,9 @@ SOURCES += main.cpp\
     selecionadisp.cpp \
     gerenciachamados.cpp \
     gerenciapessoas.cpp \
-    gerenciadispositivo.cpp
+    gerenciadispositivo.cpp \
+    novogrupo.cpp \
+    tipodisp.cpp
 
 HEADERS  += mainwindow.h \
     cadastropessoa.h \
@@ -30,7 +32,9 @@ HEADERS  += mainwindow.h \
     selecionadisp.h \
     gerenciachamados.h \
     gerenciapessoas.h \
-    gerenciadispositivo.h
+    gerenciadispositivo.h \
+    novogrupo.h \
+    tipodisp.h
 
 FORMS    += mainwindow.ui \
     cadastropessoa.ui \
@@ -40,6 +44,8 @@ FORMS    += mainwindow.ui \
     selecionadisp.ui \
     gerenciachamados.ui \
     gerenciapessoas.ui \
-    gerenciadispositivo.ui
+    gerenciadispositivo.ui \
+    novogrupo.ui \
+    tipodisp.ui
 
 DISTFILES +=

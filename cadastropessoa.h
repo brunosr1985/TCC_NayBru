@@ -15,6 +15,9 @@ public:
     explicit Cadastropessoa(QWidget *parent = 0);
     ~Cadastropessoa();
 
+private slots:
+    void on_Novo_Grupo_clicked();
+
 private:
     Ui::Cadastropessoa *ui;
 };

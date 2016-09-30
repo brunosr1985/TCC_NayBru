@@ -1,8 +1,10 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "cadastropessoa.h"
+#include "gerenciapessoas.h"
 #include "gerenciadispositivo.h"
 #include "gerenciachamados.h"
+#include "novogrupo.h"
+#include "tipodisp.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -15,12 +17,6 @@ MainWindow::MainWindow(QWidget *parent) :
 MainWindow::~MainWindow()
 {
     delete ui;
-}
-
-void MainWindow::on_actionPessoa_triggered()
-{
-    Cadastropessoa *cp = new Cadastropessoa();
-    cp->show();
 }
 
 void MainWindow::on_actionPessoas_x_Chamados_triggered()
@@ -110,4 +106,22 @@ void MainWindow::on_actionDispositivos_triggered()
 {
     gerenciaDispositivo *gd = new gerenciaDispositivo();
     gd->show();
+}
+
+void MainWindow::on_actionPessoas_triggered()
+{
+    gerenciaPessoas *gp = new gerenciaPessoas();
+    gp->show();
+}
+
+void MainWindow::on_actionNovo_Grupo_de_Pessoas_triggered()
+{
+    novoGrupo *ng = new novoGrupo();
+    ng->show();
+}
+
+void MainWindow::on_actionNovo_Tipo_de_Dispositivo_triggered()
+{
+    tipoDisp *td = new tipoDisp();
+    td->show();
 }

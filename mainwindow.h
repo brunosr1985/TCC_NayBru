@@ -33,12 +33,6 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_actionPessoa_triggered();
-
-    void on_actionChamado_triggered();
-
-    void on_actionDispositivo_triggered();
-
     void on_actionPessoas_x_Chamados_triggered();
 
     void on_actionChamados_2_triggered();
@@ -48,6 +42,12 @@ private slots:
     void on_actionChamados_triggered();
 
     void on_actionDispositivos_triggered();
+
+    void on_actionPessoas_triggered();
+
+    void on_actionNovo_Grupo_de_Pessoas_triggered();
+
+    void on_actionNovo_Tipo_de_Dispositivo_triggered();
 
 private:
     Ui::MainWindow *ui;
