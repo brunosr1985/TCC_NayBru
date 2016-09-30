@@ -23,18 +23,6 @@ void MainWindow::on_actionPessoa_triggered()
     cp->show();
 }
 
-void MainWindow::on_actionChamado_triggered()
-{
-    cadastrochamado *cc = new cadastrochamado();
-    cc->show();
-}
-
-void MainWindow::on_actionDispositivo_triggered()
-{
-    cadastrodispositivo *cd = new cadastrodispositivo();
-    cd->show();
-}
-
 void MainWindow::on_actionPessoas_x_Chamados_triggered()
 {
 

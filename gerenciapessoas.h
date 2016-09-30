@@ -15,6 +15,9 @@ public:
     explicit gerenciaPessoas(QWidget *parent = 0);
     ~gerenciaPessoas();
 
+private slots:
+    void on_novaPessoa_clicked();
+
 private:
     Ui::gerenciaPessoas *ui;
 };

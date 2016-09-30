@@ -1,5 +1,6 @@
 #include "gerenciapessoas.h"
 #include "ui_gerenciapessoas.h"
+#include "cadastropessoa.h"
 
 gerenciaPessoas::gerenciaPessoas(QWidget *parent) :
     QDialog(parent),
@@ -11,4 +12,10 @@ gerenciaPessoas::gerenciaPessoas(QWidget *parent) :
 gerenciaPessoas::~gerenciaPessoas()
 {
     delete ui;
+}
+
+void gerenciaPessoas::on_novaPessoa_clicked()
+{
+    Cadastropessoa *cp = new Cadastropessoa();
+    cp->show();
 }

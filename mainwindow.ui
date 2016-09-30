@@ -77,16 +77,6 @@
     <string>Pessoa</string>
    </property>
   </action>
-  <action name="actionDispositivo">
-   <property name="text">
-    <string>Dispositivo</string>
-   </property>
-  </action>
-  <action name="actionChamado">
-   <property name="text">
-    <string>Chamado</string>
-   </property>
-  </action>
   <action name="actionPessoas">
    <property name="text">
     <string>Pessoas</string>
