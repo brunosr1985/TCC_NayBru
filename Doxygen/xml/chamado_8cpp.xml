@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="chamado_8cpp" kind="file" language="C++">
+    <compoundname>chamado.cpp</compoundname>
+    <includes refid="chamado_8h" local="yes">chamado.h</includes>
+    <incdepgraph>
+      <node id="68">
+        <label>m_raci.h</label>
+        <link refid="m__raci_8h"/>
+      </node>
+      <node id="67">
+        <label>dispositivo.h</label>
+        <link refid="dispositivo_8h"/>
+      </node>
+      <node id="66">
+        <label>status.h</label>
+        <link refid="status_8h"/>
+      </node>
+      <node id="69">
+        <label>string</label>
+      </node>
+      <node id="65">
+        <label>chamado.h</label>
+        <link refid="chamado_8h"/>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>C:/Users/BrunoSR/TCC_NayBru/chamado.cpp</label>
+        <link refid="chamado_8cpp"/>
+        <childnode refid="65" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacestd">std</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="chamado_8h" kindref="compound">chamado.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classchamado_1a6a80bec45db77367311bf035b22ba4ec" refkind="member"><highlight class="normal"><ref refid="classchamado_1a6a80bec45db77367311bf035b22ba4ec" kindref="member">chamado::chamado</ref>()</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp"/>
+  </compounddef>
+</doxygen>

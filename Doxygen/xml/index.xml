@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.12">
+  <compound refid="classcadastrochamado" kind="class"><name>cadastrochamado</name>
+    <member refid="classcadastrochamado_1abb4512bd6342bcea8792f9b59f2616d0" kind="variable"><name>ui</name></member>
+    <member refid="classcadastrochamado_1a2cb8eb2dc95dacac8cbc4f988fe63cf1" kind="variable"><name>modelo</name></member>
+    <member refid="classcadastrochamado_1a626bec1c5a76c3fe062f70f3fe857c3f" kind="function"><name>cadastrochamado</name></member>
+    <member refid="classcadastrochamado_1aafb8985f35d1e6d47dbc8be3a4cf0de9" kind="function"><name>~cadastrochamado</name></member>
+    <member refid="classcadastrochamado_1ad28991192a4b3b79126e4bdf2d0fa29b" kind="slot"><name>on_pushButton_3_clicked</name></member>
+    <member refid="classcadastrochamado_1ae88b001d000591403af27c218f2d2fb8" kind="slot"><name>on_abreRACI_clicked</name></member>
+    <member refid="classcadastrochamado_1a6245c6a439da2dad5d91dca10a6fd301" kind="slot"><name>on_abreDisp_clicked</name></member>
+  </compound>
+  <compound refid="classcadastrodispositivo" kind="class"><name>cadastrodispositivo</name>
+    <member refid="classcadastrodispositivo_1a01b67037a472db99a897b27e80273d17" kind="variable"><name>ui</name></member>
+    <member refid="classcadastrodispositivo_1a759ec481f21cb002c55d5ca50e8cdf9c" kind="function"><name>cadastrodispositivo</name></member>
+    <member refid="classcadastrodispositivo_1a21c4cb426f58445706d55dbce57f4aa0" kind="function"><name>~cadastrodispositivo</name></member>
+    <member refid="classcadastrodispositivo_1ae37a506685243fa3c6cccccf4d83da49" kind="slot"><name>on_pushButton_3_clicked</name></member>
+    <member refid="classcadastrodispositivo_1a6b64063bde112a3e4985e7a007e30a13" kind="slot"><name>on_pushButton_4_clicked</name></member>
+  </compound>
+  <compound refid="class_cadastropessoa" kind="class"><name>Cadastropessoa</name>
+    <member refid="class_cadastropessoa_1adee936267da377428b49e6c5f6a98403" kind="variable"><name>ui</name></member>
+    <member refid="class_cadastropessoa_1a706230f399727160a6fd25592f77da12" kind="function"><name>Cadastropessoa</name></member>
+    <member refid="class_cadastropessoa_1a19e6b26d15f77eb6844e67b1246661cf" kind="function"><name>~Cadastropessoa</name></member>
+    <member refid="class_cadastropessoa_1ad6cdadecd30df81d41df6a267855e012" kind="slot"><name>on_Novo_Grupo_clicked</name></member>
+  </compound>
+  <compound refid="classchamado" kind="class"><name>chamado</name>
+    <member refid="classchamado_1a82a905a3df78612d83dd7844f26f7de8" kind="variable"><name>id</name></member>
+    <member refid="classchamado_1a8da58841abba06fe4e55855c436441a4" kind="variable"><name>matriz_r</name></member>
+    <member refid="classchamado_1ad2f0d7db8449f09bd50a301aa05980d0" kind="variable"><name>disp</name></member>
+    <member refid="classchamado_1a658680d936b1ccc6718dd7af3a8d0b99" kind="variable"><name>tempo</name></member>
+    <member refid="classchamado_1abb92d1c9d06152f391b1f4ee93fbcbf0" kind="variable"><name>sla</name></member>
+    <member refid="classchamado_1adaa69112442f64c8c61fd61f46099d00" kind="variable"><name>stat</name></member>
+    <member refid="classchamado_1a6180b916f64b4f525ffee7845a86a9cd" kind="variable"><name>reincidente</name></member>
+    <member refid="classchamado_1a4f02b363878ca93ab665aa9ce5b0274d" kind="variable"><name>hora_abertura</name></member>
+    <member refid="classchamado_1ae1c2f1aaa5516ca4ac9ea95e81b8ab22" kind="variable"><name>hora_fechamento</name></member>
+    <member refid="classchamado_1aef6509dc3d8aac8d0a652818965ef299" kind="variable"><name>descricao</name></member>
+    <member refid="classchamado_1a6a80bec45db77367311bf035b22ba4ec" kind="function"><name>chamado</name></member>
+  </compound>
+  <compound refid="classdispositivo" kind="class"><name>dispositivo</name>
+    <member refid="classdispositivo_1aa6a6c3140271f71ff41cec06b7296e66" kind="function"><name>dispositivo</name></member>
+  </compound>
+  <compound refid="classgerencia_chamados" kind="class"><name>gerenciaChamados</name>
+    <member refid="classgerencia_chamados_1a750fb9f2e072fb1f5bfe276550e82c7d" kind="variable"><name>ui</name></member>
+    <member refid="classgerencia_chamados_1a07839f849e9582ce8e695de48b4b0ebb" kind="function"><name>gerenciaChamados</name></member>
+    <member refid="classgerencia_chamados_1a393bdaec21bc5e91a03c4d4b02925682" kind="function"><name>~gerenciaChamados</name></member>
+    <member refid="classgerencia_chamados_1a8c221694a99ede8953a8de0c37627b55" kind="slot"><name>on_novoChamado_clicked</name></member>
+  </compound>
+  <compound refid="classgerencia_dispositivo" kind="class"><name>gerenciaDispositivo</name>
+    <member refid="classgerencia_dispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kind="variable"><name>ui</name></member>
+    <member refid="classgerencia_dispositivo_1a245e771cf0d5c9e2929e0829d57bf97b" kind="function"><name>gerenciaDispositivo</name></member>
+    <member refid="classgerencia_dispositivo_1a3dcef9c3f95ad6be653920a0952b8a0a" kind="function"><name>~gerenciaDispositivo</name></member>
+    <member refid="classgerencia_dispositivo_1ab7c595e355777a5c336cc9fedace9d1b" kind="slot"><name>on_novoDIsp_clicked</name></member>
+  </compound>
+  <compound refid="classgerencia_pessoas" kind="class"><name>gerenciaPessoas</name>
+    <member refid="classgerencia_pessoas_1aea53154e1834e414a195804b7d0b6e7b" kind="variable"><name>ui</name></member>
+    <member refid="classgerencia_pessoas_1a245ab3e4006fcdd3ec9a89815e1c60c1" kind="function"><name>gerenciaPessoas</name></member>
+    <member refid="classgerencia_pessoas_1a85f9272a309472903bf5b2ad0950973c" kind="function"><name>~gerenciaPessoas</name></member>
+    <member refid="classgerencia_pessoas_1a19d90661ff52549b38db8d0a53d0f638" kind="slot"><name>on_novaPessoa_clicked</name></member>
+  </compound>
+  <compound refid="classm__raci" kind="class"><name>m_raci</name>
+    <member refid="classm__raci_1a71d7d00d85715a7716ad487c1b125eb7" kind="function"><name>m_raci</name></member>
+  </compound>
+  <compound refid="class_main_window" kind="class"><name>MainWindow</name>
+    <member refid="class_main_window_1a35466a70ed47252a0191168126a352a5" kind="variable"><name>ui</name></member>
+    <member refid="class_main_window_1ace399ef4d5b35fc09b1c497a6b89c548" kind="variable"><name>modelo</name></member>
+    <member refid="class_main_window_1ac4551c72b3aedfdeaa2e2c18fb6ecaa4" kind="variable"><name>query</name></member>
+    <member refid="class_main_window_1a8b244be8b7b7db1b08de2a2acb9409db" kind="function"><name>MainWindow</name></member>
+    <member refid="class_main_window_1ae98d00a93bc118200eeef9f9bba1dba7" kind="function"><name>~MainWindow</name></member>
+    <member refid="class_main_window_1ac3987416965f985c8d44c8adc1e42add" kind="slot"><name>on_actionPessoas_x_Chamados_triggered</name></member>
+    <member refid="class_main_window_1ae982429a38d1d6d4430693322357e716" kind="slot"><name>on_actionChamados_2_triggered</name></member>
+    <member refid="class_main_window_1a8540f34e55fcacf375edb2421c390044" kind="slot"><name>on_actionPessoas_x_Qtde_Chamados_triggered</name></member>
+    <member refid="class_main_window_1ac107347073b88880dac081fd745fd619" kind="slot"><name>on_actionChamados_triggered</name></member>
+    <member refid="class_main_window_1acb1d694a8b177feec62407a0848dba95" kind="slot"><name>on_actionDispositivos_triggered</name></member>
+    <member refid="class_main_window_1a1db8061a9d0e4dd91f7a065e8782ad99" kind="slot"><name>on_actionPessoas_triggered</name></member>
+    <member refid="class_main_window_1a1266444211ea57fed22838649b3285e5" kind="slot"><name>on_actionNovo_Grupo_de_Pessoas_triggered</name></member>
+    <member refid="class_main_window_1af7736d52ad806d0da7eae9c325f4d694" kind="slot"><name>on_actionNovo_Tipo_de_Dispositivo_triggered</name></member>
+  </compound>
+  <compound refid="classmatriz_r_a_c_i" kind="class"><name>matrizRACI</name>
+    <member refid="classmatriz_r_a_c_i_1a5a7d2a46e48e4d2e172d0ccd2e0ae2cf" kind="variable"><name>ui</name></member>
+    <member refid="classmatriz_r_a_c_i_1aa84bf8af7dd24c32e14576e1ee9c4454" kind="variable"><name>modelo</name></member>
+    <member refid="classmatriz_r_a_c_i_1ae380d9647713f9dc8c4dbc275f69a672" kind="function"><name>matrizRACI</name></member>
+    <member refid="classmatriz_r_a_c_i_1acf5d48703954736fe205c918333950a0" kind="function"><name>~matrizRACI</name></member>
+    <member refid="classmatriz_r_a_c_i_1a25457f6fa5d1df55d4ffb0dab8e24b5f" kind="slot"><name>on_raciCarregar_clicked</name></member>
+  </compound>
+  <compound refid="classnovo_grupo" kind="class"><name>novoGrupo</name>
+    <member refid="classnovo_grupo_1aafa50a9f60961cd22b3eb71a06043d46" kind="variable"><name>ui</name></member>
+    <member refid="classnovo_grupo_1a2e343a019db9fe74eea1809e833a8517" kind="function"><name>novoGrupo</name></member>
+    <member refid="classnovo_grupo_1a561957c27e43bc56cc595a37db18aa33" kind="function"><name>~novoGrupo</name></member>
+  </compound>
+  <compound refid="classpessoa" kind="class"><name>pessoa</name>
+    <member refid="classpessoa_1a8e80bd7d70d7d29b248ef5ec77720b5b" kind="variable"><name>id</name></member>
+    <member refid="classpessoa_1a7ff09497b62adeb87afd1531d72dee78" kind="variable"><name>nome</name></member>
+    <member refid="classpessoa_1aa73d0148299c1920e2ab238956a869ab" kind="variable"><name>telefone</name></member>
+    <member refid="classpessoa_1a3263ed9356bab20fb6c364483fe0d7b7" kind="variable"><name>ramal</name></member>
+    <member refid="classpessoa_1a8629e223b05473916ecda357a5fe1ad1" kind="variable"><name>email</name></member>
+    <member refid="classpessoa_1ac75b9d5e9934fdcb46c0d8b2c06a08b2" kind="variable"><name>depto</name></member>
+    <member refid="classpessoa_1a32474b998586278afec16302178c2856" kind="variable"><name>cargo</name></member>
+    <member refid="classpessoa_1a6930db502e29734eb026e291cf534ed9" kind="variable"><name>grupo</name></member>
+    <member refid="classpessoa_1ae2ee70812ff092a18c24ed94eaae260b" kind="function"><name>pessoa</name></member>
+  </compound>
+  <compound refid="classselecionadisp" kind="class"><name>selecionadisp</name>
+    <member refid="classselecionadisp_1aacbc7399c7f9e85cd7f211aa14ab8973" kind="variable"><name>ui</name></member>
+    <member refid="classselecionadisp_1a23cbf45ded7e90e20f7d3ea8679f856a" kind="function"><name>selecionadisp</name></member>
+    <member refid="classselecionadisp_1aad8dcaadb86038322f173c9b9203916e" kind="function"><name>~selecionadisp</name></member>
+  </compound>
+  <compound refid="classselecionaequip" kind="class"><name>selecionaequip</name>
+    <member refid="classselecionaequip_1af4280d3549699e0ae1a487884399d378" kind="variable"><name>ui</name></member>
+    <member refid="classselecionaequip_1a3ccee0d0b533a3c3d7bb53f951f022ba" kind="function"><name>selecionaequip</name></member>
+    <member refid="classselecionaequip_1adabd9829153adf6adb64c75a79ac7964" kind="function"><name>~selecionaequip</name></member>
+  </compound>
+  <compound refid="classstatus" kind="class"><name>status</name>
+    <member refid="classstatus_1a22e483f0410490743e4970e905e5fa19" kind="function"><name>status</name></member>
+  </compound>
+  <compound refid="classtipo_disp" kind="class"><name>tipoDisp</name>
+    <member refid="classtipo_disp_1a1ab1a6438473977cbfaf2b587872b7fd" kind="variable"><name>ui</name></member>
+    <member refid="classtipo_disp_1a07b2e7bbbe94b97f3eab51ce63c30134" kind="function"><name>tipoDisp</name></member>
+    <member refid="classtipo_disp_1a235a754bbe34fe3a8fd5826e57cf3abe" kind="function"><name>~tipoDisp</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="namespace_ui" kind="namespace"><name>Ui</name>
+  </compound>
+  <compound refid="cadastrochamado_8cpp" kind="file"><name>cadastrochamado.cpp</name>
+  </compound>
+  <compound refid="cadastrochamado_8h" kind="file"><name>cadastrochamado.h</name>
+  </compound>
+  <compound refid="cadastrodispositivo_8cpp" kind="file"><name>cadastrodispositivo.cpp</name>
+  </compound>
+  <compound refid="cadastrodispositivo_8h" kind="file"><name>cadastrodispositivo.h</name>
+  </compound>
+  <compound refid="cadastropess_8h" kind="file"><name>cadastropess.h</name>
+  </compound>
+  <compound refid="cadastropessoa_8cpp" kind="file"><name>cadastropessoa.cpp</name>
+  </compound>
+  <compound refid="cadastropessoa_8h" kind="file"><name>cadastropessoa.h</name>
+  </compound>
+  <compound refid="chamado_8cpp" kind="file"><name>chamado.cpp</name>
+  </compound>
+  <compound refid="chamado_8h" kind="file"><name>chamado.h</name>
+  </compound>
+  <compound refid="dispositivo_8cpp" kind="file"><name>dispositivo.cpp</name>
+  </compound>
+  <compound refid="dispositivo_8h" kind="file"><name>dispositivo.h</name>
+  </compound>
+  <compound refid="gerenciachamados_8cpp" kind="file"><name>gerenciachamados.cpp</name>
+  </compound>
+  <compound refid="gerenciachamados_8h" kind="file"><name>gerenciachamados.h</name>
+  </compound>
+  <compound refid="gerenciadispositivo_8cpp" kind="file"><name>gerenciadispositivo.cpp</name>
+  </compound>
+  <compound refid="gerenciadispositivo_8h" kind="file"><name>gerenciadispositivo.h</name>
+  </compound>
+  <compound refid="gerenciapessoas_8cpp" kind="file"><name>gerenciapessoas.cpp</name>
+  </compound>
+  <compound refid="gerenciapessoas_8h" kind="file"><name>gerenciapessoas.h</name>
+  </compound>
+  <compound refid="m__raci_8cpp" kind="file"><name>m_raci.cpp</name>
+  </compound>
+  <compound refid="m__raci_8h" kind="file"><name>m_raci.h</name>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="mainwindow_8cpp" kind="file"><name>mainwindow.cpp</name>
+  </compound>
+  <compound refid="mainwindow_8h" kind="file"><name>mainwindow.h</name>
+  </compound>
+  <compound refid="matrizraci_8cpp" kind="file"><name>matrizraci.cpp</name>
+  </compound>
+  <compound refid="matrizraci_8h" kind="file"><name>matrizraci.h</name>
+  </compound>
+  <compound refid="novogrupo_8cpp" kind="file"><name>novogrupo.cpp</name>
+  </compound>
+  <compound refid="novogrupo_8h" kind="file"><name>novogrupo.h</name>
+  </compound>
+  <compound refid="pessoa_8cpp" kind="file"><name>pessoa.cpp</name>
+  </compound>
+  <compound refid="pessoa_8h" kind="file"><name>pessoa.h</name>
+  </compound>
+  <compound refid="selecionadisp_8cpp" kind="file"><name>selecionadisp.cpp</name>
+  </compound>
+  <compound refid="selecionadisp_8h" kind="file"><name>selecionadisp.h</name>
+  </compound>
+  <compound refid="selecionaequip_8cpp" kind="file"><name>selecionaequip.cpp</name>
+  </compound>
+  <compound refid="selecionaequip_8h" kind="file"><name>selecionaequip.h</name>
+  </compound>
+  <compound refid="status_8cpp" kind="file"><name>status.cpp</name>
+  </compound>
+  <compound refid="status_8h" kind="file"><name>status.h</name>
+  </compound>
+  <compound refid="tipodisp_8cpp" kind="file"><name>tipodisp.cpp</name>
+  </compound>
+  <compound refid="tipodisp_8h" kind="file"><name>tipodisp.h</name>
+  </compound>
+  <compound refid="dir_2a17a3af5f45c36a40d46df581288962" kind="dir"><name>C:/Users/BrunoSR</name>
+  </compound>
+  <compound refid="dir_ac9a25645559c5722b8c2b9e3e0a8f81" kind="dir"><name>C:/Users/BrunoSR/TCC_NayBru</name>
+  </compound>
+  <compound refid="dir_d522931ffa1371640980b621734a4381" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

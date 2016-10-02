@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="status_8cpp" kind="file" language="C++">
+    <compoundname>status.cpp</compoundname>
+    <includes refid="status_8h" local="yes">status.h</includes>
+    <incdepgraph>
+      <node id="275">
+        <label>C:/Users/BrunoSR/TCC_NayBru/status.cpp</label>
+        <link refid="status_8cpp"/>
+        <childnode refid="276" relation="include">
+        </childnode>
+      </node>
+      <node id="276">
+        <label>status.h</label>
+        <link refid="status_8h"/>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="status_8h" kindref="compound">status.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="classstatus_1a22e483f0410490743e4970e905e5fa19" refkind="member"><highlight class="normal"><ref refid="classstatus_1a22e483f0410490743e4970e905e5fa19" kindref="member">status::status</ref>()</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/status.cpp"/>
+  </compounddef>
+</doxygen>

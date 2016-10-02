@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classmatriz_r_a_c_i" kind="class" language="C++" prot="public">
+    <compoundname>matrizRACI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="matrizraci_8h" local="no">matrizraci.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classmatriz_r_a_c_i_1a5a7d2a46e48e4d2e172d0ccd2e0ae2cf" prot="private" static="no" mutable="no">
+        <type>Ui::matrizRACI *</type>
+        <definition>Ui::matrizRACI* matrizRACI::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/matrizraci.h" line="32" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/matrizraci.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmatriz_r_a_c_i_1aa84bf8af7dd24c32e14576e1ee9c4454" prot="private" static="no" mutable="no">
+        <type>QSqlTableModel *</type>
+        <definition>QSqlTableModel* matrizRACI::modelo</definition>
+        <argsstring></argsstring>
+        <name>modelo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/matrizraci.h" line="33" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/matrizraci.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmatriz_r_a_c_i_1ae380d9647713f9dc8c4dbc275f69a672" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>matrizRACI::matrizRACI</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>matrizRACI</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/matrizraci.h" line="25" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/matrizraci.cpp" bodystart="10" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classmatriz_r_a_c_i_1acf5d48703954736fe205c918333950a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>matrizRACI::~matrizRACI</definition>
+        <argsstring>()</argsstring>
+        <name>~matrizRACI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/matrizraci.h" line="26" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/matrizraci.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classmatriz_r_a_c_i_1a25457f6fa5d1df55d4ffb0dab8e24b5f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void matrizRACI::on_raciCarregar_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_raciCarregar_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/matrizraci.h" line="29" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/matrizraci.cpp" bodystart="23" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="37">
+        <label>matrizRACI</label>
+        <link refid="classmatriz_r_a_c_i"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>QWidget</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="39">
+        <label>matrizRACI</label>
+        <link refid="classmatriz_r_a_c_i"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>QWidget</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/matrizraci.h" line="21" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/matrizraci.h" bodystart="20" bodyend="34"/>
+    <listofallmembers>
+      <member refid="classmatriz_r_a_c_i_1ae380d9647713f9dc8c4dbc275f69a672" prot="public" virt="non-virtual"><scope>matrizRACI</scope><name>matrizRACI</name></member>
+      <member refid="classmatriz_r_a_c_i_1aa84bf8af7dd24c32e14576e1ee9c4454" prot="private" virt="non-virtual"><scope>matrizRACI</scope><name>modelo</name></member>
+      <member refid="classmatriz_r_a_c_i_1a25457f6fa5d1df55d4ffb0dab8e24b5f" prot="private" virt="non-virtual"><scope>matrizRACI</scope><name>on_raciCarregar_clicked</name></member>
+      <member refid="classmatriz_r_a_c_i_1a5a7d2a46e48e4d2e172d0ccd2e0ae2cf" prot="private" virt="non-virtual"><scope>matrizRACI</scope><name>ui</name></member>
+      <member refid="classmatriz_r_a_c_i_1acf5d48703954736fe205c918333950a0" prot="public" virt="non-virtual"><scope>matrizRACI</scope><name>~matrizRACI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

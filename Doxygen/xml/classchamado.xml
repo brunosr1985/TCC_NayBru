@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classchamado" kind="class" language="C++" prot="public">
+    <compoundname>chamado</compoundname>
+    <includes refid="chamado_8h" local="no">chamado.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classchamado_1a82a905a3df78612d83dd7844f26f7de8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int chamado::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="13" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchamado_1a8da58841abba06fe4e55855c436441a4" prot="public" static="no" mutable="no">
+        <type><ref refid="classm__raci" kindref="compound">m_raci</ref></type>
+        <definition>m_raci chamado::matriz_r</definition>
+        <argsstring></argsstring>
+        <name>matriz_r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="14" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchamado_1ad2f0d7db8449f09bd50a301aa05980d0" prot="public" static="no" mutable="no">
+        <type><ref refid="classdispositivo" kindref="compound">dispositivo</ref></type>
+        <definition>dispositivo chamado::disp</definition>
+        <argsstring></argsstring>
+        <name>disp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchamado_1a658680d936b1ccc6718dd7af3a8d0b99" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float chamado::tempo</definition>
+        <argsstring></argsstring>
+        <name>tempo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchamado_1abb92d1c9d06152f391b1f4ee93fbcbf0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float chamado::sla</definition>
+        <argsstring></argsstring>
+        <name>sla</name>
+        <initializer>= disp.sla</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="17" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchamado_1adaa69112442f64c8c61fd61f46099d00" prot="public" static="no" mutable="no">
+        <type><ref refid="classstatus" kindref="compound">status</ref></type>
+        <definition>status chamado::stat</definition>
+        <argsstring></argsstring>
+        <name>stat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="18" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchamado_1a6180b916f64b4f525ffee7845a86a9cd" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool chamado::reincidente</definition>
+        <argsstring></argsstring>
+        <name>reincidente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchamado_1a4f02b363878ca93ab665aa9ce5b0274d" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string chamado::hora_abertura</definition>
+        <argsstring></argsstring>
+        <name>hora_abertura</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="20" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchamado_1ae1c2f1aaa5516ca4ac9ea95e81b8ab22" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string chamado::hora_fechamento</definition>
+        <argsstring></argsstring>
+        <name>hora_fechamento</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="21" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classchamado_1aef6509dc3d8aac8d0a652818965ef299" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string chamado::descricao</definition>
+        <argsstring></argsstring>
+        <name>descricao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="22" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classchamado_1a6a80bec45db77367311bf035b22ba4ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>chamado::chamado</definition>
+        <argsstring>()</argsstring>
+        <name>chamado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="24" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="6" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="13">
+        <label>chamado</label>
+        <link refid="classchamado"/>
+        <childnode refid="14" relation="usage">
+          <edgelabel>stat</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>disp</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>matriz_r</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>status</label>
+        <link refid="classstatus"/>
+      </node>
+      <node id="16">
+        <label>m_raci</label>
+        <link refid="classm__raci"/>
+      </node>
+      <node id="15">
+        <label>dispositivo</label>
+        <link refid="classdispositivo"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="10" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="9" bodyend="26"/>
+    <listofallmembers>
+      <member refid="classchamado_1a6a80bec45db77367311bf035b22ba4ec" prot="public" virt="non-virtual"><scope>chamado</scope><name>chamado</name></member>
+      <member refid="classchamado_1aef6509dc3d8aac8d0a652818965ef299" prot="public" virt="non-virtual"><scope>chamado</scope><name>descricao</name></member>
+      <member refid="classchamado_1ad2f0d7db8449f09bd50a301aa05980d0" prot="public" virt="non-virtual"><scope>chamado</scope><name>disp</name></member>
+      <member refid="classchamado_1a4f02b363878ca93ab665aa9ce5b0274d" prot="public" virt="non-virtual"><scope>chamado</scope><name>hora_abertura</name></member>
+      <member refid="classchamado_1ae1c2f1aaa5516ca4ac9ea95e81b8ab22" prot="public" virt="non-virtual"><scope>chamado</scope><name>hora_fechamento</name></member>
+      <member refid="classchamado_1a82a905a3df78612d83dd7844f26f7de8" prot="public" virt="non-virtual"><scope>chamado</scope><name>id</name></member>
+      <member refid="classchamado_1a8da58841abba06fe4e55855c436441a4" prot="public" virt="non-virtual"><scope>chamado</scope><name>matriz_r</name></member>
+      <member refid="classchamado_1a6180b916f64b4f525ffee7845a86a9cd" prot="public" virt="non-virtual"><scope>chamado</scope><name>reincidente</name></member>
+      <member refid="classchamado_1abb92d1c9d06152f391b1f4ee93fbcbf0" prot="public" virt="non-virtual"><scope>chamado</scope><name>sla</name></member>
+      <member refid="classchamado_1adaa69112442f64c8c61fd61f46099d00" prot="public" virt="non-virtual"><scope>chamado</scope><name>stat</name></member>
+      <member refid="classchamado_1a658680d936b1ccc6718dd7af3a8d0b99" prot="public" virt="non-virtual"><scope>chamado</scope><name>tempo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

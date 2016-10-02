@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="cadastrochamado_8cpp" kind="file" language="C++">
+    <compoundname>cadastrochamado.cpp</compoundname>
+    <includes refid="cadastrochamado_8h" local="yes">cadastrochamado.h</includes>
+    <includes local="yes">ui_cadastrochamado.h</includes>
+    <includes refid="matrizraci_8h" local="yes">matrizraci.h</includes>
+    <includes refid="selecionadisp_8h" local="yes">selecionadisp.h</includes>
+    <incdepgraph>
+      <node id="15">
+        <label>QtDebug</label>
+      </node>
+      <node id="1">
+        <label>cadastrochamado.h</label>
+        <link refid="cadastrochamado_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>QMessageBox</label>
+      </node>
+      <node id="14">
+        <label>QtSql/QSqlDatabase</label>
+      </node>
+      <node id="5">
+        <label>QtSql/QSqlQuery</label>
+      </node>
+      <node id="6">
+        <label>QtSql/QSqlTableModel</label>
+      </node>
+      <node id="10">
+        <label>QtCore</label>
+      </node>
+      <node id="7">
+        <label>QSqlDatabase</label>
+      </node>
+      <node id="4">
+        <label>QtSql/QSqlQueryModel</label>
+      </node>
+      <node id="0">
+        <label>C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp</label>
+        <link refid="cadastrochamado_8cpp"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>ui_cadastrochamado.h</label>
+      </node>
+      <node id="19">
+        <label>QDialog</label>
+      </node>
+      <node id="8">
+        <label>QDebug</label>
+      </node>
+      <node id="2">
+        <label>QWidget</label>
+      </node>
+      <node id="12">
+        <label>QSqlError</label>
+      </node>
+      <node id="9">
+        <label>QSql</label>
+      </node>
+      <node id="17">
+        <label>matrizraci.h</label>
+        <link refid="matrizraci_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>QTableView</label>
+      </node>
+      <node id="11">
+        <label>QtGui</label>
+      </node>
+      <node id="18">
+        <label>selecionadisp.h</label>
+        <link refid="selecionadisp_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cadastrochamado_8h" kindref="compound">cadastrochamado.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_cadastrochamado.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="matrizraci_8h" kindref="compound">matrizraci.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="selecionadisp_8h" kindref="compound">selecionadisp.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classcadastrochamado_1a626bec1c5a76c3fe062f70f3fe857c3f" refkind="member"><highlight class="normal"><ref refid="classcadastrochamado_1a626bec1c5a76c3fe062f70f3fe857c3f" kindref="member">cadastrochamado::cadastrochamado</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget(parent),</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespace_ui" kindref="compound">Ui</ref>::<ref refid="classcadastrochamado" kindref="compound">cadastrochamado</ref>)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classcadastrochamado_1aafb8985f35d1e6d47dbc8be3a4cf0de9" refkind="member"><highlight class="normal"><ref refid="classcadastrochamado_1aafb8985f35d1e6d47dbc8be3a4cf0de9" kindref="member">cadastrochamado::~cadastrochamado</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>cadastrochamado::on_pushButton_3_clicked()</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>cadastrochamado::on_abreRACI_clicked()</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/><sp/>QString<sp/>erro;</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/><sp/><sp/><sp/>QSqlDatabase<sp/>db<sp/>=<sp/>QSqlDatabase::addDatabase(&quot;QPSQL&quot;,&quot;conn&quot;);</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/><sp/>db.setHostName(&quot;localhost&quot;);</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/><sp/>db.setDatabaseName(&quot;postgres&quot;);</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/><sp/><sp/><sp/>db.setPassword(&quot;bu381025&quot;);</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/><sp/><sp/><sp/>db.setUserName(&quot;tccnaybru&quot;);</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/><sp/>db.setPort(5432);</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/><sp/>erro<sp/>=<sp/>db.open(&quot;postgres&quot;,&quot;bu381025&quot;);</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/><sp/>db.close();</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classmatriz_r_a_c_i" kindref="compound">matrizRACI</ref><sp/>*raci<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classmatriz_r_a_c_i" kindref="compound">matrizRACI</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>raci-&gt;show();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>cadastrochamado::on_abreDisp_clicked()</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classselecionadisp" kindref="compound">selecionadisp</ref><sp/>*disp<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classselecionadisp" kindref="compound">selecionadisp</ref>();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>disp-&gt;show();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp"/>
+  </compounddef>
+</doxygen>

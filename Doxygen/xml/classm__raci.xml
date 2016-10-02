@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classm__raci" kind="class" language="C++" prot="public">
+    <compoundname>m_raci</compoundname>
+    <includes refid="m__raci_8h" local="no">m_raci.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classm__raci_1a71d7d00d85715a7716ad487c1b125eb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>m_raci::m_raci</definition>
+        <argsstring>()</argsstring>
+        <name>m_raci</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="8" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="6" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" bodystart="5" bodyend="9"/>
+    <listofallmembers>
+      <member refid="classm__raci_1a71d7d00d85715a7716ad487c1b125eb7" prot="public" virt="non-virtual"><scope>m_raci</scope><name>m_raci</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

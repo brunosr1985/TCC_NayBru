@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcadastrodispositivo" kind="class" language="C++" prot="public">
+    <compoundname>cadastrodispositivo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="cadastrodispositivo_8h" local="no">cadastrodispositivo.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcadastrodispositivo_1a01b67037a472db99a897b27e80273d17" prot="private" static="no" mutable="no">
+        <type>Ui::cadastrodispositivo *</type>
+        <definition>Ui::cadastrodispositivo* cadastrodispositivo::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" line="24" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcadastrodispositivo_1a759ec481f21cb002c55d5ca50e8cdf9c" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cadastrodispositivo::cadastrodispositivo</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>cadastrodispositivo</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.cpp" bodystart="5" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classcadastrodispositivo_1a21c4cb426f58445706d55dbce57f4aa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cadastrodispositivo::~cadastrodispositivo</definition>
+        <argsstring>()</argsstring>
+        <name>~cadastrodispositivo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.cpp" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classcadastrodispositivo_1ae37a506685243fa3c6cccccf4d83da49" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cadastrodispositivo::on_pushButton_3_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_3_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.cpp" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="slot" id="classcadastrodispositivo_1a6b64063bde112a3e4985e7a007e30a13" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cadastrodispositivo::on_pushButton_4_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_4_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" line="21" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.cpp" bodystart="22" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>cadastrodispositivo</label>
+        <link refid="classcadastrodispositivo"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>QWidget</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>cadastrodispositivo</label>
+        <link refid="classcadastrodispositivo"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>QWidget</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" bodystart="10" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classcadastrodispositivo_1a759ec481f21cb002c55d5ca50e8cdf9c" prot="public" virt="non-virtual"><scope>cadastrodispositivo</scope><name>cadastrodispositivo</name></member>
+      <member refid="classcadastrodispositivo_1ae37a506685243fa3c6cccccf4d83da49" prot="private" virt="non-virtual"><scope>cadastrodispositivo</scope><name>on_pushButton_3_clicked</name></member>
+      <member refid="classcadastrodispositivo_1a6b64063bde112a3e4985e7a007e30a13" prot="private" virt="non-virtual"><scope>cadastrodispositivo</scope><name>on_pushButton_4_clicked</name></member>
+      <member refid="classcadastrodispositivo_1a01b67037a472db99a897b27e80273d17" prot="private" virt="non-virtual"><scope>cadastrodispositivo</scope><name>ui</name></member>
+      <member refid="classcadastrodispositivo_1a21c4cb426f58445706d55dbce57f4aa0" prot="public" virt="non-virtual"><scope>cadastrodispositivo</scope><name>~cadastrodispositivo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

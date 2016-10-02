@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="matrizraci_8h" kind="file" language="C++">
+    <compoundname>matrizraci.h</compoundname>
+    <includes local="no">QWidget</includes>
+    <includes local="no">QTableView</includes>
+    <includes local="no">QtSql/QSqlQueryModel</includes>
+    <includes local="no">QtSql/QSqlQuery</includes>
+    <includes local="no">QtSql/QSqlTableModel</includes>
+    <includes local="no">QSqlDatabase</includes>
+    <includes local="no">QDebug</includes>
+    <includes local="no">QSql</includes>
+    <includes local="no">QtCore</includes>
+    <includes local="no">QtGui</includes>
+    <includes local="no">QSqlError</includes>
+    <includedby refid="cadastrochamado_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp</includedby>
+    <includedby refid="matrizraci_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/matrizraci.cpp</includedby>
+    <incdepgraph>
+      <node id="226">
+        <label>QtSql/QSqlQuery</label>
+      </node>
+      <node id="227">
+        <label>QtSql/QSqlTableModel</label>
+      </node>
+      <node id="231">
+        <label>QtCore</label>
+      </node>
+      <node id="228">
+        <label>QSqlDatabase</label>
+      </node>
+      <node id="225">
+        <label>QtSql/QSqlQueryModel</label>
+      </node>
+      <node id="229">
+        <label>QDebug</label>
+      </node>
+      <node id="223">
+        <label>QWidget</label>
+      </node>
+      <node id="233">
+        <label>QSqlError</label>
+      </node>
+      <node id="230">
+        <label>QSql</label>
+      </node>
+      <node id="222">
+        <label>C:/Users/BrunoSR/TCC_NayBru/matrizraci.h</label>
+        <link refid="matrizraci_8h"/>
+        <childnode refid="223" relation="include">
+        </childnode>
+        <childnode refid="224" relation="include">
+        </childnode>
+        <childnode refid="225" relation="include">
+        </childnode>
+        <childnode refid="226" relation="include">
+        </childnode>
+        <childnode refid="227" relation="include">
+        </childnode>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="230" relation="include">
+        </childnode>
+        <childnode refid="231" relation="include">
+        </childnode>
+        <childnode refid="232" relation="include">
+        </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
+      </node>
+      <node id="224">
+        <label>QTableView</label>
+      </node>
+      <node id="232">
+        <label>QtGui</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="236">
+        <label>C:/Users/BrunoSR/TCC_NayBru/matrizraci.cpp</label>
+        <link refid="matrizraci_8cpp"/>
+      </node>
+      <node id="235">
+        <label>C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp</label>
+        <link refid="cadastrochamado_8cpp"/>
+      </node>
+      <node id="234">
+        <label>C:/Users/BrunoSR/TCC_NayBru/matrizraci.h</label>
+        <link refid="matrizraci_8h"/>
+        <childnode refid="235" relation="include">
+        </childnode>
+        <childnode refid="236" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classmatriz_r_a_c_i" prot="public">matrizRACI</innerclass>
+    <innernamespace refid="namespace_ui">Ui</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>MATRIZRACI_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MATRIZRACI_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QWidget&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QTableView&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlQueryModel&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlQuery&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlTableModel&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSqlDatabase&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDebug&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSql&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtCore&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtGui&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSqlError&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ui" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmatriz_r_a_c_i" kindref="compound">matrizRACI</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="classmatriz_r_a_c_i" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmatriz_r_a_c_i" kindref="compound">matrizRACI</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QWidget</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classmatriz_r_a_c_i" kindref="compound">matrizRACI</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classmatriz_r_a_c_i" kindref="compound">matrizRACI</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_raciCarregar_clicked();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::matrizRACI<sp/>*ui;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlTableModel<sp/>*modelo;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>MATRIZRACI_H</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/matrizraci.h"/>
+  </compounddef>
+</doxygen>

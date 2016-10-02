@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="cadastrodispositivo_8cpp" kind="file" language="C++">
+    <compoundname>cadastrodispositivo.cpp</compoundname>
+    <includes refid="cadastrodispositivo_8h" local="yes">cadastrodispositivo.h</includes>
+    <includes local="yes">ui_cadastrodispositivo.h</includes>
+    <includes refid="tipodisp_8h" local="yes">tipodisp.h</includes>
+    <incdepgraph>
+      <node id="42">
+        <label>ui_cadastrodispositivo.h</label>
+      </node>
+      <node id="40">
+        <label>cadastrodispositivo.h</label>
+        <link refid="cadastrodispositivo_8h"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>QDialog</label>
+      </node>
+      <node id="41">
+        <label>QWidget</label>
+      </node>
+      <node id="43">
+        <label>tipodisp.h</label>
+        <link refid="tipodisp_8h"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.cpp</label>
+        <link refid="cadastrodispositivo_8cpp"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cadastrodispositivo_8h" kindref="compound">cadastrodispositivo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_cadastrodispositivo.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tipodisp_8h" kindref="compound">tipodisp.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="classcadastrodispositivo_1a759ec481f21cb002c55d5ca50e8cdf9c" refkind="member"><highlight class="normal"><ref refid="classcadastrodispositivo_1a759ec481f21cb002c55d5ca50e8cdf9c" kindref="member">cadastrodispositivo::cadastrodispositivo</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget(parent),</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespace_ui" kindref="compound">Ui</ref>::<ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref>)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classcadastrodispositivo_1a21c4cb426f58445706d55dbce57f4aa0" refkind="member"><highlight class="normal"><ref refid="classcadastrodispositivo_1a21c4cb426f58445706d55dbce57f4aa0" kindref="member">cadastrodispositivo::~cadastrodispositivo</ref>()</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>cadastrodispositivo::on_pushButton_3_clicked()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;close();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>cadastrodispositivo::on_pushButton_4_clicked()</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtipo_disp" kindref="compound">tipoDisp</ref><sp/>*td<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classtipo_disp" kindref="compound">tipoDisp</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>td-&gt;show();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.cpp"/>
+  </compounddef>
+</doxygen>

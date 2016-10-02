@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="chamado_8h" kind="file" language="C++">
+    <compoundname>chamado.h</compoundname>
+    <includes refid="status_8h" local="yes">status.h</includes>
+    <includes refid="dispositivo_8h" local="yes">dispositivo.h</includes>
+    <includes refid="m__raci_8h" local="yes">m_raci.h</includes>
+    <includes local="no">string</includes>
+    <includedby refid="chamado_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/chamado.cpp</includedby>
+    <incdepgraph>
+      <node id="74">
+        <label>m_raci.h</label>
+        <link refid="m__raci_8h"/>
+      </node>
+      <node id="73">
+        <label>dispositivo.h</label>
+        <link refid="dispositivo_8h"/>
+      </node>
+      <node id="72">
+        <label>status.h</label>
+        <link refid="status_8h"/>
+      </node>
+      <node id="75">
+        <label>string</label>
+      </node>
+      <node id="71">
+        <label>C:/Users/BrunoSR/TCC_NayBru/chamado.h</label>
+        <link refid="chamado_8h"/>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="76">
+        <label>C:/Users/BrunoSR/TCC_NayBru/chamado.h</label>
+        <link refid="chamado_8h"/>
+        <childnode refid="77" relation="include">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>C:/Users/BrunoSR/TCC_NayBru/chamado.cpp</label>
+        <link refid="chamado_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classchamado" prot="public">chamado</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>CHAMADO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CHAMADO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="status_8h" kindref="compound">status.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dispositivo_8h" kindref="compound">dispositivo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="m__raci_8h" kindref="compound">m_raci.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classchamado" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classchamado" kindref="compound">chamado</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13" refid="classchamado_1a82a905a3df78612d83dd7844f26f7de8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classchamado_1a82a905a3df78612d83dd7844f26f7de8" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="14" refid="classchamado_1a8da58841abba06fe4e55855c436441a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classm__raci" kindref="compound">m_raci</ref><sp/><ref refid="classchamado_1a8da58841abba06fe4e55855c436441a4" kindref="member">matriz_r</ref>;</highlight></codeline>
+<codeline lineno="15" refid="classchamado_1ad2f0d7db8449f09bd50a301aa05980d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classdispositivo" kindref="compound">dispositivo</ref><sp/><ref refid="classchamado_1ad2f0d7db8449f09bd50a301aa05980d0" kindref="member">disp</ref>;</highlight></codeline>
+<codeline lineno="16" refid="classchamado_1a658680d936b1ccc6718dd7af3a8d0b99" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classchamado_1a658680d936b1ccc6718dd7af3a8d0b99" kindref="member">tempo</ref>;</highlight></codeline>
+<codeline lineno="17" refid="classchamado_1abb92d1c9d06152f391b1f4ee93fbcbf0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classchamado_1abb92d1c9d06152f391b1f4ee93fbcbf0" kindref="member">sla</ref><sp/>=<sp/>disp.sla;</highlight></codeline>
+<codeline lineno="18" refid="classchamado_1adaa69112442f64c8c61fd61f46099d00" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classstatus" kindref="compound">status</ref><sp/><ref refid="classchamado_1adaa69112442f64c8c61fd61f46099d00" kindref="member">stat</ref>;</highlight></codeline>
+<codeline lineno="19" refid="classchamado_1a6180b916f64b4f525ffee7845a86a9cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classchamado_1a6180b916f64b4f525ffee7845a86a9cd" kindref="member">reincidente</ref>;</highlight></codeline>
+<codeline lineno="20" refid="classchamado_1a4f02b363878ca93ab665aa9ce5b0274d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="classchamado_1a4f02b363878ca93ab665aa9ce5b0274d" kindref="member">hora_abertura</ref>;</highlight></codeline>
+<codeline lineno="21" refid="classchamado_1ae1c2f1aaa5516ca4ac9ea95e81b8ab22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="classchamado_1ae1c2f1aaa5516ca4ac9ea95e81b8ab22" kindref="member">hora_fechamento</ref>;</highlight></codeline>
+<codeline lineno="22" refid="classchamado_1aef6509dc3d8aac8d0a652818965ef299" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="classchamado_1aef6509dc3d8aac8d0a652818965ef299" kindref="member">descricao</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classchamado_1a6a80bec45db77367311bf035b22ba4ec" kindref="member">chamado</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CHAMADO_H</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h"/>
+  </compounddef>
+</doxygen>

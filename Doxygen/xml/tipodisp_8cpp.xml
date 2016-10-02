@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="tipodisp_8cpp" kind="file" language="C++">
+    <compoundname>tipodisp.cpp</compoundname>
+    <includes refid="tipodisp_8h" local="yes">tipodisp.h</includes>
+    <includes local="yes">ui_tipodisp.h</includes>
+    <incdepgraph>
+      <node id="285">
+        <label>QDialog</label>
+      </node>
+      <node id="283">
+        <label>C:/Users/BrunoSR/TCC_NayBru/tipodisp.cpp</label>
+        <link refid="tipodisp_8cpp"/>
+        <childnode refid="284" relation="include">
+        </childnode>
+        <childnode refid="286" relation="include">
+        </childnode>
+      </node>
+      <node id="286">
+        <label>ui_tipodisp.h</label>
+      </node>
+      <node id="284">
+        <label>tipodisp.h</label>
+        <link refid="tipodisp_8h"/>
+        <childnode refid="285" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tipodisp_8h" kindref="compound">tipodisp.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_tipodisp.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classtipo_disp_1a07b2e7bbbe94b97f3eab51ce63c30134" refkind="member"><highlight class="normal"><ref refid="classtipo_disp_1a07b2e7bbbe94b97f3eab51ce63c30134" kindref="member">tipoDisp::tipoDisp</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>QDialog(parent),</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespace_ui" kindref="compound">Ui</ref>::<ref refid="classtipo_disp" kindref="compound">tipoDisp</ref>)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classtipo_disp_1a235a754bbe34fe3a8fd5826e57cf3abe" refkind="member"><highlight class="normal"><ref refid="classtipo_disp_1a235a754bbe34fe3a8fd5826e57cf3abe" kindref="member">tipoDisp::~tipoDisp</ref>()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.cpp"/>
+  </compounddef>
+</doxygen>

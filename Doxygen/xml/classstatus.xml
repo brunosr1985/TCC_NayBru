@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classstatus" kind="class" language="C++" prot="public">
+    <compoundname>status</compoundname>
+    <includes refid="status_8h" local="no">status.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classstatus_1a22e483f0410490743e4970e905e5fa19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>status::status</definition>
+        <argsstring>()</argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="8" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="6" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.h" bodystart="5" bodyend="9"/>
+    <listofallmembers>
+      <member refid="classstatus_1a22e483f0410490743e4970e905e5fa19" prot="public" virt="non-virtual"><scope>status</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

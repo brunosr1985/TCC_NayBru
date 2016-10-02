@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="status_8h" kind="file" language="C++">
+    <compoundname>status.h</compoundname>
+    <includedby refid="chamado_8h" local="yes">C:/Users/BrunoSR/TCC_NayBru/chamado.h</includedby>
+    <includedby refid="status_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/status.cpp</includedby>
+    <invincdepgraph>
+      <node id="282">
+        <label>C:/Users/BrunoSR/TCC_NayBru/status.cpp</label>
+        <link refid="status_8cpp"/>
+      </node>
+      <node id="279">
+        <label>C:/Users/BrunoSR/TCC_NayBru/status.h</label>
+        <link refid="status_8h"/>
+        <childnode refid="280" relation="include">
+        </childnode>
+        <childnode refid="282" relation="include">
+        </childnode>
+      </node>
+      <node id="280">
+        <label>C:/Users/BrunoSR/TCC_NayBru/chamado.h</label>
+        <link refid="chamado_8h"/>
+        <childnode refid="281" relation="include">
+        </childnode>
+      </node>
+      <node id="281">
+        <label>C:/Users/BrunoSR/TCC_NayBru/chamado.cpp</label>
+        <link refid="chamado_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classstatus" prot="public">status</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>STATUS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STATUS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="classstatus" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classstatus" kindref="compound">status</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classstatus_1a22e483f0410490743e4970e905e5fa19" kindref="member">status</ref>();</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>STATUS_H</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/status.h"/>
+  </compounddef>
+</doxygen>

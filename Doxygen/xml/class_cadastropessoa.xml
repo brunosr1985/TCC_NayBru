@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_cadastropessoa" kind="class" language="C++" prot="public">
+    <compoundname>Cadastropessoa</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
+    <includes refid="cadastropessoa_8h" local="no">cadastropessoa.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_cadastropessoa_1adee936267da377428b49e6c5f6a98403" prot="private" static="no" mutable="no">
+        <type>Ui::Cadastropessoa *</type>
+        <definition>Ui::Cadastropessoa* Cadastropessoa::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" line="22" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_cadastropessoa_1a706230f399727160a6fd25592f77da12" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Cadastropessoa::Cadastropessoa</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>Cadastropessoa</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.cpp" bodystart="5" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cadastropessoa_1a19e6b26d15f77eb6844e67b1246661cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Cadastropessoa::~Cadastropessoa</definition>
+        <argsstring>()</argsstring>
+        <name>~Cadastropessoa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.cpp" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_cadastropessoa_1ad6cdadecd30df81d41df6a267855e012" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Cadastropessoa::on_Novo_Grupo_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_Novo_Grupo_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.cpp" bodystart="17" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>QWidget</label>
+      </node>
+      <node id="8">
+        <label>Cadastropessoa</label>
+        <link refid="class_cadastropessoa"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>QWidget</label>
+      </node>
+      <node id="10">
+        <label>Cadastropessoa</label>
+        <link refid="class_cadastropessoa"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" bodystart="10" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_cadastropessoa_1a706230f399727160a6fd25592f77da12" prot="public" virt="non-virtual"><scope>Cadastropessoa</scope><name>Cadastropessoa</name></member>
+      <member refid="class_cadastropessoa_1ad6cdadecd30df81d41df6a267855e012" prot="private" virt="non-virtual"><scope>Cadastropessoa</scope><name>on_Novo_Grupo_clicked</name></member>
+      <member refid="class_cadastropessoa_1adee936267da377428b49e6c5f6a98403" prot="private" virt="non-virtual"><scope>Cadastropessoa</scope><name>ui</name></member>
+      <member refid="class_cadastropessoa_1a19e6b26d15f77eb6844e67b1246661cf" prot="public" virt="non-virtual"><scope>Cadastropessoa</scope><name>~Cadastropessoa</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

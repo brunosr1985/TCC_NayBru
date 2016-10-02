@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dispositivo_8cpp" kind="file" language="C++">
+    <compoundname>dispositivo.cpp</compoundname>
+    <includes refid="dispositivo_8h" local="yes">dispositivo.h</includes>
+    <incdepgraph>
+      <node id="79">
+        <label>dispositivo.h</label>
+        <link refid="dispositivo_8h"/>
+      </node>
+      <node id="78">
+        <label>C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp</label>
+        <link refid="dispositivo_8cpp"/>
+        <childnode refid="79" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dispositivo_8h" kindref="compound">dispositivo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="classdispositivo_1aa6a6c3140271f71ff41cec06b7296e66" refkind="member"><highlight class="normal"><ref refid="classdispositivo_1aa6a6c3140271f71ff41cec06b7296e66" kindref="member">dispositivo::dispositivo</ref>()</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sla;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp"/>
+  </compounddef>
+</doxygen>

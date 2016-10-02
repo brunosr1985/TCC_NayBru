@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classtipo_disp" kind="class" language="C++" prot="public">
+    <compoundname>tipoDisp</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QDialog</basecompoundref>
+    <includes refid="tipodisp_8h" local="no">tipodisp.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtipo_disp_1a1ab1a6438473977cbfaf2b587872b7fd" prot="private" static="no" mutable="no">
+        <type>Ui::tipoDisp *</type>
+        <definition>Ui::tipoDisp* tipoDisp::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtipo_disp_1a07b2e7bbbe94b97f3eab51ce63c30134" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tipoDisp::tipoDisp</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>tipoDisp</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.cpp" bodystart="4" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classtipo_disp_1a235a754bbe34fe3a8fd5826e57cf3abe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tipoDisp::~tipoDisp</definition>
+        <argsstring>()</argsstring>
+        <name>~tipoDisp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="58">
+        <label>QDialog</label>
+      </node>
+      <node id="57">
+        <label>tipoDisp</label>
+        <link refid="classtipo_disp"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="60">
+        <label>QDialog</label>
+      </node>
+      <node id="59">
+        <label>tipoDisp</label>
+        <link refid="classtipo_disp"/>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" bodystart="10" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classtipo_disp_1a07b2e7bbbe94b97f3eab51ce63c30134" prot="public" virt="non-virtual"><scope>tipoDisp</scope><name>tipoDisp</name></member>
+      <member refid="classtipo_disp_1a1ab1a6438473977cbfaf2b587872b7fd" prot="private" virt="non-virtual"><scope>tipoDisp</scope><name>ui</name></member>
+      <member refid="classtipo_disp_1a235a754bbe34fe3a8fd5826e57cf3abe" prot="public" virt="non-virtual"><scope>tipoDisp</scope><name>~tipoDisp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

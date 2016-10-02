@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classselecionadisp" kind="class" language="C++" prot="public">
+    <compoundname>selecionadisp</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QDialog</basecompoundref>
+    <includes refid="selecionadisp_8h" local="no">selecionadisp.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classselecionadisp_1aacbc7399c7f9e85cd7f211aa14ab8973" prot="private" static="no" mutable="no">
+        <type>Ui::selecionadisp *</type>
+        <definition>Ui::selecionadisp* selecionadisp::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/selecionadisp.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/selecionadisp.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classselecionadisp_1a23cbf45ded7e90e20f7d3ea8679f856a" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>selecionadisp::selecionadisp</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>selecionadisp</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/selecionadisp.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/selecionadisp.cpp" bodystart="4" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classselecionadisp_1aad8dcaadb86038322f173c9b9203916e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>selecionadisp::~selecionadisp</definition>
+        <argsstring>()</argsstring>
+        <name>~selecionadisp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/selecionadisp.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/selecionadisp.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="47">
+        <label>selecionadisp</label>
+        <link refid="classselecionadisp"/>
+        <childnode refid="48" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>QDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="49">
+        <label>selecionadisp</label>
+        <link refid="classselecionadisp"/>
+        <childnode refid="50" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>QDialog</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/selecionadisp.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/selecionadisp.h" bodystart="10" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classselecionadisp_1a23cbf45ded7e90e20f7d3ea8679f856a" prot="public" virt="non-virtual"><scope>selecionadisp</scope><name>selecionadisp</name></member>
+      <member refid="classselecionadisp_1aacbc7399c7f9e85cd7f211aa14ab8973" prot="private" virt="non-virtual"><scope>selecionadisp</scope><name>ui</name></member>
+      <member refid="classselecionadisp_1aad8dcaadb86038322f173c9b9203916e" prot="public" virt="non-virtual"><scope>selecionadisp</scope><name>~selecionadisp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

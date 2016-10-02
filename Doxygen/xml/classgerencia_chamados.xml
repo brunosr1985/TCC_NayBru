@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classgerencia_chamados" kind="class" language="C++" prot="public">
+    <compoundname>gerenciaChamados</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QDialog</basecompoundref>
+    <includes refid="gerenciachamados_8h" local="no">gerenciachamados.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgerencia_chamados_1a750fb9f2e072fb1f5bfe276550e82c7d" prot="private" static="no" mutable="no">
+        <type>Ui::gerenciaChamados *</type>
+        <definition>Ui::gerenciaChamados* gerenciaChamados::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciachamados.h" line="22" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciachamados.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgerencia_chamados_1a07839f849e9582ce8e695de48b4b0ebb" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gerenciaChamados::gerenciaChamados</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>gerenciaChamados</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciachamados.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciachamados.cpp" bodystart="5" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classgerencia_chamados_1a393bdaec21bc5e91a03c4d4b02925682" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gerenciaChamados::~gerenciaChamados</definition>
+        <argsstring>()</argsstring>
+        <name>~gerenciaChamados</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciachamados.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciachamados.cpp" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classgerencia_chamados_1a8c221694a99ede8953a8de0c37627b55" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gerenciaChamados::on_novoChamado_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_novoChamado_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciachamados.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciachamados.cpp" bodystart="17" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="20">
+        <label>QDialog</label>
+      </node>
+      <node id="19">
+        <label>gerenciaChamados</label>
+        <link refid="classgerencia_chamados"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="22">
+        <label>QDialog</label>
+      </node>
+      <node id="21">
+        <label>gerenciaChamados</label>
+        <link refid="classgerencia_chamados"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciachamados.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciachamados.h" bodystart="10" bodyend="23"/>
+    <listofallmembers>
+      <member refid="classgerencia_chamados_1a07839f849e9582ce8e695de48b4b0ebb" prot="public" virt="non-virtual"><scope>gerenciaChamados</scope><name>gerenciaChamados</name></member>
+      <member refid="classgerencia_chamados_1a8c221694a99ede8953a8de0c37627b55" prot="private" virt="non-virtual"><scope>gerenciaChamados</scope><name>on_novoChamado_clicked</name></member>
+      <member refid="classgerencia_chamados_1a750fb9f2e072fb1f5bfe276550e82c7d" prot="private" virt="non-virtual"><scope>gerenciaChamados</scope><name>ui</name></member>
+      <member refid="classgerencia_chamados_1a393bdaec21bc5e91a03c4d4b02925682" prot="public" virt="non-virtual"><scope>gerenciaChamados</scope><name>~gerenciaChamados</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

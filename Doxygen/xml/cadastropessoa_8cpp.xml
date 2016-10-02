@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="cadastropessoa_8cpp" kind="file" language="C++">
+    <compoundname>cadastropessoa.cpp</compoundname>
+    <includes refid="cadastropessoa_8h" local="yes">cadastropessoa.h</includes>
+    <includes local="yes">ui_cadastropessoa.h</includes>
+    <includes refid="novogrupo_8h" local="yes">novogrupo.h</includes>
+    <incdepgraph>
+      <node id="53">
+        <label>C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.cpp</label>
+        <link refid="cadastropessoa_8cpp"/>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>cadastropessoa.h</label>
+        <link refid="cadastropessoa_8h"/>
+        <childnode refid="55" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>QWidget</label>
+      </node>
+      <node id="57">
+        <label>novogrupo.h</label>
+        <link refid="novogrupo_8h"/>
+        <childnode refid="55" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>ui_cadastropessoa.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cadastropessoa_8h" kindref="compound">cadastropessoa.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_cadastropessoa.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="novogrupo_8h" kindref="compound">novogrupo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_cadastropessoa_1a706230f399727160a6fd25592f77da12" refkind="member"><highlight class="normal"><ref refid="class_cadastropessoa_1a706230f399727160a6fd25592f77da12" kindref="member">Cadastropessoa::Cadastropessoa</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget(parent),</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespace_ui" kindref="compound">Ui</ref>::<ref refid="class_cadastropessoa" kindref="compound">Cadastropessoa</ref>)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_cadastropessoa_1a19e6b26d15f77eb6844e67b1246661cf" refkind="member"><highlight class="normal"><ref refid="class_cadastropessoa_1a19e6b26d15f77eb6844e67b1246661cf" kindref="member">Cadastropessoa::~Cadastropessoa</ref>()</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Cadastropessoa::on_Novo_Grupo_clicked()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovo_grupo" kindref="compound">novoGrupo</ref><sp/>*ng<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classnovo_grupo" kindref="compound">novoGrupo</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>ng-&gt;show();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_main_window" kind="class" language="C++" prot="public">
+    <compoundname>MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMainWindow</basecompoundref>
+    <includes refid="mainwindow_8h" local="no">mainwindow.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_main_window_1a35466a70ed47252a0191168126a352a5" prot="private" static="no" mutable="no">
+        <type>Ui::MainWindow *</type>
+        <definition>Ui::MainWindow* MainWindow::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="53" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1ace399ef4d5b35fc09b1c497a6b89c548" prot="private" static="no" mutable="no">
+        <type>QSqlTableModel *</type>
+        <definition>QSqlTableModel* MainWindow::modelo</definition>
+        <argsstring></argsstring>
+        <name>modelo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="54" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_main_window_1ac4551c72b3aedfdeaa2e2c18fb6ecaa4" prot="private" static="no" mutable="no">
+        <type>QSqlQueryModel *</type>
+        <definition>QSqlQueryModel* MainWindow::query</definition>
+        <argsstring></argsstring>
+        <name>query</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="55" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_main_window_1a8b244be8b7b7db1b08de2a2acb9409db" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MainWindow::MainWindow</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>MainWindow</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="32" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="9" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_main_window_1ae98d00a93bc118200eeef9f9bba1dba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MainWindow::~MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>~MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="33" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_main_window_1ac3987416965f985c8d44c8adc1e42add" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_actionPessoas_x_Chamados_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionPessoas_x_Chamados_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="36" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="22" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1ae982429a38d1d6d4430693322357e716" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_actionChamados_2_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionChamados_2_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="38" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="49" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a8540f34e55fcacf375edb2421c390044" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_actionPessoas_x_Qtde_Chamados_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionPessoas_x_Qtde_Chamados_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="40" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="74" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1ac107347073b88880dac081fd745fd619" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_actionChamados_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionChamados_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="42" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="99" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1acb1d694a8b177feec62407a0848dba95" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_actionDispositivos_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionDispositivos_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="44" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="105" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a1db8061a9d0e4dd91f7a065e8782ad99" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_actionPessoas_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionPessoas_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="46" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="111" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1a1266444211ea57fed22838649b3285e5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_actionNovo_Grupo_de_Pessoas_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionNovo_Grupo_de_Pessoas_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="48" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="117" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_main_window_1af7736d52ad806d0da7eae9c325f4d694" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MainWindow::on_actionNovo_Tipo_de_Dispositivo_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionNovo_Tipo_de_Dispositivo_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="50" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="123" bodyend="127"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="34">
+        <label>QMainWindow</label>
+      </node>
+      <node id="33">
+        <label>MainWindow</label>
+        <link refid="class_main_window"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="36">
+        <label>QMainWindow</label>
+      </node>
+      <node id="35">
+        <label>MainWindow</label>
+        <link refid="class_main_window"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="28" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" bodystart="27" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_main_window_1a8b244be8b7b7db1b08de2a2acb9409db" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>MainWindow</name></member>
+      <member refid="class_main_window_1ace399ef4d5b35fc09b1c497a6b89c548" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>modelo</name></member>
+      <member refid="class_main_window_1ae982429a38d1d6d4430693322357e716" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_actionChamados_2_triggered</name></member>
+      <member refid="class_main_window_1ac107347073b88880dac081fd745fd619" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_actionChamados_triggered</name></member>
+      <member refid="class_main_window_1acb1d694a8b177feec62407a0848dba95" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_actionDispositivos_triggered</name></member>
+      <member refid="class_main_window_1a1266444211ea57fed22838649b3285e5" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_actionNovo_Grupo_de_Pessoas_triggered</name></member>
+      <member refid="class_main_window_1af7736d52ad806d0da7eae9c325f4d694" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_actionNovo_Tipo_de_Dispositivo_triggered</name></member>
+      <member refid="class_main_window_1a1db8061a9d0e4dd91f7a065e8782ad99" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_actionPessoas_triggered</name></member>
+      <member refid="class_main_window_1ac3987416965f985c8d44c8adc1e42add" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_actionPessoas_x_Chamados_triggered</name></member>
+      <member refid="class_main_window_1a8540f34e55fcacf375edb2421c390044" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>on_actionPessoas_x_Qtde_Chamados_triggered</name></member>
+      <member refid="class_main_window_1ac4551c72b3aedfdeaa2e2c18fb6ecaa4" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>query</name></member>
+      <member refid="class_main_window_1a35466a70ed47252a0191168126a352a5" prot="private" virt="non-virtual"><scope>MainWindow</scope><name>ui</name></member>
+      <member refid="class_main_window_1ae98d00a93bc118200eeef9f9bba1dba7" prot="public" virt="non-virtual"><scope>MainWindow</scope><name>~MainWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
