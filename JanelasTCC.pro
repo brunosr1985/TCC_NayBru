@@ -22,7 +22,12 @@ SOURCES += main.cpp\
     gerenciapessoas.cpp \
     gerenciadispositivo.cpp \
     novogrupo.cpp \
-    tipodisp.cpp
+    tipodisp.cpp \
+    pessoa.cpp \
+    dispositivo.cpp \
+    chamado.cpp \
+    status.cpp \
+    m_raci.cpp
 
 HEADERS  += mainwindow.h \
     cadastropessoa.h \
@@ -34,7 +39,12 @@ HEADERS  += mainwindow.h \
     gerenciapessoas.h \
     gerenciadispositivo.h \
     novogrupo.h \
-    tipodisp.h
+    tipodisp.h \
+    pessoa.h \
+    dispositivo.h \
+    chamado.h \
+    status.h \
+    m_raci.h
 
 FORMS    += mainwindow.ui \
     cadastropessoa.ui \
