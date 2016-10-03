@@ -1,46 +1,46 @@
 #include "dispositivo.h"
 
-int dispositivo::getId() const
+int Dispositivo::getId() const
 {
     return id;
 }
 
-void dispositivo::setId(int value)
+void Dispositivo::setId(int value)
 {
     id = value;
 }
 
-string dispositivo::getNome() const
+QString Dispositivo::getNome() const
 {
     return nome;
 }
 
-void dispositivo::setNome(const string &value)
+void Dispositivo::setNome(const QString &value)
 {
     nome = value;
 }
 
-string dispositivo::getLocal() const
+QString Dispositivo::getLocal() const
 {
     return local;
 }
 
-void dispositivo::setLocal(const string &value)
+void Dispositivo::setLocal(const QString &value)
 {
     local = value;
 }
 
-tipod dispositivo::getTipo() const
+tipod Dispositivo::getTipo() const
 {
     return tipo;
 }
 
-void dispositivo::setTipo(const tipod &value)
+void Dispositivo::setTipo(const tipod &value)
 {
     tipo = value;
 }
 
-dispositivo::dispositivo()
+Dispositivo::Dispositivo()
 {
 
 }

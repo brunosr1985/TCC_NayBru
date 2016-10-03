@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="grupop_8h" kind="file" language="C++">
+    <compoundname>grupop.h</compoundname>
+    <includedby refid="pessoa_8h" local="yes">C:/Users/BrunoSR/TCC_NayBru/pessoa.h</includedby>
+    <includedby refid="grupop_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/grupop.cpp</includedby>
+    <invincdepgraph>
+      <node id="151">
+        <label>C:/Users/BrunoSR/TCC_NayBru/m_raci.h</label>
+        <link refid="m__raci_8h"/>
+        <childnode refid="152" relation="include">
+        </childnode>
+        <childnode refid="151" relation="include">
+        </childnode>
+        <childnode refid="154" relation="include">
+        </childnode>
+      </node>
+      <node id="154">
+        <label>C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp</label>
+        <link refid="m__raci_8cpp"/>
+      </node>
+      <node id="156">
+        <label>C:/Users/BrunoSR/TCC_NayBru/grupop.cpp</label>
+        <link refid="grupop_8cpp"/>
+      </node>
+      <node id="152">
+        <label>C:/Users/BrunoSR/TCC_NayBru/chamado.h</label>
+        <link refid="chamado_8h"/>
+        <childnode refid="153" relation="include">
+        </childnode>
+      </node>
+      <node id="149">
+        <label>C:/Users/BrunoSR/TCC_NayBru/grupop.h</label>
+        <link refid="grupop_8h"/>
+        <childnode refid="150" relation="include">
+        </childnode>
+        <childnode refid="156" relation="include">
+        </childnode>
+      </node>
+      <node id="153">
+        <label>C:/Users/BrunoSR/TCC_NayBru/chamado.cpp</label>
+        <link refid="chamado_8cpp"/>
+      </node>
+      <node id="155">
+        <label>C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp</label>
+        <link refid="pessoa_8cpp"/>
+      </node>
+      <node id="150">
+        <label>C:/Users/BrunoSR/TCC_NayBru/pessoa.h</label>
+        <link refid="pessoa_8h"/>
+        <childnode refid="151" relation="include">
+        </childnode>
+        <childnode refid="155" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_grupo_p" prot="public">GrupoP</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>GRUPOP_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GRUPOP_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_grupo_p" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_grupo_p" kindref="compound">GrupoP</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>id;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>nome;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_grupo_p_1aac812d0b4a0c443b7d7e36c00f60d23e" kindref="member">GrupoP</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_grupo_p_1a3c72988138413046461c510b97ef7605" kindref="member">getId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_grupo_p_1a540f8d78b7468b26b647485cc72fd7ca" kindref="member">setId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_grupo_p_1ac3b0a8d64e082b45a7d362c69d934cd7" kindref="member">getNome</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_grupo_p_1af747750583e09cf0a1cfe756bacf97bc" kindref="member">setNome</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>GRUPOP_H</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/grupop.h"/>
+  </compounddef>
+</doxygen>

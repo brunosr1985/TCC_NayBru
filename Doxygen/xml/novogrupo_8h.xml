@@ -7,36 +7,36 @@
     <includedby refid="mainwindow_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp</includedby>
     <includedby refid="novogrupo_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp</includedby>
     <incdepgraph>
-      <node id="273">
+      <node id="271">
         <label>QWidget</label>
+      </node>
+      <node id="270">
+        <label>C:/Users/BrunoSR/TCC_NayBru/novogrupo.h</label>
+        <link refid="novogrupo_8h"/>
+        <childnode refid="271" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="275">
+        <label>C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp</label>
+        <link refid="novogrupo_8cpp"/>
+      </node>
+      <node id="273">
+        <label>C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.cpp</label>
+        <link refid="cadastropessoa_8cpp"/>
       </node>
       <node id="272">
         <label>C:/Users/BrunoSR/TCC_NayBru/novogrupo.h</label>
         <link refid="novogrupo_8h"/>
         <childnode refid="273" relation="include">
         </childnode>
-      </node>
-    </incdepgraph>
-    <invincdepgraph>
-      <node id="277">
-        <label>C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp</label>
-        <link refid="novogrupo_8cpp"/>
-      </node>
-      <node id="275">
-        <label>C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.cpp</label>
-        <link refid="cadastropessoa_8cpp"/>
-      </node>
-      <node id="274">
-        <label>C:/Users/BrunoSR/TCC_NayBru/novogrupo.h</label>
-        <link refid="novogrupo_8h"/>
+        <childnode refid="274" relation="include">
+        </childnode>
         <childnode refid="275" relation="include">
         </childnode>
-        <childnode refid="276" relation="include">
-        </childnode>
-        <childnode refid="277" relation="include">
-        </childnode>
       </node>
-      <node id="276">
+      <node id="274">
         <label>C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp</label>
         <link refid="mainwindow_8cpp"/>
       </node>

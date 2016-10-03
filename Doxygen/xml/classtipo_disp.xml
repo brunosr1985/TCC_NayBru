@@ -57,24 +57,24 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="57">
+      <node id="60">
         <label>QDialog</label>
       </node>
-      <node id="56">
+      <node id="59">
         <label>tipoDisp</label>
         <link refid="classtipo_disp"/>
-        <childnode refid="57" relation="public-inheritance">
+        <childnode refid="60" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="59">
+      <node id="62">
         <label>QDialog</label>
       </node>
-      <node id="58">
+      <node id="61">
         <label>tipoDisp</label>
         <link refid="classtipo_disp"/>
-        <childnode refid="59" relation="public-inheritance">
+        <childnode refid="62" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

@@ -1,10 +1,11 @@
 #ifndef M_RACI_H
 #define M_RACI_H
 
-#include "chamado.h"
 #include "pessoa.h"
+#include "m_raci.h"
 
-class m_raci
+
+class MRaci
 {
 private:
     int id;
@@ -13,9 +14,9 @@ private:
     bool C;
     bool I;
     pessoa pess;
-    chamado cham;
+//    Chamado cham;
 public:
-    m_raci();
+    MRaci();
 };
 
 #endif // M_RACI_H

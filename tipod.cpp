@@ -10,12 +10,12 @@ void tipod::setId(int value)
     id = value;
 }
 
-string tipod::getTipo() const
+QString tipod::getTipo() const
 {
     return tipo;
 }
 
-void tipod::setTipo(const string &value)
+void tipod::setTipo(const QString &value)
 {
     tipo = value;
 }

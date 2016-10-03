@@ -11,65 +11,69 @@
     <includes local="no">QtSql/QSqlQuery</includes>
     <includes local="no">QtSql/QSqlTableModel</includes>
     <incdepgraph>
-      <node id="250">
+      <node id="248">
         <label>QtDebug</label>
       </node>
-      <node id="234">
+      <node id="232">
         <label>C:/Users/BrunoSR/TCC_NayBru/matrizraci.cpp</label>
         <link refid="matrizraci_8cpp"/>
-        <childnode refid="235" relation="include">
+        <childnode refid="233" relation="include">
+        </childnode>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="246" relation="include">
         </childnode>
         <childnode refid="247" relation="include">
         </childnode>
         <childnode refid="248" relation="include">
         </childnode>
-        <childnode refid="249" relation="include">
+        <childnode refid="236" relation="include">
         </childnode>
-        <childnode refid="250" relation="include">
+        <childnode refid="237" relation="include">
         </childnode>
         <childnode refid="238" relation="include">
         </childnode>
-        <childnode refid="239" relation="include">
-        </childnode>
-        <childnode refid="240" relation="include">
-        </childnode>
-      </node>
-      <node id="248">
-        <label>QMessageBox</label>
-      </node>
-      <node id="249">
-        <label>QtSql/QSqlDatabase</label>
-      </node>
-      <node id="239">
-        <label>QtSql/QSqlQuery</label>
-      </node>
-      <node id="240">
-        <label>QtSql/QSqlTableModel</label>
-      </node>
-      <node id="244">
-        <label>QtCore</label>
-      </node>
-      <node id="241">
-        <label>QSqlDatabase</label>
-      </node>
-      <node id="238">
-        <label>QtSql/QSqlQueryModel</label>
-      </node>
-      <node id="242">
-        <label>QDebug</label>
-      </node>
-      <node id="236">
-        <label>QWidget</label>
       </node>
       <node id="246">
+        <label>QMessageBox</label>
+      </node>
+      <node id="247">
+        <label>QtSql/QSqlDatabase</label>
+      </node>
+      <node id="237">
+        <label>QtSql/QSqlQuery</label>
+      </node>
+      <node id="238">
+        <label>QtSql/QSqlTableModel</label>
+      </node>
+      <node id="242">
+        <label>QtCore</label>
+      </node>
+      <node id="239">
+        <label>QSqlDatabase</label>
+      </node>
+      <node id="236">
+        <label>QtSql/QSqlQueryModel</label>
+      </node>
+      <node id="240">
+        <label>QDebug</label>
+      </node>
+      <node id="234">
+        <label>QWidget</label>
+      </node>
+      <node id="244">
         <label>QSqlError</label>
       </node>
-      <node id="243">
+      <node id="241">
         <label>QSql</label>
       </node>
-      <node id="235">
+      <node id="233">
         <label>matrizraci.h</label>
         <link refid="matrizraci_8h"/>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="235" relation="include">
+        </childnode>
         <childnode refid="236" relation="include">
         </childnode>
         <childnode refid="237" relation="include">
@@ -88,18 +92,14 @@
         </childnode>
         <childnode refid="244" relation="include">
         </childnode>
-        <childnode refid="245" relation="include">
-        </childnode>
-        <childnode refid="246" relation="include">
-        </childnode>
       </node>
-      <node id="237">
+      <node id="235">
         <label>QTableView</label>
       </node>
-      <node id="247">
+      <node id="245">
         <label>ui_matrizraci.h</label>
       </node>
-      <node id="245">
+      <node id="243">
         <label>QtGui</label>
       </node>
     </incdepgraph>

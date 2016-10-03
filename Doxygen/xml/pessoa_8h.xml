@@ -2,42 +2,39 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
   <compounddef id="pessoa_8h" kind="file" language="C++">
     <compoundname>pessoa.h</compoundname>
-    <includes local="no">string</includes>
+    <includes refid="grupop_8h" local="yes">grupop.h</includes>
+    <includes local="no">QString</includes>
     <includedby refid="m__raci_8h" local="yes">C:/Users/BrunoSR/TCC_NayBru/m_raci.h</includedby>
     <includedby refid="pessoa_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp</includedby>
     <incdepgraph>
-      <node id="283">
-        <label>string</label>
-      </node>
       <node id="282">
+        <label>grupop.h</label>
+        <link refid="grupop_8h"/>
+      </node>
+      <node id="283">
+        <label>QString</label>
+      </node>
+      <node id="281">
         <label>C:/Users/BrunoSR/TCC_NayBru/pessoa.h</label>
         <link refid="pessoa_8h"/>
+        <childnode refid="282" relation="include">
+        </childnode>
         <childnode refid="283" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="289">
-        <label>C:/Users/BrunoSR/TCC_NayBru/status.cpp</label>
-        <link refid="status_8cpp"/>
-      </node>
       <node id="285">
         <label>C:/Users/BrunoSR/TCC_NayBru/m_raci.h</label>
         <link refid="m__raci_8h"/>
         <childnode refid="286" relation="include">
         </childnode>
-        <childnode refid="290" relation="include">
+        <childnode refid="285" relation="include">
+        </childnode>
+        <childnode refid="288" relation="include">
         </childnode>
       </node>
       <node id="288">
-        <label>C:/Users/BrunoSR/TCC_NayBru/status.h</label>
-        <link refid="status_8h"/>
-        <childnode refid="286" relation="include">
-        </childnode>
-        <childnode refid="289" relation="include">
-        </childnode>
-      </node>
-      <node id="290">
         <label>C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp</label>
         <link refid="m__raci_8cpp"/>
       </node>
@@ -46,16 +43,12 @@
         <link refid="chamado_8h"/>
         <childnode refid="287" relation="include">
         </childnode>
-        <childnode refid="288" relation="include">
-        </childnode>
-        <childnode refid="285" relation="include">
-        </childnode>
       </node>
       <node id="287">
         <label>C:/Users/BrunoSR/TCC_NayBru/chamado.cpp</label>
         <link refid="chamado_8cpp"/>
       </node>
-      <node id="291">
+      <node id="289">
         <label>C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp</label>
         <link refid="pessoa_8cpp"/>
       </node>
@@ -64,7 +57,7 @@
         <link refid="pessoa_8h"/>
         <childnode refid="285" relation="include">
         </childnode>
-        <childnode refid="291" relation="include">
+        <childnode refid="289" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -77,39 +70,39 @@
 <codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>PESSOA_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PESSOA_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="grupop_8h" kindref="compound">grupop.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QString&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8" refid="classpessoa" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classpessoa" kindref="compound">pessoa</ref></highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="11" refid="classpessoa_1a8e80bd7d70d7d29b248ef5ec77720b5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a8e80bd7d70d7d29b248ef5ec77720b5b" kindref="member">id</ref>;</highlight></codeline>
-<codeline lineno="12" refid="classpessoa_1a7ff09497b62adeb87afd1531d72dee78" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a7ff09497b62adeb87afd1531d72dee78" kindref="member">nome</ref>;</highlight></codeline>
-<codeline lineno="13" refid="classpessoa_1aa73d0148299c1920e2ab238956a869ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1aa73d0148299c1920e2ab238956a869ab" kindref="member">telefone</ref>;</highlight></codeline>
+<codeline lineno="12" refid="classpessoa_1aa0865641711741f9da9bd6f85a4169a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classpessoa_1aa0865641711741f9da9bd6f85a4169a7" kindref="member">nome</ref>;</highlight></codeline>
+<codeline lineno="13" refid="classpessoa_1a68bcc80bb08668da00068cc3e475b771" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classpessoa_1a68bcc80bb08668da00068cc3e475b771" kindref="member">telefone</ref>;</highlight></codeline>
 <codeline lineno="14" refid="classpessoa_1a3263ed9356bab20fb6c364483fe0d7b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a3263ed9356bab20fb6c364483fe0d7b7" kindref="member">ramal</ref>;</highlight></codeline>
-<codeline lineno="15" refid="classpessoa_1a8629e223b05473916ecda357a5fe1ad1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a8629e223b05473916ecda357a5fe1ad1" kindref="member">email</ref>;</highlight></codeline>
-<codeline lineno="16" refid="classpessoa_1ac75b9d5e9934fdcb46c0d8b2c06a08b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1ac75b9d5e9934fdcb46c0d8b2c06a08b2" kindref="member">depto</ref>;</highlight></codeline>
-<codeline lineno="17" refid="classpessoa_1a32474b998586278afec16302178c2856" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a32474b998586278afec16302178c2856" kindref="member">cargo</ref>;</highlight></codeline>
-<codeline lineno="18" refid="classpessoa_1a6930db502e29734eb026e291cf534ed9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a6930db502e29734eb026e291cf534ed9" kindref="member">grupo</ref>;</highlight></codeline>
+<codeline lineno="15" refid="classpessoa_1ac50713f68cf6f093f64d5d5052c1e175" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classpessoa_1ac50713f68cf6f093f64d5d5052c1e175" kindref="member">email</ref>;</highlight></codeline>
+<codeline lineno="16" refid="classpessoa_1a612f53ad664ff1afb6582ed1f8711522" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classpessoa_1a612f53ad664ff1afb6582ed1f8711522" kindref="member">depto</ref>;</highlight></codeline>
+<codeline lineno="17" refid="classpessoa_1af788a2b8720c8368236afc3875a9fb75" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classpessoa_1af788a2b8720c8368236afc3875a9fb75" kindref="member">cargo</ref>;</highlight></codeline>
+<codeline lineno="18" refid="classpessoa_1a1cc497f533336ea9451cf321d355afed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_grupo_p" kindref="compound">GrupoP</ref><sp/><ref refid="classpessoa_1a1cc497f533336ea9451cf321d355afed" kindref="member">grupo</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpessoa" kindref="compound">pessoa</ref>();</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getId()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setId(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>getNome()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setNome(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;value);</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>getTelefone()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setTelefone(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;value);</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getRamal()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setRamal(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>getEmail()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setEmail(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;value);</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>getDepto()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setDepto(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;value);</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>getCargo()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setCargo(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;value);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getGrupo()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setGrupo(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpessoa_1ae2ee70812ff092a18c24ed94eaae260b" kindref="member">pessoa</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a9a20cb67d382a667ad8ed10761b50211" kindref="member">getId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1ab528a41c403719b847f8e43c0893e14c" kindref="member">setId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classpessoa_1a83dd5ee7d276187449bb8f337c4864ba" kindref="member">getNome</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a1212ac1dfede6a2a83adf84be6b9c321" kindref="member">setNome</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classpessoa_1a5e13bd9cf6187d2ceefd4faa9f43cb6c" kindref="member">getTelefone</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a6c7b481abf0bc292e5ff28367f5e7512" kindref="member">setTelefone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1afe3f63c712664c2ac32f89ed8595d75d" kindref="member">getRamal</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a4e6fa1b22e8824e270fd2aee4c9866e7" kindref="member">setRamal</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classpessoa_1a4a12f308282c24e8591a8e8676624695" kindref="member">getEmail</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a79249a39e2a46cca19acef0476c34bf2" kindref="member">setEmail</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classpessoa_1a1acfd4c15d0b8bfc1140f6063a1739ae" kindref="member">getDepto</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a4a32656512ade652bec82a5c749ad7d1" kindref="member">setDepto</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classpessoa_1a07fe59858c0c8ff2d3bb6bc3879de6b3" kindref="member">getCargo</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a1a6ebf59740db53d42fbac357f6219b5" kindref="member">setCargo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1ad1bad474adbfadf472ad857a7c5f181c" kindref="member">getGrupo</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1abde4772449869bd2c8e5e6d280e4f9f5" kindref="member">setGrupo</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>PESSOA_H</highlight></codeline>

@@ -2,114 +2,97 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
   <compounddef id="dispositivo_8h" kind="file" language="C++">
     <compoundname>dispositivo.h</compoundname>
-    <includes local="no">string</includes>
     <includes refid="tipod_8h" local="yes">tipod.h</includes>
+    <includes refid="dispositivo_8h" local="yes">dispositivo.h</includes>
+    <includes local="no">QString</includes>
     <includedby refid="chamado_8h" local="yes">C:/Users/BrunoSR/TCC_NayBru/chamado.h</includedby>
+    <includedby refid="dispositivo_8h" local="yes">C:/Users/BrunoSR/TCC_NayBru/dispositivo.h</includedby>
     <includedby refid="dispositivo_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp</includedby>
     <incdepgraph>
-      <node id="93">
+      <node id="90">
         <label>tipod.h</label>
         <link refid="tipod_8h"/>
+        <childnode refid="91" relation="include">
+        </childnode>
       </node>
-      <node id="91">
+      <node id="89">
         <label>C:/Users/BrunoSR/TCC_NayBru/dispositivo.h</label>
         <link refid="dispositivo_8h"/>
-        <childnode refid="92" relation="include">
+        <childnode refid="90" relation="include">
         </childnode>
-        <childnode refid="93" relation="include">
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
         </childnode>
       </node>
-      <node id="92">
-        <label>string</label>
+      <node id="91">
+        <label>QString</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="98">
-        <label>C:/Users/BrunoSR/TCC_NayBru/status.cpp</label>
-        <link refid="status_8cpp"/>
-      </node>
-      <node id="99">
-        <label>C:/Users/BrunoSR/TCC_NayBru/m_raci.h</label>
-        <link refid="m__raci_8h"/>
+      <node id="92">
+        <label>C:/Users/BrunoSR/TCC_NayBru/dispositivo.h</label>
+        <link refid="dispositivo_8h"/>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="92" relation="include">
+        </childnode>
         <childnode refid="95" relation="include">
         </childnode>
-        <childnode refid="100" relation="include">
+      </node>
+      <node id="93">
+        <label>C:/Users/BrunoSR/TCC_NayBru/chamado.h</label>
+        <link refid="chamado_8h"/>
+        <childnode refid="94" relation="include">
         </childnode>
       </node>
       <node id="94">
-        <label>C:/Users/BrunoSR/TCC_NayBru/dispositivo.h</label>
-        <link refid="dispositivo_8h"/>
-        <childnode refid="95" relation="include">
-        </childnode>
-        <childnode refid="101" relation="include">
-        </childnode>
-      </node>
-      <node id="97">
-        <label>C:/Users/BrunoSR/TCC_NayBru/status.h</label>
-        <link refid="status_8h"/>
-        <childnode refid="95" relation="include">
-        </childnode>
-        <childnode refid="98" relation="include">
-        </childnode>
-      </node>
-      <node id="100">
-        <label>C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp</label>
-        <link refid="m__raci_8cpp"/>
-      </node>
-      <node id="95">
-        <label>C:/Users/BrunoSR/TCC_NayBru/chamado.h</label>
-        <link refid="chamado_8h"/>
-        <childnode refid="96" relation="include">
-        </childnode>
-        <childnode refid="97" relation="include">
-        </childnode>
-        <childnode refid="99" relation="include">
-        </childnode>
-      </node>
-      <node id="96">
         <label>C:/Users/BrunoSR/TCC_NayBru/chamado.cpp</label>
         <link refid="chamado_8cpp"/>
       </node>
-      <node id="101">
+      <node id="95">
         <label>C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp</label>
         <link refid="dispositivo_8cpp"/>
       </node>
     </invincdepgraph>
-    <innerclass refid="classdispositivo" prot="public">dispositivo</innerclass>
+    <innerclass refid="class_dispositivo" prot="public">Dispositivo</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>DISPOSITIVO_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DISPOSITIVO_H</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tipod_8h" kindref="compound">tipod.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8" refid="classdispositivo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classdispositivo" kindref="compound">dispositivo</ref></highlight></codeline>
-<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>id;</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>nome;</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>local;</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtipod" kindref="compound">tipod</ref><sp/>tipo;</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classdispositivo_1aa6a6c3140271f71ff41cec06b7296e66" kindref="member">dispositivo</ref>();</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classdispositivo_1a067622c9fc2f0fc431f59593dd083848" kindref="member">getId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classdispositivo_1a1cf6775652391e4ace63b9613295faa6" kindref="member">setId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classdispositivo_1a1157605bedafd71756b5cfcb7fced335" kindref="member">getNome</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classdispositivo_1a1d57090d304269e4fc75695bcdce1d30" kindref="member">setNome</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;value);</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classdispositivo_1a0847829a4ec7d11882f1bd55e0849672" kindref="member">getLocal</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classdispositivo_1aea13deb655b82642c809d925d1460926" kindref="member">setLocal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;value);</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtipod" kindref="compound">tipod</ref><sp/><ref refid="classdispositivo_1a8fc01fa7c51737dd1995fd63d3fcd0d2" kindref="member">getTipo</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classdispositivo_1a4789a0c9d01d1a80eb1e947044a72fd7" kindref="member">setTipo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classtipod" kindref="compound">tipod</ref><sp/>&amp;value);</highlight></codeline>
-<codeline lineno="27"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>DISPOSITIVO_H</highlight></codeline>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>DISPOSITIVO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DISPOSITIVO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tipod_8h" kindref="compound">tipod.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dispositivo_8h" kindref="compound">dispositivo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QString&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_dispositivo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_dispositivo" kindref="compound">Dispositivo</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>id;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>nome;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>local;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtipod" kindref="compound">tipod</ref><sp/>tipo;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_dispositivo_1a08b3611c10447a1519d7ebb72f47e30d" kindref="member">Dispositivo</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_dispositivo_1a4d470c1481fd167db94e6be4f08a259c" kindref="member">getId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_dispositivo_1a186a8fdf627e6e9326a196fa7ad59846" kindref="member">setId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_dispositivo_1a463552b0487176c52c477d7951287b4b" kindref="member">getNome</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_dispositivo_1a8bafe761c02216dd6bc7465eb4ff0064" kindref="member">setNome</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="class_dispositivo_1a29327cf38f2c0b021e1197f12d02bf9c" kindref="member">getLocal</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_dispositivo_1a033c98bd8e7be483677b06ead506fe9d" kindref="member">setLocal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtipod" kindref="compound">tipod</ref><sp/><ref refid="class_dispositivo_1a0242efd1a66cffb9e979432e941d68ca" kindref="member">getTipo</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_dispositivo_1ada239ce7b043c5ae4d426cf4f1d0cf8f" kindref="member">setTipo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classtipod" kindref="compound">tipod</ref><sp/>&amp;value);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>DISPOSITIVO_H</highlight></codeline>
     </programlisting>
     <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h"/>
   </compounddef>

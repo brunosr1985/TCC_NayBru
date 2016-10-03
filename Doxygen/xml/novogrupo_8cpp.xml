@@ -5,24 +5,24 @@
     <includes refid="novogrupo_8h" local="yes">novogrupo.h</includes>
     <includes local="yes">ui_novogrupo.h</includes>
     <incdepgraph>
-      <node id="270">
+      <node id="268">
         <label>ui_novogrupo.h</label>
       </node>
-      <node id="267">
+      <node id="265">
         <label>C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp</label>
         <link refid="novogrupo_8cpp"/>
+        <childnode refid="266" relation="include">
+        </childnode>
         <childnode refid="268" relation="include">
         </childnode>
-        <childnode refid="270" relation="include">
-        </childnode>
       </node>
-      <node id="269">
+      <node id="267">
         <label>QWidget</label>
       </node>
-      <node id="268">
+      <node id="266">
         <label>novogrupo.h</label>
         <link refid="novogrupo_8h"/>
-        <childnode refid="269" relation="include">
+        <childnode refid="267" relation="include">
         </childnode>
       </node>
     </incdepgraph>

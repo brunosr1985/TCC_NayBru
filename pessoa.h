@@ -1,37 +1,37 @@
 #ifndef PESSOA_H
 #define PESSOA_H
 
-#include <string>
+#include "grupop.h"
+#include <QString>
 
-using namespace std;
 
 class pessoa
 {
 public:
     int id;
-    string nome;
-    string telefone;
+    QString nome;
+    QString telefone;
     int ramal;
-    string email;
-    string depto;
-    string cargo;
-    int grupo;
+    QString email;
+    QString depto;
+    QString cargo;
+    GrupoP grupo;
 
     pessoa();
     int getId() const;
     void setId(int value);
-    string getNome() const;
-    void setNome(const string &value);
-    string getTelefone() const;
-    void setTelefone(const string &value);
+    QString getNome() const;
+    void setNome(const QString &value);
+    QString getTelefone() const;
+    void setTelefone(const QString &value);
     int getRamal() const;
     void setRamal(int value);
-    string getEmail() const;
-    void setEmail(const string &value);
-    string getDepto() const;
-    void setDepto(const string &value);
-    string getCargo() const;
-    void setCargo(const string &value);
+    QString getEmail() const;
+    void setEmail(const QString &value);
+    QString getDepto() const;
+    void setDepto(const QString &value);
+    QString getCargo() const;
+    void setCargo(const QString &value);
     int getGrupo() const;
     void setGrupo(int value);
 };

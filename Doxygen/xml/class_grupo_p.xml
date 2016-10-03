@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_grupo_p" kind="class" language="C++" prot="public">
+    <compoundname>GrupoP</compoundname>
+    <includes refid="grupop_8h" local="no">grupop.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_grupo_p_1a52a44d3d593545fe36e8ad7faf2eb4b1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GrupoP::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/grupop.h" line="8" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/grupop.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_grupo_p_1aacc97177556f1e6afdaee58daa2bb880" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString GrupoP::nome</definition>
+        <argsstring></argsstring>
+        <name>nome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/grupop.h" line="9" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/grupop.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_grupo_p_1aac812d0b4a0c443b7d7e36c00f60d23e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GrupoP::GrupoP</definition>
+        <argsstring>()</argsstring>
+        <name>GrupoP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/grupop.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/grupop.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grupo_p_1a3c72988138413046461c510b97ef7605" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int GrupoP::getId</definition>
+        <argsstring>() const</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/grupop.h" line="12" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/grupop.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grupo_p_1a540f8d78b7468b26b647485cc72fd7ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GrupoP::setId</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/grupop.h" line="13" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/grupop.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grupo_p_1ac3b0a8d64e082b45a7d362c69d934cd7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString GrupoP::getNome</definition>
+        <argsstring>() const</argsstring>
+        <name>getNome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/grupop.h" line="14" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/grupop.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grupo_p_1af747750583e09cf0a1cfe756bacf97bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GrupoP::setNome</definition>
+        <argsstring>(const QString &amp;value)</argsstring>
+        <name>setNome</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/grupop.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/grupop.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/grupop.h" line="6" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/grupop.h" bodystart="5" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_grupo_p_1a3c72988138413046461c510b97ef7605" prot="public" virt="non-virtual"><scope>GrupoP</scope><name>getId</name></member>
+      <member refid="class_grupo_p_1ac3b0a8d64e082b45a7d362c69d934cd7" prot="public" virt="non-virtual"><scope>GrupoP</scope><name>getNome</name></member>
+      <member refid="class_grupo_p_1aac812d0b4a0c443b7d7e36c00f60d23e" prot="public" virt="non-virtual"><scope>GrupoP</scope><name>GrupoP</name></member>
+      <member refid="class_grupo_p_1a52a44d3d593545fe36e8ad7faf2eb4b1" prot="private" virt="non-virtual"><scope>GrupoP</scope><name>id</name></member>
+      <member refid="class_grupo_p_1aacc97177556f1e6afdaee58daa2bb880" prot="private" virt="non-virtual"><scope>GrupoP</scope><name>nome</name></member>
+      <member refid="class_grupo_p_1a540f8d78b7468b26b647485cc72fd7ca" prot="public" virt="non-virtual"><scope>GrupoP</scope><name>setId</name></member>
+      <member refid="class_grupo_p_1af747750583e09cf0a1cfe756bacf97bc" prot="public" virt="non-virtual"><scope>GrupoP</scope><name>setNome</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

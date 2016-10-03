@@ -4,60 +4,22 @@
     <compoundname>status.cpp</compoundname>
     <includes refid="status_8h" local="yes">status.h</includes>
     <incdepgraph>
-      <node id="311">
+      <node id="309">
         <label>C:/Users/BrunoSR/TCC_NayBru/status.cpp</label>
         <link refid="status_8cpp"/>
-        <childnode refid="312" relation="include">
+        <childnode refid="310" relation="include">
         </childnode>
       </node>
-      <node id="316">
-        <label>tipod.h</label>
-        <link refid="tipod_8h"/>
-      </node>
-      <node id="317">
-        <label>m_raci.h</label>
-        <link refid="m__raci_8h"/>
-        <childnode refid="313" relation="include">
-        </childnode>
-        <childnode refid="318" relation="include">
-        </childnode>
-      </node>
-      <node id="314">
-        <label>dispositivo.h</label>
-        <link refid="dispositivo_8h"/>
-        <childnode refid="315" relation="include">
-        </childnode>
-        <childnode refid="316" relation="include">
-        </childnode>
-      </node>
-      <node id="312">
+      <node id="310">
         <label>status.h</label>
         <link refid="status_8h"/>
-        <childnode refid="313" relation="include">
+        <childnode refid="310" relation="include">
         </childnode>
-        <childnode refid="315" relation="include">
-        </childnode>
-      </node>
-      <node id="315">
-        <label>string</label>
-      </node>
-      <node id="313">
-        <label>chamado.h</label>
-        <link refid="chamado_8h"/>
-        <childnode refid="312" relation="include">
-        </childnode>
-        <childnode refid="314" relation="include">
-        </childnode>
-        <childnode refid="317" relation="include">
-        </childnode>
-        <childnode refid="315" relation="include">
+        <childnode refid="311" relation="include">
         </childnode>
       </node>
-      <node id="318">
-        <label>pessoa.h</label>
-        <link refid="pessoa_8h"/>
-        <childnode refid="315" relation="include">
-        </childnode>
+      <node id="311">
+        <label>QString</label>
       </node>
     </incdepgraph>
     <briefdescription>
@@ -67,10 +29,40 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="status_8h" kindref="compound">status.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3" refid="classstatus_1a22e483f0410490743e4970e905e5fa19" refkind="member"><highlight class="normal"><ref refid="classstatus_1a22e483f0410490743e4970e905e5fa19" kindref="member">status::status</ref>()</highlight></codeline>
-<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_status_1adb9c28d4221d9e2aaf9875b80b5eeaaf" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_status_1adb9c28d4221d9e2aaf9875b80b5eeaaf" kindref="member">Status::getId</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="4"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>id;</highlight></codeline>
 <codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_status_1ac2f0322cbfc1326c117eb2b244600d67" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_status_1ac2f0322cbfc1326c117eb2b244600d67" kindref="member">Status::setId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_status_1a9c4b616186e22599d7a6ce48ec724e3c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_status_1a9c4b616186e22599d7a6ce48ec724e3c" kindref="member">Status::getId_chamado</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="14"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>id_chamado;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_status_1aca91a7dbe10715ce9696f4b0252546ac" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_status_1aca91a7dbe10715ce9696f4b0252546ac" kindref="member">Status::setId_chamado</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>id_chamado<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="class_status_1a5be3ea6f3dd893039eb1278ba89d19bd" refkind="member"><highlight class="normal">QString<sp/><ref refid="class_status_1a5be3ea6f3dd893039eb1278ba89d19bd" kindref="member">Status::getStat</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="24"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>stat;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_status_1aa0507ec449fc02cccb63293fed3232a4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_status_1aa0507ec449fc02cccb63293fed3232a4" kindref="member">Status::setStat</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>stat<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="class_status_1a944586fb328a3524805748c8f7b17f32" refkind="member"><highlight class="normal"><ref refid="class_status_1a944586fb328a3524805748c8f7b17f32" kindref="member">Status::Status</ref>()</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="C:/Users/BrunoSR/TCC_NayBru/status.cpp"/>
   </compounddef>

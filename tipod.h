@@ -1,12 +1,14 @@
 #ifndef TIPOD_H
 #define TIPOD_H
 
+#include <QString>
+
 
 class tipod
 {
 private:
     int id;
-    string tipo;
+    QString tipo;
     float SLA;
 
 public:
@@ -14,8 +16,8 @@ public:
     tipod();
     int getId() const;
     void setId(int value);
-    string getTipo() const;
-    void setTipo(const string &value);
+    QString getTipo() const;
+    void setTipo(const QString &value);
     float getSLA() const;
     void setSLA(float value);
 };

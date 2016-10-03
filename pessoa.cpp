@@ -10,22 +10,22 @@ void pessoa::setId(int value)
     id = value;
 }
 
-string pessoa::getNome() const
+QString pessoa::getNome() const
 {
     return nome;
 }
 
-void pessoa::setNome(const string &value)
+void pessoa::setNome(const QString &value)
 {
     nome = value;
 }
 
-string pessoa::getTelefone() const
+QString pessoa::getTelefone() const
 {
     return telefone;
 }
 
-void pessoa::setTelefone(const string &value)
+void pessoa::setTelefone(const QString &value)
 {
     telefone = value;
 }
@@ -40,32 +40,32 @@ void pessoa::setRamal(int value)
     ramal = value;
 }
 
-string pessoa::getEmail() const
+QString pessoa::getEmail() const
 {
     return email;
 }
 
-void pessoa::setEmail(const string &value)
+void pessoa::setEmail(const QString &value)
 {
     email = value;
 }
 
-string pessoa::getDepto() const
+QString pessoa::getDepto() const
 {
     return depto;
 }
 
-void pessoa::setDepto(const string &value)
+void pessoa::setDepto(const QString &value)
 {
     depto = value;
 }
 
-string pessoa::getCargo() const
+QString pessoa::getCargo() const
 {
     return cargo;
 }
 
-void pessoa::setCargo(const string &value)
+void pessoa::setCargo(const QString &value)
 {
     cargo = value;
 }

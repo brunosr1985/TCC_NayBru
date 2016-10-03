@@ -10,18 +10,22 @@
     <includes refid="novogrupo_8h" local="yes">novogrupo.h</includes>
     <includes refid="tipodisp_8h" local="yes">tipodisp.h</includes>
     <incdepgraph>
-      <node id="206">
+      <node id="204">
         <label>QtDebug</label>
       </node>
-      <node id="204">
+      <node id="202">
         <label>QMessageBox</label>
       </node>
-      <node id="205">
+      <node id="203">
         <label>QtSql/QSqlDatabase</label>
       </node>
-      <node id="192">
+      <node id="190">
         <label>mainwindow.h</label>
         <link refid="mainwindow_8h"/>
+        <childnode refid="191" relation="include">
+        </childnode>
+        <childnode refid="192" relation="include">
+        </childnode>
         <childnode refid="193" relation="include">
         </childnode>
         <childnode refid="194" relation="include">
@@ -46,99 +50,95 @@
         </childnode>
         <childnode refid="204" relation="include">
         </childnode>
+      </node>
+      <node id="194">
+        <label>QtSql/QSqlQuery</label>
+      </node>
+      <node id="191">
+        <label>QMainWindow</label>
+      </node>
+      <node id="195">
+        <label>QtSql/QSqlTableModel</label>
+      </node>
+      <node id="209">
+        <label>gerenciachamados.h</label>
+        <link refid="gerenciachamados_8h"/>
+        <childnode refid="207" relation="include">
+        </childnode>
+      </node>
+      <node id="199">
+        <label>QtCore</label>
+      </node>
+      <node id="196">
+        <label>QSqlDatabase</label>
+      </node>
+      <node id="193">
+        <label>QtSql/QSqlQueryModel</label>
+      </node>
+      <node id="208">
+        <label>gerenciadispositivo.h</label>
+        <link refid="gerenciadispositivo_8h"/>
+        <childnode refid="207" relation="include">
+        </childnode>
+      </node>
+      <node id="207">
+        <label>QDialog</label>
+      </node>
+      <node id="205">
+        <label>ui_mainwindow.h</label>
+      </node>
+      <node id="197">
+        <label>QDebug</label>
+      </node>
+      <node id="211">
+        <label>QWidget</label>
+      </node>
+      <node id="210">
+        <label>novogrupo.h</label>
+        <link refid="novogrupo_8h"/>
+        <childnode refid="211" relation="include">
+        </childnode>
+      </node>
+      <node id="201">
+        <label>QSqlError</label>
+      </node>
+      <node id="206">
+        <label>gerenciapessoas.h</label>
+        <link refid="gerenciapessoas_8h"/>
+        <childnode refid="207" relation="include">
+        </childnode>
+      </node>
+      <node id="198">
+        <label>QSql</label>
+      </node>
+      <node id="189">
+        <label>C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+        <childnode refid="190" relation="include">
+        </childnode>
         <childnode refid="205" relation="include">
         </childnode>
         <childnode refid="206" relation="include">
         </childnode>
-      </node>
-      <node id="196">
-        <label>QtSql/QSqlQuery</label>
-      </node>
-      <node id="193">
-        <label>QMainWindow</label>
-      </node>
-      <node id="197">
-        <label>QtSql/QSqlTableModel</label>
-      </node>
-      <node id="211">
-        <label>gerenciachamados.h</label>
-        <link refid="gerenciachamados_8h"/>
-        <childnode refid="209" relation="include">
-        </childnode>
-      </node>
-      <node id="201">
-        <label>QtCore</label>
-      </node>
-      <node id="198">
-        <label>QSqlDatabase</label>
-      </node>
-      <node id="195">
-        <label>QtSql/QSqlQueryModel</label>
-      </node>
-      <node id="210">
-        <label>gerenciadispositivo.h</label>
-        <link refid="gerenciadispositivo_8h"/>
-        <childnode refid="209" relation="include">
-        </childnode>
-      </node>
-      <node id="209">
-        <label>QDialog</label>
-      </node>
-      <node id="207">
-        <label>ui_mainwindow.h</label>
-      </node>
-      <node id="199">
-        <label>QDebug</label>
-      </node>
-      <node id="213">
-        <label>QWidget</label>
-      </node>
-      <node id="212">
-        <label>novogrupo.h</label>
-        <link refid="novogrupo_8h"/>
-        <childnode refid="213" relation="include">
-        </childnode>
-      </node>
-      <node id="203">
-        <label>QSqlError</label>
-      </node>
-      <node id="208">
-        <label>gerenciapessoas.h</label>
-        <link refid="gerenciapessoas_8h"/>
-        <childnode refid="209" relation="include">
-        </childnode>
-      </node>
-      <node id="200">
-        <label>QSql</label>
-      </node>
-      <node id="191">
-        <label>C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp</label>
-        <link refid="mainwindow_8cpp"/>
-        <childnode refid="192" relation="include">
-        </childnode>
-        <childnode refid="207" relation="include">
-        </childnode>
         <childnode refid="208" relation="include">
+        </childnode>
+        <childnode refid="209" relation="include">
         </childnode>
         <childnode refid="210" relation="include">
         </childnode>
-        <childnode refid="211" relation="include">
-        </childnode>
         <childnode refid="212" relation="include">
         </childnode>
-        <childnode refid="214" relation="include">
-        </childnode>
       </node>
-      <node id="194">
+      <node id="192">
         <label>QTableView</label>
       </node>
-      <node id="214">
+      <node id="212">
         <label>tipodisp.h</label>
         <link refid="tipodisp_8h"/>
-        <childnode refid="209" relation="include">
+        <childnode refid="207" relation="include">
         </childnode>
       </node>
-      <node id="202">
+      <node id="200">
         <label>QtGui</label>
       </node>
     </incdepgraph>

@@ -19,43 +19,43 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cadastropessoa.html#a706230f399727160a6fd25592f77da12"><param name="Name" value="Cadastropessoa"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="class_cadastropessoa.html#a19e6b26d15f77eb6844e67b1246661cf"><param name="Name" value="~Cadastropessoa"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a32474b998586278afec16302178c2856"><param name="Name" value="cargo"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html"><param name="Name" value="chamado"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#af788a2b8720c8368236afc3875a9fb75"><param name="Name" value="cargo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html"><param name="Name" value="Chamado"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a6a80bec45db77367311bf035b22ba4ec"><param name="Name" value="chamado"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#afb4074cc898db415c87bcc5850fb46d9"><param name="Name" value="getDescricao"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a427d40963fc8728e01491902ccf1337c"><param name="Name" value="getDisp"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#ac3e3786e54b646f1c3757944b3721052"><param name="Name" value="getHora_abertura"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#ad59c464a0e3afa7625c228dce0d7881b"><param name="Name" value="getHora_fechamento"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a9dbcaaf872f567f4cacffdac8b50e421"><param name="Name" value="getId"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a16ce4f32e682767e49bd59e56cd588eb"><param name="Name" value="getMatriz_r"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a21fe1a9ee5a08266c83a267c14264093"><param name="Name" value="getReincidente"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a6e7c7d33819bc728f095006eb47aaefa"><param name="Name" value="getStat"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#aca409a12317510d614f2766142e6e6cd"><param name="Name" value="getTempo"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a237f1aa14c584876728add1fe13adc61"><param name="Name" value="setDescricao"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a1552d8590d6fc4c19f385945c311bbb4"><param name="Name" value="setDisp"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a46f5d88d083e43aef547d2883647ee5a"><param name="Name" value="setHora_abertura"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a197bb7f1316be766cd8bd015a653961c"><param name="Name" value="setHora_fechamento"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a6a8b255c421c716980090610de0d9351"><param name="Name" value="setId"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a50abfc05ae74cb6dd73137f007434475"><param name="Name" value="setMatriz_r"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a08bf2df7a63f82df19a02dbf4f40934b"><param name="Name" value="setReincidente"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a9c566031546b17c00cc6a1e80fe02e11"><param name="Name" value="setStat"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#ae191e05877c78b5e3431011a2265fc15"><param name="Name" value="setTempo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#aeca5f123901cef6b33104291dc3b2fc0"><param name="Name" value="Chamado"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#aa7aeb5e538449b9a71271756d7b39d43"><param name="Name" value="getDescricao"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a1388c89d1f5ae80b7cfac8106c48dbc9"><param name="Name" value="getDisp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a58fd1c5cf9693ccc2ebacc9e7b984de0"><param name="Name" value="getHora_abertura"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a8d6f16bed156bb8241d1068ebe962483"><param name="Name" value="getHora_fechamento"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#af8c3890123d55faf3a9adc2a274daaf2"><param name="Name" value="getId"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a99eef2190042baefb398806d35372edd"><param name="Name" value="getMatriz_r"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#ad481bcca8ee859304d67728bff772b10"><param name="Name" value="getReincidente"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#aa3f9a0756cd55a435fcbec3419a328dc"><param name="Name" value="getStat"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#abbe9ba6e55ea448b02e9c091369c1d2a"><param name="Name" value="getTempo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a970a71741ec450c40c48eb4babd2fec3"><param name="Name" value="setDescricao"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#aedfd2171f66178c80462e0477b49a0f0"><param name="Name" value="setDisp"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a2513e3474003230bee760aeb28da8188"><param name="Name" value="setHora_abertura"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a4517fc2b385ef3ed227289c3444a0208"><param name="Name" value="setHora_fechamento"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#ad9d1c6ef5c44c56921711fa96ae27277"><param name="Name" value="setId"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a5f8f04ee1b58b3bbb46f8ba6a9c22342"><param name="Name" value="setMatriz_r"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a0abb993bda04f1bd32ed474abf06d0ad"><param name="Name" value="setReincidente"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a8a695ce190dcd9acf05e8b7880579fec"><param name="Name" value="setStat"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a918eb6053797974911821b777695b0c2"><param name="Name" value="setTempo"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#ac75b9d5e9934fdcb46c0d8b2c06a08b2"><param name="Name" value="depto"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html"><param name="Name" value="dispositivo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a612f53ad664ff1afb6582ed1f8711522"><param name="Name" value="depto"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html"><param name="Name" value="Dispositivo"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#aa6a6c3140271f71ff41cec06b7296e66"><param name="Name" value="dispositivo"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#a067622c9fc2f0fc431f59593dd083848"><param name="Name" value="getId"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#a0847829a4ec7d11882f1bd55e0849672"><param name="Name" value="getLocal"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#a1157605bedafd71756b5cfcb7fced335"><param name="Name" value="getNome"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#a8fc01fa7c51737dd1995fd63d3fcd0d2"><param name="Name" value="getTipo"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#a1cf6775652391e4ace63b9613295faa6"><param name="Name" value="setId"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#aea13deb655b82642c809d925d1460926"><param name="Name" value="setLocal"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#a1d57090d304269e4fc75695bcdce1d30"><param name="Name" value="setNome"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#a4789a0c9d01d1a80eb1e947044a72fd7"><param name="Name" value="setTipo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#a08b3611c10447a1519d7ebb72f47e30d"><param name="Name" value="Dispositivo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#a4d470c1481fd167db94e6be4f08a259c"><param name="Name" value="getId"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#a29327cf38f2c0b021e1197f12d02bf9c"><param name="Name" value="getLocal"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#a463552b0487176c52c477d7951287b4b"><param name="Name" value="getNome"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#a0242efd1a66cffb9e979432e941d68ca"><param name="Name" value="getTipo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#a186a8fdf627e6e9326a196fa7ad59846"><param name="Name" value="setId"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#a033c98bd8e7be483677b06ead506fe9d"><param name="Name" value="setLocal"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#a8bafe761c02216dd6bc7465eb4ff0064"><param name="Name" value="setNome"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#ada239ce7b043c5ae4d426cf4f1d0cf8f"><param name="Name" value="setTipo"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a8629e223b05473916ecda357a5fe1ad1"><param name="Name" value="email"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#ac50713f68cf6f093f64d5d5052c1e175"><param name="Name" value="email"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classgerencia_chamados.html"><param name="Name" value="gerenciaChamados"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classgerencia_chamados.html#a07839f849e9582ce8e695de48b4b0ebb"><param name="Name" value="gerenciaChamados"></OBJECT>
@@ -71,45 +71,57 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classgerencia_pessoas.html#a245ab3e4006fcdd3ec9a89815e1c60c1"><param name="Name" value="gerenciaPessoas"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classgerencia_pessoas.html#a85f9272a309472903bf5b2ad0950973c"><param name="Name" value="~gerenciaPessoas"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#aa4b0643f31c9d0e338ca7a485bc0723d"><param name="Name" value="getCargo"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a7e0858513abeb0579b987e7a7a79f0d7"><param name="Name" value="getDepto"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#afb4074cc898db415c87bcc5850fb46d9"><param name="Name" value="getDescricao"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a427d40963fc8728e01491902ccf1337c"><param name="Name" value="getDisp"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a41fc2c5db3716b88356b23987fd14bb4"><param name="Name" value="getEmail"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a07fe59858c0c8ff2d3bb6bc3879de6b3"><param name="Name" value="getCargo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a1acfd4c15d0b8bfc1140f6063a1739ae"><param name="Name" value="getDepto"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#aa7aeb5e538449b9a71271756d7b39d43"><param name="Name" value="getDescricao"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a1388c89d1f5ae80b7cfac8106c48dbc9"><param name="Name" value="getDisp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a4a12f308282c24e8591a8e8676624695"><param name="Name" value="getEmail"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#ad1bad474adbfadf472ad857a7c5f181c"><param name="Name" value="getGrupo"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#ac3e3786e54b646f1c3757944b3721052"><param name="Name" value="getHora_abertura"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#ad59c464a0e3afa7625c228dce0d7881b"><param name="Name" value="getHora_fechamento"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a9dbcaaf872f567f4cacffdac8b50e421"><param name="Name" value="getId"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a58fd1c5cf9693ccc2ebacc9e7b984de0"><param name="Name" value="getHora_abertura"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a8d6f16bed156bb8241d1068ebe962483"><param name="Name" value="getHora_fechamento"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#af8c3890123d55faf3a9adc2a274daaf2"><param name="Name" value="getId"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a9dbcaaf872f567f4cacffdac8b50e421"><param name="Name" value="chamado"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#a067622c9fc2f0fc431f59593dd083848"><param name="Name" value="dispositivo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#af8c3890123d55faf3a9adc2a274daaf2"><param name="Name" value="Chamado"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#a4d470c1481fd167db94e6be4f08a259c"><param name="Name" value="Dispositivo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_grupo_p.html#a3c72988138413046461c510b97ef7605"><param name="Name" value="GrupoP"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a9a20cb67d382a667ad8ed10761b50211"><param name="Name" value="pessoa"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_status.html#adb9c28d4221d9e2aaf9875b80b5eeaaf"><param name="Name" value="Status"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classtipod.html#a8f9426cbcef23976293ae0961b382907"><param name="Name" value="tipod"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#a0847829a4ec7d11882f1bd55e0849672"><param name="Name" value="getLocal"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a16ce4f32e682767e49bd59e56cd588eb"><param name="Name" value="getMatriz_r"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#a1157605bedafd71756b5cfcb7fced335"><param name="Name" value="getNome"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_status.html#a9c4b616186e22599d7a6ce48ec724e3c"><param name="Name" value="getId_chamado"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#a29327cf38f2c0b021e1197f12d02bf9c"><param name="Name" value="getLocal"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a99eef2190042baefb398806d35372edd"><param name="Name" value="getMatriz_r"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#a463552b0487176c52c477d7951287b4b"><param name="Name" value="getNome"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#a1157605bedafd71756b5cfcb7fced335"><param name="Name" value="dispositivo"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#ad673a812f80d63efaef99aa84096ceb1"><param name="Name" value="pessoa"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#a463552b0487176c52c477d7951287b4b"><param name="Name" value="Dispositivo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_grupo_p.html#ac3b0a8d64e082b45a7d362c69d934cd7"><param name="Name" value="GrupoP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a83dd5ee7d276187449bb8f337c4864ba"><param name="Name" value="pessoa"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#afe3f63c712664c2ac32f89ed8595d75d"><param name="Name" value="getRamal"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a21fe1a9ee5a08266c83a267c14264093"><param name="Name" value="getReincidente"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#ad481bcca8ee859304d67728bff772b10"><param name="Name" value="getReincidente"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classtipod.html#a19cb0132a802684607abe02c0c2b63f2"><param name="Name" value="getSLA"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a6e7c7d33819bc728f095006eb47aaefa"><param name="Name" value="getStat"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a248cbdf67320b616ba15c323dea16bb5"><param name="Name" value="getTelefone"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#aca409a12317510d614f2766142e6e6cd"><param name="Name" value="getTempo"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#a8fc01fa7c51737dd1995fd63d3fcd0d2"><param name="Name" value="getTipo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#aa3f9a0756cd55a435fcbec3419a328dc"><param name="Name" value="getStat"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#a8fc01fa7c51737dd1995fd63d3fcd0d2"><param name="Name" value="dispositivo"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classtipod.html#a2cefc9bc0bfe44e8adfba1e839b2de2e"><param name="Name" value="tipod"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#aa3f9a0756cd55a435fcbec3419a328dc"><param name="Name" value="Chamado"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_status.html#a5be3ea6f3dd893039eb1278ba89d19bd"><param name="Name" value="Status"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a6930db502e29734eb026e291cf534ed9"><param name="Name" value="grupo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a5e13bd9cf6187d2ceefd4faa9f43cb6c"><param name="Name" value="getTelefone"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#abbe9ba6e55ea448b02e9c091369c1d2a"><param name="Name" value="getTempo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#a0242efd1a66cffb9e979432e941d68ca"><param name="Name" value="getTipo"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#a0242efd1a66cffb9e979432e941d68ca"><param name="Name" value="Dispositivo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classtipod.html#ab84c5257439bcf916770d2facad689de"><param name="Name" value="tipod"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a1cc497f533336ea9451cf321d355afed"><param name="Name" value="grupo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_grupo_p.html"><param name="Name" value="GrupoP"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_grupo_p.html#a3c72988138413046461c510b97ef7605"><param name="Name" value="getId"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_grupo_p.html#ac3b0a8d64e082b45a7d362c69d934cd7"><param name="Name" value="getNome"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_grupo_p.html#aac812d0b4a0c443b7d7e36c00f60d23e"><param name="Name" value="GrupoP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_grupo_p.html#a540f8d78b7468b26b647485cc72fd7ca"><param name="Name" value="setId"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_grupo_p.html#af747750583e09cf0a1cfe756bacf97bc"><param name="Name" value="setNome"></OBJECT>
+  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a8e80bd7d70d7d29b248ef5ec77720b5b"><param name="Name" value="id"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classm__raci.html"><param name="Name" value="m_raci"></OBJECT>
-  <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classm__raci.html#a71d7d00d85715a7716ad487c1b125eb7"><param name="Name" value="m_raci"></OBJECT>
-  </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"><param name="Name" value="main.cpp"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"><param name="Name" value="main"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="class_main_window.html"><param name="Name" value="MainWindow"></OBJECT>
@@ -122,7 +134,11 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classmatriz_r_a_c_i.html#ae380d9647713f9dc8c4dbc275f69a672"><param name="Name" value="matrizRACI"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classmatriz_r_a_c_i.html#acf5d48703954736fe205c918333950a0"><param name="Name" value="~matrizRACI"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a7ff09497b62adeb87afd1531d72dee78"><param name="Name" value="nome"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_raci.html"><param name="Name" value="MRaci"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_m_raci.html#a62c738f5cf78b52066d235d7d159afe8"><param name="Name" value="MRaci"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#aa0865641711741f9da9bd6f85a4169a7"><param name="Name" value="nome"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classnovo_grupo.html"><param name="Name" value="novoGrupo"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classnovo_grupo.html#a2e343a019db9fe74eea1809e833a8517"><param name="Name" value="novoGrupo"></OBJECT>
@@ -130,31 +146,31 @@
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html"><param name="Name" value="pessoa"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a32474b998586278afec16302178c2856"><param name="Name" value="cargo"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#ac75b9d5e9934fdcb46c0d8b2c06a08b2"><param name="Name" value="depto"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a8629e223b05473916ecda357a5fe1ad1"><param name="Name" value="email"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#aa4b0643f31c9d0e338ca7a485bc0723d"><param name="Name" value="getCargo"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a7e0858513abeb0579b987e7a7a79f0d7"><param name="Name" value="getDepto"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a41fc2c5db3716b88356b23987fd14bb4"><param name="Name" value="getEmail"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#af788a2b8720c8368236afc3875a9fb75"><param name="Name" value="cargo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a612f53ad664ff1afb6582ed1f8711522"><param name="Name" value="depto"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#ac50713f68cf6f093f64d5d5052c1e175"><param name="Name" value="email"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a07fe59858c0c8ff2d3bb6bc3879de6b3"><param name="Name" value="getCargo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a1acfd4c15d0b8bfc1140f6063a1739ae"><param name="Name" value="getDepto"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a4a12f308282c24e8591a8e8676624695"><param name="Name" value="getEmail"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#ad1bad474adbfadf472ad857a7c5f181c"><param name="Name" value="getGrupo"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a9a20cb67d382a667ad8ed10761b50211"><param name="Name" value="getId"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#ad673a812f80d63efaef99aa84096ceb1"><param name="Name" value="getNome"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a83dd5ee7d276187449bb8f337c4864ba"><param name="Name" value="getNome"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#afe3f63c712664c2ac32f89ed8595d75d"><param name="Name" value="getRamal"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a248cbdf67320b616ba15c323dea16bb5"><param name="Name" value="getTelefone"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a6930db502e29734eb026e291cf534ed9"><param name="Name" value="grupo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a5e13bd9cf6187d2ceefd4faa9f43cb6c"><param name="Name" value="getTelefone"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a1cc497f533336ea9451cf321d355afed"><param name="Name" value="grupo"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a8e80bd7d70d7d29b248ef5ec77720b5b"><param name="Name" value="id"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a7ff09497b62adeb87afd1531d72dee78"><param name="Name" value="nome"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#aa0865641711741f9da9bd6f85a4169a7"><param name="Name" value="nome"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#ae2ee70812ff092a18c24ed94eaae260b"><param name="Name" value="pessoa"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a3263ed9356bab20fb6c364483fe0d7b7"><param name="Name" value="ramal"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a9fd52a51b1f987c28aa8016899beb892"><param name="Name" value="setCargo"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#ae71cc4caf660b5ffc4f9bedc5b4d9d79"><param name="Name" value="setDepto"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#ab5f43c9f7ab0b72df2758d4d1da92a63"><param name="Name" value="setEmail"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a1a6ebf59740db53d42fbac357f6219b5"><param name="Name" value="setCargo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a4a32656512ade652bec82a5c749ad7d1"><param name="Name" value="setDepto"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a79249a39e2a46cca19acef0476c34bf2"><param name="Name" value="setEmail"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#abde4772449869bd2c8e5e6d280e4f9f5"><param name="Name" value="setGrupo"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#ab528a41c403719b847f8e43c0893e14c"><param name="Name" value="setId"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a5e7a713ac30be9101a9d3d59848269e1"><param name="Name" value="setNome"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a1212ac1dfede6a2a83adf84be6b9c321"><param name="Name" value="setNome"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a4e6fa1b22e8824e270fd2aee4c9866e7"><param name="Name" value="setRamal"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#ae407991762018bfd08cf3f3d52262071"><param name="Name" value="setTelefone"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#aa73d0148299c1920e2ab238956a869ab"><param name="Name" value="telefone"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a6c7b481abf0bc292e5ff28367f5e7512"><param name="Name" value="setTelefone"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a68bcc80bb08668da00068cc3e475b771"><param name="Name" value="telefone"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a3263ed9356bab20fb6c364483fe0d7b7"><param name="Name" value="ramal"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classselecionadisp.html"><param name="Name" value="selecionadisp"></OBJECT>
@@ -167,52 +183,66 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classselecionaequip.html#a3ccee0d0b533a3c3d7bb53f951f022ba"><param name="Name" value="selecionaequip"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classselecionaequip.html#adabd9829153adf6adb64c75a79ac7964"><param name="Name" value="~selecionaequip"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a9fd52a51b1f987c28aa8016899beb892"><param name="Name" value="setCargo"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#ae71cc4caf660b5ffc4f9bedc5b4d9d79"><param name="Name" value="setDepto"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a237f1aa14c584876728add1fe13adc61"><param name="Name" value="setDescricao"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a1552d8590d6fc4c19f385945c311bbb4"><param name="Name" value="setDisp"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#ab5f43c9f7ab0b72df2758d4d1da92a63"><param name="Name" value="setEmail"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a1a6ebf59740db53d42fbac357f6219b5"><param name="Name" value="setCargo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a4a32656512ade652bec82a5c749ad7d1"><param name="Name" value="setDepto"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a970a71741ec450c40c48eb4babd2fec3"><param name="Name" value="setDescricao"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#aedfd2171f66178c80462e0477b49a0f0"><param name="Name" value="setDisp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a79249a39e2a46cca19acef0476c34bf2"><param name="Name" value="setEmail"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#abde4772449869bd2c8e5e6d280e4f9f5"><param name="Name" value="setGrupo"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a46f5d88d083e43aef547d2883647ee5a"><param name="Name" value="setHora_abertura"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a197bb7f1316be766cd8bd015a653961c"><param name="Name" value="setHora_fechamento"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a6a8b255c421c716980090610de0d9351"><param name="Name" value="setId"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a2513e3474003230bee760aeb28da8188"><param name="Name" value="setHora_abertura"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a4517fc2b385ef3ed227289c3444a0208"><param name="Name" value="setHora_fechamento"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#ad9d1c6ef5c44c56921711fa96ae27277"><param name="Name" value="setId"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a6a8b255c421c716980090610de0d9351"><param name="Name" value="chamado"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#a1cf6775652391e4ace63b9613295faa6"><param name="Name" value="dispositivo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#ad9d1c6ef5c44c56921711fa96ae27277"><param name="Name" value="Chamado"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#a186a8fdf627e6e9326a196fa7ad59846"><param name="Name" value="Dispositivo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_grupo_p.html#a540f8d78b7468b26b647485cc72fd7ca"><param name="Name" value="GrupoP"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#ab528a41c403719b847f8e43c0893e14c"><param name="Name" value="pessoa"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_status.html#ac2f0322cbfc1326c117eb2b244600d67"><param name="Name" value="Status"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classtipod.html#ae3f6b8df170353ef58a862b746d3d288"><param name="Name" value="tipod"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#aea13deb655b82642c809d925d1460926"><param name="Name" value="setLocal"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a50abfc05ae74cb6dd73137f007434475"><param name="Name" value="setMatriz_r"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#a1d57090d304269e4fc75695bcdce1d30"><param name="Name" value="setNome"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_status.html#aca91a7dbe10715ce9696f4b0252546ac"><param name="Name" value="setId_chamado"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#a033c98bd8e7be483677b06ead506fe9d"><param name="Name" value="setLocal"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a5f8f04ee1b58b3bbb46f8ba6a9c22342"><param name="Name" value="setMatriz_r"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#a8bafe761c02216dd6bc7465eb4ff0064"><param name="Name" value="setNome"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#a1d57090d304269e4fc75695bcdce1d30"><param name="Name" value="dispositivo"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a5e7a713ac30be9101a9d3d59848269e1"><param name="Name" value="pessoa"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#a8bafe761c02216dd6bc7465eb4ff0064"><param name="Name" value="Dispositivo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_grupo_p.html#af747750583e09cf0a1cfe756bacf97bc"><param name="Name" value="GrupoP"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a1212ac1dfede6a2a83adf84be6b9c321"><param name="Name" value="pessoa"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a4e6fa1b22e8824e270fd2aee4c9866e7"><param name="Name" value="setRamal"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a08bf2df7a63f82df19a02dbf4f40934b"><param name="Name" value="setReincidente"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a0abb993bda04f1bd32ed474abf06d0ad"><param name="Name" value="setReincidente"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classtipod.html#ad0da4edb16cb79061875519e94b768d7"><param name="Name" value="setSLA"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#a9c566031546b17c00cc6a1e80fe02e11"><param name="Name" value="setStat"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#ae407991762018bfd08cf3f3d52262071"><param name="Name" value="setTelefone"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classchamado.html#ae191e05877c78b5e3431011a2265fc15"><param name="Name" value="setTempo"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#a4789a0c9d01d1a80eb1e947044a72fd7"><param name="Name" value="setTipo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a8a695ce190dcd9acf05e8b7880579fec"><param name="Name" value="setStat"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classdispositivo.html#a4789a0c9d01d1a80eb1e947044a72fd7"><param name="Name" value="dispositivo"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classtipod.html#ac1d39aaaa40c9c88611ed6274667dadb"><param name="Name" value="tipod"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a8a695ce190dcd9acf05e8b7880579fec"><param name="Name" value="Chamado"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_status.html#aa0507ec449fc02cccb63293fed3232a4"><param name="Name" value="Status"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classstatus.html"><param name="Name" value="status"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a6c7b481abf0bc292e5ff28367f5e7512"><param name="Name" value="setTelefone"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_chamado.html#a918eb6053797974911821b777695b0c2"><param name="Name" value="setTempo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#ada239ce7b043c5ae4d426cf4f1d0cf8f"><param name="Name" value="setTipo"></OBJECT>
   <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classstatus.html#a22e483f0410490743e4970e905e5fa19"><param name="Name" value="status"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_dispositivo.html#ada239ce7b043c5ae4d426cf4f1d0cf8f"><param name="Name" value="Dispositivo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classtipod.html#a2430c9b9e742243038b3fdb43a7bd429"><param name="Name" value="tipod"></OBJECT>
   </UL>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#aa73d0148299c1920e2ab238956a869ab"><param name="Name" value="telefone"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_status.html"><param name="Name" value="Status"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_status.html#adb9c28d4221d9e2aaf9875b80b5eeaaf"><param name="Name" value="getId"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_status.html#a9c4b616186e22599d7a6ce48ec724e3c"><param name="Name" value="getId_chamado"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_status.html#a5be3ea6f3dd893039eb1278ba89d19bd"><param name="Name" value="getStat"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_status.html#ac2f0322cbfc1326c117eb2b244600d67"><param name="Name" value="setId"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_status.html#aca91a7dbe10715ce9696f4b0252546ac"><param name="Name" value="setId_chamado"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_status.html#aa0507ec449fc02cccb63293fed3232a4"><param name="Name" value="setStat"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_status.html#a944586fb328a3524805748c8f7b17f32"><param name="Name" value="Status"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="classpessoa.html#a68bcc80bb08668da00068cc3e475b771"><param name="Name" value="telefone"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classtipod.html"><param name="Name" value="tipod"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classtipod.html#a8f9426cbcef23976293ae0961b382907"><param name="Name" value="getId"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classtipod.html#a19cb0132a802684607abe02c0c2b63f2"><param name="Name" value="getSLA"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classtipod.html#a2cefc9bc0bfe44e8adfba1e839b2de2e"><param name="Name" value="getTipo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classtipod.html#ab84c5257439bcf916770d2facad689de"><param name="Name" value="getTipo"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classtipod.html#ae3f6b8df170353ef58a862b746d3d288"><param name="Name" value="setId"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classtipod.html#ad0da4edb16cb79061875519e94b768d7"><param name="Name" value="setSLA"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="classtipod.html#ac1d39aaaa40c9c88611ed6274667dadb"><param name="Name" value="setTipo"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="classtipod.html#a2430c9b9e742243038b3fdb43a7bd429"><param name="Name" value="setTipo"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="classtipod.html#aea0583170290bcfd453f00cd7e916b26"><param name="Name" value="tipod"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="classtipo_disp.html"><param name="Name" value="tipoDisp"></OBJECT>

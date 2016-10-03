@@ -17,9 +17,9 @@
         </inbodydescription>
         <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" bodystart="11" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classpessoa_1a7ff09497b62adeb87afd1531d72dee78" prot="public" static="no" mutable="no">
-        <type>string</type>
-        <definition>string pessoa::nome</definition>
+      <memberdef kind="variable" id="classpessoa_1aa0865641711741f9da9bd6f85a4169a7" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString pessoa::nome</definition>
         <argsstring></argsstring>
         <name>nome</name>
         <briefdescription>
@@ -30,9 +30,9 @@
         </inbodydescription>
         <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="12" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" bodystart="12" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classpessoa_1aa73d0148299c1920e2ab238956a869ab" prot="public" static="no" mutable="no">
-        <type>string</type>
-        <definition>string pessoa::telefone</definition>
+      <memberdef kind="variable" id="classpessoa_1a68bcc80bb08668da00068cc3e475b771" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString pessoa::telefone</definition>
         <argsstring></argsstring>
         <name>telefone</name>
         <briefdescription>
@@ -56,9 +56,9 @@
         </inbodydescription>
         <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="14" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" bodystart="14" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classpessoa_1a8629e223b05473916ecda357a5fe1ad1" prot="public" static="no" mutable="no">
-        <type>string</type>
-        <definition>string pessoa::email</definition>
+      <memberdef kind="variable" id="classpessoa_1ac50713f68cf6f093f64d5d5052c1e175" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString pessoa::email</definition>
         <argsstring></argsstring>
         <name>email</name>
         <briefdescription>
@@ -69,9 +69,9 @@
         </inbodydescription>
         <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" bodystart="15" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classpessoa_1ac75b9d5e9934fdcb46c0d8b2c06a08b2" prot="public" static="no" mutable="no">
-        <type>string</type>
-        <definition>string pessoa::depto</definition>
+      <memberdef kind="variable" id="classpessoa_1a612f53ad664ff1afb6582ed1f8711522" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString pessoa::depto</definition>
         <argsstring></argsstring>
         <name>depto</name>
         <briefdescription>
@@ -82,9 +82,9 @@
         </inbodydescription>
         <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" bodystart="16" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classpessoa_1a32474b998586278afec16302178c2856" prot="public" static="no" mutable="no">
-        <type>string</type>
-        <definition>string pessoa::cargo</definition>
+      <memberdef kind="variable" id="classpessoa_1af788a2b8720c8368236afc3875a9fb75" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString pessoa::cargo</definition>
         <argsstring></argsstring>
         <name>cargo</name>
         <briefdescription>
@@ -95,9 +95,9 @@
         </inbodydescription>
         <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="17" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" bodystart="17" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classpessoa_1a6930db502e29734eb026e291cf534ed9" prot="public" static="no" mutable="no">
-        <type>int</type>
-        <definition>int pessoa::grupo</definition>
+      <memberdef kind="variable" id="classpessoa_1a1cc497f533336ea9451cf321d355afed" prot="public" static="no" mutable="no">
+        <type><ref refid="class_grupo_p" kindref="compound">GrupoP</ref></type>
+        <definition>GrupoP pessoa::grupo</definition>
         <argsstring></argsstring>
         <name>grupo</name>
         <briefdescription>
@@ -153,9 +153,9 @@
         </inbodydescription>
         <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="22" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp" bodystart="8" bodyend="11"/>
       </memberdef>
-      <memberdef kind="function" id="classpessoa_1ad673a812f80d63efaef99aa84096ceb1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>string</type>
-        <definition>string pessoa::getNome</definition>
+      <memberdef kind="function" id="classpessoa_1a83dd5ee7d276187449bb8f337c4864ba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString pessoa::getNome</definition>
         <argsstring>() const</argsstring>
         <name>getNome</name>
         <briefdescription>
@@ -166,13 +166,13 @@
         </inbodydescription>
         <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="23" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp" bodystart="13" bodyend="16"/>
       </memberdef>
-      <memberdef kind="function" id="classpessoa_1a5e7a713ac30be9101a9d3d59848269e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classpessoa_1a1212ac1dfede6a2a83adf84be6b9c321" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void pessoa::setNome</definition>
-        <argsstring>(const string &amp;value)</argsstring>
+        <argsstring>(const QString &amp;value)</argsstring>
         <name>setNome</name>
         <param>
-          <type>const string &amp;</type>
+          <type>const QString &amp;</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -183,9 +183,9 @@
         </inbodydescription>
         <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="24" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp" bodystart="18" bodyend="21"/>
       </memberdef>
-      <memberdef kind="function" id="classpessoa_1a248cbdf67320b616ba15c323dea16bb5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>string</type>
-        <definition>string pessoa::getTelefone</definition>
+      <memberdef kind="function" id="classpessoa_1a5e13bd9cf6187d2ceefd4faa9f43cb6c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString pessoa::getTelefone</definition>
         <argsstring>() const</argsstring>
         <name>getTelefone</name>
         <briefdescription>
@@ -196,13 +196,13 @@
         </inbodydescription>
         <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="25" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp" bodystart="23" bodyend="26"/>
       </memberdef>
-      <memberdef kind="function" id="classpessoa_1ae407991762018bfd08cf3f3d52262071" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classpessoa_1a6c7b481abf0bc292e5ff28367f5e7512" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void pessoa::setTelefone</definition>
-        <argsstring>(const string &amp;value)</argsstring>
+        <argsstring>(const QString &amp;value)</argsstring>
         <name>setTelefone</name>
         <param>
-          <type>const string &amp;</type>
+          <type>const QString &amp;</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -243,9 +243,9 @@
         </inbodydescription>
         <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="28" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp" bodystart="38" bodyend="41"/>
       </memberdef>
-      <memberdef kind="function" id="classpessoa_1a41fc2c5db3716b88356b23987fd14bb4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>string</type>
-        <definition>string pessoa::getEmail</definition>
+      <memberdef kind="function" id="classpessoa_1a4a12f308282c24e8591a8e8676624695" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString pessoa::getEmail</definition>
         <argsstring>() const</argsstring>
         <name>getEmail</name>
         <briefdescription>
@@ -256,13 +256,13 @@
         </inbodydescription>
         <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="29" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp" bodystart="43" bodyend="46"/>
       </memberdef>
-      <memberdef kind="function" id="classpessoa_1ab5f43c9f7ab0b72df2758d4d1da92a63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classpessoa_1a79249a39e2a46cca19acef0476c34bf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void pessoa::setEmail</definition>
-        <argsstring>(const string &amp;value)</argsstring>
+        <argsstring>(const QString &amp;value)</argsstring>
         <name>setEmail</name>
         <param>
-          <type>const string &amp;</type>
+          <type>const QString &amp;</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -273,9 +273,9 @@
         </inbodydescription>
         <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="30" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp" bodystart="48" bodyend="51"/>
       </memberdef>
-      <memberdef kind="function" id="classpessoa_1a7e0858513abeb0579b987e7a7a79f0d7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>string</type>
-        <definition>string pessoa::getDepto</definition>
+      <memberdef kind="function" id="classpessoa_1a1acfd4c15d0b8bfc1140f6063a1739ae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString pessoa::getDepto</definition>
         <argsstring>() const</argsstring>
         <name>getDepto</name>
         <briefdescription>
@@ -286,13 +286,13 @@
         </inbodydescription>
         <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="31" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp" bodystart="53" bodyend="56"/>
       </memberdef>
-      <memberdef kind="function" id="classpessoa_1ae71cc4caf660b5ffc4f9bedc5b4d9d79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classpessoa_1a4a32656512ade652bec82a5c749ad7d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void pessoa::setDepto</definition>
-        <argsstring>(const string &amp;value)</argsstring>
+        <argsstring>(const QString &amp;value)</argsstring>
         <name>setDepto</name>
         <param>
-          <type>const string &amp;</type>
+          <type>const QString &amp;</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -303,9 +303,9 @@
         </inbodydescription>
         <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="32" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp" bodystart="58" bodyend="61"/>
       </memberdef>
-      <memberdef kind="function" id="classpessoa_1aa4b0643f31c9d0e338ca7a485bc0723d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>string</type>
-        <definition>string pessoa::getCargo</definition>
+      <memberdef kind="function" id="classpessoa_1a07fe59858c0c8ff2d3bb6bc3879de6b3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString pessoa::getCargo</definition>
         <argsstring>() const</argsstring>
         <name>getCargo</name>
         <briefdescription>
@@ -316,13 +316,13 @@
         </inbodydescription>
         <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="33" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp" bodystart="63" bodyend="66"/>
       </memberdef>
-      <memberdef kind="function" id="classpessoa_1a9fd52a51b1f987c28aa8016899beb892" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classpessoa_1a1a6ebf59740db53d42fbac357f6219b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void pessoa::setCargo</definition>
-        <argsstring>(const string &amp;value)</argsstring>
+        <argsstring>(const QString &amp;value)</argsstring>
         <name>setCargo</name>
         <param>
-          <type>const string &amp;</type>
+          <type>const QString &amp;</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -368,33 +368,46 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="46">
+        <label>GrupoP</label>
+        <link refid="class_grupo_p"/>
+      </node>
+      <node id="45">
+        <label>pessoa</label>
+        <link refid="classpessoa"/>
+        <childnode refid="46" relation="usage">
+          <edgelabel>grupo</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
     <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="9" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" bodystart="8" bodyend="37"/>
     <listofallmembers>
-      <member refid="classpessoa_1a32474b998586278afec16302178c2856" prot="public" virt="non-virtual"><scope>pessoa</scope><name>cargo</name></member>
-      <member refid="classpessoa_1ac75b9d5e9934fdcb46c0d8b2c06a08b2" prot="public" virt="non-virtual"><scope>pessoa</scope><name>depto</name></member>
-      <member refid="classpessoa_1a8629e223b05473916ecda357a5fe1ad1" prot="public" virt="non-virtual"><scope>pessoa</scope><name>email</name></member>
-      <member refid="classpessoa_1aa4b0643f31c9d0e338ca7a485bc0723d" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getCargo</name></member>
-      <member refid="classpessoa_1a7e0858513abeb0579b987e7a7a79f0d7" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getDepto</name></member>
-      <member refid="classpessoa_1a41fc2c5db3716b88356b23987fd14bb4" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getEmail</name></member>
+      <member refid="classpessoa_1af788a2b8720c8368236afc3875a9fb75" prot="public" virt="non-virtual"><scope>pessoa</scope><name>cargo</name></member>
+      <member refid="classpessoa_1a612f53ad664ff1afb6582ed1f8711522" prot="public" virt="non-virtual"><scope>pessoa</scope><name>depto</name></member>
+      <member refid="classpessoa_1ac50713f68cf6f093f64d5d5052c1e175" prot="public" virt="non-virtual"><scope>pessoa</scope><name>email</name></member>
+      <member refid="classpessoa_1a07fe59858c0c8ff2d3bb6bc3879de6b3" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getCargo</name></member>
+      <member refid="classpessoa_1a1acfd4c15d0b8bfc1140f6063a1739ae" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getDepto</name></member>
+      <member refid="classpessoa_1a4a12f308282c24e8591a8e8676624695" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getEmail</name></member>
       <member refid="classpessoa_1ad1bad474adbfadf472ad857a7c5f181c" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getGrupo</name></member>
       <member refid="classpessoa_1a9a20cb67d382a667ad8ed10761b50211" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getId</name></member>
-      <member refid="classpessoa_1ad673a812f80d63efaef99aa84096ceb1" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getNome</name></member>
+      <member refid="classpessoa_1a83dd5ee7d276187449bb8f337c4864ba" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getNome</name></member>
       <member refid="classpessoa_1afe3f63c712664c2ac32f89ed8595d75d" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getRamal</name></member>
-      <member refid="classpessoa_1a248cbdf67320b616ba15c323dea16bb5" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getTelefone</name></member>
-      <member refid="classpessoa_1a6930db502e29734eb026e291cf534ed9" prot="public" virt="non-virtual"><scope>pessoa</scope><name>grupo</name></member>
+      <member refid="classpessoa_1a5e13bd9cf6187d2ceefd4faa9f43cb6c" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getTelefone</name></member>
+      <member refid="classpessoa_1a1cc497f533336ea9451cf321d355afed" prot="public" virt="non-virtual"><scope>pessoa</scope><name>grupo</name></member>
       <member refid="classpessoa_1a8e80bd7d70d7d29b248ef5ec77720b5b" prot="public" virt="non-virtual"><scope>pessoa</scope><name>id</name></member>
-      <member refid="classpessoa_1a7ff09497b62adeb87afd1531d72dee78" prot="public" virt="non-virtual"><scope>pessoa</scope><name>nome</name></member>
+      <member refid="classpessoa_1aa0865641711741f9da9bd6f85a4169a7" prot="public" virt="non-virtual"><scope>pessoa</scope><name>nome</name></member>
       <member refid="classpessoa_1ae2ee70812ff092a18c24ed94eaae260b" prot="public" virt="non-virtual"><scope>pessoa</scope><name>pessoa</name></member>
       <member refid="classpessoa_1a3263ed9356bab20fb6c364483fe0d7b7" prot="public" virt="non-virtual"><scope>pessoa</scope><name>ramal</name></member>
-      <member refid="classpessoa_1a9fd52a51b1f987c28aa8016899beb892" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setCargo</name></member>
-      <member refid="classpessoa_1ae71cc4caf660b5ffc4f9bedc5b4d9d79" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setDepto</name></member>
-      <member refid="classpessoa_1ab5f43c9f7ab0b72df2758d4d1da92a63" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setEmail</name></member>
+      <member refid="classpessoa_1a1a6ebf59740db53d42fbac357f6219b5" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setCargo</name></member>
+      <member refid="classpessoa_1a4a32656512ade652bec82a5c749ad7d1" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setDepto</name></member>
+      <member refid="classpessoa_1a79249a39e2a46cca19acef0476c34bf2" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setEmail</name></member>
       <member refid="classpessoa_1abde4772449869bd2c8e5e6d280e4f9f5" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setGrupo</name></member>
       <member refid="classpessoa_1ab528a41c403719b847f8e43c0893e14c" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setId</name></member>
-      <member refid="classpessoa_1a5e7a713ac30be9101a9d3d59848269e1" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setNome</name></member>
+      <member refid="classpessoa_1a1212ac1dfede6a2a83adf84be6b9c321" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setNome</name></member>
       <member refid="classpessoa_1a4e6fa1b22e8824e270fd2aee4c9866e7" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setRamal</name></member>
-      <member refid="classpessoa_1ae407991762018bfd08cf3f3d52262071" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setTelefone</name></member>
-      <member refid="classpessoa_1aa73d0148299c1920e2ab238956a869ab" prot="public" virt="non-virtual"><scope>pessoa</scope><name>telefone</name></member>
+      <member refid="classpessoa_1a6c7b481abf0bc292e5ff28367f5e7512" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setTelefone</name></member>
+      <member refid="classpessoa_1a68bcc80bb08668da00068cc3e475b771" prot="public" virt="non-virtual"><scope>pessoa</scope><name>telefone</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

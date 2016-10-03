@@ -5,6 +5,17 @@
     <includes local="no">QDialog</includes>
     <includedby refid="selecionaequip_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/selecionaequip.cpp</includedby>
     <incdepgraph>
+      <node id="305">
+        <label>C:/Users/BrunoSR/TCC_NayBru/selecionaequip.h</label>
+        <link refid="selecionaequip_8h"/>
+        <childnode refid="306" relation="include">
+        </childnode>
+      </node>
+      <node id="306">
+        <label>QDialog</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
       <node id="307">
         <label>C:/Users/BrunoSR/TCC_NayBru/selecionaequip.h</label>
         <link refid="selecionaequip_8h"/>
@@ -12,17 +23,6 @@
         </childnode>
       </node>
       <node id="308">
-        <label>QDialog</label>
-      </node>
-    </incdepgraph>
-    <invincdepgraph>
-      <node id="309">
-        <label>C:/Users/BrunoSR/TCC_NayBru/selecionaequip.h</label>
-        <link refid="selecionaequip_8h"/>
-        <childnode refid="310" relation="include">
-        </childnode>
-      </node>
-      <node id="310">
         <label>C:/Users/BrunoSR/TCC_NayBru/selecionaequip.cpp</label>
         <link refid="selecionaequip_8cpp"/>
       </node>

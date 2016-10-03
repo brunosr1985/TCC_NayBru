@@ -57,17 +57,6 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="38">
-        <label>novoGrupo</label>
-        <link refid="classnovo_grupo"/>
-        <childnode refid="39" relation="public-inheritance">
-        </childnode>
-      </node>
-      <node id="39">
-        <label>QWidget</label>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
       <node id="40">
         <label>novoGrupo</label>
         <link refid="classnovo_grupo"/>
@@ -75,6 +64,17 @@
         </childnode>
       </node>
       <node id="41">
+        <label>QWidget</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="42">
+        <label>novoGrupo</label>
+        <link refid="classnovo_grupo"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
         <label>QWidget</label>
       </node>
     </collaborationgraph>

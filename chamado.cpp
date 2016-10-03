@@ -1,99 +1,96 @@
 #include "chamado.h"
 
-
-using namespace std;
-
-int chamado::getId() const
+int Chamado::getId() const
 {
     return id;
 }
 
-void chamado::setId(int value)
+void Chamado::setId(int value)
 {
     id = value;
 }
 
-m_raci chamado::getMatriz_r() const
+MRaci Chamado::getMatriz_r() const
 {
     return matriz_r;
 }
 
-void chamado::setMatriz_r(const m_raci &value)
+void Chamado::setMatriz_r(const MRaci &value)
 {
     matriz_r = value;
 }
 
-dispositivo chamado::getDisp() const
+Dispositivo Chamado::getDisp() const
 {
     return disp;
 }
 
-void chamado::setDisp(const dispositivo &value)
+void Chamado::setDisp(const Dispositivo &value)
 {
     disp = value;
 }
 
-float chamado::getTempo() const
+float Chamado::getTempo() const
 {
     return tempo;
 }
 
-void chamado::setTempo(float value)
+void Chamado::setTempo(float value)
 {
     tempo = value;
 }
 
-status chamado::getStat() const
+Status Chamado::getStat() const
 {
     return stat;
 }
 
-void chamado::setStat(const status &value)
+void Chamado::setStat(const Status &value)
 {
     stat = value;
 }
 
-bool chamado::getReincidente() const
+bool Chamado::getReincidente() const
 {
     return reincidente;
 }
 
-void chamado::setReincidente(bool value)
+void Chamado::setReincidente(bool value)
 {
     reincidente = value;
 }
 
-std::string chamado::getHora_abertura() const
+QString Chamado::getHora_abertura() const
 {
     return hora_abertura;
 }
 
-void chamado::setHora_abertura(const std::string &value)
+void Chamado::setHora_abertura(const QString &value)
 {
     hora_abertura = value;
 }
 
-std::string chamado::getHora_fechamento() const
+QString Chamado::getHora_fechamento() const
 {
     return hora_fechamento;
 }
 
-void chamado::setHora_fechamento(const std::string &value)
+void Chamado::setHora_fechamento(const QString &value)
 {
     hora_fechamento = value;
 }
 
-std::string chamado::getDescricao() const
+QString Chamado::getDescricao() const
 {
     return descricao;
 }
 
-void chamado::setDescricao(const std::string &value)
+void Chamado::setDescricao(const QString &value)
 {
     descricao = value;
 }
 
-chamado::chamado()
+Chamado::Chamado()
 {
     
 }

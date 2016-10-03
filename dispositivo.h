@@ -1,27 +1,30 @@
+
+
 #ifndef DISPOSITIVO_H
 #define DISPOSITIVO_H
 
-#include <string>
 #include "tipod.h"
+#include "dispositivo.h"
 
+#include <QString>
 
-class dispositivo
+class Dispositivo
 {
 private:
     int id;
-    string nome;
-    string local;
+    QString nome;
+    QString local;
     tipod tipo;
 
 public:
 
-    dispositivo();
+    Dispositivo();
     int getId() const;
     void setId(int value);
-    string getNome() const;
-    void setNome(const string &value);
-    string getLocal() const;
-    void setLocal(const string &value);
+    QString getNome() const;
+    void setNome(const QString &value);
+    QString getLocal() const;
+    void setLocal(const QString &value);
     tipod getTipo() const;
     void setTipo(const tipod &value);
 };

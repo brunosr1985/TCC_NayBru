@@ -4,25 +4,29 @@
     <compoundname>dispositivo.cpp</compoundname>
     <includes refid="dispositivo_8h" local="yes">dispositivo.h</includes>
     <incdepgraph>
-      <node id="89">
+      <node id="86">
         <label>tipod.h</label>
         <link refid="tipod_8h"/>
+        <childnode refid="87" relation="include">
+        </childnode>
       </node>
-      <node id="87">
+      <node id="85">
         <label>dispositivo.h</label>
         <link refid="dispositivo_8h"/>
-        <childnode refid="88" relation="include">
+        <childnode refid="86" relation="include">
         </childnode>
-        <childnode refid="89" relation="include">
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
         </childnode>
       </node>
-      <node id="88">
-        <label>string</label>
+      <node id="87">
+        <label>QString</label>
       </node>
-      <node id="86">
+      <node id="84">
         <label>C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp</label>
         <link refid="dispositivo_8cpp"/>
-        <childnode refid="87" relation="include">
+        <childnode refid="85" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -33,47 +37,47 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dispositivo_8h" kindref="compound">dispositivo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3" refid="classdispositivo_1a067622c9fc2f0fc431f59593dd083848" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classdispositivo_1a067622c9fc2f0fc431f59593dd083848" kindref="member">dispositivo::getId</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="3" refid="class_dispositivo_1a4d470c1481fd167db94e6be4f08a259c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_dispositivo_1a4d470c1481fd167db94e6be4f08a259c" kindref="member">Dispositivo::getId</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="4"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>id;</highlight></codeline>
 <codeline lineno="6"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8" refid="classdispositivo_1a1cf6775652391e4ace63b9613295faa6" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classdispositivo_1a1cf6775652391e4ace63b9613295faa6" kindref="member">dispositivo::setId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="8" refid="class_dispositivo_1a186a8fdf627e6e9326a196fa7ad59846" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_dispositivo_1a186a8fdf627e6e9326a196fa7ad59846" kindref="member">Dispositivo::setId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>value;</highlight></codeline>
 <codeline lineno="11"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="classdispositivo_1a1157605bedafd71756b5cfcb7fced335" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classdispositivo_1a1157605bedafd71756b5cfcb7fced335" kindref="member">dispositivo::getNome</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="13" refid="class_dispositivo_1a463552b0487176c52c477d7951287b4b" refkind="member"><highlight class="normal">QString<sp/><ref refid="class_dispositivo_1a463552b0487176c52c477d7951287b4b" kindref="member">Dispositivo::getNome</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="14"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nome;</highlight></codeline>
 <codeline lineno="16"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="classdispositivo_1a1d57090d304269e4fc75695bcdce1d30" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classdispositivo_1a1d57090d304269e4fc75695bcdce1d30" kindref="member">dispositivo::setNome</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;value)</highlight></codeline>
+<codeline lineno="18" refid="class_dispositivo_1a8bafe761c02216dd6bc7465eb4ff0064" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_dispositivo_1a8bafe761c02216dd6bc7465eb4ff0064" kindref="member">Dispositivo::setNome</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value)</highlight></codeline>
 <codeline lineno="19"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>nome<sp/>=<sp/>value;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="classdispositivo_1a0847829a4ec7d11882f1bd55e0849672" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classdispositivo_1a0847829a4ec7d11882f1bd55e0849672" kindref="member">dispositivo::getLocal</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="23" refid="class_dispositivo_1a29327cf38f2c0b021e1197f12d02bf9c" refkind="member"><highlight class="normal">QString<sp/><ref refid="class_dispositivo_1a29327cf38f2c0b021e1197f12d02bf9c" kindref="member">Dispositivo::getLocal</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="24"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>local;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="classdispositivo_1aea13deb655b82642c809d925d1460926" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classdispositivo_1aea13deb655b82642c809d925d1460926" kindref="member">dispositivo::setLocal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;value)</highlight></codeline>
+<codeline lineno="28" refid="class_dispositivo_1a033c98bd8e7be483677b06ead506fe9d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_dispositivo_1a033c98bd8e7be483677b06ead506fe9d" kindref="member">Dispositivo::setLocal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value)</highlight></codeline>
 <codeline lineno="29"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>local<sp/>=<sp/>value;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="classdispositivo_1a8fc01fa7c51737dd1995fd63d3fcd0d2" refkind="member"><highlight class="normal"><ref refid="classtipod" kindref="compound">tipod</ref><sp/><ref refid="classdispositivo_1a8fc01fa7c51737dd1995fd63d3fcd0d2" kindref="member">dispositivo::getTipo</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="33" refid="class_dispositivo_1a0242efd1a66cffb9e979432e941d68ca" refkind="member"><highlight class="normal"><ref refid="classtipod" kindref="compound">tipod</ref><sp/><ref refid="class_dispositivo_1a0242efd1a66cffb9e979432e941d68ca" kindref="member">Dispositivo::getTipo</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="34"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tipo;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="classdispositivo_1a4789a0c9d01d1a80eb1e947044a72fd7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classdispositivo_1a4789a0c9d01d1a80eb1e947044a72fd7" kindref="member">dispositivo::setTipo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classtipod" kindref="compound">tipod</ref><sp/>&amp;value)</highlight></codeline>
+<codeline lineno="38" refid="class_dispositivo_1ada239ce7b043c5ae4d426cf4f1d0cf8f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_dispositivo_1ada239ce7b043c5ae4d426cf4f1d0cf8f" kindref="member">Dispositivo::setTipo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classtipod" kindref="compound">tipod</ref><sp/>&amp;value)</highlight></codeline>
 <codeline lineno="39"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>tipo<sp/>=<sp/>value;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="classdispositivo_1aa6a6c3140271f71ff41cec06b7296e66" refkind="member"><highlight class="normal"><ref refid="classdispositivo_1aa6a6c3140271f71ff41cec06b7296e66" kindref="member">dispositivo::dispositivo</ref>()</highlight></codeline>
+<codeline lineno="43" refid="class_dispositivo_1a08b3611c10447a1519d7ebb72f47e30d" refkind="member"><highlight class="normal"><ref refid="class_dispositivo_1a08b3611c10447a1519d7ebb72f47e30d" kindref="member">Dispositivo::Dispositivo</ref>()</highlight></codeline>
 <codeline lineno="44"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal">}</highlight></codeline>

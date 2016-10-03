@@ -5,24 +5,24 @@
     <includes refid="tipodisp_8h" local="yes">tipodisp.h</includes>
     <includes local="yes">ui_tipodisp.h</includes>
     <incdepgraph>
-      <node id="349">
+      <node id="333">
         <label>QDialog</label>
       </node>
-      <node id="347">
+      <node id="331">
         <label>C:/Users/BrunoSR/TCC_NayBru/tipodisp.cpp</label>
         <link refid="tipodisp_8cpp"/>
-        <childnode refid="348" relation="include">
+        <childnode refid="332" relation="include">
         </childnode>
-        <childnode refid="350" relation="include">
+        <childnode refid="334" relation="include">
         </childnode>
       </node>
-      <node id="350">
+      <node id="334">
         <label>ui_tipodisp.h</label>
       </node>
-      <node id="348">
+      <node id="332">
         <label>tipodisp.h</label>
         <link refid="tipodisp_8h"/>
-        <childnode refid="349" relation="include">
+        <childnode refid="333" relation="include">
         </childnode>
       </node>
     </incdepgraph>

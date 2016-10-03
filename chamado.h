@@ -4,43 +4,45 @@
 #include "status.h"
 #include "dispositivo.h"
 #include "m_raci.h"
-#include <string>
+//#include "chamado.h"
 
-class chamado
+#include <QString>
+
+class Chamado
 {
 private:
     int id;
-    m_raci matriz_r;
-    dispositivo disp;
+    MRaci matriz_r;
+    Dispositivo disp;
     float tempo;
-    status stat;
+    Status stat;
     bool reincidente;
-    std::string hora_abertura;
-    std::string hora_fechamento;
-    std::string descricao;
+    QString hora_abertura;
+    QString hora_fechamento;
+    QString descricao;
 
 public:
 
-    chamado();
+    Chamado();
 
     int getId() const;
     void setId(int value);
-    m_raci getMatriz_r() const;
-    void setMatriz_r(const m_raci &value);
-    dispositivo getDisp() const;
-    void setDisp(const dispositivo &value);
+    MRaci getMatriz_r() const;
+    void setMatriz_r(const MRaci &value);
+    Dispositivo getDisp() const;
+    void setDisp(const Dispositivo &value);
     float getTempo() const;
     void setTempo(float value);
-    status getStat() const;
-    void setStat(const status &value);
+    Status getStat() const;
+    void setStat(const Status &value);
     bool getReincidente() const;
     void setReincidente(bool value);
-    std::string getHora_abertura() const;
-    void setHora_abertura(const std::string &value);
-    std::string getHora_fechamento() const;
-    void setHora_fechamento(const std::string &value);
-    std::string getDescricao() const;
-    void setDescricao(const std::string &value);
+    QString getHora_abertura() const;
+    void setHora_abertura(const QString &value);
+    QString getHora_fechamento() const;
+    void setHora_fechamento(const QString &value);
+    QString getDescricao() const;
+    void setDescricao(const QString &value);
 };
 
 #endif // CHAMADO_H

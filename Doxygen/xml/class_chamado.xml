@@ -1,0 +1,446 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="class_chamado" kind="class" language="C++" prot="public">
+    <compoundname>Chamado</compoundname>
+    <includes refid="chamado_8h" local="no">chamado.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_chamado_1a769e962bb6d2cd3efaea3a8a2d7dbbd0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Chamado::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="14" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chamado_1abfb8f29266fb106ab452c9e8fd08f9a1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_m_raci" kindref="compound">MRaci</ref></type>
+        <definition>MRaci Chamado::matriz_r</definition>
+        <argsstring></argsstring>
+        <name>matriz_r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chamado_1a91e861ea629e99daa5ea78c8dea5929b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_dispositivo" kindref="compound">Dispositivo</ref></type>
+        <definition>Dispositivo Chamado::disp</definition>
+        <argsstring></argsstring>
+        <name>disp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chamado_1a06d09977651f1f8b53d67e282c11b479" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Chamado::tempo</definition>
+        <argsstring></argsstring>
+        <name>tempo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="17" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chamado_1a31138f12bb01a02013cc4ecbf513420f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_status" kindref="compound">Status</ref></type>
+        <definition>Status Chamado::stat</definition>
+        <argsstring></argsstring>
+        <name>stat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="18" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chamado_1a83b8c80e772947d6e21ccb3403c8ef5e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Chamado::reincidente</definition>
+        <argsstring></argsstring>
+        <name>reincidente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chamado_1a05615e7745ddb767b4545ef2928e100e" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Chamado::hora_abertura</definition>
+        <argsstring></argsstring>
+        <name>hora_abertura</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="20" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chamado_1af77af562703419eb17c282c369112088" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Chamado::hora_fechamento</definition>
+        <argsstring></argsstring>
+        <name>hora_fechamento</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="21" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_chamado_1a0c05ef9b233451ddc05d9351c9bd11c9" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Chamado::descricao</definition>
+        <argsstring></argsstring>
+        <name>descricao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="22" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_chamado_1aeca5f123901cef6b33104291dc3b2fc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Chamado::Chamado</definition>
+        <argsstring>()</argsstring>
+        <name>Chamado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="26" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chamado_1af8c3890123d55faf3a9adc2a274daaf2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Chamado::getId</definition>
+        <argsstring>() const</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="28" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chamado_1ad9d1c6ef5c44c56921711fa96ae27277" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Chamado::setId</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="29" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chamado_1a99eef2190042baefb398806d35372edd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_m_raci" kindref="compound">MRaci</ref></type>
+        <definition>MRaci Chamado::getMatriz_r</definition>
+        <argsstring>() const</argsstring>
+        <name>getMatriz_r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="30" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chamado_1a5f8f04ee1b58b3bbb46f8ba6a9c22342" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Chamado::setMatriz_r</definition>
+        <argsstring>(const MRaci &amp;value)</argsstring>
+        <name>setMatriz_r</name>
+        <param>
+          <type>const <ref refid="class_m_raci" kindref="compound">MRaci</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="31" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chamado_1a1388c89d1f5ae80b7cfac8106c48dbc9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_dispositivo" kindref="compound">Dispositivo</ref></type>
+        <definition>Dispositivo Chamado::getDisp</definition>
+        <argsstring>() const</argsstring>
+        <name>getDisp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="32" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chamado_1aedfd2171f66178c80462e0477b49a0f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Chamado::setDisp</definition>
+        <argsstring>(const Dispositivo &amp;value)</argsstring>
+        <name>setDisp</name>
+        <param>
+          <type>const <ref refid="class_dispositivo" kindref="compound">Dispositivo</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="33" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chamado_1abbe9ba6e55ea448b02e9c091369c1d2a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Chamado::getTempo</definition>
+        <argsstring>() const</argsstring>
+        <name>getTempo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="34" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chamado_1a918eb6053797974911821b777695b0c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Chamado::setTempo</definition>
+        <argsstring>(float value)</argsstring>
+        <name>setTempo</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="35" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chamado_1aa3f9a0756cd55a435fcbec3419a328dc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_status" kindref="compound">Status</ref></type>
+        <definition>Status Chamado::getStat</definition>
+        <argsstring>() const</argsstring>
+        <name>getStat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="36" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chamado_1a8a695ce190dcd9acf05e8b7880579fec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Chamado::setStat</definition>
+        <argsstring>(const Status &amp;value)</argsstring>
+        <name>setStat</name>
+        <param>
+          <type>const <ref refid="class_status" kindref="compound">Status</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="37" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chamado_1ad481bcca8ee859304d67728bff772b10" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Chamado::getReincidente</definition>
+        <argsstring>() const</argsstring>
+        <name>getReincidente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="38" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chamado_1a0abb993bda04f1bd32ed474abf06d0ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Chamado::setReincidente</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setReincidente</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="39" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chamado_1a58fd1c5cf9693ccc2ebacc9e7b984de0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Chamado::getHora_abertura</definition>
+        <argsstring>() const</argsstring>
+        <name>getHora_abertura</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="40" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chamado_1a2513e3474003230bee760aeb28da8188" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Chamado::setHora_abertura</definition>
+        <argsstring>(const QString &amp;value)</argsstring>
+        <name>setHora_abertura</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="41" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chamado_1a8d6f16bed156bb8241d1068ebe962483" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Chamado::getHora_fechamento</definition>
+        <argsstring>() const</argsstring>
+        <name>getHora_fechamento</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="42" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chamado_1a4517fc2b385ef3ed227289c3444a0208" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Chamado::setHora_fechamento</definition>
+        <argsstring>(const QString &amp;value)</argsstring>
+        <name>setHora_fechamento</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="43" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chamado_1aa7aeb5e538449b9a71271756d7b39d43" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Chamado::getDescricao</definition>
+        <argsstring>() const</argsstring>
+        <name>getDescricao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="44" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="83" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_chamado_1a970a71741ec450c40c48eb4babd2fec3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Chamado::setDescricao</definition>
+        <argsstring>(const QString &amp;value)</argsstring>
+        <name>setDescricao</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="45" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.cpp" bodystart="88" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/chamado.h" line="12" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/chamado.h" bodystart="11" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_chamado_1aeca5f123901cef6b33104291dc3b2fc0" prot="public" virt="non-virtual"><scope>Chamado</scope><name>Chamado</name></member>
+      <member refid="class_chamado_1a0c05ef9b233451ddc05d9351c9bd11c9" prot="private" virt="non-virtual"><scope>Chamado</scope><name>descricao</name></member>
+      <member refid="class_chamado_1a91e861ea629e99daa5ea78c8dea5929b" prot="private" virt="non-virtual"><scope>Chamado</scope><name>disp</name></member>
+      <member refid="class_chamado_1aa7aeb5e538449b9a71271756d7b39d43" prot="public" virt="non-virtual"><scope>Chamado</scope><name>getDescricao</name></member>
+      <member refid="class_chamado_1a1388c89d1f5ae80b7cfac8106c48dbc9" prot="public" virt="non-virtual"><scope>Chamado</scope><name>getDisp</name></member>
+      <member refid="class_chamado_1a58fd1c5cf9693ccc2ebacc9e7b984de0" prot="public" virt="non-virtual"><scope>Chamado</scope><name>getHora_abertura</name></member>
+      <member refid="class_chamado_1a8d6f16bed156bb8241d1068ebe962483" prot="public" virt="non-virtual"><scope>Chamado</scope><name>getHora_fechamento</name></member>
+      <member refid="class_chamado_1af8c3890123d55faf3a9adc2a274daaf2" prot="public" virt="non-virtual"><scope>Chamado</scope><name>getId</name></member>
+      <member refid="class_chamado_1a99eef2190042baefb398806d35372edd" prot="public" virt="non-virtual"><scope>Chamado</scope><name>getMatriz_r</name></member>
+      <member refid="class_chamado_1ad481bcca8ee859304d67728bff772b10" prot="public" virt="non-virtual"><scope>Chamado</scope><name>getReincidente</name></member>
+      <member refid="class_chamado_1aa3f9a0756cd55a435fcbec3419a328dc" prot="public" virt="non-virtual"><scope>Chamado</scope><name>getStat</name></member>
+      <member refid="class_chamado_1abbe9ba6e55ea448b02e9c091369c1d2a" prot="public" virt="non-virtual"><scope>Chamado</scope><name>getTempo</name></member>
+      <member refid="class_chamado_1a05615e7745ddb767b4545ef2928e100e" prot="private" virt="non-virtual"><scope>Chamado</scope><name>hora_abertura</name></member>
+      <member refid="class_chamado_1af77af562703419eb17c282c369112088" prot="private" virt="non-virtual"><scope>Chamado</scope><name>hora_fechamento</name></member>
+      <member refid="class_chamado_1a769e962bb6d2cd3efaea3a8a2d7dbbd0" prot="private" virt="non-virtual"><scope>Chamado</scope><name>id</name></member>
+      <member refid="class_chamado_1abfb8f29266fb106ab452c9e8fd08f9a1" prot="private" virt="non-virtual"><scope>Chamado</scope><name>matriz_r</name></member>
+      <member refid="class_chamado_1a83b8c80e772947d6e21ccb3403c8ef5e" prot="private" virt="non-virtual"><scope>Chamado</scope><name>reincidente</name></member>
+      <member refid="class_chamado_1a970a71741ec450c40c48eb4babd2fec3" prot="public" virt="non-virtual"><scope>Chamado</scope><name>setDescricao</name></member>
+      <member refid="class_chamado_1aedfd2171f66178c80462e0477b49a0f0" prot="public" virt="non-virtual"><scope>Chamado</scope><name>setDisp</name></member>
+      <member refid="class_chamado_1a2513e3474003230bee760aeb28da8188" prot="public" virt="non-virtual"><scope>Chamado</scope><name>setHora_abertura</name></member>
+      <member refid="class_chamado_1a4517fc2b385ef3ed227289c3444a0208" prot="public" virt="non-virtual"><scope>Chamado</scope><name>setHora_fechamento</name></member>
+      <member refid="class_chamado_1ad9d1c6ef5c44c56921711fa96ae27277" prot="public" virt="non-virtual"><scope>Chamado</scope><name>setId</name></member>
+      <member refid="class_chamado_1a5f8f04ee1b58b3bbb46f8ba6a9c22342" prot="public" virt="non-virtual"><scope>Chamado</scope><name>setMatriz_r</name></member>
+      <member refid="class_chamado_1a0abb993bda04f1bd32ed474abf06d0ad" prot="public" virt="non-virtual"><scope>Chamado</scope><name>setReincidente</name></member>
+      <member refid="class_chamado_1a8a695ce190dcd9acf05e8b7880579fec" prot="public" virt="non-virtual"><scope>Chamado</scope><name>setStat</name></member>
+      <member refid="class_chamado_1a918eb6053797974911821b777695b0c2" prot="public" virt="non-virtual"><scope>Chamado</scope><name>setTempo</name></member>
+      <member refid="class_chamado_1a31138f12bb01a02013cc4ecbf513420f" prot="private" virt="non-virtual"><scope>Chamado</scope><name>stat</name></member>
+      <member refid="class_chamado_1a06d09977651f1f8b53d67e282c11b479" prot="private" virt="non-virtual"><scope>Chamado</scope><name>tempo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,17 +1,25 @@
 #ifndef STATUS_H
 #define STATUS_H
 
-#include "chamado.h"
-#include <string>
+//#include "chamado.h"
+#include "status.h"
 
-class status
+#include <QString>
+
+class Status
 {
 private:
     int id;
     int id_chamado;
-    std::string stat;
+    QString stat;
 public:
-    status();
+    Status();
+    int getId() const;
+    void setId(int value);
+    int getId_chamado() const;
+    void setId_chamado(int value);
+    QString getStat() const;
+    void setStat(const QString &value);
 };
 
 #endif // STATUS_H
