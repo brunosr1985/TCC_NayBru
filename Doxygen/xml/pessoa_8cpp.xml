@@ -4,19 +4,19 @@
     <compoundname>pessoa.cpp</compoundname>
     <includes refid="pessoa_8h" local="yes">pessoa.h</includes>
     <incdepgraph>
-      <node id="250">
+      <node id="280">
         <label>string</label>
       </node>
-      <node id="248">
+      <node id="278">
         <label>C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp</label>
         <link refid="pessoa_8cpp"/>
-        <childnode refid="249" relation="include">
+        <childnode refid="279" relation="include">
         </childnode>
       </node>
-      <node id="249">
+      <node id="279">
         <label>pessoa.h</label>
         <link refid="pessoa_8h"/>
-        <childnode refid="250" relation="include">
+        <childnode refid="280" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -27,10 +27,90 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="pessoa_8h" kindref="compound">pessoa.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3" refid="classpessoa_1ae2ee70812ff092a18c24ed94eaae260b" refkind="member"><highlight class="normal"><ref refid="classpessoa_1ae2ee70812ff092a18c24ed94eaae260b" kindref="member">pessoa::pessoa</ref>()</highlight></codeline>
-<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="classpessoa_1a9a20cb67d382a667ad8ed10761b50211" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a9a20cb67d382a667ad8ed10761b50211" kindref="member">pessoa::getId</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="4"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a8e80bd7d70d7d29b248ef5ec77720b5b" kindref="member">id</ref>;</highlight></codeline>
 <codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classpessoa_1ab528a41c403719b847f8e43c0893e14c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1ab528a41c403719b847f8e43c0893e14c" kindref="member">pessoa::setId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classpessoa_1ad673a812f80d63efaef99aa84096ceb1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1ad673a812f80d63efaef99aa84096ceb1" kindref="member">pessoa::getNome</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="14"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a7ff09497b62adeb87afd1531d72dee78" kindref="member">nome</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classpessoa_1a5e7a713ac30be9101a9d3d59848269e1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a5e7a713ac30be9101a9d3d59848269e1" kindref="member">pessoa::setNome</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;value)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpessoa_1a7ff09497b62adeb87afd1531d72dee78" kindref="member">nome</ref><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="classpessoa_1a248cbdf67320b616ba15c323dea16bb5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a248cbdf67320b616ba15c323dea16bb5" kindref="member">pessoa::getTelefone</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="24"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1aa73d0148299c1920e2ab238956a869ab" kindref="member">telefone</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="classpessoa_1ae407991762018bfd08cf3f3d52262071" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1ae407991762018bfd08cf3f3d52262071" kindref="member">pessoa::setTelefone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;value)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpessoa_1aa73d0148299c1920e2ab238956a869ab" kindref="member">telefone</ref><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classpessoa_1afe3f63c712664c2ac32f89ed8595d75d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1afe3f63c712664c2ac32f89ed8595d75d" kindref="member">pessoa::getRamal</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="34"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a3263ed9356bab20fb6c364483fe0d7b7" kindref="member">ramal</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="classpessoa_1a4e6fa1b22e8824e270fd2aee4c9866e7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a4e6fa1b22e8824e270fd2aee4c9866e7" kindref="member">pessoa::setRamal</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpessoa_1a3263ed9356bab20fb6c364483fe0d7b7" kindref="member">ramal</ref><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="classpessoa_1a41fc2c5db3716b88356b23987fd14bb4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a41fc2c5db3716b88356b23987fd14bb4" kindref="member">pessoa::getEmail</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="44"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a8629e223b05473916ecda357a5fe1ad1" kindref="member">email</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="classpessoa_1ab5f43c9f7ab0b72df2758d4d1da92a63" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1ab5f43c9f7ab0b72df2758d4d1da92a63" kindref="member">pessoa::setEmail</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;value)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpessoa_1a8629e223b05473916ecda357a5fe1ad1" kindref="member">email</ref><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="classpessoa_1a7e0858513abeb0579b987e7a7a79f0d7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a7e0858513abeb0579b987e7a7a79f0d7" kindref="member">pessoa::getDepto</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="54"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1ac75b9d5e9934fdcb46c0d8b2c06a08b2" kindref="member">depto</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="classpessoa_1ae71cc4caf660b5ffc4f9bedc5b4d9d79" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1ae71cc4caf660b5ffc4f9bedc5b4d9d79" kindref="member">pessoa::setDepto</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;value)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpessoa_1ac75b9d5e9934fdcb46c0d8b2c06a08b2" kindref="member">depto</ref><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="classpessoa_1aa4b0643f31c9d0e338ca7a485bc0723d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1aa4b0643f31c9d0e338ca7a485bc0723d" kindref="member">pessoa::getCargo</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="64"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a32474b998586278afec16302178c2856" kindref="member">cargo</ref>;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="classpessoa_1a9fd52a51b1f987c28aa8016899beb892" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a9fd52a51b1f987c28aa8016899beb892" kindref="member">pessoa::setCargo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;value)</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpessoa_1a32474b998586278afec16302178c2856" kindref="member">cargo</ref><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="classpessoa_1ad1bad474adbfadf472ad857a7c5f181c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1ad1bad474adbfadf472ad857a7c5f181c" kindref="member">pessoa::getGrupo</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="74"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a6930db502e29734eb026e291cf534ed9" kindref="member">grupo</ref>;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="classpessoa_1abde4772449869bd2c8e5e6d280e4f9f5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1abde4772449869bd2c8e5e6d280e4f9f5" kindref="member">pessoa::setGrupo</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpessoa_1a6930db502e29734eb026e291cf534ed9" kindref="member">grupo</ref><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="classpessoa_1ae2ee70812ff092a18c24ed94eaae260b" refkind="member"><highlight class="normal"><ref refid="classpessoa_1ae2ee70812ff092a18c24ed94eaae260b" kindref="member">pessoa::pessoa</ref>()</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp"/>
   </compounddef>

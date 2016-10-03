@@ -3,6 +3,99 @@
   <compounddef id="classm__raci" kind="class" language="C++" prot="public">
     <compoundname>m_raci</compoundname>
     <includes refid="m__raci_8h" local="no">m_raci.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classm__raci_1a18634517b488667cdfac4def838f6c50" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int m_raci::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="10" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classm__raci_1a000fbf5b25a69d3a83607870bf2178c5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_raci::R</definition>
+        <argsstring></argsstring>
+        <name>R</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classm__raci_1a08e76a7ddcbfa4cfca185bea80637f07" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_raci::A</definition>
+        <argsstring></argsstring>
+        <name>A</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="12" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classm__raci_1aa67ba794feeccbb741b211f91f5b97a7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_raci::C</definition>
+        <argsstring></argsstring>
+        <name>C</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="13" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classm__raci_1a3a0fcbd2da71ba87a4103246b2f15c22" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool m_raci::I</definition>
+        <argsstring></argsstring>
+        <name>I</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="14" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classm__raci_1af393bf6041d9e77edbbda0bcaff47c62" prot="private" static="no" mutable="no">
+        <type><ref refid="classpessoa" kindref="compound">pessoa</ref></type>
+        <definition>pessoa m_raci::pess</definition>
+        <argsstring></argsstring>
+        <name>pess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classm__raci_1ab22d2e4a2d1083dff58eb7808e559516" prot="private" static="no" mutable="no">
+        <type><ref refid="classchamado" kindref="compound">chamado</ref></type>
+        <definition>chamado m_raci::cham</definition>
+        <argsstring></argsstring>
+        <name>cham</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classm__raci_1a71d7d00d85715a7716ad487c1b125eb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -15,16 +108,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="8" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp" bodystart="3" bodyend="6"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="18" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp" bodystart="3" bodyend="6"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="6" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" bodystart="5" bodyend="9"/>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="8" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" bodystart="7" bodyend="19"/>
     <listofallmembers>
+      <member refid="classm__raci_1a08e76a7ddcbfa4cfca185bea80637f07" prot="private" virt="non-virtual"><scope>m_raci</scope><name>A</name></member>
+      <member refid="classm__raci_1aa67ba794feeccbb741b211f91f5b97a7" prot="private" virt="non-virtual"><scope>m_raci</scope><name>C</name></member>
+      <member refid="classm__raci_1ab22d2e4a2d1083dff58eb7808e559516" prot="private" virt="non-virtual"><scope>m_raci</scope><name>cham</name></member>
+      <member refid="classm__raci_1a3a0fcbd2da71ba87a4103246b2f15c22" prot="private" virt="non-virtual"><scope>m_raci</scope><name>I</name></member>
+      <member refid="classm__raci_1a18634517b488667cdfac4def838f6c50" prot="private" virt="non-virtual"><scope>m_raci</scope><name>id</name></member>
       <member refid="classm__raci_1a71d7d00d85715a7716ad487c1b125eb7" prot="public" virt="non-virtual"><scope>m_raci</scope><name>m_raci</name></member>
+      <member refid="classm__raci_1af393bf6041d9e77edbbda0bcaff47c62" prot="private" virt="non-virtual"><scope>m_raci</scope><name>pess</name></member>
+      <member refid="classm__raci_1a000fbf5b25a69d3a83607870bf2178c5" prot="private" virt="non-virtual"><scope>m_raci</scope><name>R</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

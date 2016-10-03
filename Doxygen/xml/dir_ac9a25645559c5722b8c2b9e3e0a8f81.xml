@@ -36,6 +36,8 @@
     <innerfile refid="selecionaequip_8h">selecionaequip.h</innerfile>
     <innerfile refid="status_8cpp">status.cpp</innerfile>
     <innerfile refid="status_8h">status.h</innerfile>
+    <innerfile refid="tipod_8cpp">tipod.cpp</innerfile>
+    <innerfile refid="tipod_8h">tipod.h</innerfile>
     <innerfile refid="tipodisp_8cpp">tipodisp.cpp</innerfile>
     <innerfile refid="tipodisp_8h">tipodisp.h</innerfile>
     <briefdescription>

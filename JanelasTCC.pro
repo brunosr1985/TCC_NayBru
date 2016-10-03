@@ -27,7 +27,8 @@ SOURCES += main.cpp\
     dispositivo.cpp \
     chamado.cpp \
     status.cpp \
-    m_raci.cpp
+    m_raci.cpp \
+    tipod.cpp
 
 HEADERS  += mainwindow.h \
     cadastropessoa.h \
@@ -44,7 +45,8 @@ HEADERS  += mainwindow.h \
     dispositivo.h \
     chamado.h \
     status.h \
-    m_raci.h
+    m_raci.h \
+    tipod.h
 
 FORMS    += mainwindow.ui \
     cadastropessoa.ui \

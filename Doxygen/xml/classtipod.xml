@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classtipod" kind="class" language="C++" prot="public">
+    <compoundname>tipod</compoundname>
+    <includes refid="tipod_8h" local="no">tipod.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtipod_1a1b68cb5428c761176b409aae1387a67d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int tipod::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipod.h" line="8" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipod.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtipod_1ad30579bbed2844973e5c7b8ff5951d69" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string tipod::tipo</definition>
+        <argsstring></argsstring>
+        <name>tipo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipod.h" line="9" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipod.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtipod_1a0b457d47915626a0b679bb8a160eca81" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float tipod::SLA</definition>
+        <argsstring></argsstring>
+        <name>SLA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipod.h" line="10" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipod.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtipod_1aea0583170290bcfd453f00cd7e916b26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tipod::tipod</definition>
+        <argsstring>()</argsstring>
+        <name>tipod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipod.h" line="14" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipod.cpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classtipod_1a8f9426cbcef23976293ae0961b382907" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int tipod::getId</definition>
+        <argsstring>() const</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipod.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipod.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classtipod_1ae3f6b8df170353ef58a862b746d3d288" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tipod::setId</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipod.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipod.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classtipod_1a2cefc9bc0bfe44e8adfba1e839b2de2e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string tipod::getTipo</definition>
+        <argsstring>() const</argsstring>
+        <name>getTipo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipod.h" line="17" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipod.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classtipod_1ac1d39aaaa40c9c88611ed6274667dadb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tipod::setTipo</definition>
+        <argsstring>(const string &amp;value)</argsstring>
+        <name>setTipo</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipod.h" line="18" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipod.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classtipod_1a19cb0132a802684607abe02c0c2b63f2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float tipod::getSLA</definition>
+        <argsstring>() const</argsstring>
+        <name>getSLA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipod.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipod.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classtipod_1ad0da4edb16cb79061875519e94b768d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tipod::setSLA</definition>
+        <argsstring>(float value)</argsstring>
+        <name>setSLA</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipod.h" line="20" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipod.cpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/tipod.h" line="6" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipod.h" bodystart="5" bodyend="21"/>
+    <listofallmembers>
+      <member refid="classtipod_1a8f9426cbcef23976293ae0961b382907" prot="public" virt="non-virtual"><scope>tipod</scope><name>getId</name></member>
+      <member refid="classtipod_1a19cb0132a802684607abe02c0c2b63f2" prot="public" virt="non-virtual"><scope>tipod</scope><name>getSLA</name></member>
+      <member refid="classtipod_1a2cefc9bc0bfe44e8adfba1e839b2de2e" prot="public" virt="non-virtual"><scope>tipod</scope><name>getTipo</name></member>
+      <member refid="classtipod_1a1b68cb5428c761176b409aae1387a67d" prot="private" virt="non-virtual"><scope>tipod</scope><name>id</name></member>
+      <member refid="classtipod_1ae3f6b8df170353ef58a862b746d3d288" prot="public" virt="non-virtual"><scope>tipod</scope><name>setId</name></member>
+      <member refid="classtipod_1ad0da4edb16cb79061875519e94b768d7" prot="public" virt="non-virtual"><scope>tipod</scope><name>setSLA</name></member>
+      <member refid="classtipod_1ac1d39aaaa40c9c88611ed6274667dadb" prot="public" virt="non-virtual"><scope>tipod</scope><name>setTipo</name></member>
+      <member refid="classtipod_1a0b457d47915626a0b679bb8a160eca81" prot="private" virt="non-virtual"><scope>tipod</scope><name>SLA</name></member>
+      <member refid="classtipod_1ad30579bbed2844973e5c7b8ff5951d69" prot="private" virt="non-virtual"><scope>tipod</scope><name>tipo</name></member>
+      <member refid="classtipod_1aea0583170290bcfd453f00cd7e916b26" prot="public" virt="non-virtual"><scope>tipod</scope><name>tipod</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

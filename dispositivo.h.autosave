@@ -1,0 +1,19 @@
+#ifndef DISPOSITIVO_H
+#define DISPOSITIVO_H
+
+#include <string>
+#include "tipod.h"
+
+
+class dispositivo
+{
+public:
+    int id;
+    string nome;
+    string local;
+    tipod tipo;
+    
+    dispositivo();
+};
+
+#endif // DISPOSITIVO_H

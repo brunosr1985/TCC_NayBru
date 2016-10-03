@@ -7,36 +7,36 @@
     <includedby refid="mainwindow_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp</includedby>
     <includedby refid="tipodisp_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/tipodisp.cpp</includedby>
     <incdepgraph>
-      <node id="289">
+      <node id="353">
         <label>QDialog</label>
       </node>
-      <node id="288">
+      <node id="352">
         <label>C:/Users/BrunoSR/TCC_NayBru/tipodisp.h</label>
         <link refid="tipodisp_8h"/>
-        <childnode refid="289" relation="include">
+        <childnode refid="353" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="292">
+      <node id="356">
         <label>C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp</label>
         <link refid="mainwindow_8cpp"/>
       </node>
-      <node id="293">
+      <node id="357">
         <label>C:/Users/BrunoSR/TCC_NayBru/tipodisp.cpp</label>
         <link refid="tipodisp_8cpp"/>
       </node>
-      <node id="290">
+      <node id="354">
         <label>C:/Users/BrunoSR/TCC_NayBru/tipodisp.h</label>
         <link refid="tipodisp_8h"/>
-        <childnode refid="291" relation="include">
+        <childnode refid="355" relation="include">
         </childnode>
-        <childnode refid="292" relation="include">
+        <childnode refid="356" relation="include">
         </childnode>
-        <childnode refid="293" relation="include">
+        <childnode refid="357" relation="include">
         </childnode>
       </node>
-      <node id="291">
+      <node id="355">
         <label>C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.cpp</label>
         <link refid="cadastrodispositivo_8cpp"/>
       </node>

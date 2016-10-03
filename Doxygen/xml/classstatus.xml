@@ -3,6 +3,47 @@
   <compounddef id="classstatus" kind="class" language="C++" prot="public">
     <compoundname>status</compoundname>
     <includes refid="status_8h" local="no">status.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classstatus_1a8782b26ac9401aea534c0b36f425df82" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int status::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="10" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstatus_1a7b19c6718ed25150b8566cecd15a8bb0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int status::id_chamado</definition>
+        <argsstring></argsstring>
+        <name>id_chamado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classstatus_1a31f6629d16ebaa7324f6be1511ac4dfe" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string status::stat</definition>
+        <argsstring></argsstring>
+        <name>stat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="12" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classstatus_1a22e483f0410490743e4970e905e5fa19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -15,15 +56,18 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="8" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.cpp" bodystart="3" bodyend="6"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="14" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.cpp" bodystart="3" bodyend="6"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="6" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.h" bodystart="5" bodyend="9"/>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="8" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.h" bodystart="7" bodyend="15"/>
     <listofallmembers>
+      <member refid="classstatus_1a8782b26ac9401aea534c0b36f425df82" prot="private" virt="non-virtual"><scope>status</scope><name>id</name></member>
+      <member refid="classstatus_1a7b19c6718ed25150b8566cecd15a8bb0" prot="private" virt="non-virtual"><scope>status</scope><name>id_chamado</name></member>
+      <member refid="classstatus_1a31f6629d16ebaa7324f6be1511ac4dfe" prot="private" virt="non-virtual"><scope>status</scope><name>stat</name></member>
       <member refid="classstatus_1a22e483f0410490743e4970e905e5fa19" prot="public" virt="non-virtual"><scope>status</scope><name>status</name></member>
     </listofallmembers>
   </compounddef>
