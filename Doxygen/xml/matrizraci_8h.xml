@@ -16,40 +16,36 @@
     <includedby refid="cadastrochamado_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp</includedby>
     <includedby refid="matrizraci_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/matrizraci.cpp</includedby>
     <incdepgraph>
-      <node id="254">
+      <node id="256">
         <label>QtSql/QSqlQuery</label>
       </node>
-      <node id="255">
+      <node id="257">
         <label>QtSql/QSqlTableModel</label>
       </node>
-      <node id="259">
+      <node id="261">
         <label>QtCore</label>
       </node>
-      <node id="256">
+      <node id="258">
         <label>QSqlDatabase</label>
       </node>
-      <node id="253">
+      <node id="255">
         <label>QtSql/QSqlQueryModel</label>
       </node>
-      <node id="257">
+      <node id="259">
         <label>QDebug</label>
       </node>
-      <node id="251">
+      <node id="253">
         <label>QWidget</label>
       </node>
-      <node id="261">
+      <node id="263">
         <label>QSqlError</label>
       </node>
-      <node id="258">
+      <node id="260">
         <label>QSql</label>
       </node>
-      <node id="250">
+      <node id="252">
         <label>C:/Users/BrunoSR/TCC_NayBru/matrizraci.h</label>
         <link refid="matrizraci_8h"/>
-        <childnode refid="251" relation="include">
-        </childnode>
-        <childnode refid="252" relation="include">
-        </childnode>
         <childnode refid="253" relation="include">
         </childnode>
         <childnode refid="254" relation="include">
@@ -68,34 +64,38 @@
         </childnode>
         <childnode refid="261" relation="include">
         </childnode>
+        <childnode refid="262" relation="include">
+        </childnode>
+        <childnode refid="263" relation="include">
+        </childnode>
       </node>
-      <node id="252">
+      <node id="254">
         <label>QTableView</label>
       </node>
-      <node id="260">
+      <node id="262">
         <label>QtGui</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="264">
+      <node id="266">
         <label>C:/Users/BrunoSR/TCC_NayBru/matrizraci.cpp</label>
         <link refid="matrizraci_8cpp"/>
       </node>
-      <node id="263">
+      <node id="265">
         <label>C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp</label>
         <link refid="cadastrochamado_8cpp"/>
       </node>
-      <node id="262">
+      <node id="264">
         <label>C:/Users/BrunoSR/TCC_NayBru/matrizraci.h</label>
         <link refid="matrizraci_8h"/>
-        <childnode refid="263" relation="include">
+        <childnode refid="265" relation="include">
         </childnode>
-        <childnode refid="264" relation="include">
+        <childnode refid="266" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
-    <innerclass refid="classmatriz_r_a_c_i" prot="public">matrizRACI</innerclass>
-    <innernamespace refid="namespace_ui">Ui</innernamespace>
+    <innerclass refid="classmatrizRACI" prot="public">matrizRACI</innerclass>
+    <innernamespace refid="namespaceUi">Ui</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -116,24 +116,24 @@
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtGui&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSqlError&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ui" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmatriz_r_a_c_i" kindref="compound">matrizRACI</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceUi" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmatrizRACI" kindref="compound">matrizRACI</ref>;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="classmatriz_r_a_c_i" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmatriz_r_a_c_i" kindref="compound">matrizRACI</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QWidget</highlight></codeline>
+<codeline lineno="20" refid="classmatrizRACI" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmatrizRACI" kindref="compound">matrizRACI</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QWidget</highlight></codeline>
 <codeline lineno="21"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classmatriz_r_a_c_i" kindref="compound">matrizRACI</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classmatriz_r_a_c_i" kindref="compound">matrizRACI</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classmatrizRACI" kindref="compound">matrizRACI</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classmatrizRACI" kindref="compound">matrizRACI</ref>();</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_raciCarregar_clicked();</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::matrizRACI<sp/>*ui;</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlTableModel<sp/>*modelo;</highlight></codeline>
+<codeline lineno="32" refid="classmatrizRACI_1a5a7d2a46e48e4d2e172d0ccd2e0ae2cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::matrizRACI<sp/>*<ref refid="classmatrizRACI_1a5a7d2a46e48e4d2e172d0ccd2e0ae2cf" kindref="member">ui</ref>;</highlight></codeline>
+<codeline lineno="33" refid="classmatrizRACI_1aa84bf8af7dd24c32e14576e1ee9c4454" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlTableModel<sp/>*<ref refid="classmatrizRACI_1aa84bf8af7dd24c32e14576e1ee9c4454" kindref="member">modelo</ref>;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>MATRIZRACI_H</highlight></codeline>

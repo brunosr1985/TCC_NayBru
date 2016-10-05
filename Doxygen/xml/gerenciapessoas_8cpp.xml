@@ -47,21 +47,21 @@
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_gerenciapessoas.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cadastropessoa_8h" kindref="compound">cadastropessoa.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5" refid="classgerencia_pessoas_1a245ab3e4006fcdd3ec9a89815e1c60c1" refkind="member"><highlight class="normal"><ref refid="classgerencia_pessoas_1a245ab3e4006fcdd3ec9a89815e1c60c1" kindref="member">gerenciaPessoas::gerenciaPessoas</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="5" refid="classgerenciaPessoas_1a245ab3e4006fcdd3ec9a89815e1c60c1" refkind="member"><highlight class="normal"><ref refid="classgerenciaPessoas_1a245ab3e4006fcdd3ec9a89815e1c60c1" kindref="member">gerenciaPessoas::gerenciaPessoas</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>QDialog(parent),</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespace_ui" kindref="compound">Ui</ref>::<ref refid="classgerencia_pessoas" kindref="compound">gerenciaPessoas</ref>)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classgerenciaPessoas" kindref="compound">gerenciaPessoas</ref>)</highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="10"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="classgerencia_pessoas_1a85f9272a309472903bf5b2ad0950973c" refkind="member"><highlight class="normal"><ref refid="classgerencia_pessoas_1a85f9272a309472903bf5b2ad0950973c" kindref="member">gerenciaPessoas::~gerenciaPessoas</ref>()</highlight></codeline>
+<codeline lineno="12" refid="classgerenciaPessoas_1a85f9272a309472903bf5b2ad0950973c" refkind="member"><highlight class="normal"><ref refid="classgerenciaPessoas_1a85f9272a309472903bf5b2ad0950973c" kindref="member">gerenciaPessoas::~gerenciaPessoas</ref>()</highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>;</highlight></codeline>
 <codeline lineno="15"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>gerenciaPessoas::on_novaPessoa_clicked()</highlight></codeline>
+<codeline lineno="17" refid="classgerenciaPessoas_1a19d90661ff52549b38db8d0a53d0f638" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgerenciaPessoas_1a19d90661ff52549b38db8d0a53d0f638" kindref="member">gerenciaPessoas::on_novaPessoa_clicked</ref>()</highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_cadastropessoa" kindref="compound">Cadastropessoa</ref><sp/>*cp<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_cadastropessoa" kindref="compound">Cadastropessoa</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classCadastropessoa" kindref="compound">Cadastropessoa</ref><sp/>*cp<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classCadastropessoa" kindref="compound">Cadastropessoa</ref>();</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>cp-&gt;show();</highlight></codeline>
 <codeline lineno="21"><highlight class="normal">}</highlight></codeline>
     </programlisting>

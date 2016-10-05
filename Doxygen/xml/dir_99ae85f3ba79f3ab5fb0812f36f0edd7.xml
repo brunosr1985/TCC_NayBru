@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_99ae85f3ba79f3ab5fb0812f36f0edd7" kind="dir">
+    <compoundname>C:/Users/BrunoSR/TCC_NayBru</compoundname>
+    <innerfile refid="cadastrochamado_8cpp">cadastrochamado.cpp</innerfile>
+    <innerfile refid="cadastrochamado_8h">cadastrochamado.h</innerfile>
+    <innerfile refid="cadastrodispositivo_8cpp">cadastrodispositivo.cpp</innerfile>
+    <innerfile refid="cadastrodispositivo_8h">cadastrodispositivo.h</innerfile>
+    <innerfile refid="cadastropess_8h">cadastropess.h</innerfile>
+    <innerfile refid="cadastropessoa_8cpp">cadastropessoa.cpp</innerfile>
+    <innerfile refid="cadastropessoa_8h">cadastropessoa.h</innerfile>
+    <innerfile refid="chamado_8cpp">chamado.cpp</innerfile>
+    <innerfile refid="chamado_8h">chamado.h</innerfile>
+    <innerfile refid="dispositivo_8cpp">dispositivo.cpp</innerfile>
+    <innerfile refid="dispositivo_8h">dispositivo.h</innerfile>
+    <innerfile refid="gerenciachamados_8cpp">gerenciachamados.cpp</innerfile>
+    <innerfile refid="gerenciachamados_8h">gerenciachamados.h</innerfile>
+    <innerfile refid="gerenciadispositivo_8cpp">gerenciadispositivo.cpp</innerfile>
+    <innerfile refid="gerenciadispositivo_8h">gerenciadispositivo.h</innerfile>
+    <innerfile refid="gerenciapessoas_8cpp">gerenciapessoas.cpp</innerfile>
+    <innerfile refid="gerenciapessoas_8h">gerenciapessoas.h</innerfile>
+    <innerfile refid="grupop_8cpp">grupop.cpp</innerfile>
+    <innerfile refid="grupop_8h">grupop.h</innerfile>
+    <innerfile refid="m__raci_8cpp">m_raci.cpp</innerfile>
+    <innerfile refid="m__raci_8h">m_raci.h</innerfile>
+    <innerfile refid="main_8cpp">main.cpp</innerfile>
+    <innerfile refid="mainwindow_8cpp">mainwindow.cpp</innerfile>
+    <innerfile refid="mainwindow_8h">mainwindow.h</innerfile>
+    <innerfile refid="matrizraci_8cpp">matrizraci.cpp</innerfile>
+    <innerfile refid="matrizraci_8h">matrizraci.h</innerfile>
+    <innerfile refid="novogrupo_8cpp">novogrupo.cpp</innerfile>
+    <innerfile refid="novogrupo_8h">novogrupo.h</innerfile>
+    <innerfile refid="pessoa_8cpp">pessoa.cpp</innerfile>
+    <innerfile refid="pessoa_8h">pessoa.h</innerfile>
+    <innerfile refid="selecionadisp_8cpp">selecionadisp.cpp</innerfile>
+    <innerfile refid="selecionadisp_8h">selecionadisp.h</innerfile>
+    <innerfile refid="selecionaequip_8cpp">selecionaequip.cpp</innerfile>
+    <innerfile refid="selecionaequip_8h">selecionaequip.h</innerfile>
+    <innerfile refid="status_8cpp">status.cpp</innerfile>
+    <innerfile refid="status_8h">status.h</innerfile>
+    <innerfile refid="tipod_8cpp">tipod.cpp</innerfile>
+    <innerfile refid="tipod_8h">tipod.h</innerfile>
+    <innerfile refid="tipodisp_8cpp">tipodisp.cpp</innerfile>
+    <innerfile refid="tipodisp_8h">tipodisp.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/"/>
+  </compounddef>
+</doxygen>

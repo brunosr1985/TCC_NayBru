@@ -1,6 +1,7 @@
 #ifndef GRUPOP_H
 #define GRUPOP_H
 
+#include <QString>
 
 class GrupoP
 {

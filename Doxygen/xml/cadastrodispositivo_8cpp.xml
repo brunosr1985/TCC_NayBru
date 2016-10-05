@@ -49,24 +49,24 @@
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5" refid="classcadastrodispositivo_1a759ec481f21cb002c55d5ca50e8cdf9c" refkind="member"><highlight class="normal"><ref refid="classcadastrodispositivo_1a759ec481f21cb002c55d5ca50e8cdf9c" kindref="member">cadastrodispositivo::cadastrodispositivo</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget(parent),</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespace_ui" kindref="compound">Ui</ref>::<ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref>)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref>)</highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classcadastrodispositivo_1a01b67037a472db99a897b27e80273d17" kindref="member">ui</ref>-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="10"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12" refid="classcadastrodispositivo_1a21c4cb426f58445706d55dbce57f4aa0" refkind="member"><highlight class="normal"><ref refid="classcadastrodispositivo_1a21c4cb426f58445706d55dbce57f4aa0" kindref="member">cadastrodispositivo::~cadastrodispositivo</ref>()</highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classcadastrodispositivo_1a01b67037a472db99a897b27e80273d17" kindref="member">ui</ref>;</highlight></codeline>
 <codeline lineno="15"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>cadastrodispositivo::on_pushButton_3_clicked()</highlight></codeline>
+<codeline lineno="17" refid="classcadastrodispositivo_1ae37a506685243fa3c6cccccf4d83da49" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcadastrodispositivo_1ae37a506685243fa3c6cccccf4d83da49" kindref="member">cadastrodispositivo::on_pushButton_3_clicked</ref>()</highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;close();</highlight></codeline>
 <codeline lineno="20"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>cadastrodispositivo::on_pushButton_4_clicked()</highlight></codeline>
+<codeline lineno="22" refid="classcadastrodispositivo_1a6b64063bde112a3e4985e7a007e30a13" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcadastrodispositivo_1a6b64063bde112a3e4985e7a007e30a13" kindref="member">cadastrodispositivo::on_pushButton_4_clicked</ref>()</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtipo_disp" kindref="compound">tipoDisp</ref><sp/>*td<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classtipo_disp" kindref="compound">tipoDisp</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtipoDisp" kindref="compound">tipoDisp</ref><sp/>*td<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classtipoDisp" kindref="compound">tipoDisp</ref>();</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>td-&gt;show();</highlight></codeline>
 <codeline lineno="26"><highlight class="normal">}</highlight></codeline>
     </programlisting>

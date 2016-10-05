@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
-  <compounddef id="classdispositivo" kind="class" language="C++" prot="public">
-    <compoundname>dispositivo</compoundname>
-    <includes refid="dispositivo_8h" local="no">dispositivo.h</includes>
+  <compounddef id="classDispositivo" kind="class" language="C++" prot="public">
+    <compoundname>Dispositivo</compoundname>
+    <includes refid="dispositivo_8h" local="yes">dispositivo.h</includes>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classdispositivo_1abc6573a08a020471a30b8fc3582a86cb" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classDispositivo_1a9ed6e1aa610907334a553ca041801494" prot="private" static="no" mutable="no">
         <type>int</type>
-        <definition>int dispositivo::id</definition>
+        <definition>int Dispositivo::id</definition>
         <argsstring></argsstring>
         <name>id</name>
         <briefdescription>
@@ -15,11 +15,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" bodystart="11" bodyend="-1"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="14" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" bodystart="14" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classdispositivo_1ac28424812286cfcafe8964773a3a29cd" prot="private" static="no" mutable="no">
-        <type>string</type>
-        <definition>string dispositivo::nome</definition>
+      <memberdef kind="variable" id="classDispositivo_1a56a574ad1b5f59b645f5df0c5184c076" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Dispositivo::nome</definition>
         <argsstring></argsstring>
         <name>nome</name>
         <briefdescription>
@@ -28,11 +28,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="12" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" bodystart="12" bodyend="-1"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" bodystart="15" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classdispositivo_1a21345a9fe9f496b8cceab82980b81b95" prot="private" static="no" mutable="no">
-        <type>string</type>
-        <definition>string dispositivo::local</definition>
+      <memberdef kind="variable" id="classDispositivo_1ab98eceda3de0f86d4dd5f9922dc446f1" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Dispositivo::local</definition>
         <argsstring></argsstring>
         <name>local</name>
         <briefdescription>
@@ -41,11 +41,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="13" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" bodystart="13" bodyend="-1"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" bodystart="16" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classdispositivo_1aaf1cc92f5881b0873eb01aa1cfd7ef4e" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classDispositivo_1a083be7be08baecbf49dd4215397713cc" prot="private" static="no" mutable="no">
         <type><ref refid="classtipod" kindref="compound">tipod</ref></type>
-        <definition>tipod dispositivo::tipo</definition>
+        <definition>tipod Dispositivo::tipo</definition>
         <argsstring></argsstring>
         <name>tipo</name>
         <briefdescription>
@@ -54,26 +54,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="14" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" bodystart="14" bodyend="-1"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="17" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="classdispositivo_1aa6a6c3140271f71ff41cec06b7296e66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classDispositivo_1a08b3611c10447a1519d7ebb72f47e30d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
-        <definition>dispositivo::dispositivo</definition>
+        <definition>Dispositivo::Dispositivo</definition>
         <argsstring>()</argsstring>
-        <name>dispositivo</name>
+        <name>Dispositivo</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="18" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp" bodystart="43" bodyend="46"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="21" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp" bodystart="43" bodyend="46"/>
       </memberdef>
-      <memberdef kind="function" id="classdispositivo_1a067622c9fc2f0fc431f59593dd083848" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classDispositivo_1a4d470c1481fd167db94e6be4f08a259c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
-        <definition>int dispositivo::getId</definition>
+        <definition>int Dispositivo::getId</definition>
         <argsstring>() const</argsstring>
         <name>getId</name>
         <briefdescription>
@@ -82,11 +82,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp" bodystart="3" bodyend="6"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="22" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp" bodystart="3" bodyend="6"/>
       </memberdef>
-      <memberdef kind="function" id="classdispositivo_1a1cf6775652391e4ace63b9613295faa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classDispositivo_1a186a8fdf627e6e9326a196fa7ad59846" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void dispositivo::setId</definition>
+        <definition>void Dispositivo::setId</definition>
         <argsstring>(int value)</argsstring>
         <name>setId</name>
         <param>
@@ -99,11 +99,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="20" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp" bodystart="8" bodyend="11"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="23" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp" bodystart="8" bodyend="11"/>
       </memberdef>
-      <memberdef kind="function" id="classdispositivo_1a1157605bedafd71756b5cfcb7fced335" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>string</type>
-        <definition>string dispositivo::getNome</definition>
+      <memberdef kind="function" id="classDispositivo_1a463552b0487176c52c477d7951287b4b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Dispositivo::getNome</definition>
         <argsstring>() const</argsstring>
         <name>getNome</name>
         <briefdescription>
@@ -112,15 +112,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="21" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp" bodystart="13" bodyend="16"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="24" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp" bodystart="13" bodyend="16"/>
       </memberdef>
-      <memberdef kind="function" id="classdispositivo_1a1d57090d304269e4fc75695bcdce1d30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classDispositivo_1a8bafe761c02216dd6bc7465eb4ff0064" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void dispositivo::setNome</definition>
-        <argsstring>(const string &amp;value)</argsstring>
+        <definition>void Dispositivo::setNome</definition>
+        <argsstring>(const QString &amp;value)</argsstring>
         <name>setNome</name>
         <param>
-          <type>const string &amp;</type>
+          <type>const QString &amp;</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -129,11 +129,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="22" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp" bodystart="18" bodyend="21"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="25" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp" bodystart="18" bodyend="21"/>
       </memberdef>
-      <memberdef kind="function" id="classdispositivo_1a0847829a4ec7d11882f1bd55e0849672" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>string</type>
-        <definition>string dispositivo::getLocal</definition>
+      <memberdef kind="function" id="classDispositivo_1a29327cf38f2c0b021e1197f12d02bf9c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Dispositivo::getLocal</definition>
         <argsstring>() const</argsstring>
         <name>getLocal</name>
         <briefdescription>
@@ -142,15 +142,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="23" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp" bodystart="23" bodyend="26"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="26" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp" bodystart="23" bodyend="26"/>
       </memberdef>
-      <memberdef kind="function" id="classdispositivo_1aea13deb655b82642c809d925d1460926" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classDispositivo_1a033c98bd8e7be483677b06ead506fe9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void dispositivo::setLocal</definition>
-        <argsstring>(const string &amp;value)</argsstring>
+        <definition>void Dispositivo::setLocal</definition>
+        <argsstring>(const QString &amp;value)</argsstring>
         <name>setLocal</name>
         <param>
-          <type>const string &amp;</type>
+          <type>const QString &amp;</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -159,11 +159,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="24" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp" bodystart="28" bodyend="31"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="27" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp" bodystart="28" bodyend="31"/>
       </memberdef>
-      <memberdef kind="function" id="classdispositivo_1a8fc01fa7c51737dd1995fd63d3fcd0d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classDispositivo_1a0242efd1a66cffb9e979432e941d68ca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classtipod" kindref="compound">tipod</ref></type>
-        <definition>tipod dispositivo::getTipo</definition>
+        <definition>tipod Dispositivo::getTipo</definition>
         <argsstring>() const</argsstring>
         <name>getTipo</name>
         <briefdescription>
@@ -172,11 +172,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="25" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp" bodystart="33" bodyend="36"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="28" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp" bodystart="33" bodyend="36"/>
       </memberdef>
-      <memberdef kind="function" id="classdispositivo_1a4789a0c9d01d1a80eb1e947044a72fd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classDispositivo_1ada239ce7b043c5ae4d426cf4f1d0cf8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void dispositivo::setTipo</definition>
+        <definition>void Dispositivo::setTipo</definition>
         <argsstring>(const tipod &amp;value)</argsstring>
         <name>setTipo</name>
         <param>
@@ -189,28 +189,41 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="26" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp" bodystart="38" bodyend="41"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="29" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp" bodystart="38" bodyend="41"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="9" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" bodystart="8" bodyend="27"/>
+    <collaborationgraph>
+      <node id="21">
+        <label>Dispositivo</label>
+        <link refid="classDispositivo"/>
+        <childnode refid="22" relation="usage">
+          <edgelabel>-tipo</edgelabel>
+        </childnode>
+      </node>
+      <node id="22">
+        <label>tipod</label>
+        <link refid="classtipod"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" line="12" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/dispositivo.h" bodystart="11" bodyend="30"/>
     <listofallmembers>
-      <member refid="classdispositivo_1aa6a6c3140271f71ff41cec06b7296e66" prot="public" virt="non-virtual"><scope>dispositivo</scope><name>dispositivo</name></member>
-      <member refid="classdispositivo_1a067622c9fc2f0fc431f59593dd083848" prot="public" virt="non-virtual"><scope>dispositivo</scope><name>getId</name></member>
-      <member refid="classdispositivo_1a0847829a4ec7d11882f1bd55e0849672" prot="public" virt="non-virtual"><scope>dispositivo</scope><name>getLocal</name></member>
-      <member refid="classdispositivo_1a1157605bedafd71756b5cfcb7fced335" prot="public" virt="non-virtual"><scope>dispositivo</scope><name>getNome</name></member>
-      <member refid="classdispositivo_1a8fc01fa7c51737dd1995fd63d3fcd0d2" prot="public" virt="non-virtual"><scope>dispositivo</scope><name>getTipo</name></member>
-      <member refid="classdispositivo_1abc6573a08a020471a30b8fc3582a86cb" prot="private" virt="non-virtual"><scope>dispositivo</scope><name>id</name></member>
-      <member refid="classdispositivo_1a21345a9fe9f496b8cceab82980b81b95" prot="private" virt="non-virtual"><scope>dispositivo</scope><name>local</name></member>
-      <member refid="classdispositivo_1ac28424812286cfcafe8964773a3a29cd" prot="private" virt="non-virtual"><scope>dispositivo</scope><name>nome</name></member>
-      <member refid="classdispositivo_1a1cf6775652391e4ace63b9613295faa6" prot="public" virt="non-virtual"><scope>dispositivo</scope><name>setId</name></member>
-      <member refid="classdispositivo_1aea13deb655b82642c809d925d1460926" prot="public" virt="non-virtual"><scope>dispositivo</scope><name>setLocal</name></member>
-      <member refid="classdispositivo_1a1d57090d304269e4fc75695bcdce1d30" prot="public" virt="non-virtual"><scope>dispositivo</scope><name>setNome</name></member>
-      <member refid="classdispositivo_1a4789a0c9d01d1a80eb1e947044a72fd7" prot="public" virt="non-virtual"><scope>dispositivo</scope><name>setTipo</name></member>
-      <member refid="classdispositivo_1aaf1cc92f5881b0873eb01aa1cfd7ef4e" prot="private" virt="non-virtual"><scope>dispositivo</scope><name>tipo</name></member>
+      <member refid="classDispositivo_1a08b3611c10447a1519d7ebb72f47e30d" prot="public" virt="non-virtual"><scope>Dispositivo</scope><name>Dispositivo</name></member>
+      <member refid="classDispositivo_1a4d470c1481fd167db94e6be4f08a259c" prot="public" virt="non-virtual"><scope>Dispositivo</scope><name>getId</name></member>
+      <member refid="classDispositivo_1a29327cf38f2c0b021e1197f12d02bf9c" prot="public" virt="non-virtual"><scope>Dispositivo</scope><name>getLocal</name></member>
+      <member refid="classDispositivo_1a463552b0487176c52c477d7951287b4b" prot="public" virt="non-virtual"><scope>Dispositivo</scope><name>getNome</name></member>
+      <member refid="classDispositivo_1a0242efd1a66cffb9e979432e941d68ca" prot="public" virt="non-virtual"><scope>Dispositivo</scope><name>getTipo</name></member>
+      <member refid="classDispositivo_1a9ed6e1aa610907334a553ca041801494" prot="private" virt="non-virtual"><scope>Dispositivo</scope><name>id</name></member>
+      <member refid="classDispositivo_1ab98eceda3de0f86d4dd5f9922dc446f1" prot="private" virt="non-virtual"><scope>Dispositivo</scope><name>local</name></member>
+      <member refid="classDispositivo_1a56a574ad1b5f59b645f5df0c5184c076" prot="private" virt="non-virtual"><scope>Dispositivo</scope><name>nome</name></member>
+      <member refid="classDispositivo_1a186a8fdf627e6e9326a196fa7ad59846" prot="public" virt="non-virtual"><scope>Dispositivo</scope><name>setId</name></member>
+      <member refid="classDispositivo_1a033c98bd8e7be483677b06ead506fe9d" prot="public" virt="non-virtual"><scope>Dispositivo</scope><name>setLocal</name></member>
+      <member refid="classDispositivo_1a8bafe761c02216dd6bc7465eb4ff0064" prot="public" virt="non-virtual"><scope>Dispositivo</scope><name>setNome</name></member>
+      <member refid="classDispositivo_1ada239ce7b043c5ae4d426cf4f1d0cf8f" prot="public" virt="non-virtual"><scope>Dispositivo</scope><name>setTipo</name></member>
+      <member refid="classDispositivo_1a083be7be08baecbf49dd4215397713cc" prot="private" virt="non-virtual"><scope>Dispositivo</scope><name>tipo</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

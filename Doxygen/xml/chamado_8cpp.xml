@@ -51,6 +51,8 @@
       <node id="72">
         <label>grupop.h</label>
         <link refid="grupop_8h"/>
+        <childnode refid="67" relation="include">
+        </childnode>
       </node>
       <node id="67">
         <label>QString</label>
@@ -77,97 +79,97 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="chamado_8h" kindref="compound">chamado.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3" refid="class_chamado_1af8c3890123d55faf3a9adc2a274daaf2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_chamado_1af8c3890123d55faf3a9adc2a274daaf2" kindref="member">Chamado::getId</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="3" refid="classChamado_1af8c3890123d55faf3a9adc2a274daaf2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classChamado_1af8c3890123d55faf3a9adc2a274daaf2" kindref="member">Chamado::getId</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="4"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>id;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classChamado_1a769e962bb6d2cd3efaea3a8a2d7dbbd0" kindref="member">id</ref>;</highlight></codeline>
 <codeline lineno="6"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8" refid="class_chamado_1ad9d1c6ef5c44c56921711fa96ae27277" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_chamado_1ad9d1c6ef5c44c56921711fa96ae27277" kindref="member">Chamado::setId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="8" refid="classChamado_1ad9d1c6ef5c44c56921711fa96ae27277" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classChamado_1ad9d1c6ef5c44c56921711fa96ae27277" kindref="member">Chamado::setId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
 <codeline lineno="9"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>value;</highlight></codeline>
 <codeline lineno="11"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="class_chamado_1a99eef2190042baefb398806d35372edd" refkind="member"><highlight class="normal"><ref refid="class_m_raci" kindref="compound">MRaci</ref><sp/><ref refid="class_chamado_1a99eef2190042baefb398806d35372edd" kindref="member">Chamado::getMatriz_r</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="13" refid="classChamado_1a99eef2190042baefb398806d35372edd" refkind="member"><highlight class="normal"><ref refid="classMRaci" kindref="compound">MRaci</ref><sp/><ref refid="classChamado_1a99eef2190042baefb398806d35372edd" kindref="member">Chamado::getMatriz_r</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="14"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>matriz_r;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classChamado_1abfb8f29266fb106ab452c9e8fd08f9a1" kindref="member">matriz_r</ref>;</highlight></codeline>
 <codeline lineno="16"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="class_chamado_1a5f8f04ee1b58b3bbb46f8ba6a9c22342" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_chamado_1a5f8f04ee1b58b3bbb46f8ba6a9c22342" kindref="member">Chamado::setMatriz_r</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_m_raci" kindref="compound">MRaci</ref><sp/>&amp;value)</highlight></codeline>
+<codeline lineno="18" refid="classChamado_1a5f8f04ee1b58b3bbb46f8ba6a9c22342" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classChamado_1a5f8f04ee1b58b3bbb46f8ba6a9c22342" kindref="member">Chamado::setMatriz_r</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMRaci" kindref="compound">MRaci</ref><sp/>&amp;value)</highlight></codeline>
 <codeline lineno="19"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>matriz_r<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classChamado_1abfb8f29266fb106ab452c9e8fd08f9a1" kindref="member">matriz_r</ref><sp/>=<sp/>value;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="class_chamado_1a1388c89d1f5ae80b7cfac8106c48dbc9" refkind="member"><highlight class="normal"><ref refid="class_dispositivo" kindref="compound">Dispositivo</ref><sp/><ref refid="class_chamado_1a1388c89d1f5ae80b7cfac8106c48dbc9" kindref="member">Chamado::getDisp</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="23" refid="classChamado_1a1388c89d1f5ae80b7cfac8106c48dbc9" refkind="member"><highlight class="normal"><ref refid="classDispositivo" kindref="compound">Dispositivo</ref><sp/><ref refid="classChamado_1a1388c89d1f5ae80b7cfac8106c48dbc9" kindref="member">Chamado::getDisp</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="24"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>disp;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classChamado_1a91e861ea629e99daa5ea78c8dea5929b" kindref="member">disp</ref>;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="class_chamado_1aedfd2171f66178c80462e0477b49a0f0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_chamado_1aedfd2171f66178c80462e0477b49a0f0" kindref="member">Chamado::setDisp</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_dispositivo" kindref="compound">Dispositivo</ref><sp/>&amp;value)</highlight></codeline>
+<codeline lineno="28" refid="classChamado_1aedfd2171f66178c80462e0477b49a0f0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classChamado_1aedfd2171f66178c80462e0477b49a0f0" kindref="member">Chamado::setDisp</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classDispositivo" kindref="compound">Dispositivo</ref><sp/>&amp;value)</highlight></codeline>
 <codeline lineno="29"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>disp<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classChamado_1a91e861ea629e99daa5ea78c8dea5929b" kindref="member">disp</ref><sp/>=<sp/>value;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="class_chamado_1abbe9ba6e55ea448b02e9c091369c1d2a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_chamado_1abbe9ba6e55ea448b02e9c091369c1d2a" kindref="member">Chamado::getTempo</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="33" refid="classChamado_1abbe9ba6e55ea448b02e9c091369c1d2a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classChamado_1abbe9ba6e55ea448b02e9c091369c1d2a" kindref="member">Chamado::getTempo</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="34"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tempo;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classChamado_1a06d09977651f1f8b53d67e282c11b479" kindref="member">tempo</ref>;</highlight></codeline>
 <codeline lineno="36"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="class_chamado_1a918eb6053797974911821b777695b0c2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_chamado_1a918eb6053797974911821b777695b0c2" kindref="member">Chamado::setTempo</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="38" refid="classChamado_1a918eb6053797974911821b777695b0c2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classChamado_1a918eb6053797974911821b777695b0c2" kindref="member">Chamado::setTempo</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
 <codeline lineno="39"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>tempo<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classChamado_1a06d09977651f1f8b53d67e282c11b479" kindref="member">tempo</ref><sp/>=<sp/>value;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="class_chamado_1aa3f9a0756cd55a435fcbec3419a328dc" refkind="member"><highlight class="normal"><ref refid="class_status" kindref="compound">Status</ref><sp/><ref refid="class_chamado_1aa3f9a0756cd55a435fcbec3419a328dc" kindref="member">Chamado::getStat</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="43" refid="classChamado_1aa3f9a0756cd55a435fcbec3419a328dc" refkind="member"><highlight class="normal"><ref refid="classStatus" kindref="compound">Status</ref><sp/><ref refid="classChamado_1aa3f9a0756cd55a435fcbec3419a328dc" kindref="member">Chamado::getStat</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="44"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>stat;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classChamado_1a31138f12bb01a02013cc4ecbf513420f" kindref="member">stat</ref>;</highlight></codeline>
 <codeline lineno="46"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="class_chamado_1a8a695ce190dcd9acf05e8b7880579fec" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_chamado_1a8a695ce190dcd9acf05e8b7880579fec" kindref="member">Chamado::setStat</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_status" kindref="compound">Status</ref><sp/>&amp;value)</highlight></codeline>
+<codeline lineno="48" refid="classChamado_1a8a695ce190dcd9acf05e8b7880579fec" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classChamado_1a8a695ce190dcd9acf05e8b7880579fec" kindref="member">Chamado::setStat</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classStatus" kindref="compound">Status</ref><sp/>&amp;value)</highlight></codeline>
 <codeline lineno="49"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>stat<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classChamado_1a31138f12bb01a02013cc4ecbf513420f" kindref="member">stat</ref><sp/>=<sp/>value;</highlight></codeline>
 <codeline lineno="51"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="class_chamado_1ad481bcca8ee859304d67728bff772b10" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_chamado_1ad481bcca8ee859304d67728bff772b10" kindref="member">Chamado::getReincidente</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="53" refid="classChamado_1ad481bcca8ee859304d67728bff772b10" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classChamado_1ad481bcca8ee859304d67728bff772b10" kindref="member">Chamado::getReincidente</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="54"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>reincidente;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classChamado_1a83b8c80e772947d6e21ccb3403c8ef5e" kindref="member">reincidente</ref>;</highlight></codeline>
 <codeline lineno="56"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="class_chamado_1a0abb993bda04f1bd32ed474abf06d0ad" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_chamado_1a0abb993bda04f1bd32ed474abf06d0ad" kindref="member">Chamado::setReincidente</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="58" refid="classChamado_1a0abb993bda04f1bd32ed474abf06d0ad" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classChamado_1a0abb993bda04f1bd32ed474abf06d0ad" kindref="member">Chamado::setReincidente</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
 <codeline lineno="59"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>reincidente<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classChamado_1a83b8c80e772947d6e21ccb3403c8ef5e" kindref="member">reincidente</ref><sp/>=<sp/>value;</highlight></codeline>
 <codeline lineno="61"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="class_chamado_1a58fd1c5cf9693ccc2ebacc9e7b984de0" refkind="member"><highlight class="normal">QString<sp/><ref refid="class_chamado_1a58fd1c5cf9693ccc2ebacc9e7b984de0" kindref="member">Chamado::getHora_abertura</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="63" refid="classChamado_1a58fd1c5cf9693ccc2ebacc9e7b984de0" refkind="member"><highlight class="normal">QString<sp/><ref refid="classChamado_1a58fd1c5cf9693ccc2ebacc9e7b984de0" kindref="member">Chamado::getHora_abertura</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="64"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>hora_abertura;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classChamado_1a05615e7745ddb767b4545ef2928e100e" kindref="member">hora_abertura</ref>;</highlight></codeline>
 <codeline lineno="66"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="class_chamado_1a2513e3474003230bee760aeb28da8188" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_chamado_1a2513e3474003230bee760aeb28da8188" kindref="member">Chamado::setHora_abertura</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value)</highlight></codeline>
+<codeline lineno="68" refid="classChamado_1a2513e3474003230bee760aeb28da8188" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classChamado_1a2513e3474003230bee760aeb28da8188" kindref="member">Chamado::setHora_abertura</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value)</highlight></codeline>
 <codeline lineno="69"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>hora_abertura<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classChamado_1a05615e7745ddb767b4545ef2928e100e" kindref="member">hora_abertura</ref><sp/>=<sp/>value;</highlight></codeline>
 <codeline lineno="71"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="class_chamado_1a8d6f16bed156bb8241d1068ebe962483" refkind="member"><highlight class="normal">QString<sp/><ref refid="class_chamado_1a8d6f16bed156bb8241d1068ebe962483" kindref="member">Chamado::getHora_fechamento</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="73" refid="classChamado_1a8d6f16bed156bb8241d1068ebe962483" refkind="member"><highlight class="normal">QString<sp/><ref refid="classChamado_1a8d6f16bed156bb8241d1068ebe962483" kindref="member">Chamado::getHora_fechamento</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="74"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>hora_fechamento;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classChamado_1af77af562703419eb17c282c369112088" kindref="member">hora_fechamento</ref>;</highlight></codeline>
 <codeline lineno="76"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="class_chamado_1a4517fc2b385ef3ed227289c3444a0208" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_chamado_1a4517fc2b385ef3ed227289c3444a0208" kindref="member">Chamado::setHora_fechamento</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value)</highlight></codeline>
+<codeline lineno="78" refid="classChamado_1a4517fc2b385ef3ed227289c3444a0208" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classChamado_1a4517fc2b385ef3ed227289c3444a0208" kindref="member">Chamado::setHora_fechamento</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value)</highlight></codeline>
 <codeline lineno="79"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>hora_fechamento<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classChamado_1af77af562703419eb17c282c369112088" kindref="member">hora_fechamento</ref><sp/>=<sp/>value;</highlight></codeline>
 <codeline lineno="81"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="class_chamado_1aa7aeb5e538449b9a71271756d7b39d43" refkind="member"><highlight class="normal">QString<sp/><ref refid="class_chamado_1aa7aeb5e538449b9a71271756d7b39d43" kindref="member">Chamado::getDescricao</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="83" refid="classChamado_1aa7aeb5e538449b9a71271756d7b39d43" refkind="member"><highlight class="normal">QString<sp/><ref refid="classChamado_1aa7aeb5e538449b9a71271756d7b39d43" kindref="member">Chamado::getDescricao</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="84"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>descricao;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classChamado_1a0c05ef9b233451ddc05d9351c9bd11c9" kindref="member">descricao</ref>;</highlight></codeline>
 <codeline lineno="86"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="class_chamado_1a970a71741ec450c40c48eb4babd2fec3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_chamado_1a970a71741ec450c40c48eb4babd2fec3" kindref="member">Chamado::setDescricao</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value)</highlight></codeline>
+<codeline lineno="88" refid="classChamado_1a970a71741ec450c40c48eb4babd2fec3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classChamado_1a970a71741ec450c40c48eb4babd2fec3" kindref="member">Chamado::setDescricao</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value)</highlight></codeline>
 <codeline lineno="89"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>descricao<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classChamado_1a0c05ef9b233451ddc05d9351c9bd11c9" kindref="member">descricao</ref><sp/>=<sp/>value;</highlight></codeline>
 <codeline lineno="91"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="class_chamado_1aeca5f123901cef6b33104291dc3b2fc0" refkind="member"><highlight class="normal"><ref refid="class_chamado_1aeca5f123901cef6b33104291dc3b2fc0" kindref="member">Chamado::Chamado</ref>()</highlight></codeline>
+<codeline lineno="93" refid="classChamado_1aeca5f123901cef6b33104291dc3b2fc0" refkind="member"><highlight class="normal"><ref refid="classChamado_1aeca5f123901cef6b33104291dc3b2fc0" kindref="member">Chamado::Chamado</ref>()</highlight></codeline>
 <codeline lineno="94"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="96"><highlight class="normal">}</highlight></codeline>

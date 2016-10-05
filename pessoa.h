@@ -32,8 +32,8 @@ public:
     void setDepto(const QString &value);
     QString getCargo() const;
     void setCargo(const QString &value);
-    int getGrupo() const;
-    void setGrupo(int value);
+    GrupoP getGrupo() const;
+    void setGrupo(const GrupoP &value);
 };
 
 #endif // PESSOA_H

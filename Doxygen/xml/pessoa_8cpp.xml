@@ -4,25 +4,27 @@
     <compoundname>pessoa.cpp</compoundname>
     <includes refid="pessoa_8h" local="yes">pessoa.h</includes>
     <incdepgraph>
-      <node id="278">
+      <node id="280">
         <label>grupop.h</label>
         <link refid="grupop_8h"/>
+        <childnode refid="281" relation="include">
+        </childnode>
       </node>
-      <node id="279">
+      <node id="281">
         <label>QString</label>
       </node>
-      <node id="276">
+      <node id="278">
         <label>C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp</label>
         <link refid="pessoa_8cpp"/>
-        <childnode refid="277" relation="include">
+        <childnode refid="279" relation="include">
         </childnode>
       </node>
-      <node id="277">
+      <node id="279">
         <label>pessoa.h</label>
         <link refid="pessoa_8h"/>
-        <childnode refid="278" relation="include">
+        <childnode refid="280" relation="include">
         </childnode>
-        <childnode refid="279" relation="include">
+        <childnode refid="281" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -103,12 +105,12 @@
 <codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpessoa_1af788a2b8720c8368236afc3875a9fb75" kindref="member">cargo</ref><sp/>=<sp/>value;</highlight></codeline>
 <codeline lineno="71"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="classpessoa_1ad1bad474adbfadf472ad857a7c5f181c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1ad1bad474adbfadf472ad857a7c5f181c" kindref="member">pessoa::getGrupo</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="73" refid="classpessoa_1a30e6b4bc46405512f083205e83a123e0" refkind="member"><highlight class="normal"><ref refid="classGrupoP" kindref="compound">GrupoP</ref><sp/><ref refid="classpessoa_1a30e6b4bc46405512f083205e83a123e0" kindref="member">pessoa::getGrupo</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="74"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a1cc497f533336ea9451cf321d355afed" kindref="member">grupo</ref>;</highlight></codeline>
 <codeline lineno="76"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="classpessoa_1abde4772449869bd2c8e5e6d280e4f9f5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1abde4772449869bd2c8e5e6d280e4f9f5" kindref="member">pessoa::setGrupo</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="78" refid="classpessoa_1a6d5ee1ef25af3e07366b093af99ebd50" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a6d5ee1ef25af3e07366b093af99ebd50" kindref="member">pessoa::setGrupo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classGrupoP" kindref="compound">GrupoP</ref><sp/>&amp;value)</highlight></codeline>
 <codeline lineno="79"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpessoa_1a1cc497f533336ea9451cf321d355afed" kindref="member">grupo</ref><sp/>=<sp/>value;</highlight></codeline>
 <codeline lineno="81"><highlight class="normal">}</highlight></codeline>

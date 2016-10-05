@@ -112,19 +112,19 @@
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_gerenciachamados.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cadastrochamado_8h" kindref="compound">cadastrochamado.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5" refid="classgerencia_chamados_1a07839f849e9582ce8e695de48b4b0ebb" refkind="member"><highlight class="normal"><ref refid="classgerencia_chamados_1a07839f849e9582ce8e695de48b4b0ebb" kindref="member">gerenciaChamados::gerenciaChamados</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="5" refid="classgerenciaChamados_1a07839f849e9582ce8e695de48b4b0ebb" refkind="member"><highlight class="normal"><ref refid="classgerenciaChamados_1a07839f849e9582ce8e695de48b4b0ebb" kindref="member">gerenciaChamados::gerenciaChamados</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>QDialog(parent),</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespace_ui" kindref="compound">Ui</ref>::<ref refid="classgerencia_chamados" kindref="compound">gerenciaChamados</ref>)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classgerenciaChamados" kindref="compound">gerenciaChamados</ref>)</highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaChamados_1a750fb9f2e072fb1f5bfe276550e82c7d" kindref="member">ui</ref>-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="10"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="classgerencia_chamados_1a393bdaec21bc5e91a03c4d4b02925682" refkind="member"><highlight class="normal"><ref refid="classgerencia_chamados_1a393bdaec21bc5e91a03c4d4b02925682" kindref="member">gerenciaChamados::~gerenciaChamados</ref>()</highlight></codeline>
+<codeline lineno="12" refid="classgerenciaChamados_1a393bdaec21bc5e91a03c4d4b02925682" refkind="member"><highlight class="normal"><ref refid="classgerenciaChamados_1a393bdaec21bc5e91a03c4d4b02925682" kindref="member">gerenciaChamados::~gerenciaChamados</ref>()</highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classgerenciaChamados_1a750fb9f2e072fb1f5bfe276550e82c7d" kindref="member">ui</ref>;</highlight></codeline>
 <codeline lineno="15"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>gerenciaChamados::on_novoChamado_clicked()</highlight></codeline>
+<codeline lineno="17" refid="classgerenciaChamados_1a8c221694a99ede8953a8de0c37627b55" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgerenciaChamados_1a8c221694a99ede8953a8de0c37627b55" kindref="member">gerenciaChamados::on_novoChamado_clicked</ref>()</highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classcadastrochamado" kindref="compound">cadastrochamado</ref><sp/>*novoC<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classcadastrochamado" kindref="compound">cadastrochamado</ref>();</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>novoC-&gt;show();</highlight></codeline>

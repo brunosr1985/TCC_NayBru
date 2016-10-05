@@ -16,119 +16,131 @@
     <member refid="classcadastrodispositivo_1ae37a506685243fa3c6cccccf4d83da49" kind="slot"><name>on_pushButton_3_clicked</name></member>
     <member refid="classcadastrodispositivo_1a6b64063bde112a3e4985e7a007e30a13" kind="slot"><name>on_pushButton_4_clicked</name></member>
   </compound>
-  <compound refid="class_cadastropessoa" kind="class"><name>Cadastropessoa</name>
-    <member refid="class_cadastropessoa_1adee936267da377428b49e6c5f6a98403" kind="variable"><name>ui</name></member>
-    <member refid="class_cadastropessoa_1a706230f399727160a6fd25592f77da12" kind="function"><name>Cadastropessoa</name></member>
-    <member refid="class_cadastropessoa_1a19e6b26d15f77eb6844e67b1246661cf" kind="function"><name>~Cadastropessoa</name></member>
-    <member refid="class_cadastropessoa_1ad6cdadecd30df81d41df6a267855e012" kind="slot"><name>on_Novo_Grupo_clicked</name></member>
+  <compound refid="classCadastropessoa" kind="class"><name>Cadastropessoa</name>
+    <member refid="classCadastropessoa_1adee936267da377428b49e6c5f6a98403" kind="variable"><name>ui</name></member>
+    <member refid="classCadastropessoa_1a706230f399727160a6fd25592f77da12" kind="function"><name>Cadastropessoa</name></member>
+    <member refid="classCadastropessoa_1a19e6b26d15f77eb6844e67b1246661cf" kind="function"><name>~Cadastropessoa</name></member>
+    <member refid="classCadastropessoa_1ad6cdadecd30df81d41df6a267855e012" kind="slot"><name>on_Novo_Grupo_clicked</name></member>
   </compound>
-  <compound refid="class_chamado" kind="class"><name>Chamado</name>
-    <member refid="class_chamado_1a769e962bb6d2cd3efaea3a8a2d7dbbd0" kind="variable"><name>id</name></member>
-    <member refid="class_chamado_1abfb8f29266fb106ab452c9e8fd08f9a1" kind="variable"><name>matriz_r</name></member>
-    <member refid="class_chamado_1a91e861ea629e99daa5ea78c8dea5929b" kind="variable"><name>disp</name></member>
-    <member refid="class_chamado_1a06d09977651f1f8b53d67e282c11b479" kind="variable"><name>tempo</name></member>
-    <member refid="class_chamado_1a31138f12bb01a02013cc4ecbf513420f" kind="variable"><name>stat</name></member>
-    <member refid="class_chamado_1a83b8c80e772947d6e21ccb3403c8ef5e" kind="variable"><name>reincidente</name></member>
-    <member refid="class_chamado_1a05615e7745ddb767b4545ef2928e100e" kind="variable"><name>hora_abertura</name></member>
-    <member refid="class_chamado_1af77af562703419eb17c282c369112088" kind="variable"><name>hora_fechamento</name></member>
-    <member refid="class_chamado_1a0c05ef9b233451ddc05d9351c9bd11c9" kind="variable"><name>descricao</name></member>
-    <member refid="class_chamado_1aeca5f123901cef6b33104291dc3b2fc0" kind="function"><name>Chamado</name></member>
-    <member refid="class_chamado_1af8c3890123d55faf3a9adc2a274daaf2" kind="function"><name>getId</name></member>
-    <member refid="class_chamado_1ad9d1c6ef5c44c56921711fa96ae27277" kind="function"><name>setId</name></member>
-    <member refid="class_chamado_1a99eef2190042baefb398806d35372edd" kind="function"><name>getMatriz_r</name></member>
-    <member refid="class_chamado_1a5f8f04ee1b58b3bbb46f8ba6a9c22342" kind="function"><name>setMatriz_r</name></member>
-    <member refid="class_chamado_1a1388c89d1f5ae80b7cfac8106c48dbc9" kind="function"><name>getDisp</name></member>
-    <member refid="class_chamado_1aedfd2171f66178c80462e0477b49a0f0" kind="function"><name>setDisp</name></member>
-    <member refid="class_chamado_1abbe9ba6e55ea448b02e9c091369c1d2a" kind="function"><name>getTempo</name></member>
-    <member refid="class_chamado_1a918eb6053797974911821b777695b0c2" kind="function"><name>setTempo</name></member>
-    <member refid="class_chamado_1aa3f9a0756cd55a435fcbec3419a328dc" kind="function"><name>getStat</name></member>
-    <member refid="class_chamado_1a8a695ce190dcd9acf05e8b7880579fec" kind="function"><name>setStat</name></member>
-    <member refid="class_chamado_1ad481bcca8ee859304d67728bff772b10" kind="function"><name>getReincidente</name></member>
-    <member refid="class_chamado_1a0abb993bda04f1bd32ed474abf06d0ad" kind="function"><name>setReincidente</name></member>
-    <member refid="class_chamado_1a58fd1c5cf9693ccc2ebacc9e7b984de0" kind="function"><name>getHora_abertura</name></member>
-    <member refid="class_chamado_1a2513e3474003230bee760aeb28da8188" kind="function"><name>setHora_abertura</name></member>
-    <member refid="class_chamado_1a8d6f16bed156bb8241d1068ebe962483" kind="function"><name>getHora_fechamento</name></member>
-    <member refid="class_chamado_1a4517fc2b385ef3ed227289c3444a0208" kind="function"><name>setHora_fechamento</name></member>
-    <member refid="class_chamado_1aa7aeb5e538449b9a71271756d7b39d43" kind="function"><name>getDescricao</name></member>
-    <member refid="class_chamado_1a970a71741ec450c40c48eb4babd2fec3" kind="function"><name>setDescricao</name></member>
+  <compound refid="classChamado" kind="class"><name>Chamado</name>
+    <member refid="classChamado_1a769e962bb6d2cd3efaea3a8a2d7dbbd0" kind="variable"><name>id</name></member>
+    <member refid="classChamado_1abfb8f29266fb106ab452c9e8fd08f9a1" kind="variable"><name>matriz_r</name></member>
+    <member refid="classChamado_1a91e861ea629e99daa5ea78c8dea5929b" kind="variable"><name>disp</name></member>
+    <member refid="classChamado_1a06d09977651f1f8b53d67e282c11b479" kind="variable"><name>tempo</name></member>
+    <member refid="classChamado_1a31138f12bb01a02013cc4ecbf513420f" kind="variable"><name>stat</name></member>
+    <member refid="classChamado_1a83b8c80e772947d6e21ccb3403c8ef5e" kind="variable"><name>reincidente</name></member>
+    <member refid="classChamado_1a05615e7745ddb767b4545ef2928e100e" kind="variable"><name>hora_abertura</name></member>
+    <member refid="classChamado_1af77af562703419eb17c282c369112088" kind="variable"><name>hora_fechamento</name></member>
+    <member refid="classChamado_1a0c05ef9b233451ddc05d9351c9bd11c9" kind="variable"><name>descricao</name></member>
+    <member refid="classChamado_1aeca5f123901cef6b33104291dc3b2fc0" kind="function"><name>Chamado</name></member>
+    <member refid="classChamado_1af8c3890123d55faf3a9adc2a274daaf2" kind="function"><name>getId</name></member>
+    <member refid="classChamado_1ad9d1c6ef5c44c56921711fa96ae27277" kind="function"><name>setId</name></member>
+    <member refid="classChamado_1a99eef2190042baefb398806d35372edd" kind="function"><name>getMatriz_r</name></member>
+    <member refid="classChamado_1a5f8f04ee1b58b3bbb46f8ba6a9c22342" kind="function"><name>setMatriz_r</name></member>
+    <member refid="classChamado_1a1388c89d1f5ae80b7cfac8106c48dbc9" kind="function"><name>getDisp</name></member>
+    <member refid="classChamado_1aedfd2171f66178c80462e0477b49a0f0" kind="function"><name>setDisp</name></member>
+    <member refid="classChamado_1abbe9ba6e55ea448b02e9c091369c1d2a" kind="function"><name>getTempo</name></member>
+    <member refid="classChamado_1a918eb6053797974911821b777695b0c2" kind="function"><name>setTempo</name></member>
+    <member refid="classChamado_1aa3f9a0756cd55a435fcbec3419a328dc" kind="function"><name>getStat</name></member>
+    <member refid="classChamado_1a8a695ce190dcd9acf05e8b7880579fec" kind="function"><name>setStat</name></member>
+    <member refid="classChamado_1ad481bcca8ee859304d67728bff772b10" kind="function"><name>getReincidente</name></member>
+    <member refid="classChamado_1a0abb993bda04f1bd32ed474abf06d0ad" kind="function"><name>setReincidente</name></member>
+    <member refid="classChamado_1a58fd1c5cf9693ccc2ebacc9e7b984de0" kind="function"><name>getHora_abertura</name></member>
+    <member refid="classChamado_1a2513e3474003230bee760aeb28da8188" kind="function"><name>setHora_abertura</name></member>
+    <member refid="classChamado_1a8d6f16bed156bb8241d1068ebe962483" kind="function"><name>getHora_fechamento</name></member>
+    <member refid="classChamado_1a4517fc2b385ef3ed227289c3444a0208" kind="function"><name>setHora_fechamento</name></member>
+    <member refid="classChamado_1aa7aeb5e538449b9a71271756d7b39d43" kind="function"><name>getDescricao</name></member>
+    <member refid="classChamado_1a970a71741ec450c40c48eb4babd2fec3" kind="function"><name>setDescricao</name></member>
   </compound>
-  <compound refid="class_dispositivo" kind="class"><name>Dispositivo</name>
-    <member refid="class_dispositivo_1a9ed6e1aa610907334a553ca041801494" kind="variable"><name>id</name></member>
-    <member refid="class_dispositivo_1a56a574ad1b5f59b645f5df0c5184c076" kind="variable"><name>nome</name></member>
-    <member refid="class_dispositivo_1ab98eceda3de0f86d4dd5f9922dc446f1" kind="variable"><name>local</name></member>
-    <member refid="class_dispositivo_1a083be7be08baecbf49dd4215397713cc" kind="variable"><name>tipo</name></member>
-    <member refid="class_dispositivo_1a08b3611c10447a1519d7ebb72f47e30d" kind="function"><name>Dispositivo</name></member>
-    <member refid="class_dispositivo_1a4d470c1481fd167db94e6be4f08a259c" kind="function"><name>getId</name></member>
-    <member refid="class_dispositivo_1a186a8fdf627e6e9326a196fa7ad59846" kind="function"><name>setId</name></member>
-    <member refid="class_dispositivo_1a463552b0487176c52c477d7951287b4b" kind="function"><name>getNome</name></member>
-    <member refid="class_dispositivo_1a8bafe761c02216dd6bc7465eb4ff0064" kind="function"><name>setNome</name></member>
-    <member refid="class_dispositivo_1a29327cf38f2c0b021e1197f12d02bf9c" kind="function"><name>getLocal</name></member>
-    <member refid="class_dispositivo_1a033c98bd8e7be483677b06ead506fe9d" kind="function"><name>setLocal</name></member>
-    <member refid="class_dispositivo_1a0242efd1a66cffb9e979432e941d68ca" kind="function"><name>getTipo</name></member>
-    <member refid="class_dispositivo_1ada239ce7b043c5ae4d426cf4f1d0cf8f" kind="function"><name>setTipo</name></member>
+  <compound refid="classDispositivo" kind="class"><name>Dispositivo</name>
+    <member refid="classDispositivo_1a9ed6e1aa610907334a553ca041801494" kind="variable"><name>id</name></member>
+    <member refid="classDispositivo_1a56a574ad1b5f59b645f5df0c5184c076" kind="variable"><name>nome</name></member>
+    <member refid="classDispositivo_1ab98eceda3de0f86d4dd5f9922dc446f1" kind="variable"><name>local</name></member>
+    <member refid="classDispositivo_1a083be7be08baecbf49dd4215397713cc" kind="variable"><name>tipo</name></member>
+    <member refid="classDispositivo_1a08b3611c10447a1519d7ebb72f47e30d" kind="function"><name>Dispositivo</name></member>
+    <member refid="classDispositivo_1a4d470c1481fd167db94e6be4f08a259c" kind="function"><name>getId</name></member>
+    <member refid="classDispositivo_1a186a8fdf627e6e9326a196fa7ad59846" kind="function"><name>setId</name></member>
+    <member refid="classDispositivo_1a463552b0487176c52c477d7951287b4b" kind="function"><name>getNome</name></member>
+    <member refid="classDispositivo_1a8bafe761c02216dd6bc7465eb4ff0064" kind="function"><name>setNome</name></member>
+    <member refid="classDispositivo_1a29327cf38f2c0b021e1197f12d02bf9c" kind="function"><name>getLocal</name></member>
+    <member refid="classDispositivo_1a033c98bd8e7be483677b06ead506fe9d" kind="function"><name>setLocal</name></member>
+    <member refid="classDispositivo_1a0242efd1a66cffb9e979432e941d68ca" kind="function"><name>getTipo</name></member>
+    <member refid="classDispositivo_1ada239ce7b043c5ae4d426cf4f1d0cf8f" kind="function"><name>setTipo</name></member>
   </compound>
-  <compound refid="classgerencia_chamados" kind="class"><name>gerenciaChamados</name>
-    <member refid="classgerencia_chamados_1a750fb9f2e072fb1f5bfe276550e82c7d" kind="variable"><name>ui</name></member>
-    <member refid="classgerencia_chamados_1a07839f849e9582ce8e695de48b4b0ebb" kind="function"><name>gerenciaChamados</name></member>
-    <member refid="classgerencia_chamados_1a393bdaec21bc5e91a03c4d4b02925682" kind="function"><name>~gerenciaChamados</name></member>
-    <member refid="classgerencia_chamados_1a8c221694a99ede8953a8de0c37627b55" kind="slot"><name>on_novoChamado_clicked</name></member>
+  <compound refid="classgerenciaChamados" kind="class"><name>gerenciaChamados</name>
+    <member refid="classgerenciaChamados_1a750fb9f2e072fb1f5bfe276550e82c7d" kind="variable"><name>ui</name></member>
+    <member refid="classgerenciaChamados_1a07839f849e9582ce8e695de48b4b0ebb" kind="function"><name>gerenciaChamados</name></member>
+    <member refid="classgerenciaChamados_1a393bdaec21bc5e91a03c4d4b02925682" kind="function"><name>~gerenciaChamados</name></member>
+    <member refid="classgerenciaChamados_1a8c221694a99ede8953a8de0c37627b55" kind="slot"><name>on_novoChamado_clicked</name></member>
   </compound>
-  <compound refid="classgerencia_dispositivo" kind="class"><name>gerenciaDispositivo</name>
-    <member refid="classgerencia_dispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kind="variable"><name>ui</name></member>
-    <member refid="classgerencia_dispositivo_1a245e771cf0d5c9e2929e0829d57bf97b" kind="function"><name>gerenciaDispositivo</name></member>
-    <member refid="classgerencia_dispositivo_1a3dcef9c3f95ad6be653920a0952b8a0a" kind="function"><name>~gerenciaDispositivo</name></member>
-    <member refid="classgerencia_dispositivo_1ab7c595e355777a5c336cc9fedace9d1b" kind="slot"><name>on_novoDIsp_clicked</name></member>
+  <compound refid="classgerenciaDispositivo" kind="class"><name>gerenciaDispositivo</name>
+    <member refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kind="variable"><name>ui</name></member>
+    <member refid="classgerenciaDispositivo_1a245e771cf0d5c9e2929e0829d57bf97b" kind="function"><name>gerenciaDispositivo</name></member>
+    <member refid="classgerenciaDispositivo_1a3dcef9c3f95ad6be653920a0952b8a0a" kind="function"><name>~gerenciaDispositivo</name></member>
+    <member refid="classgerenciaDispositivo_1ab7c595e355777a5c336cc9fedace9d1b" kind="slot"><name>on_novoDIsp_clicked</name></member>
   </compound>
-  <compound refid="classgerencia_pessoas" kind="class"><name>gerenciaPessoas</name>
-    <member refid="classgerencia_pessoas_1aea53154e1834e414a195804b7d0b6e7b" kind="variable"><name>ui</name></member>
-    <member refid="classgerencia_pessoas_1a245ab3e4006fcdd3ec9a89815e1c60c1" kind="function"><name>gerenciaPessoas</name></member>
-    <member refid="classgerencia_pessoas_1a85f9272a309472903bf5b2ad0950973c" kind="function"><name>~gerenciaPessoas</name></member>
-    <member refid="classgerencia_pessoas_1a19d90661ff52549b38db8d0a53d0f638" kind="slot"><name>on_novaPessoa_clicked</name></member>
+  <compound refid="classgerenciaPessoas" kind="class"><name>gerenciaPessoas</name>
+    <member refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kind="variable"><name>ui</name></member>
+    <member refid="classgerenciaPessoas_1a245ab3e4006fcdd3ec9a89815e1c60c1" kind="function"><name>gerenciaPessoas</name></member>
+    <member refid="classgerenciaPessoas_1a85f9272a309472903bf5b2ad0950973c" kind="function"><name>~gerenciaPessoas</name></member>
+    <member refid="classgerenciaPessoas_1a19d90661ff52549b38db8d0a53d0f638" kind="slot"><name>on_novaPessoa_clicked</name></member>
   </compound>
-  <compound refid="class_grupo_p" kind="class"><name>GrupoP</name>
-    <member refid="class_grupo_p_1a52a44d3d593545fe36e8ad7faf2eb4b1" kind="variable"><name>id</name></member>
-    <member refid="class_grupo_p_1aacc97177556f1e6afdaee58daa2bb880" kind="variable"><name>nome</name></member>
-    <member refid="class_grupo_p_1aac812d0b4a0c443b7d7e36c00f60d23e" kind="function"><name>GrupoP</name></member>
-    <member refid="class_grupo_p_1a3c72988138413046461c510b97ef7605" kind="function"><name>getId</name></member>
-    <member refid="class_grupo_p_1a540f8d78b7468b26b647485cc72fd7ca" kind="function"><name>setId</name></member>
-    <member refid="class_grupo_p_1ac3b0a8d64e082b45a7d362c69d934cd7" kind="function"><name>getNome</name></member>
-    <member refid="class_grupo_p_1af747750583e09cf0a1cfe756bacf97bc" kind="function"><name>setNome</name></member>
+  <compound refid="classGrupoP" kind="class"><name>GrupoP</name>
+    <member refid="classGrupoP_1a52a44d3d593545fe36e8ad7faf2eb4b1" kind="variable"><name>id</name></member>
+    <member refid="classGrupoP_1aacc97177556f1e6afdaee58daa2bb880" kind="variable"><name>nome</name></member>
+    <member refid="classGrupoP_1aac812d0b4a0c443b7d7e36c00f60d23e" kind="function"><name>GrupoP</name></member>
+    <member refid="classGrupoP_1a3c72988138413046461c510b97ef7605" kind="function"><name>getId</name></member>
+    <member refid="classGrupoP_1a540f8d78b7468b26b647485cc72fd7ca" kind="function"><name>setId</name></member>
+    <member refid="classGrupoP_1ac3b0a8d64e082b45a7d362c69d934cd7" kind="function"><name>getNome</name></member>
+    <member refid="classGrupoP_1af747750583e09cf0a1cfe756bacf97bc" kind="function"><name>setNome</name></member>
   </compound>
-  <compound refid="class_main_window" kind="class"><name>MainWindow</name>
-    <member refid="class_main_window_1a35466a70ed47252a0191168126a352a5" kind="variable"><name>ui</name></member>
-    <member refid="class_main_window_1ace399ef4d5b35fc09b1c497a6b89c548" kind="variable"><name>modelo</name></member>
-    <member refid="class_main_window_1ac4551c72b3aedfdeaa2e2c18fb6ecaa4" kind="variable"><name>query</name></member>
-    <member refid="class_main_window_1a8b244be8b7b7db1b08de2a2acb9409db" kind="function"><name>MainWindow</name></member>
-    <member refid="class_main_window_1ae98d00a93bc118200eeef9f9bba1dba7" kind="function"><name>~MainWindow</name></member>
-    <member refid="class_main_window_1ac3987416965f985c8d44c8adc1e42add" kind="slot"><name>on_actionPessoas_x_Chamados_triggered</name></member>
-    <member refid="class_main_window_1ae982429a38d1d6d4430693322357e716" kind="slot"><name>on_actionChamados_2_triggered</name></member>
-    <member refid="class_main_window_1a8540f34e55fcacf375edb2421c390044" kind="slot"><name>on_actionPessoas_x_Qtde_Chamados_triggered</name></member>
-    <member refid="class_main_window_1ac107347073b88880dac081fd745fd619" kind="slot"><name>on_actionChamados_triggered</name></member>
-    <member refid="class_main_window_1acb1d694a8b177feec62407a0848dba95" kind="slot"><name>on_actionDispositivos_triggered</name></member>
-    <member refid="class_main_window_1a1db8061a9d0e4dd91f7a065e8782ad99" kind="slot"><name>on_actionPessoas_triggered</name></member>
-    <member refid="class_main_window_1a1266444211ea57fed22838649b3285e5" kind="slot"><name>on_actionNovo_Grupo_de_Pessoas_triggered</name></member>
-    <member refid="class_main_window_1af7736d52ad806d0da7eae9c325f4d694" kind="slot"><name>on_actionNovo_Tipo_de_Dispositivo_triggered</name></member>
+  <compound refid="classMainWindow" kind="class"><name>MainWindow</name>
+    <member refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" kind="variable"><name>ui</name></member>
+    <member refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kind="variable"><name>modelo</name></member>
+    <member refid="classMainWindow_1ac4551c72b3aedfdeaa2e2c18fb6ecaa4" kind="variable"><name>query</name></member>
+    <member refid="classMainWindow_1a8b244be8b7b7db1b08de2a2acb9409db" kind="function"><name>MainWindow</name></member>
+    <member refid="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" kind="function"><name>~MainWindow</name></member>
+    <member refid="classMainWindow_1ac3987416965f985c8d44c8adc1e42add" kind="slot"><name>on_actionPessoas_x_Chamados_triggered</name></member>
+    <member refid="classMainWindow_1ae982429a38d1d6d4430693322357e716" kind="slot"><name>on_actionChamados_2_triggered</name></member>
+    <member refid="classMainWindow_1a8540f34e55fcacf375edb2421c390044" kind="slot"><name>on_actionPessoas_x_Qtde_Chamados_triggered</name></member>
+    <member refid="classMainWindow_1ac107347073b88880dac081fd745fd619" kind="slot"><name>on_actionChamados_triggered</name></member>
+    <member refid="classMainWindow_1acb1d694a8b177feec62407a0848dba95" kind="slot"><name>on_actionDispositivos_triggered</name></member>
+    <member refid="classMainWindow_1a1db8061a9d0e4dd91f7a065e8782ad99" kind="slot"><name>on_actionPessoas_triggered</name></member>
+    <member refid="classMainWindow_1a1266444211ea57fed22838649b3285e5" kind="slot"><name>on_actionNovo_Grupo_de_Pessoas_triggered</name></member>
+    <member refid="classMainWindow_1af7736d52ad806d0da7eae9c325f4d694" kind="slot"><name>on_actionNovo_Tipo_de_Dispositivo_triggered</name></member>
   </compound>
-  <compound refid="classmatriz_r_a_c_i" kind="class"><name>matrizRACI</name>
-    <member refid="classmatriz_r_a_c_i_1a5a7d2a46e48e4d2e172d0ccd2e0ae2cf" kind="variable"><name>ui</name></member>
-    <member refid="classmatriz_r_a_c_i_1aa84bf8af7dd24c32e14576e1ee9c4454" kind="variable"><name>modelo</name></member>
-    <member refid="classmatriz_r_a_c_i_1ae380d9647713f9dc8c4dbc275f69a672" kind="function"><name>matrizRACI</name></member>
-    <member refid="classmatriz_r_a_c_i_1acf5d48703954736fe205c918333950a0" kind="function"><name>~matrizRACI</name></member>
-    <member refid="classmatriz_r_a_c_i_1a25457f6fa5d1df55d4ffb0dab8e24b5f" kind="slot"><name>on_raciCarregar_clicked</name></member>
+  <compound refid="classmatrizRACI" kind="class"><name>matrizRACI</name>
+    <member refid="classmatrizRACI_1a5a7d2a46e48e4d2e172d0ccd2e0ae2cf" kind="variable"><name>ui</name></member>
+    <member refid="classmatrizRACI_1aa84bf8af7dd24c32e14576e1ee9c4454" kind="variable"><name>modelo</name></member>
+    <member refid="classmatrizRACI_1ae380d9647713f9dc8c4dbc275f69a672" kind="function"><name>matrizRACI</name></member>
+    <member refid="classmatrizRACI_1acf5d48703954736fe205c918333950a0" kind="function"><name>~matrizRACI</name></member>
+    <member refid="classmatrizRACI_1a25457f6fa5d1df55d4ffb0dab8e24b5f" kind="slot"><name>on_raciCarregar_clicked</name></member>
   </compound>
-  <compound refid="class_m_raci" kind="class"><name>MRaci</name>
-    <member refid="class_m_raci_1a40d4d91f9ef6b39320afbe565e463eff" kind="variable"><name>id</name></member>
-    <member refid="class_m_raci_1acd15929ffdaf5b16f74c20a248a5d818" kind="variable"><name>R</name></member>
-    <member refid="class_m_raci_1ac94babea9b056a67581823dcc5aeaa87" kind="variable"><name>A</name></member>
-    <member refid="class_m_raci_1af57f74b9a5bfe84536b4a11450b90f3f" kind="variable"><name>C</name></member>
-    <member refid="class_m_raci_1a3581c51dd79dbd995de307c018fb21a8" kind="variable"><name>I</name></member>
-    <member refid="class_m_raci_1a8b5d41088ff6e79884541092e43f7e07" kind="variable"><name>pess</name></member>
-    <member refid="class_m_raci_1a62c738f5cf78b52066d235d7d159afe8" kind="function"><name>MRaci</name></member>
+  <compound refid="classMRaci" kind="class"><name>MRaci</name>
+    <member refid="classMRaci_1a40d4d91f9ef6b39320afbe565e463eff" kind="variable"><name>id</name></member>
+    <member refid="classMRaci_1acd15929ffdaf5b16f74c20a248a5d818" kind="variable"><name>R</name></member>
+    <member refid="classMRaci_1ac94babea9b056a67581823dcc5aeaa87" kind="variable"><name>A</name></member>
+    <member refid="classMRaci_1af57f74b9a5bfe84536b4a11450b90f3f" kind="variable"><name>C</name></member>
+    <member refid="classMRaci_1a3581c51dd79dbd995de307c018fb21a8" kind="variable"><name>I</name></member>
+    <member refid="classMRaci_1a8b5d41088ff6e79884541092e43f7e07" kind="variable"><name>pess</name></member>
+    <member refid="classMRaci_1a62c738f5cf78b52066d235d7d159afe8" kind="function"><name>MRaci</name></member>
+    <member refid="classMRaci_1af257de76f5b51ffd7aef32df190b4539" kind="function"><name>getId</name></member>
+    <member refid="classMRaci_1a5d41e168ae4d2eb42870c5111c5ced66" kind="function"><name>setId</name></member>
+    <member refid="classMRaci_1ac4dcf216793abb93e10e565acdc3ad9b" kind="function"><name>getR</name></member>
+    <member refid="classMRaci_1a24d39e1a619e1636fe764d1fc1fec557" kind="function"><name>setR</name></member>
+    <member refid="classMRaci_1a1d5eac204c97254d14c95e0dfa5d5d60" kind="function"><name>getA</name></member>
+    <member refid="classMRaci_1ac54730e0687cae31a3bd45727ce674ab" kind="function"><name>setA</name></member>
+    <member refid="classMRaci_1aedc01e2a415e47516e205d20b75aa35a" kind="function"><name>getC</name></member>
+    <member refid="classMRaci_1ad7b3c1d332bf913e97251ea978f495e9" kind="function"><name>setC</name></member>
+    <member refid="classMRaci_1a32166d245eb76ba5ac5af3d7944dc5a2" kind="function"><name>getI</name></member>
+    <member refid="classMRaci_1a9d2f32c2ac580027e68d28d6cd6206f4" kind="function"><name>setI</name></member>
+    <member refid="classMRaci_1ad0dfc80d18e27a9f1608323d684787cb" kind="function"><name>getPess</name></member>
+    <member refid="classMRaci_1a1ddb3f56c84e1c1dc05076c90d14b48d" kind="function"><name>setPess</name></member>
   </compound>
-  <compound refid="classnovo_grupo" kind="class"><name>novoGrupo</name>
-    <member refid="classnovo_grupo_1aafa50a9f60961cd22b3eb71a06043d46" kind="variable"><name>ui</name></member>
-    <member refid="classnovo_grupo_1a2e343a019db9fe74eea1809e833a8517" kind="function"><name>novoGrupo</name></member>
-    <member refid="classnovo_grupo_1a561957c27e43bc56cc595a37db18aa33" kind="function"><name>~novoGrupo</name></member>
+  <compound refid="classnovoGrupo" kind="class"><name>novoGrupo</name>
+    <member refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kind="variable"><name>ui</name></member>
+    <member refid="classnovoGrupo_1a2e343a019db9fe74eea1809e833a8517" kind="function"><name>novoGrupo</name></member>
+    <member refid="classnovoGrupo_1a561957c27e43bc56cc595a37db18aa33" kind="function"><name>~novoGrupo</name></member>
   </compound>
   <compound refid="classpessoa" kind="class"><name>pessoa</name>
     <member refid="classpessoa_1a8e80bd7d70d7d29b248ef5ec77720b5b" kind="variable"><name>id</name></member>
@@ -154,8 +166,8 @@
     <member refid="classpessoa_1a4a32656512ade652bec82a5c749ad7d1" kind="function"><name>setDepto</name></member>
     <member refid="classpessoa_1a07fe59858c0c8ff2d3bb6bc3879de6b3" kind="function"><name>getCargo</name></member>
     <member refid="classpessoa_1a1a6ebf59740db53d42fbac357f6219b5" kind="function"><name>setCargo</name></member>
-    <member refid="classpessoa_1ad1bad474adbfadf472ad857a7c5f181c" kind="function"><name>getGrupo</name></member>
-    <member refid="classpessoa_1abde4772449869bd2c8e5e6d280e4f9f5" kind="function"><name>setGrupo</name></member>
+    <member refid="classpessoa_1a30e6b4bc46405512f083205e83a123e0" kind="function"><name>getGrupo</name></member>
+    <member refid="classpessoa_1a6d5ee1ef25af3e07366b093af99ebd50" kind="function"><name>setGrupo</name></member>
   </compound>
   <compound refid="classselecionadisp" kind="class"><name>selecionadisp</name>
     <member refid="classselecionadisp_1aacbc7399c7f9e85cd7f211aa14ab8973" kind="variable"><name>ui</name></member>
@@ -167,17 +179,17 @@
     <member refid="classselecionaequip_1a3ccee0d0b533a3c3d7bb53f951f022ba" kind="function"><name>selecionaequip</name></member>
     <member refid="classselecionaequip_1adabd9829153adf6adb64c75a79ac7964" kind="function"><name>~selecionaequip</name></member>
   </compound>
-  <compound refid="class_status" kind="class"><name>Status</name>
-    <member refid="class_status_1a2328ebe6734acd5522db9a1d6cdc37ea" kind="variable"><name>id</name></member>
-    <member refid="class_status_1afac4402077be5c94f660986cbe08ec58" kind="variable"><name>id_chamado</name></member>
-    <member refid="class_status_1acc0060135beb6f0f8c85d03ffe800e3e" kind="variable"><name>stat</name></member>
-    <member refid="class_status_1a944586fb328a3524805748c8f7b17f32" kind="function"><name>Status</name></member>
-    <member refid="class_status_1adb9c28d4221d9e2aaf9875b80b5eeaaf" kind="function"><name>getId</name></member>
-    <member refid="class_status_1ac2f0322cbfc1326c117eb2b244600d67" kind="function"><name>setId</name></member>
-    <member refid="class_status_1a9c4b616186e22599d7a6ce48ec724e3c" kind="function"><name>getId_chamado</name></member>
-    <member refid="class_status_1aca91a7dbe10715ce9696f4b0252546ac" kind="function"><name>setId_chamado</name></member>
-    <member refid="class_status_1a5be3ea6f3dd893039eb1278ba89d19bd" kind="function"><name>getStat</name></member>
-    <member refid="class_status_1aa0507ec449fc02cccb63293fed3232a4" kind="function"><name>setStat</name></member>
+  <compound refid="classStatus" kind="class"><name>Status</name>
+    <member refid="classStatus_1a2328ebe6734acd5522db9a1d6cdc37ea" kind="variable"><name>id</name></member>
+    <member refid="classStatus_1afac4402077be5c94f660986cbe08ec58" kind="variable"><name>id_chamado</name></member>
+    <member refid="classStatus_1acc0060135beb6f0f8c85d03ffe800e3e" kind="variable"><name>stat</name></member>
+    <member refid="classStatus_1a944586fb328a3524805748c8f7b17f32" kind="function"><name>Status</name></member>
+    <member refid="classStatus_1adb9c28d4221d9e2aaf9875b80b5eeaaf" kind="function"><name>getId</name></member>
+    <member refid="classStatus_1ac2f0322cbfc1326c117eb2b244600d67" kind="function"><name>setId</name></member>
+    <member refid="classStatus_1a9c4b616186e22599d7a6ce48ec724e3c" kind="function"><name>getId_chamado</name></member>
+    <member refid="classStatus_1aca91a7dbe10715ce9696f4b0252546ac" kind="function"><name>setId_chamado</name></member>
+    <member refid="classStatus_1a5be3ea6f3dd893039eb1278ba89d19bd" kind="function"><name>getStat</name></member>
+    <member refid="classStatus_1aa0507ec449fc02cccb63293fed3232a4" kind="function"><name>setStat</name></member>
   </compound>
   <compound refid="classtipod" kind="class"><name>tipod</name>
     <member refid="classtipod_1a1b68cb5428c761176b409aae1387a67d" kind="variable"><name>id</name></member>
@@ -191,12 +203,12 @@
     <member refid="classtipod_1a19cb0132a802684607abe02c0c2b63f2" kind="function"><name>getSLA</name></member>
     <member refid="classtipod_1ad0da4edb16cb79061875519e94b768d7" kind="function"><name>setSLA</name></member>
   </compound>
-  <compound refid="classtipo_disp" kind="class"><name>tipoDisp</name>
-    <member refid="classtipo_disp_1a1ab1a6438473977cbfaf2b587872b7fd" kind="variable"><name>ui</name></member>
-    <member refid="classtipo_disp_1a07b2e7bbbe94b97f3eab51ce63c30134" kind="function"><name>tipoDisp</name></member>
-    <member refid="classtipo_disp_1a235a754bbe34fe3a8fd5826e57cf3abe" kind="function"><name>~tipoDisp</name></member>
+  <compound refid="classtipoDisp" kind="class"><name>tipoDisp</name>
+    <member refid="classtipoDisp_1a1ab1a6438473977cbfaf2b587872b7fd" kind="variable"><name>ui</name></member>
+    <member refid="classtipoDisp_1a07b2e7bbbe94b97f3eab51ce63c30134" kind="function"><name>tipoDisp</name></member>
+    <member refid="classtipoDisp_1a235a754bbe34fe3a8fd5826e57cf3abe" kind="function"><name>~tipoDisp</name></member>
   </compound>
-  <compound refid="namespace_ui" kind="namespace"><name>Ui</name>
+  <compound refid="namespaceUi" kind="namespace"><name>Ui</name>
   </compound>
   <compound refid="cadastrochamado_8cpp" kind="file"><name>cadastrochamado.cpp</name>
   </compound>
@@ -278,5 +290,7 @@
   <compound refid="tipodisp_8cpp" kind="file"><name>tipodisp.cpp</name>
   </compound>
   <compound refid="tipodisp_8h" kind="file"><name>tipodisp.h</name>
+  </compound>
+  <compound refid="dir_99ae85f3ba79f3ab5fb0812f36f0edd7" kind="dir"><name>C:/Users/BrunoSR/TCC_NayBru</name>
   </compound>
 </doxygenindex>

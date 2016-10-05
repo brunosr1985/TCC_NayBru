@@ -35,7 +35,7 @@
       </node>
     </invincdepgraph>
     <innerclass refid="classcadastrodispositivo" prot="public">cadastrodispositivo</innerclass>
-    <innernamespace refid="namespace_ui">Ui</innernamespace>
+    <innernamespace refid="namespaceUi">Ui</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -46,7 +46,7 @@
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QWidget&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ui" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceUi" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref>;</highlight></codeline>
 <codeline lineno="8"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
@@ -64,7 +64,7 @@
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_pushButton_4_clicked();</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::cadastrodispositivo<sp/>*ui;</highlight></codeline>
+<codeline lineno="24" refid="classcadastrodispositivo_1a01b67037a472db99a897b27e80273d17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::cadastrodispositivo<sp/>*<ref refid="classcadastrodispositivo_1a01b67037a472db99a897b27e80273d17" kindref="member">ui</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CADASTRODISPOSITIVO_H</highlight></codeline>

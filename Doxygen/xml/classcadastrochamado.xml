@@ -3,7 +3,7 @@
   <compounddef id="classcadastrochamado" kind="class" language="C++" prot="public">
     <compoundname>cadastrochamado</compoundname>
     <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
-    <includes refid="cadastrochamado_8h" local="no">cadastrochamado.h</includes>
+    <includes refid="cadastrochamado_8h" local="yes">cadastrochamado.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classcadastrochamado_1abb4512bd6342bcea8792f9b59f2616d0" prot="private" static="no" mutable="no">
         <type>Ui::cadastrochamado *</type>

@@ -70,12 +70,12 @@ void pessoa::setCargo(const QString &value)
     cargo = value;
 }
 
-int pessoa::getGrupo() const
+GrupoP pessoa::getGrupo() const
 {
     return grupo;
 }
 
-void pessoa::setGrupo(int value)
+void pessoa::setGrupo(const GrupoP &value)
 {
     grupo = value;
 }

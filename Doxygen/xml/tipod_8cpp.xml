@@ -4,19 +4,19 @@
     <compoundname>tipod.cpp</compoundname>
     <includes refid="tipod_8h" local="yes">tipod.h</includes>
     <incdepgraph>
-      <node id="319">
+      <node id="321">
         <label>C:/Users/BrunoSR/TCC_NayBru/tipod.cpp</label>
         <link refid="tipod_8cpp"/>
-        <childnode refid="320" relation="include">
+        <childnode refid="322" relation="include">
         </childnode>
       </node>
-      <node id="320">
+      <node id="322">
         <label>tipod.h</label>
         <link refid="tipod_8h"/>
-        <childnode refid="321" relation="include">
+        <childnode refid="323" relation="include">
         </childnode>
       </node>
-      <node id="321">
+      <node id="323">
         <label>QString</label>
       </node>
     </incdepgraph>
@@ -29,7 +29,7 @@
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3" refid="classtipod_1a8f9426cbcef23976293ae0961b382907" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classtipod_1a8f9426cbcef23976293ae0961b382907" kindref="member">tipod::getId</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="4"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>id;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classtipod_1a1b68cb5428c761176b409aae1387a67d" kindref="member">id</ref>;</highlight></codeline>
 <codeline lineno="6"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8" refid="classtipod_1ae3f6b8df170353ef58a862b746d3d288" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtipod_1ae3f6b8df170353ef58a862b746d3d288" kindref="member">tipod::setId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
@@ -39,22 +39,22 @@
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13" refid="classtipod_1ab84c5257439bcf916770d2facad689de" refkind="member"><highlight class="normal">QString<sp/><ref refid="classtipod_1ab84c5257439bcf916770d2facad689de" kindref="member">tipod::getTipo</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="14"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tipo;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classtipod_1a4648df7cc23e53d592f3d39b859a83c3" kindref="member">tipo</ref>;</highlight></codeline>
 <codeline lineno="16"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="classtipod_1a2430c9b9e742243038b3fdb43a7bd429" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtipod_1a2430c9b9e742243038b3fdb43a7bd429" kindref="member">tipod::setTipo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value)</highlight></codeline>
 <codeline lineno="19"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>tipo<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtipod_1a4648df7cc23e53d592f3d39b859a83c3" kindref="member">tipo</ref><sp/>=<sp/>value;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="classtipod_1a19cb0132a802684607abe02c0c2b63f2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classtipod_1a19cb0132a802684607abe02c0c2b63f2" kindref="member">tipod::getSLA</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="24"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>SLA;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classtipod_1a0b457d47915626a0b679bb8a160eca81" kindref="member">SLA</ref>;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28" refid="classtipod_1ad0da4edb16cb79061875519e94b768d7" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classtipod_1ad0da4edb16cb79061875519e94b768d7" kindref="member">tipod::setSLA</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
 <codeline lineno="29"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>SLA<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtipod_1a0b457d47915626a0b679bb8a160eca81" kindref="member">SLA</ref><sp/>=<sp/>value;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33" refid="classtipod_1aea0583170290bcfd453f00cd7e916b26" refkind="member"><highlight class="normal"><ref refid="classtipod_1aea0583170290bcfd453f00cd7e916b26" kindref="member">tipod::tipod</ref>()</highlight></codeline>

@@ -11,69 +11,65 @@
     <includes local="no">QtSql/QSqlQuery</includes>
     <includes local="no">QtSql/QSqlTableModel</includes>
     <incdepgraph>
-      <node id="248">
+      <node id="250">
         <label>QtDebug</label>
       </node>
-      <node id="232">
+      <node id="234">
         <label>C:/Users/BrunoSR/TCC_NayBru/matrizraci.cpp</label>
         <link refid="matrizraci_8cpp"/>
-        <childnode refid="233" relation="include">
-        </childnode>
-        <childnode refid="245" relation="include">
-        </childnode>
-        <childnode refid="246" relation="include">
+        <childnode refid="235" relation="include">
         </childnode>
         <childnode refid="247" relation="include">
         </childnode>
         <childnode refid="248" relation="include">
         </childnode>
-        <childnode refid="236" relation="include">
+        <childnode refid="249" relation="include">
         </childnode>
-        <childnode refid="237" relation="include">
+        <childnode refid="250" relation="include">
         </childnode>
         <childnode refid="238" relation="include">
         </childnode>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
       </node>
-      <node id="246">
+      <node id="248">
         <label>QMessageBox</label>
       </node>
-      <node id="247">
+      <node id="249">
         <label>QtSql/QSqlDatabase</label>
       </node>
-      <node id="237">
+      <node id="239">
         <label>QtSql/QSqlQuery</label>
       </node>
-      <node id="238">
+      <node id="240">
         <label>QtSql/QSqlTableModel</label>
       </node>
-      <node id="242">
+      <node id="244">
         <label>QtCore</label>
       </node>
-      <node id="239">
+      <node id="241">
         <label>QSqlDatabase</label>
       </node>
-      <node id="236">
+      <node id="238">
         <label>QtSql/QSqlQueryModel</label>
       </node>
-      <node id="240">
+      <node id="242">
         <label>QDebug</label>
       </node>
-      <node id="234">
+      <node id="236">
         <label>QWidget</label>
       </node>
-      <node id="244">
+      <node id="246">
         <label>QSqlError</label>
       </node>
-      <node id="241">
+      <node id="243">
         <label>QSql</label>
       </node>
-      <node id="233">
+      <node id="235">
         <label>matrizraci.h</label>
         <link refid="matrizraci_8h"/>
-        <childnode refid="234" relation="include">
-        </childnode>
-        <childnode refid="235" relation="include">
-        </childnode>
         <childnode refid="236" relation="include">
         </childnode>
         <childnode refid="237" relation="include">
@@ -92,14 +88,18 @@
         </childnode>
         <childnode refid="244" relation="include">
         </childnode>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="246" relation="include">
+        </childnode>
       </node>
-      <node id="235">
+      <node id="237">
         <label>QTableView</label>
       </node>
-      <node id="245">
+      <node id="247">
         <label>ui_matrizraci.h</label>
       </node>
-      <node id="243">
+      <node id="245">
         <label>QtGui</label>
       </node>
     </incdepgraph>
@@ -117,20 +117,20 @@
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlQuery&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlTableModel&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="classmatriz_r_a_c_i_1ae380d9647713f9dc8c4dbc275f69a672" refkind="member"><highlight class="normal"><ref refid="classmatriz_r_a_c_i_1ae380d9647713f9dc8c4dbc275f69a672" kindref="member">matrizRACI::matrizRACI</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="10" refid="classmatrizRACI_1ae380d9647713f9dc8c4dbc275f69a672" refkind="member"><highlight class="normal"><ref refid="classmatrizRACI_1ae380d9647713f9dc8c4dbc275f69a672" kindref="member">matrizRACI::matrizRACI</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget(parent),</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespace_ui" kindref="compound">Ui</ref>::<ref refid="classmatriz_r_a_c_i" kindref="compound">matrizRACI</ref>)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classmatrizRACI" kindref="compound">matrizRACI</ref>)</highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classmatrizRACI_1a5a7d2a46e48e4d2e172d0ccd2e0ae2cf" kindref="member">ui</ref>-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="16"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="classmatriz_r_a_c_i_1acf5d48703954736fe205c918333950a0" refkind="member"><highlight class="normal"><ref refid="classmatriz_r_a_c_i_1acf5d48703954736fe205c918333950a0" kindref="member">matrizRACI::~matrizRACI</ref>()</highlight></codeline>
+<codeline lineno="18" refid="classmatrizRACI_1acf5d48703954736fe205c918333950a0" refkind="member"><highlight class="normal"><ref refid="classmatrizRACI_1acf5d48703954736fe205c918333950a0" kindref="member">matrizRACI::~matrizRACI</ref>()</highlight></codeline>
 <codeline lineno="19"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classmatrizRACI_1a5a7d2a46e48e4d2e172d0ccd2e0ae2cf" kindref="member">ui</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>matrizRACI::on_raciCarregar_clicked()</highlight></codeline>
+<codeline lineno="23" refid="classmatrizRACI_1a25457f6fa5d1df55d4ffb0dab8e24b5f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classmatrizRACI_1a25457f6fa5d1df55d4ffb0dab8e24b5f" kindref="member">matrizRACI::on_raciCarregar_clicked</ref>()</highlight></codeline>
 <codeline lineno="24"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>erro;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlDatabase<sp/>db<sp/>=<sp/>QSqlDatabase::addDatabase(</highlight><highlight class="stringliteral">&quot;QPSQL&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;conn&quot;</highlight><highlight class="normal">);</highlight></codeline>

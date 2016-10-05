@@ -6,36 +6,36 @@
     <includedby refid="cadastrochamado_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp</includedby>
     <includedby refid="selecionadisp_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/selecionadisp.cpp</includedby>
     <incdepgraph>
-      <node id="296">
-        <label>QDialog</label>
-      </node>
-      <node id="295">
-        <label>C:/Users/BrunoSR/TCC_NayBru/selecionadisp.h</label>
-        <link refid="selecionadisp_8h"/>
-        <childnode refid="296" relation="include">
-        </childnode>
-      </node>
-    </incdepgraph>
-    <invincdepgraph>
       <node id="298">
-        <label>C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp</label>
-        <link refid="cadastrochamado_8cpp"/>
-      </node>
-      <node id="299">
-        <label>C:/Users/BrunoSR/TCC_NayBru/selecionadisp.cpp</label>
-        <link refid="selecionadisp_8cpp"/>
+        <label>QDialog</label>
       </node>
       <node id="297">
         <label>C:/Users/BrunoSR/TCC_NayBru/selecionadisp.h</label>
         <link refid="selecionadisp_8h"/>
         <childnode refid="298" relation="include">
         </childnode>
-        <childnode refid="299" relation="include">
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="300">
+        <label>C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp</label>
+        <link refid="cadastrochamado_8cpp"/>
+      </node>
+      <node id="301">
+        <label>C:/Users/BrunoSR/TCC_NayBru/selecionadisp.cpp</label>
+        <link refid="selecionadisp_8cpp"/>
+      </node>
+      <node id="299">
+        <label>C:/Users/BrunoSR/TCC_NayBru/selecionadisp.h</label>
+        <link refid="selecionadisp_8h"/>
+        <childnode refid="300" relation="include">
+        </childnode>
+        <childnode refid="301" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="classselecionadisp" prot="public">selecionadisp</innerclass>
-    <innernamespace refid="namespace_ui">Ui</innernamespace>
+    <innernamespace refid="namespaceUi">Ui</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -46,7 +46,7 @@
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDialog&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ui" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceUi" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classselecionadisp" kindref="compound">selecionadisp</ref>;</highlight></codeline>
 <codeline lineno="8"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
@@ -59,7 +59,7 @@
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classselecionadisp" kindref="compound">selecionadisp</ref>();</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::selecionadisp<sp/>*ui;</highlight></codeline>
+<codeline lineno="19" refid="classselecionadisp_1aacbc7399c7f9e85cd7f211aa14ab8973" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::selecionadisp<sp/>*<ref refid="classselecionadisp_1aacbc7399c7f9e85cd7f211aa14ab8973" kindref="member">ui</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SELECIONADISP_H</highlight></codeline>

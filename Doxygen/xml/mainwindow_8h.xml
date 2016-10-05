@@ -19,22 +19,18 @@
     <includedby refid="main_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/main.cpp</includedby>
     <includedby refid="mainwindow_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp</includedby>
     <incdepgraph>
-      <node id="228">
+      <node id="230">
         <label>QtDebug</label>
       </node>
-      <node id="226">
+      <node id="228">
         <label>QMessageBox</label>
       </node>
-      <node id="227">
+      <node id="229">
         <label>QtSql/QSqlDatabase</label>
       </node>
-      <node id="214">
+      <node id="216">
         <label>C:/Users/BrunoSR/TCC_NayBru/mainwindow.h</label>
         <link refid="mainwindow_8h"/>
-        <childnode refid="215" relation="include">
-        </childnode>
-        <childnode refid="216" relation="include">
-        </childnode>
         <childnode refid="217" relation="include">
         </childnode>
         <childnode refid="218" relation="include">
@@ -59,61 +55,65 @@
         </childnode>
         <childnode refid="228" relation="include">
         </childnode>
-      </node>
-      <node id="218">
-        <label>QtSql/QSqlQuery</label>
-      </node>
-      <node id="215">
-        <label>QMainWindow</label>
-      </node>
-      <node id="219">
-        <label>QtSql/QSqlTableModel</label>
-      </node>
-      <node id="223">
-        <label>QtCore</label>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="230" relation="include">
+        </childnode>
       </node>
       <node id="220">
-        <label>QSqlDatabase</label>
+        <label>QtSql/QSqlQuery</label>
       </node>
       <node id="217">
-        <label>QtSql/QSqlQueryModel</label>
+        <label>QMainWindow</label>
       </node>
       <node id="221">
-        <label>QDebug</label>
+        <label>QtSql/QSqlTableModel</label>
       </node>
       <node id="225">
-        <label>QSqlError</label>
+        <label>QtCore</label>
       </node>
       <node id="222">
-        <label>QSql</label>
+        <label>QSqlDatabase</label>
       </node>
-      <node id="216">
-        <label>QTableView</label>
+      <node id="219">
+        <label>QtSql/QSqlQueryModel</label>
+      </node>
+      <node id="223">
+        <label>QDebug</label>
+      </node>
+      <node id="227">
+        <label>QSqlError</label>
       </node>
       <node id="224">
+        <label>QSql</label>
+      </node>
+      <node id="218">
+        <label>QTableView</label>
+      </node>
+      <node id="226">
         <label>QtGui</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="229">
+      <node id="231">
         <label>C:/Users/BrunoSR/TCC_NayBru/mainwindow.h</label>
         <link refid="mainwindow_8h"/>
-        <childnode refid="230" relation="include">
+        <childnode refid="232" relation="include">
         </childnode>
-        <childnode refid="231" relation="include">
+        <childnode refid="233" relation="include">
         </childnode>
       </node>
-      <node id="230">
+      <node id="232">
         <label>C:/Users/BrunoSR/TCC_NayBru/main.cpp</label>
         <link refid="main_8cpp"/>
       </node>
-      <node id="231">
+      <node id="233">
         <label>C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp</label>
         <link refid="mainwindow_8cpp"/>
       </node>
     </invincdepgraph>
-    <innerclass refid="class_main_window" prot="public">MainWindow</innerclass>
-    <innernamespace refid="namespace_ui">Ui</innernamespace>
+    <innerclass refid="classMainWindow" prot="public">MainWindow</innerclass>
+    <innernamespace refid="namespaceUi">Ui</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -140,18 +140,18 @@
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlQuery&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlTableModel&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ui" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_main_window" kindref="compound">MainWindow</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceUi" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMainWindow" kindref="compound">MainWindow</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">CadastroPess;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="class_main_window" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_main_window" kindref="compound">MainWindow</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QMainWindow</highlight></codeline>
+<codeline lineno="27" refid="classMainWindow" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMainWindow" kindref="compound">MainWindow</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QMainWindow</highlight></codeline>
 <codeline lineno="28"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="class_main_window" kindref="compound">MainWindow</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="class_main_window" kindref="compound">MainWindow</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classMainWindow" kindref="compound">MainWindow</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classMainWindow" kindref="compound">MainWindow</ref>();</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionPessoas_x_Chamados_triggered();</highlight></codeline>
@@ -171,9 +171,9 @@
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionNovo_Tipo_de_Dispositivo_triggered();</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::MainWindow<sp/>*ui;</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlTableModel<sp/>*modelo;</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlQueryModel<sp/>*query;</highlight></codeline>
+<codeline lineno="53" refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::MainWindow<sp/>*<ref refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" kindref="member">ui</ref>;</highlight></codeline>
+<codeline lineno="54" refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlTableModel<sp/>*<ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>;</highlight></codeline>
+<codeline lineno="55" refid="classMainWindow_1ac4551c72b3aedfdeaa2e2c18fb6ecaa4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlQueryModel<sp/>*<ref refid="classMainWindow_1ac4551c72b3aedfdeaa2e2c18fb6ecaa4" kindref="member">query</ref>;</highlight></codeline>
 <codeline lineno="56"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>

@@ -3,7 +3,7 @@
   <compounddef id="classcadastrodispositivo" kind="class" language="C++" prot="public">
     <compoundname>cadastrodispositivo</compoundname>
     <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
-    <includes refid="cadastrodispositivo_8h" local="no">cadastrodispositivo.h</includes>
+    <includes refid="cadastrodispositivo_8h" local="yes">cadastrodispositivo.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classcadastrodispositivo_1a01b67037a472db99a897b27e80273d17" prot="private" static="no" mutable="no">
         <type>Ui::cadastrodispositivo *</type>

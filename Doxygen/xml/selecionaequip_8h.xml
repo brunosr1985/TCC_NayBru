@@ -5,17 +5,6 @@
     <includes local="no">QDialog</includes>
     <includedby refid="selecionaequip_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/selecionaequip.cpp</includedby>
     <incdepgraph>
-      <node id="305">
-        <label>C:/Users/BrunoSR/TCC_NayBru/selecionaequip.h</label>
-        <link refid="selecionaequip_8h"/>
-        <childnode refid="306" relation="include">
-        </childnode>
-      </node>
-      <node id="306">
-        <label>QDialog</label>
-      </node>
-    </incdepgraph>
-    <invincdepgraph>
       <node id="307">
         <label>C:/Users/BrunoSR/TCC_NayBru/selecionaequip.h</label>
         <link refid="selecionaequip_8h"/>
@@ -23,12 +12,23 @@
         </childnode>
       </node>
       <node id="308">
+        <label>QDialog</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="309">
+        <label>C:/Users/BrunoSR/TCC_NayBru/selecionaequip.h</label>
+        <link refid="selecionaequip_8h"/>
+        <childnode refid="310" relation="include">
+        </childnode>
+      </node>
+      <node id="310">
         <label>C:/Users/BrunoSR/TCC_NayBru/selecionaequip.cpp</label>
         <link refid="selecionaequip_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classselecionaequip" prot="public">selecionaequip</innerclass>
-    <innernamespace refid="namespace_ui">Ui</innernamespace>
+    <innernamespace refid="namespaceUi">Ui</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -39,7 +39,7 @@
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDialog&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ui" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceUi" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classselecionaequip" kindref="compound">selecionaequip</ref>;</highlight></codeline>
 <codeline lineno="8"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
@@ -52,7 +52,7 @@
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classselecionaequip" kindref="compound">selecionaequip</ref>();</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::selecionaequip<sp/>*ui;</highlight></codeline>
+<codeline lineno="19" refid="classselecionaequip_1af4280d3549699e0ae1a487884399d378" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::selecionaequip<sp/>*<ref refid="classselecionaequip_1af4280d3549699e0ae1a487884399d378" kindref="member">ui</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SELECIONAEQUIP_H</highlight></codeline>

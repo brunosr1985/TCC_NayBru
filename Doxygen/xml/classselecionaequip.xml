@@ -3,7 +3,7 @@
   <compounddef id="classselecionaequip" kind="class" language="C++" prot="public">
     <compoundname>selecionaequip</compoundname>
     <basecompoundref prot="public" virt="non-virtual">QDialog</basecompoundref>
-    <includes refid="selecionaequip_8h" local="no">selecionaequip.h</includes>
+    <includes refid="selecionaequip_8h" local="yes">selecionaequip.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classselecionaequip_1af4280d3549699e0ae1a487884399d378" prot="private" static="no" mutable="no">
         <type>Ui::selecionaequip *</type>
@@ -57,24 +57,24 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="51">
+      <node id="60">
         <label>selecionaequip</label>
         <link refid="classselecionaequip"/>
-        <childnode refid="52" relation="public-inheritance">
+        <childnode refid="61" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="52">
+      <node id="61">
         <label>QDialog</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="53">
+      <node id="62">
         <label>selecionaequip</label>
         <link refid="classselecionaequip"/>
-        <childnode refid="54" relation="public-inheritance">
+        <childnode refid="63" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="54">
+      <node id="63">
         <label>QDialog</label>
       </node>
     </collaborationgraph>

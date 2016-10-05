@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classMRaci" kind="class" language="C++" prot="public">
+    <compoundname>MRaci</compoundname>
+    <includes refid="m__raci_8h" local="yes">m_raci.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMRaci_1a40d4d91f9ef6b39320afbe565e463eff" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MRaci::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMRaci_1acd15929ffdaf5b16f74c20a248a5d818" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MRaci::R</definition>
+        <argsstring></argsstring>
+        <name>R</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="12" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMRaci_1ac94babea9b056a67581823dcc5aeaa87" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MRaci::A</definition>
+        <argsstring></argsstring>
+        <name>A</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="13" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMRaci_1af57f74b9a5bfe84536b4a11450b90f3f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MRaci::C</definition>
+        <argsstring></argsstring>
+        <name>C</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="14" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMRaci_1a3581c51dd79dbd995de307c018fb21a8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MRaci::I</definition>
+        <argsstring></argsstring>
+        <name>I</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMRaci_1a8b5d41088ff6e79884541092e43f7e07" prot="private" static="no" mutable="no">
+        <type><ref refid="classpessoa" kindref="compound">pessoa</ref></type>
+        <definition>pessoa MRaci::pess</definition>
+        <argsstring></argsstring>
+        <name>pess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMRaci_1a62c738f5cf78b52066d235d7d159afe8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MRaci::MRaci</definition>
+        <argsstring>()</argsstring>
+        <name>MRaci</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classMRaci_1af257de76f5b51ffd7aef32df190b4539" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MRaci::getId</definition>
+        <argsstring>() const</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="20" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp" bodystart="5" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classMRaci_1a5d41e168ae4d2eb42870c5111c5ced66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MRaci::setId</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="21" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classMRaci_1ac4dcf216793abb93e10e565acdc3ad9b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MRaci::getR</definition>
+        <argsstring>() const</argsstring>
+        <name>getR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="22" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMRaci_1a24d39e1a619e1636fe764d1fc1fec557" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MRaci::setR</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setR</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="23" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMRaci_1a1d5eac204c97254d14c95e0dfa5d5d60" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MRaci::getA</definition>
+        <argsstring>() const</argsstring>
+        <name>getA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="24" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classMRaci_1ac54730e0687cae31a3bd45727ce674ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MRaci::setA</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setA</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="25" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classMRaci_1aedc01e2a415e47516e205d20b75aa35a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MRaci::getC</definition>
+        <argsstring>() const</argsstring>
+        <name>getC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="26" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMRaci_1ad7b3c1d332bf913e97251ea978f495e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MRaci::setC</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setC</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="27" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classMRaci_1a32166d245eb76ba5ac5af3d7944dc5a2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MRaci::getI</definition>
+        <argsstring>() const</argsstring>
+        <name>getI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="28" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classMRaci_1a9d2f32c2ac580027e68d28d6cd6206f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MRaci::setI</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setI</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="29" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classMRaci_1ad0dfc80d18e27a9f1608323d684787cb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classpessoa" kindref="compound">pessoa</ref></type>
+        <definition>pessoa MRaci::getPess</definition>
+        <argsstring>() const</argsstring>
+        <name>getPess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="30" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classMRaci_1a1ddb3f56c84e1c1dc05076c90d14b48d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MRaci::setPess</definition>
+        <argsstring>(const pessoa &amp;value)</argsstring>
+        <name>setPess</name>
+        <param>
+          <type>const <ref refid="classpessoa" kindref="compound">pessoa</ref> &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="31" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp" bodystart="60" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="46">
+        <label>MRaci</label>
+        <link refid="classMRaci"/>
+        <childnode refid="47" relation="usage">
+          <edgelabel>-pess</edgelabel>
+        </childnode>
+      </node>
+      <node id="48">
+        <label>GrupoP</label>
+        <link refid="classGrupoP"/>
+      </node>
+      <node id="47">
+        <label>pessoa</label>
+        <link refid="classpessoa"/>
+        <childnode refid="48" relation="usage">
+          <edgelabel>+grupo</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" line="9" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/m_raci.h" bodystart="8" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classMRaci_1ac94babea9b056a67581823dcc5aeaa87" prot="private" virt="non-virtual"><scope>MRaci</scope><name>A</name></member>
+      <member refid="classMRaci_1af57f74b9a5bfe84536b4a11450b90f3f" prot="private" virt="non-virtual"><scope>MRaci</scope><name>C</name></member>
+      <member refid="classMRaci_1a1d5eac204c97254d14c95e0dfa5d5d60" prot="public" virt="non-virtual"><scope>MRaci</scope><name>getA</name></member>
+      <member refid="classMRaci_1aedc01e2a415e47516e205d20b75aa35a" prot="public" virt="non-virtual"><scope>MRaci</scope><name>getC</name></member>
+      <member refid="classMRaci_1a32166d245eb76ba5ac5af3d7944dc5a2" prot="public" virt="non-virtual"><scope>MRaci</scope><name>getI</name></member>
+      <member refid="classMRaci_1af257de76f5b51ffd7aef32df190b4539" prot="public" virt="non-virtual"><scope>MRaci</scope><name>getId</name></member>
+      <member refid="classMRaci_1ad0dfc80d18e27a9f1608323d684787cb" prot="public" virt="non-virtual"><scope>MRaci</scope><name>getPess</name></member>
+      <member refid="classMRaci_1ac4dcf216793abb93e10e565acdc3ad9b" prot="public" virt="non-virtual"><scope>MRaci</scope><name>getR</name></member>
+      <member refid="classMRaci_1a3581c51dd79dbd995de307c018fb21a8" prot="private" virt="non-virtual"><scope>MRaci</scope><name>I</name></member>
+      <member refid="classMRaci_1a40d4d91f9ef6b39320afbe565e463eff" prot="private" virt="non-virtual"><scope>MRaci</scope><name>id</name></member>
+      <member refid="classMRaci_1a62c738f5cf78b52066d235d7d159afe8" prot="public" virt="non-virtual"><scope>MRaci</scope><name>MRaci</name></member>
+      <member refid="classMRaci_1a8b5d41088ff6e79884541092e43f7e07" prot="private" virt="non-virtual"><scope>MRaci</scope><name>pess</name></member>
+      <member refid="classMRaci_1acd15929ffdaf5b16f74c20a248a5d818" prot="private" virt="non-virtual"><scope>MRaci</scope><name>R</name></member>
+      <member refid="classMRaci_1ac54730e0687cae31a3bd45727ce674ab" prot="public" virt="non-virtual"><scope>MRaci</scope><name>setA</name></member>
+      <member refid="classMRaci_1ad7b3c1d332bf913e97251ea978f495e9" prot="public" virt="non-virtual"><scope>MRaci</scope><name>setC</name></member>
+      <member refid="classMRaci_1a9d2f32c2ac580027e68d28d6cd6206f4" prot="public" virt="non-virtual"><scope>MRaci</scope><name>setI</name></member>
+      <member refid="classMRaci_1a5d41e168ae4d2eb42870c5111c5ced66" prot="public" virt="non-virtual"><scope>MRaci</scope><name>setId</name></member>
+      <member refid="classMRaci_1a1ddb3f56c84e1c1dc05076c90d14b48d" prot="public" virt="non-virtual"><scope>MRaci</scope><name>setPess</name></member>
+      <member refid="classMRaci_1a24d39e1a619e1636fe764d1fc1fec557" prot="public" virt="non-virtual"><scope>MRaci</scope><name>setR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

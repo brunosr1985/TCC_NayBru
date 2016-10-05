@@ -47,19 +47,19 @@
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_gerenciadispositivo.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cadastrodispositivo_8h" kindref="compound">cadastrodispositivo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5" refid="classgerencia_dispositivo_1a245e771cf0d5c9e2929e0829d57bf97b" refkind="member"><highlight class="normal"><ref refid="classgerencia_dispositivo_1a245e771cf0d5c9e2929e0829d57bf97b" kindref="member">gerenciaDispositivo::gerenciaDispositivo</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="5" refid="classgerenciaDispositivo_1a245e771cf0d5c9e2929e0829d57bf97b" refkind="member"><highlight class="normal"><ref refid="classgerenciaDispositivo_1a245e771cf0d5c9e2929e0829d57bf97b" kindref="member">gerenciaDispositivo::gerenciaDispositivo</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>QDialog(parent),</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespace_ui" kindref="compound">Ui</ref>::<ref refid="classgerencia_dispositivo" kindref="compound">gerenciaDispositivo</ref>)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classgerenciaDispositivo" kindref="compound">gerenciaDispositivo</ref>)</highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="10"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="classgerencia_dispositivo_1a3dcef9c3f95ad6be653920a0952b8a0a" refkind="member"><highlight class="normal"><ref refid="classgerencia_dispositivo_1a3dcef9c3f95ad6be653920a0952b8a0a" kindref="member">gerenciaDispositivo::~gerenciaDispositivo</ref>()</highlight></codeline>
+<codeline lineno="12" refid="classgerenciaDispositivo_1a3dcef9c3f95ad6be653920a0952b8a0a" refkind="member"><highlight class="normal"><ref refid="classgerenciaDispositivo_1a3dcef9c3f95ad6be653920a0952b8a0a" kindref="member">gerenciaDispositivo::~gerenciaDispositivo</ref>()</highlight></codeline>
 <codeline lineno="13"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>;</highlight></codeline>
 <codeline lineno="15"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>gerenciaDispositivo::on_novoDIsp_clicked()</highlight></codeline>
+<codeline lineno="17" refid="classgerenciaDispositivo_1ab7c595e355777a5c336cc9fedace9d1b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgerenciaDispositivo_1ab7c595e355777a5c336cc9fedace9d1b" kindref="member">gerenciaDispositivo::on_novoDIsp_clicked</ref>()</highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref><sp/>*novoD<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref>();</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>novoD-&gt;show();</highlight></codeline>

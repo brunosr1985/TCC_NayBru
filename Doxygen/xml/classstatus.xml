@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
-  <compounddef id="classstatus" kind="class" language="C++" prot="public">
-    <compoundname>status</compoundname>
-    <includes refid="status_8h" local="no">status.h</includes>
+  <compounddef id="classStatus" kind="class" language="C++" prot="public">
+    <compoundname>Status</compoundname>
+    <includes refid="status_8h" local="yes">status.h</includes>
       <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="classstatus_1a8782b26ac9401aea534c0b36f425df82" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classStatus_1a2328ebe6734acd5522db9a1d6cdc37ea" prot="private" static="no" mutable="no">
         <type>int</type>
-        <definition>int status::id</definition>
+        <definition>int Status::id</definition>
         <argsstring></argsstring>
         <name>id</name>
         <briefdescription>
@@ -15,11 +15,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="10" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.h" bodystart="10" bodyend="-1"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="12" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.h" bodystart="12" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classstatus_1a7b19c6718ed25150b8566cecd15a8bb0" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classStatus_1afac4402077be5c94f660986cbe08ec58" prot="private" static="no" mutable="no">
         <type>int</type>
-        <definition>int status::id_chamado</definition>
+        <definition>int Status::id_chamado</definition>
         <argsstring></argsstring>
         <name>id_chamado</name>
         <briefdescription>
@@ -28,11 +28,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.h" bodystart="11" bodyend="-1"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="13" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.h" bodystart="13" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classstatus_1a31f6629d16ebaa7324f6be1511ac4dfe" prot="private" static="no" mutable="no">
-        <type>std::string</type>
-        <definition>std::string status::stat</definition>
+      <memberdef kind="variable" id="classStatus_1acc0060135beb6f0f8c85d03ffe800e3e" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Status::stat</definition>
         <argsstring></argsstring>
         <name>stat</name>
         <briefdescription>
@@ -41,34 +41,136 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="12" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.h" bodystart="12" bodyend="-1"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="14" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="classstatus_1a22e483f0410490743e4970e905e5fa19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classStatus_1a944586fb328a3524805748c8f7b17f32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
-        <definition>status::status</definition>
+        <definition>Status::Status</definition>
         <argsstring>()</argsstring>
-        <name>status</name>
+        <name>Status</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="14" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.cpp" bodystart="3" bodyend="6"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.cpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classStatus_1adb9c28d4221d9e2aaf9875b80b5eeaaf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Status::getId</definition>
+        <argsstring>() const</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="17" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classStatus_1ac2f0322cbfc1326c117eb2b244600d67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Status::setId</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="18" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classStatus_1a9c4b616186e22599d7a6ce48ec724e3c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Status::getId_chamado</definition>
+        <argsstring>() const</argsstring>
+        <name>getId_chamado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classStatus_1aca91a7dbe10715ce9696f4b0252546ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Status::setId_chamado</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setId_chamado</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="20" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classStatus_1a5be3ea6f3dd893039eb1278ba89d19bd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Status::getStat</definition>
+        <argsstring>() const</argsstring>
+        <name>getStat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="21" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classStatus_1aa0507ec449fc02cccb63293fed3232a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Status::setStat</definition>
+        <argsstring>(const QString &amp;value)</argsstring>
+        <name>setStat</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="22" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.cpp" bodystart="28" bodyend="31"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="8" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.h" bodystart="7" bodyend="15"/>
+    <collaborationgraph>
+      <node id="65">
+        <label>Status</label>
+        <link refid="classStatus"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/status.h" line="10" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/status.h" bodystart="9" bodyend="23"/>
     <listofallmembers>
-      <member refid="classstatus_1a8782b26ac9401aea534c0b36f425df82" prot="private" virt="non-virtual"><scope>status</scope><name>id</name></member>
-      <member refid="classstatus_1a7b19c6718ed25150b8566cecd15a8bb0" prot="private" virt="non-virtual"><scope>status</scope><name>id_chamado</name></member>
-      <member refid="classstatus_1a31f6629d16ebaa7324f6be1511ac4dfe" prot="private" virt="non-virtual"><scope>status</scope><name>stat</name></member>
-      <member refid="classstatus_1a22e483f0410490743e4970e905e5fa19" prot="public" virt="non-virtual"><scope>status</scope><name>status</name></member>
+      <member refid="classStatus_1adb9c28d4221d9e2aaf9875b80b5eeaaf" prot="public" virt="non-virtual"><scope>Status</scope><name>getId</name></member>
+      <member refid="classStatus_1a9c4b616186e22599d7a6ce48ec724e3c" prot="public" virt="non-virtual"><scope>Status</scope><name>getId_chamado</name></member>
+      <member refid="classStatus_1a5be3ea6f3dd893039eb1278ba89d19bd" prot="public" virt="non-virtual"><scope>Status</scope><name>getStat</name></member>
+      <member refid="classStatus_1a2328ebe6734acd5522db9a1d6cdc37ea" prot="private" virt="non-virtual"><scope>Status</scope><name>id</name></member>
+      <member refid="classStatus_1afac4402077be5c94f660986cbe08ec58" prot="private" virt="non-virtual"><scope>Status</scope><name>id_chamado</name></member>
+      <member refid="classStatus_1ac2f0322cbfc1326c117eb2b244600d67" prot="public" virt="non-virtual"><scope>Status</scope><name>setId</name></member>
+      <member refid="classStatus_1aca91a7dbe10715ce9696f4b0252546ac" prot="public" virt="non-virtual"><scope>Status</scope><name>setId_chamado</name></member>
+      <member refid="classStatus_1aa0507ec449fc02cccb63293fed3232a4" prot="public" virt="non-virtual"><scope>Status</scope><name>setStat</name></member>
+      <member refid="classStatus_1acc0060135beb6f0f8c85d03ffe800e3e" prot="private" virt="non-virtual"><scope>Status</scope><name>stat</name></member>
+      <member refid="classStatus_1a944586fb328a3524805748c8f7b17f32" prot="public" virt="non-virtual"><scope>Status</scope><name>Status</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

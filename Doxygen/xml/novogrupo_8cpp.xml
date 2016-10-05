@@ -5,24 +5,24 @@
     <includes refid="novogrupo_8h" local="yes">novogrupo.h</includes>
     <includes local="yes">ui_novogrupo.h</includes>
     <incdepgraph>
-      <node id="268">
+      <node id="270">
         <label>ui_novogrupo.h</label>
       </node>
-      <node id="265">
+      <node id="267">
         <label>C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp</label>
         <link refid="novogrupo_8cpp"/>
-        <childnode refid="266" relation="include">
-        </childnode>
         <childnode refid="268" relation="include">
         </childnode>
+        <childnode refid="270" relation="include">
+        </childnode>
       </node>
-      <node id="267">
+      <node id="269">
         <label>QWidget</label>
       </node>
-      <node id="266">
+      <node id="268">
         <label>novogrupo.h</label>
         <link refid="novogrupo_8h"/>
-        <childnode refid="267" relation="include">
+        <childnode refid="269" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -34,16 +34,16 @@
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="novogrupo_8h" kindref="compound">novogrupo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_novogrupo.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4" refid="classnovo_grupo_1a2e343a019db9fe74eea1809e833a8517" refkind="member"><highlight class="normal"><ref refid="classnovo_grupo_1a2e343a019db9fe74eea1809e833a8517" kindref="member">novoGrupo::novoGrupo</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="4" refid="classnovoGrupo_1a2e343a019db9fe74eea1809e833a8517" refkind="member"><highlight class="normal"><ref refid="classnovoGrupo_1a2e343a019db9fe74eea1809e833a8517" kindref="member">novoGrupo::novoGrupo</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget(parent),</highlight></codeline>
-<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespace_ui" kindref="compound">Ui</ref>::<ref refid="classnovo_grupo" kindref="compound">novoGrupo</ref>)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classnovoGrupo" kindref="compound">novoGrupo</ref>)</highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kindref="member">ui</ref>-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="9"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="classnovo_grupo_1a561957c27e43bc56cc595a37db18aa33" refkind="member"><highlight class="normal"><ref refid="classnovo_grupo_1a561957c27e43bc56cc595a37db18aa33" kindref="member">novoGrupo::~novoGrupo</ref>()</highlight></codeline>
+<codeline lineno="11" refid="classnovoGrupo_1a561957c27e43bc56cc595a37db18aa33" refkind="member"><highlight class="normal"><ref refid="classnovoGrupo_1a561957c27e43bc56cc595a37db18aa33" kindref="member">novoGrupo::~novoGrupo</ref>()</highlight></codeline>
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kindref="member">ui</ref>;</highlight></codeline>
 <codeline lineno="14"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp"/>

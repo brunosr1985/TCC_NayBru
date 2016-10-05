@@ -10,22 +10,18 @@
     <includes refid="novogrupo_8h" local="yes">novogrupo.h</includes>
     <includes refid="tipodisp_8h" local="yes">tipodisp.h</includes>
     <incdepgraph>
-      <node id="204">
+      <node id="206">
         <label>QtDebug</label>
       </node>
-      <node id="202">
+      <node id="204">
         <label>QMessageBox</label>
       </node>
-      <node id="203">
+      <node id="205">
         <label>QtSql/QSqlDatabase</label>
       </node>
-      <node id="190">
+      <node id="192">
         <label>mainwindow.h</label>
         <link refid="mainwindow_8h"/>
-        <childnode refid="191" relation="include">
-        </childnode>
-        <childnode refid="192" relation="include">
-        </childnode>
         <childnode refid="193" relation="include">
         </childnode>
         <childnode refid="194" relation="include">
@@ -50,95 +46,99 @@
         </childnode>
         <childnode refid="204" relation="include">
         </childnode>
-      </node>
-      <node id="194">
-        <label>QtSql/QSqlQuery</label>
-      </node>
-      <node id="191">
-        <label>QMainWindow</label>
-      </node>
-      <node id="195">
-        <label>QtSql/QSqlTableModel</label>
-      </node>
-      <node id="209">
-        <label>gerenciachamados.h</label>
-        <link refid="gerenciachamados_8h"/>
-        <childnode refid="207" relation="include">
-        </childnode>
-      </node>
-      <node id="199">
-        <label>QtCore</label>
-      </node>
-      <node id="196">
-        <label>QSqlDatabase</label>
-      </node>
-      <node id="193">
-        <label>QtSql/QSqlQueryModel</label>
-      </node>
-      <node id="208">
-        <label>gerenciadispositivo.h</label>
-        <link refid="gerenciadispositivo_8h"/>
-        <childnode refid="207" relation="include">
-        </childnode>
-      </node>
-      <node id="207">
-        <label>QDialog</label>
-      </node>
-      <node id="205">
-        <label>ui_mainwindow.h</label>
-      </node>
-      <node id="197">
-        <label>QDebug</label>
-      </node>
-      <node id="211">
-        <label>QWidget</label>
-      </node>
-      <node id="210">
-        <label>novogrupo.h</label>
-        <link refid="novogrupo_8h"/>
-        <childnode refid="211" relation="include">
-        </childnode>
-      </node>
-      <node id="201">
-        <label>QSqlError</label>
-      </node>
-      <node id="206">
-        <label>gerenciapessoas.h</label>
-        <link refid="gerenciapessoas_8h"/>
-        <childnode refid="207" relation="include">
-        </childnode>
-      </node>
-      <node id="198">
-        <label>QSql</label>
-      </node>
-      <node id="189">
-        <label>C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp</label>
-        <link refid="mainwindow_8cpp"/>
-        <childnode refid="190" relation="include">
-        </childnode>
         <childnode refid="205" relation="include">
         </childnode>
         <childnode refid="206" relation="include">
         </childnode>
-        <childnode refid="208" relation="include">
-        </childnode>
+      </node>
+      <node id="196">
+        <label>QtSql/QSqlQuery</label>
+      </node>
+      <node id="193">
+        <label>QMainWindow</label>
+      </node>
+      <node id="197">
+        <label>QtSql/QSqlTableModel</label>
+      </node>
+      <node id="211">
+        <label>gerenciachamados.h</label>
+        <link refid="gerenciachamados_8h"/>
         <childnode refid="209" relation="include">
         </childnode>
-        <childnode refid="210" relation="include">
-        </childnode>
-        <childnode refid="212" relation="include">
+      </node>
+      <node id="201">
+        <label>QtCore</label>
+      </node>
+      <node id="198">
+        <label>QSqlDatabase</label>
+      </node>
+      <node id="195">
+        <label>QtSql/QSqlQueryModel</label>
+      </node>
+      <node id="210">
+        <label>gerenciadispositivo.h</label>
+        <link refid="gerenciadispositivo_8h"/>
+        <childnode refid="209" relation="include">
         </childnode>
       </node>
-      <node id="192">
-        <label>QTableView</label>
+      <node id="209">
+        <label>QDialog</label>
+      </node>
+      <node id="207">
+        <label>ui_mainwindow.h</label>
+      </node>
+      <node id="199">
+        <label>QDebug</label>
+      </node>
+      <node id="213">
+        <label>QWidget</label>
       </node>
       <node id="212">
-        <label>tipodisp.h</label>
-        <link refid="tipodisp_8h"/>
-        <childnode refid="207" relation="include">
+        <label>novogrupo.h</label>
+        <link refid="novogrupo_8h"/>
+        <childnode refid="213" relation="include">
+        </childnode>
+      </node>
+      <node id="203">
+        <label>QSqlError</label>
+      </node>
+      <node id="208">
+        <label>gerenciapessoas.h</label>
+        <link refid="gerenciapessoas_8h"/>
+        <childnode refid="209" relation="include">
         </childnode>
       </node>
       <node id="200">
+        <label>QSql</label>
+      </node>
+      <node id="191">
+        <label>C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+        <childnode refid="192" relation="include">
+        </childnode>
+        <childnode refid="207" relation="include">
+        </childnode>
+        <childnode refid="208" relation="include">
+        </childnode>
+        <childnode refid="210" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+        <childnode refid="212" relation="include">
+        </childnode>
+        <childnode refid="214" relation="include">
+        </childnode>
+      </node>
+      <node id="194">
+        <label>QTableView</label>
+      </node>
+      <node id="214">
+        <label>tipodisp.h</label>
+        <link refid="tipodisp_8h"/>
+        <childnode refid="209" relation="include">
+        </childnode>
+      </node>
+      <node id="202">
         <label>QtGui</label>
       </node>
     </incdepgraph>
@@ -155,20 +155,20 @@
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="novogrupo_8h" kindref="compound">novogrupo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tipodisp_8h" kindref="compound">tipodisp.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="class_main_window_1a8b244be8b7b7db1b08de2a2acb9409db" refkind="member"><highlight class="normal"><ref refid="class_main_window_1a8b244be8b7b7db1b08de2a2acb9409db" kindref="member">MainWindow::MainWindow</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="9" refid="classMainWindow_1a8b244be8b7b7db1b08de2a2acb9409db" refkind="member"><highlight class="normal"><ref refid="classMainWindow_1a8b244be8b7b7db1b08de2a2acb9409db" kindref="member">MainWindow::MainWindow</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>QMainWindow(parent),</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespace_ui" kindref="compound">Ui</ref>::<ref refid="class_main_window" kindref="compound">MainWindow</ref>)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classMainWindow" kindref="compound">MainWindow</ref>)</highlight></codeline>
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" kindref="member">ui</ref>-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="class_main_window_1ae98d00a93bc118200eeef9f9bba1dba7" refkind="member"><highlight class="normal"><ref refid="class_main_window_1ae98d00a93bc118200eeef9f9bba1dba7" kindref="member">MainWindow::~MainWindow</ref>()</highlight></codeline>
+<codeline lineno="17" refid="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" refkind="member"><highlight class="normal"><ref refid="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" kindref="member">MainWindow::~MainWindow</ref>()</highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" kindref="member">ui</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MainWindow::on_actionPessoas_x_Chamados_triggered()</highlight></codeline>
+<codeline lineno="22" refid="classMainWindow_1ac3987416965f985c8d44c8adc1e42add" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMainWindow_1ac3987416965f985c8d44c8adc1e42add" kindref="member">MainWindow::on_actionPessoas_x_Chamados_triggered</ref>()</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>erro;</highlight></codeline>
@@ -181,21 +181,21 @@
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>erro<sp/>=<sp/>db.open(</highlight><highlight class="stringliteral">&quot;postgres&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//pessxchamado</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>modelo<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlTableModel(parent(),db);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlTableModel(parent(),db);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>modelo-&gt;setTable(</highlight><highlight class="stringliteral">&quot;pessxchamado&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>modelo-&gt;setEditStrategy(QSqlTableModel::OnManualSubmit);</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>modelo-&gt;select();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>-&gt;setTable(</highlight><highlight class="stringliteral">&quot;pessxchamado&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>-&gt;setEditStrategy(QSqlTableModel::OnManualSubmit);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>-&gt;select();</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>QTableView<sp/>*pessxcham<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QTableView;</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>pessxcham-&gt;setEditTriggers(QAbstractItemView::NoEditTriggers);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>pessxcham-&gt;setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>pessxcham-&gt;setModel(modelo);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>pessxcham-&gt;setModel(<ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>pessxcham-&gt;show();</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>db.close();</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="47"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MainWindow::on_actionChamados_2_triggered()</highlight></codeline>
+<codeline lineno="49" refid="classMainWindow_1ae982429a38d1d6d4430693322357e716" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMainWindow_1ae982429a38d1d6d4430693322357e716" kindref="member">MainWindow::on_actionChamados_2_triggered</ref>()</highlight></codeline>
 <codeline lineno="50"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>erro;</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlDatabase<sp/>db<sp/>=<sp/>QSqlDatabase::addDatabase(</highlight><highlight class="stringliteral">&quot;QPSQL&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;conn&quot;</highlight><highlight class="normal">);</highlight></codeline>
@@ -206,21 +206,21 @@
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPort(5432);</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>erro<sp/>=<sp/>db.open(</highlight><highlight class="stringliteral">&quot;postgres&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>modelo<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlTableModel(parent(),db);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlTableModel(parent(),db);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>modelo-&gt;setTable(</highlight><highlight class="stringliteral">&quot;chamados1&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>modelo-&gt;setEditStrategy(QSqlTableModel::OnManualSubmit);</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>modelo-&gt;select();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>-&gt;setTable(</highlight><highlight class="stringliteral">&quot;chamados1&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>-&gt;setEditStrategy(QSqlTableModel::OnManualSubmit);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>-&gt;select();</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>QTableView<sp/>*chamados<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QTableView;</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>chamados-&gt;setEditTriggers(QAbstractItemView::NoEditTriggers);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>chamados-&gt;setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>chamados-&gt;setModel(modelo);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>chamados-&gt;setModel(<ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>chamados-&gt;show();</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>db.close();</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
 <codeline lineno="72"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MainWindow::on_actionPessoas_x_Qtde_Chamados_triggered()</highlight></codeline>
+<codeline lineno="74" refid="classMainWindow_1a8540f34e55fcacf375edb2421c390044" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMainWindow_1a8540f34e55fcacf375edb2421c390044" kindref="member">MainWindow::on_actionPessoas_x_Qtde_Chamados_triggered</ref>()</highlight></codeline>
 <codeline lineno="75"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>erro;</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlDatabase<sp/>db<sp/>=<sp/>QSqlDatabase::addDatabase(</highlight><highlight class="stringliteral">&quot;QPSQL&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;conn&quot;</highlight><highlight class="normal">);</highlight></codeline>
@@ -232,46 +232,46 @@
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>erro<sp/>=<sp/>db.open(</highlight><highlight class="stringliteral">&quot;postgres&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>modelo<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlTableModel(parent(),db);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlTableModel(parent(),db);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>modelo-&gt;setTable(</highlight><highlight class="stringliteral">&quot;pessxqtde&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>modelo-&gt;setEditStrategy(QSqlTableModel::OnManualSubmit);</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>modelo-&gt;select();</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>-&gt;setTable(</highlight><highlight class="stringliteral">&quot;pessxqtde&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>-&gt;setEditStrategy(QSqlTableModel::OnManualSubmit);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>-&gt;select();</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>QTableView<sp/>*pessxqtde<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QTableView;</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>pessxqtde-&gt;setEditTriggers(QAbstractItemView::NoEditTriggers);</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>pessxqtde-&gt;setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>pessxqtde-&gt;setModel(modelo);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>pessxqtde-&gt;setModel(<ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>);</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>pessxqtde-&gt;show();</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>db.close();</highlight></codeline>
 <codeline lineno="97"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MainWindow::on_actionChamados_triggered()</highlight></codeline>
+<codeline lineno="99" refid="classMainWindow_1ac107347073b88880dac081fd745fd619" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMainWindow_1ac107347073b88880dac081fd745fd619" kindref="member">MainWindow::on_actionChamados_triggered</ref>()</highlight></codeline>
 <codeline lineno="100"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerencia_chamados" kindref="compound">gerenciaChamados</ref><sp/>*gc<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classgerencia_chamados" kindref="compound">gerenciaChamados</ref>();</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaChamados" kindref="compound">gerenciaChamados</ref><sp/>*gc<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classgerenciaChamados" kindref="compound">gerenciaChamados</ref>();</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>gc-&gt;show();</highlight></codeline>
 <codeline lineno="103"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MainWindow::on_actionDispositivos_triggered()</highlight></codeline>
+<codeline lineno="105" refid="classMainWindow_1acb1d694a8b177feec62407a0848dba95" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMainWindow_1acb1d694a8b177feec62407a0848dba95" kindref="member">MainWindow::on_actionDispositivos_triggered</ref>()</highlight></codeline>
 <codeline lineno="106"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerencia_dispositivo" kindref="compound">gerenciaDispositivo</ref><sp/>*gd<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classgerencia_dispositivo" kindref="compound">gerenciaDispositivo</ref>();</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo" kindref="compound">gerenciaDispositivo</ref><sp/>*gd<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classgerenciaDispositivo" kindref="compound">gerenciaDispositivo</ref>();</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>gd-&gt;show();</highlight></codeline>
 <codeline lineno="109"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MainWindow::on_actionPessoas_triggered()</highlight></codeline>
+<codeline lineno="111" refid="classMainWindow_1a1db8061a9d0e4dd91f7a065e8782ad99" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMainWindow_1a1db8061a9d0e4dd91f7a065e8782ad99" kindref="member">MainWindow::on_actionPessoas_triggered</ref>()</highlight></codeline>
 <codeline lineno="112"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerencia_pessoas" kindref="compound">gerenciaPessoas</ref><sp/>*gp<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classgerencia_pessoas" kindref="compound">gerenciaPessoas</ref>();</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas" kindref="compound">gerenciaPessoas</ref><sp/>*gp<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classgerenciaPessoas" kindref="compound">gerenciaPessoas</ref>();</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>gp-&gt;show();</highlight></codeline>
 <codeline lineno="115"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MainWindow::on_actionNovo_Grupo_de_Pessoas_triggered()</highlight></codeline>
+<codeline lineno="117" refid="classMainWindow_1a1266444211ea57fed22838649b3285e5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMainWindow_1a1266444211ea57fed22838649b3285e5" kindref="member">MainWindow::on_actionNovo_Grupo_de_Pessoas_triggered</ref>()</highlight></codeline>
 <codeline lineno="118"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovo_grupo" kindref="compound">novoGrupo</ref><sp/>*ng<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classnovo_grupo" kindref="compound">novoGrupo</ref>();</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo" kindref="compound">novoGrupo</ref><sp/>*ng<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classnovoGrupo" kindref="compound">novoGrupo</ref>();</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>ng-&gt;show();</highlight></codeline>
 <codeline lineno="121"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>MainWindow::on_actionNovo_Tipo_de_Dispositivo_triggered()</highlight></codeline>
+<codeline lineno="123" refid="classMainWindow_1af7736d52ad806d0da7eae9c325f4d694" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMainWindow_1af7736d52ad806d0da7eae9c325f4d694" kindref="member">MainWindow::on_actionNovo_Tipo_de_Dispositivo_triggered</ref>()</highlight></codeline>
 <codeline lineno="124"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtipo_disp" kindref="compound">tipoDisp</ref><sp/>*td<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classtipo_disp" kindref="compound">tipoDisp</ref>();</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtipoDisp" kindref="compound">tipoDisp</ref><sp/>*td<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classtipoDisp" kindref="compound">tipoDisp</ref>();</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>td-&gt;show();</highlight></codeline>
 <codeline lineno="127"><highlight class="normal">}</highlight></codeline>
     </programlisting>

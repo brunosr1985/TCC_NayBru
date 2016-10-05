@@ -5,24 +5,24 @@
     <includes refid="selecionadisp_8h" local="yes">selecionadisp.h</includes>
     <includes local="yes">ui_selecionadisp.h</includes>
     <incdepgraph>
-      <node id="293">
+      <node id="295">
         <label>ui_selecionadisp.h</label>
       </node>
-      <node id="292">
+      <node id="294">
         <label>QDialog</label>
       </node>
-      <node id="290">
+      <node id="292">
         <label>C:/Users/BrunoSR/TCC_NayBru/selecionadisp.cpp</label>
         <link refid="selecionadisp_8cpp"/>
-        <childnode refid="291" relation="include">
-        </childnode>
         <childnode refid="293" relation="include">
         </childnode>
+        <childnode refid="295" relation="include">
+        </childnode>
       </node>
-      <node id="291">
+      <node id="293">
         <label>selecionadisp.h</label>
         <link refid="selecionadisp_8h"/>
-        <childnode refid="292" relation="include">
+        <childnode refid="294" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -36,14 +36,14 @@
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4" refid="classselecionadisp_1a23cbf45ded7e90e20f7d3ea8679f856a" refkind="member"><highlight class="normal"><ref refid="classselecionadisp_1a23cbf45ded7e90e20f7d3ea8679f856a" kindref="member">selecionadisp::selecionadisp</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>QDialog(parent),</highlight></codeline>
-<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespace_ui" kindref="compound">Ui</ref>::<ref refid="classselecionadisp" kindref="compound">selecionadisp</ref>)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classselecionadisp" kindref="compound">selecionadisp</ref>)</highlight></codeline>
 <codeline lineno="7"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>ui-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classselecionadisp_1aacbc7399c7f9e85cd7f211aa14ab8973" kindref="member">ui</ref>-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="9"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11" refid="classselecionadisp_1aad8dcaadb86038322f173c9b9203916e" refkind="member"><highlight class="normal"><ref refid="classselecionadisp_1aad8dcaadb86038322f173c9b9203916e" kindref="member">selecionadisp::~selecionadisp</ref>()</highlight></codeline>
 <codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>ui;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classselecionadisp_1aacbc7399c7f9e85cd7f211aa14ab8973" kindref="member">ui</ref>;</highlight></codeline>
 <codeline lineno="14"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="C:/Users/BrunoSR/TCC_NayBru/selecionadisp.cpp"/>

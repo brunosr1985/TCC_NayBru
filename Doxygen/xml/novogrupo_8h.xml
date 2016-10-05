@@ -7,42 +7,42 @@
     <includedby refid="mainwindow_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp</includedby>
     <includedby refid="novogrupo_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp</includedby>
     <incdepgraph>
-      <node id="271">
-        <label>QWidget</label>
-      </node>
-      <node id="270">
-        <label>C:/Users/BrunoSR/TCC_NayBru/novogrupo.h</label>
-        <link refid="novogrupo_8h"/>
-        <childnode refid="271" relation="include">
-        </childnode>
-      </node>
-    </incdepgraph>
-    <invincdepgraph>
-      <node id="275">
-        <label>C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp</label>
-        <link refid="novogrupo_8cpp"/>
-      </node>
       <node id="273">
-        <label>C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.cpp</label>
-        <link refid="cadastropessoa_8cpp"/>
+        <label>QWidget</label>
       </node>
       <node id="272">
         <label>C:/Users/BrunoSR/TCC_NayBru/novogrupo.h</label>
         <link refid="novogrupo_8h"/>
         <childnode refid="273" relation="include">
         </childnode>
-        <childnode refid="274" relation="include">
-        </childnode>
-        <childnode refid="275" relation="include">
-        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="277">
+        <label>C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp</label>
+        <link refid="novogrupo_8cpp"/>
+      </node>
+      <node id="275">
+        <label>C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.cpp</label>
+        <link refid="cadastropessoa_8cpp"/>
       </node>
       <node id="274">
+        <label>C:/Users/BrunoSR/TCC_NayBru/novogrupo.h</label>
+        <link refid="novogrupo_8h"/>
+        <childnode refid="275" relation="include">
+        </childnode>
+        <childnode refid="276" relation="include">
+        </childnode>
+        <childnode refid="277" relation="include">
+        </childnode>
+      </node>
+      <node id="276">
         <label>C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp</label>
         <link refid="mainwindow_8cpp"/>
       </node>
     </invincdepgraph>
-    <innerclass refid="classnovo_grupo" prot="public">novoGrupo</innerclass>
-    <innernamespace refid="namespace_ui">Ui</innernamespace>
+    <innerclass refid="classnovoGrupo" prot="public">novoGrupo</innerclass>
+    <innernamespace refid="namespaceUi">Ui</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -53,20 +53,20 @@
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QWidget&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_ui" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnovo_grupo" kindref="compound">novoGrupo</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceUi" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnovoGrupo" kindref="compound">novoGrupo</ref>;</highlight></codeline>
 <codeline lineno="8"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="classnovo_grupo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnovo_grupo" kindref="compound">novoGrupo</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QWidget</highlight></codeline>
+<codeline lineno="10" refid="classnovoGrupo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnovoGrupo" kindref="compound">novoGrupo</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QWidget</highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classnovo_grupo" kindref="compound">novoGrupo</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classnovo_grupo" kindref="compound">novoGrupo</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classnovoGrupo" kindref="compound">novoGrupo</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classnovoGrupo" kindref="compound">novoGrupo</ref>();</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::novoGrupo<sp/>*ui;</highlight></codeline>
+<codeline lineno="19" refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::novoGrupo<sp/>*<ref refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kindref="member">ui</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>NOVOGRUPO_H</highlight></codeline>

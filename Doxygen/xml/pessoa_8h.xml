@@ -7,57 +7,59 @@
     <includedby refid="m__raci_8h" local="yes">C:/Users/BrunoSR/TCC_NayBru/m_raci.h</includedby>
     <includedby refid="pessoa_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp</includedby>
     <incdepgraph>
-      <node id="282">
+      <node id="284">
         <label>grupop.h</label>
         <link refid="grupop_8h"/>
+        <childnode refid="285" relation="include">
+        </childnode>
       </node>
-      <node id="283">
+      <node id="285">
         <label>QString</label>
       </node>
-      <node id="281">
+      <node id="283">
         <label>C:/Users/BrunoSR/TCC_NayBru/pessoa.h</label>
         <link refid="pessoa_8h"/>
-        <childnode refid="282" relation="include">
+        <childnode refid="284" relation="include">
         </childnode>
-        <childnode refid="283" relation="include">
+        <childnode refid="285" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="285">
+      <node id="287">
         <label>C:/Users/BrunoSR/TCC_NayBru/m_raci.h</label>
         <link refid="m__raci_8h"/>
-        <childnode refid="286" relation="include">
-        </childnode>
-        <childnode refid="285" relation="include">
-        </childnode>
         <childnode refid="288" relation="include">
         </childnode>
+        <childnode refid="287" relation="include">
+        </childnode>
+        <childnode refid="290" relation="include">
+        </childnode>
       </node>
-      <node id="288">
+      <node id="290">
         <label>C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp</label>
         <link refid="m__raci_8cpp"/>
       </node>
-      <node id="286">
+      <node id="288">
         <label>C:/Users/BrunoSR/TCC_NayBru/chamado.h</label>
         <link refid="chamado_8h"/>
-        <childnode refid="287" relation="include">
+        <childnode refid="289" relation="include">
         </childnode>
       </node>
-      <node id="287">
+      <node id="289">
         <label>C:/Users/BrunoSR/TCC_NayBru/chamado.cpp</label>
         <link refid="chamado_8cpp"/>
       </node>
-      <node id="289">
+      <node id="291">
         <label>C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp</label>
         <link refid="pessoa_8cpp"/>
       </node>
-      <node id="284">
+      <node id="286">
         <label>C:/Users/BrunoSR/TCC_NayBru/pessoa.h</label>
         <link refid="pessoa_8h"/>
-        <childnode refid="285" relation="include">
+        <childnode refid="287" relation="include">
         </childnode>
-        <childnode refid="289" relation="include">
+        <childnode refid="291" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -84,7 +86,7 @@
 <codeline lineno="15" refid="classpessoa_1ac50713f68cf6f093f64d5d5052c1e175" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classpessoa_1ac50713f68cf6f093f64d5d5052c1e175" kindref="member">email</ref>;</highlight></codeline>
 <codeline lineno="16" refid="classpessoa_1a612f53ad664ff1afb6582ed1f8711522" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classpessoa_1a612f53ad664ff1afb6582ed1f8711522" kindref="member">depto</ref>;</highlight></codeline>
 <codeline lineno="17" refid="classpessoa_1af788a2b8720c8368236afc3875a9fb75" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classpessoa_1af788a2b8720c8368236afc3875a9fb75" kindref="member">cargo</ref>;</highlight></codeline>
-<codeline lineno="18" refid="classpessoa_1a1cc497f533336ea9451cf321d355afed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_grupo_p" kindref="compound">GrupoP</ref><sp/><ref refid="classpessoa_1a1cc497f533336ea9451cf321d355afed" kindref="member">grupo</ref>;</highlight></codeline>
+<codeline lineno="18" refid="classpessoa_1a1cc497f533336ea9451cf321d355afed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classGrupoP" kindref="compound">GrupoP</ref><sp/><ref refid="classpessoa_1a1cc497f533336ea9451cf321d355afed" kindref="member">grupo</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classpessoa_1ae2ee70812ff092a18c24ed94eaae260b" kindref="member">pessoa</ref>();</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a9a20cb67d382a667ad8ed10761b50211" kindref="member">getId</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
@@ -101,8 +103,8 @@
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a4a32656512ade652bec82a5c749ad7d1" kindref="member">setDepto</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classpessoa_1a07fe59858c0c8ff2d3bb6bc3879de6b3" kindref="member">getCargo</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a1a6ebf59740db53d42fbac357f6219b5" kindref="member">setCargo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;value);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1ad1bad474adbfadf472ad857a7c5f181c" kindref="member">getGrupo</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1abde4772449869bd2c8e5e6d280e4f9f5" kindref="member">setGrupo</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classGrupoP" kindref="compound">GrupoP</ref><sp/><ref refid="classpessoa_1a30e6b4bc46405512f083205e83a123e0" kindref="member">getGrupo</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classpessoa_1a6d5ee1ef25af3e07366b093af99ebd50" kindref="member">setGrupo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classGrupoP" kindref="compound">GrupoP</ref><sp/>&amp;value);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>PESSOA_H</highlight></codeline>

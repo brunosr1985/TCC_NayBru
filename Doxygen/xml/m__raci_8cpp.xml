@@ -4,33 +4,35 @@
     <compoundname>m_raci.cpp</compoundname>
     <includes refid="m__raci_8h" local="yes">m_raci.h</includes>
     <incdepgraph>
-      <node id="158">
+      <node id="160">
         <label>m_raci.h</label>
         <link refid="m__raci_8h"/>
-        <childnode refid="159" relation="include">
+        <childnode refid="161" relation="include">
         </childnode>
-        <childnode refid="158" relation="include">
-        </childnode>
-      </node>
-      <node id="157">
-        <label>C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp</label>
-        <link refid="m__raci_8cpp"/>
-        <childnode refid="158" relation="include">
-        </childnode>
-      </node>
-      <node id="160">
-        <label>grupop.h</label>
-        <link refid="grupop_8h"/>
-      </node>
-      <node id="161">
-        <label>QString</label>
-      </node>
-      <node id="159">
-        <label>pessoa.h</label>
-        <link refid="pessoa_8h"/>
         <childnode refid="160" relation="include">
         </childnode>
-        <childnode refid="161" relation="include">
+      </node>
+      <node id="159">
+        <label>C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp</label>
+        <link refid="m__raci_8cpp"/>
+        <childnode refid="160" relation="include">
+        </childnode>
+      </node>
+      <node id="162">
+        <label>grupop.h</label>
+        <link refid="grupop_8h"/>
+        <childnode refid="163" relation="include">
+        </childnode>
+      </node>
+      <node id="163">
+        <label>QString</label>
+      </node>
+      <node id="161">
+        <label>pessoa.h</label>
+        <link refid="pessoa_8h"/>
+        <childnode refid="162" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -43,10 +45,70 @@
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="m__raci_8h" kindref="compound">m_raci.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5" refid="class_m_raci_1a62c738f5cf78b52066d235d7d159afe8" refkind="member"><highlight class="normal"><ref refid="class_m_raci_1a62c738f5cf78b52066d235d7d159afe8" kindref="member">MRaci::MRaci</ref>()</highlight></codeline>
-<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="classMRaci_1af257de76f5b51ffd7aef32df190b4539" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMRaci_1af257de76f5b51ffd7aef32df190b4539" kindref="member">MRaci::getId</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="6"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMRaci_1a40d4d91f9ef6b39320afbe565e463eff" kindref="member">id</ref>;</highlight></codeline>
 <codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classMRaci_1a5d41e168ae4d2eb42870c5111c5ced66" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMRaci_1a5d41e168ae4d2eb42870c5111c5ced66" kindref="member">MRaci::setId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classMRaci_1ac4dcf216793abb93e10e565acdc3ad9b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMRaci_1ac4dcf216793abb93e10e565acdc3ad9b" kindref="member">MRaci::getR</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="16"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMRaci_1acd15929ffdaf5b16f74c20a248a5d818" kindref="member">R</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="classMRaci_1a24d39e1a619e1636fe764d1fc1fec557" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMRaci_1a24d39e1a619e1636fe764d1fc1fec557" kindref="member">MRaci::setR</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMRaci_1acd15929ffdaf5b16f74c20a248a5d818" kindref="member">R</ref><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="classMRaci_1a1d5eac204c97254d14c95e0dfa5d5d60" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMRaci_1a1d5eac204c97254d14c95e0dfa5d5d60" kindref="member">MRaci::getA</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="26"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMRaci_1ac94babea9b056a67581823dcc5aeaa87" kindref="member">A</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="classMRaci_1ac54730e0687cae31a3bd45727ce674ab" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMRaci_1ac54730e0687cae31a3bd45727ce674ab" kindref="member">MRaci::setA</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMRaci_1ac94babea9b056a67581823dcc5aeaa87" kindref="member">A</ref><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="classMRaci_1aedc01e2a415e47516e205d20b75aa35a" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMRaci_1aedc01e2a415e47516e205d20b75aa35a" kindref="member">MRaci::getC</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="36"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMRaci_1af57f74b9a5bfe84536b4a11450b90f3f" kindref="member">C</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="classMRaci_1ad7b3c1d332bf913e97251ea978f495e9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMRaci_1ad7b3c1d332bf913e97251ea978f495e9" kindref="member">MRaci::setC</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMRaci_1af57f74b9a5bfe84536b4a11450b90f3f" kindref="member">C</ref><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="classMRaci_1a32166d245eb76ba5ac5af3d7944dc5a2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classMRaci_1a32166d245eb76ba5ac5af3d7944dc5a2" kindref="member">MRaci::getI</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="46"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMRaci_1a3581c51dd79dbd995de307c018fb21a8" kindref="member">I</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="classMRaci_1a9d2f32c2ac580027e68d28d6cd6206f4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMRaci_1a9d2f32c2ac580027e68d28d6cd6206f4" kindref="member">MRaci::setI</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMRaci_1a3581c51dd79dbd995de307c018fb21a8" kindref="member">I</ref><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="classMRaci_1ad0dfc80d18e27a9f1608323d684787cb" refkind="member"><highlight class="normal"><ref refid="classpessoa" kindref="compound">pessoa</ref><sp/><ref refid="classMRaci_1ad0dfc80d18e27a9f1608323d684787cb" kindref="member">MRaci::getPess</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="56"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classMRaci_1a8b5d41088ff6e79884541092e43f7e07" kindref="member">pess</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="classMRaci_1a1ddb3f56c84e1c1dc05076c90d14b48d" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMRaci_1a1ddb3f56c84e1c1dc05076c90d14b48d" kindref="member">MRaci::setPess</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classpessoa" kindref="compound">pessoa</ref><sp/>&amp;value)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMRaci_1a8b5d41088ff6e79884541092e43f7e07" kindref="member">pess</ref><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="classMRaci_1a62c738f5cf78b52066d235d7d159afe8" refkind="member"><highlight class="normal"><ref refid="classMRaci_1a62c738f5cf78b52066d235d7d159afe8" kindref="member">MRaci::MRaci</ref>()</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="C:/Users/BrunoSR/TCC_NayBru/m_raci.cpp"/>
   </compounddef>

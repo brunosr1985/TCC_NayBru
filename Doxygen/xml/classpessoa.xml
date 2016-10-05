@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
   <compounddef id="classpessoa" kind="class" language="C++" prot="public">
     <compoundname>pessoa</compoundname>
-    <includes refid="pessoa_8h" local="no">pessoa.h</includes>
+    <includes refid="pessoa_8h" local="yes">pessoa.h</includes>
       <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="classpessoa_1a8e80bd7d70d7d29b248ef5ec77720b5b" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -96,7 +96,7 @@
         <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="17" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classpessoa_1a1cc497f533336ea9451cf321d355afed" prot="public" static="no" mutable="no">
-        <type><ref refid="class_grupo_p" kindref="compound">GrupoP</ref></type>
+        <type><ref refid="classGrupoP" kindref="compound">GrupoP</ref></type>
         <definition>GrupoP pessoa::grupo</definition>
         <argsstring></argsstring>
         <name>grupo</name>
@@ -333,9 +333,9 @@
         </inbodydescription>
         <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="34" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp" bodystart="68" bodyend="71"/>
       </memberdef>
-      <memberdef kind="function" id="classpessoa_1ad1bad474adbfadf472ad857a7c5f181c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition>int pessoa::getGrupo</definition>
+      <memberdef kind="function" id="classpessoa_1a30e6b4bc46405512f083205e83a123e0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classGrupoP" kindref="compound">GrupoP</ref></type>
+        <definition>GrupoP pessoa::getGrupo</definition>
         <argsstring>() const</argsstring>
         <name>getGrupo</name>
         <briefdescription>
@@ -346,13 +346,13 @@
         </inbodydescription>
         <location file="C:/Users/BrunoSR/TCC_NayBru/pessoa.h" line="35" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/pessoa.cpp" bodystart="73" bodyend="76"/>
       </memberdef>
-      <memberdef kind="function" id="classpessoa_1abde4772449869bd2c8e5e6d280e4f9f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classpessoa_1a6d5ee1ef25af3e07366b093af99ebd50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
         <definition>void pessoa::setGrupo</definition>
-        <argsstring>(int value)</argsstring>
+        <argsstring>(const GrupoP &amp;value)</argsstring>
         <name>setGrupo</name>
         <param>
-          <type>int</type>
+          <type>const <ref refid="classGrupoP" kindref="compound">GrupoP</ref> &amp;</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -369,15 +369,15 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="46">
+      <node id="55">
         <label>GrupoP</label>
-        <link refid="class_grupo_p"/>
+        <link refid="classGrupoP"/>
       </node>
-      <node id="45">
+      <node id="54">
         <label>pessoa</label>
         <link refid="classpessoa"/>
-        <childnode refid="46" relation="usage">
-          <edgelabel>grupo</edgelabel>
+        <childnode refid="55" relation="usage">
+          <edgelabel>+grupo</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
@@ -389,7 +389,7 @@
       <member refid="classpessoa_1a07fe59858c0c8ff2d3bb6bc3879de6b3" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getCargo</name></member>
       <member refid="classpessoa_1a1acfd4c15d0b8bfc1140f6063a1739ae" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getDepto</name></member>
       <member refid="classpessoa_1a4a12f308282c24e8591a8e8676624695" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getEmail</name></member>
-      <member refid="classpessoa_1ad1bad474adbfadf472ad857a7c5f181c" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getGrupo</name></member>
+      <member refid="classpessoa_1a30e6b4bc46405512f083205e83a123e0" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getGrupo</name></member>
       <member refid="classpessoa_1a9a20cb67d382a667ad8ed10761b50211" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getId</name></member>
       <member refid="classpessoa_1a83dd5ee7d276187449bb8f337c4864ba" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getNome</name></member>
       <member refid="classpessoa_1afe3f63c712664c2ac32f89ed8595d75d" prot="public" virt="non-virtual"><scope>pessoa</scope><name>getRamal</name></member>
@@ -402,7 +402,7 @@
       <member refid="classpessoa_1a1a6ebf59740db53d42fbac357f6219b5" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setCargo</name></member>
       <member refid="classpessoa_1a4a32656512ade652bec82a5c749ad7d1" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setDepto</name></member>
       <member refid="classpessoa_1a79249a39e2a46cca19acef0476c34bf2" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setEmail</name></member>
-      <member refid="classpessoa_1abde4772449869bd2c8e5e6d280e4f9f5" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setGrupo</name></member>
+      <member refid="classpessoa_1a6d5ee1ef25af3e07366b093af99ebd50" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setGrupo</name></member>
       <member refid="classpessoa_1ab528a41c403719b847f8e43c0893e14c" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setId</name></member>
       <member refid="classpessoa_1a1212ac1dfede6a2a83adf84be6b9c321" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setNome</name></member>
       <member refid="classpessoa_1a4e6fa1b22e8824e270fd2aee4c9866e7" prot="public" virt="non-virtual"><scope>pessoa</scope><name>setRamal</name></member>

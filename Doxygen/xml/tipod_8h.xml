@@ -6,50 +6,50 @@
     <includedby refid="dispositivo_8h" local="yes">C:/Users/BrunoSR/TCC_NayBru/dispositivo.h</includedby>
     <includedby refid="tipod_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/tipod.cpp</includedby>
     <incdepgraph>
-      <node id="323">
-        <label>C:/Users/BrunoSR/TCC_NayBru/tipod.h</label>
-        <link refid="tipod_8h"/>
-        <childnode refid="324" relation="include">
-        </childnode>
-      </node>
-      <node id="324">
-        <label>QString</label>
-      </node>
-    </incdepgraph>
-    <invincdepgraph>
-      <node id="330">
-        <label>C:/Users/BrunoSR/TCC_NayBru/tipod.cpp</label>
-        <link refid="tipod_8cpp"/>
-      </node>
       <node id="325">
         <label>C:/Users/BrunoSR/TCC_NayBru/tipod.h</label>
         <link refid="tipod_8h"/>
         <childnode refid="326" relation="include">
         </childnode>
-        <childnode refid="330" relation="include">
-        </childnode>
       </node>
       <node id="326">
-        <label>C:/Users/BrunoSR/TCC_NayBru/dispositivo.h</label>
-        <link refid="dispositivo_8h"/>
-        <childnode refid="327" relation="include">
-        </childnode>
-        <childnode refid="326" relation="include">
-        </childnode>
-        <childnode refid="329" relation="include">
-        </childnode>
+        <label>QString</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="332">
+        <label>C:/Users/BrunoSR/TCC_NayBru/tipod.cpp</label>
+        <link refid="tipod_8cpp"/>
       </node>
       <node id="327">
-        <label>C:/Users/BrunoSR/TCC_NayBru/chamado.h</label>
-        <link refid="chamado_8h"/>
+        <label>C:/Users/BrunoSR/TCC_NayBru/tipod.h</label>
+        <link refid="tipod_8h"/>
         <childnode refid="328" relation="include">
+        </childnode>
+        <childnode refid="332" relation="include">
         </childnode>
       </node>
       <node id="328">
+        <label>C:/Users/BrunoSR/TCC_NayBru/dispositivo.h</label>
+        <link refid="dispositivo_8h"/>
+        <childnode refid="329" relation="include">
+        </childnode>
+        <childnode refid="328" relation="include">
+        </childnode>
+        <childnode refid="331" relation="include">
+        </childnode>
+      </node>
+      <node id="329">
+        <label>C:/Users/BrunoSR/TCC_NayBru/chamado.h</label>
+        <link refid="chamado_8h"/>
+        <childnode refid="330" relation="include">
+        </childnode>
+      </node>
+      <node id="330">
         <label>C:/Users/BrunoSR/TCC_NayBru/chamado.cpp</label>
         <link refid="chamado_8cpp"/>
       </node>
-      <node id="329">
+      <node id="331">
         <label>C:/Users/BrunoSR/TCC_NayBru/dispositivo.cpp</label>
         <link refid="dispositivo_8cpp"/>
       </node>
@@ -69,9 +69,9 @@
 <codeline lineno="7" refid="classtipod" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtipod" kindref="compound">tipod</ref></highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>id;</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>tipo;</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>SLA;</highlight></codeline>
+<codeline lineno="10" refid="classtipod_1a1b68cb5428c761176b409aae1387a67d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classtipod_1a1b68cb5428c761176b409aae1387a67d" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="11" refid="classtipod_1a4648df7cc23e53d592f3d39b859a83c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/><ref refid="classtipod_1a4648df7cc23e53d592f3d39b859a83c3" kindref="member">tipo</ref>;</highlight></codeline>
+<codeline lineno="12" refid="classtipod_1a0b457d47915626a0b679bb8a160eca81" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classtipod_1a0b457d47915626a0b679bb8a160eca81" kindref="member">SLA</ref>;</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
