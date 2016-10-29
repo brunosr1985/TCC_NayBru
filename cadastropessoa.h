@@ -2,6 +2,12 @@
 #define CADASTROPESSOA_H
 
 #include <QWidget>
+#include <QSqlDatabase>
+#include <QString>
+#include <QSqlQuery>
+#include <QtGui>
+#include <QMessageBox>
+#include <QSqlError>
 
 namespace Ui {
 class Cadastropessoa;
@@ -17,6 +23,8 @@ public:
 
 private slots:
     void on_Novo_Grupo_clicked();
+
+    void on_Pessoa_Salvar_clicked();
 
 private:
     Ui::Cadastropessoa *ui;

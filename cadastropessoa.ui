@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Kaizen Birth Edition</string>
   </property>
   <property name="autoFillBackground">
    <bool>true</bool>
@@ -34,25 +34,25 @@
      </widget>
     </item>
     <item row="2" column="1">
-     <widget class="QLineEdit" name="lineEdit_2"/>
+     <widget class="QLineEdit" name="pessoaNome"/>
     </item>
     <item row="4" column="1">
-     <widget class="QLineEdit" name="lineEdit_3"/>
+     <widget class="QLineEdit" name="pessoaTelefone"/>
     </item>
     <item row="5" column="1">
-     <widget class="QLineEdit" name="lineEdit_5"/>
+     <widget class="QLineEdit" name="pessoaRamal"/>
     </item>
     <item row="7" column="1">
-     <widget class="QLineEdit" name="lineEdit_4"/>
+     <widget class="QLineEdit" name="pessoaEmail"/>
     </item>
     <item row="9" column="1">
-     <widget class="QLineEdit" name="lineEdit_6"/>
+     <widget class="QLineEdit" name="pessoaDepto"/>
     </item>
     <item row="10" column="1">
-     <widget class="QLineEdit" name="lineEdit_7"/>
+     <widget class="QLineEdit" name="pessoaCargo"/>
     </item>
     <item row="11" column="1">
-     <widget class="QComboBox" name="comboBox"/>
+     <widget class="QComboBox" name="pessoaGrupo"/>
     </item>
     <item row="11" column="0">
      <widget class="QLabel" name="label_7">
@@ -104,7 +104,7 @@
      </widget>
     </item>
     <item row="0" column="1">
-     <widget class="QLineEdit" name="lineEdit">
+     <widget class="QLineEdit" name="pessoaID">
       <property name="autoFillBackground">
        <bool>true</bool>
       </property>

@@ -24,17 +24,6 @@ void cadastrochamado::on_pushButton_3_clicked()
 
 void cadastrochamado::on_abreRACI_clicked()
 {
- /*   QString erro;
-    QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
-    db.setHostName("localhost");
-    db.setDatabaseName("postgres");
-    db.setPassword("bu381025");
-    db.setUserName("tccnaybru");
-    db.setPort(5432);
-    erro = db.open("postgres","bu381025");
-    db.close();
-    */
-
     matrizRACI *raci = new matrizRACI();
     raci->show();
 
@@ -44,5 +33,17 @@ void cadastrochamado::on_abreDisp_clicked()
 {
     selecionadisp *disp = new selecionadisp();
     disp->show();
+
+}
+
+void cadastrochamado::on_pushButton_2_clicked()
+{
+    QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
+    db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");
+    db.setDatabaseName("tccnaybru");
+    db.setPassword("bu381025");
+    db.setUserName("brunosr");
+    db.setPort(5432);
+    db.open();
 
 }
