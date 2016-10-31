@@ -29,7 +29,8 @@ SOURCES += main.cpp\
     status.cpp \
     m_raci.cpp \
     tipod.cpp \
-    grupop.cpp
+    grupop.cpp \
+    login.cpp
 
 HEADERS  += mainwindow.h \
     cadastropessoa.h \
@@ -48,7 +49,8 @@ HEADERS  += mainwindow.h \
     status.h \
     m_raci.h \
     tipod.h \
-    grupop.h
+    grupop.h \
+    login.h
 
 FORMS    += mainwindow.ui \
     cadastropessoa.ui \
@@ -60,6 +62,7 @@ FORMS    += mainwindow.ui \
     gerenciapessoas.ui \
     gerenciadispositivo.ui \
     novogrupo.ui \
-    tipodisp.ui
+    tipodisp.ui \
+    login.ui
 
 DISTFILES +=

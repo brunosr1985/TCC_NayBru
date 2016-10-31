@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Kaizen Birth Edition</string>
   </property>
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">

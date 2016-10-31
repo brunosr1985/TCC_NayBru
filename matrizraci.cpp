@@ -22,7 +22,7 @@ matrizRACI::~matrizRACI()
 
 void matrizRACI::on_raciCarregar_clicked()
 {
-    QString erro;
+/*    QString erro;
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
     db.setHostName("localhost");
     db.setDatabaseName("postgres");
@@ -30,7 +30,16 @@ void matrizRACI::on_raciCarregar_clicked()
     db.setUserName("tccnaybru");
     db.setPort(5432);
     erro = db.open("postgres","bu381025");
-
+*/
+    QString erro;
+    QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
+    db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");
+    db.setDatabaseName("tccnaybru");
+    db.setPassword("bu381025");
+    db.setUserName("brunosr");
+    db.setPort(5432);
+    erro = db.open("brunosr","bu381025");
+    db.close();
 
     db.close();
 
