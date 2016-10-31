@@ -144,7 +144,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QComboBox" name="comboBox">
+       <widget class="QComboBox" name="statusChamado">
         <item>
          <property name="text">
           <string>Aberto</string>
@@ -225,7 +225,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPlainTextEdit" name="plainTextEdit"/>
+       <widget class="QPlainTextEdit" name="descricaoChamado"/>
       </item>
      </layout>
     </item>
