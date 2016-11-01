@@ -46,4 +46,18 @@ void cadastrochamado::on_pushButton_2_clicked()
     db.setPort(5432);
     db.open();
 
+
+    QString aux_status;
+    QSqlQuery *query = new QSqlQuery(db);
+    QSqlQuery *query2 = new QSqlQuery(db);
+
+    query2->prepare("SELECT id_status FROM status WHERE statusNome = ?");
+    query2->addBindValue(ui->statusChamado->itemText());
+    aux_status = query2->exec();
+
+    query->prepare("INSERT INTO chamado (status,descricao) VALUES ?,?);
+    query->addBindValue(aux_status);
+    query->addBindValue(ui->descricaoChamado->toPlainText());
+    query->exec();
+
 }

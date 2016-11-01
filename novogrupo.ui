@@ -38,7 +38,7 @@
      </layout>
     </item>
     <item>
-     <widget class="QTableView" name="tableView"/>
+     <widget class="QTableView" name="listaGrupo"/>
     </item>
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
