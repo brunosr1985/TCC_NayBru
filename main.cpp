@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
     Login l;
 
     //Temporariamente removido para não carregar tela de login e agilizar debug
-    x/*if(l.exec() == QDialog::Accepted)
+    /*if(l.exec() == QDialog::Accepted)
     {
     w.show();
     }

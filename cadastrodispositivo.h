@@ -2,6 +2,13 @@
 #define CADASTRODISPOSITIVO_H
 
 #include <QWidget>
+#include <QSqlDatabase>
+#include <QString>
+#include <QSqlQuery>
+#include <QtGui>
+#include <QMessageBox>
+#include <QSqlError>
+#include <QStringList>
 
 namespace Ui {
 class cadastrodispositivo;
@@ -19,6 +26,8 @@ private slots:
     void on_pushButton_3_clicked();
 
     void on_pushButton_4_clicked();
+
+    void on_pushButton_2_clicked();
 
 private:
     Ui::cadastrodispositivo *ui;
