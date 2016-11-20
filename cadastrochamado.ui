@@ -93,14 +93,14 @@
       <item>
        <widget class="QLabel" name="label_10">
         <property name="text">
-         <string>Equipamento</string>
+         <string>Ativos</string>
         </property>
        </widget>
       </item>
       <item>
        <widget class="QPushButton" name="abreDisp">
         <property name="text">
-         <string>Abre Equipamentos</string>
+         <string>Abre Ativos</string>
         </property>
        </widget>
       </item>

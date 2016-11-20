@@ -13,3 +13,13 @@ tipoDisp::~tipoDisp()
 {
     delete ui;
 }
+
+void tipoDisp::on_botaoCancelar_clicked()
+{
+    this->close();
+}
+
+void tipoDisp::on_botaoSalvar_clicked()
+{
+
+}

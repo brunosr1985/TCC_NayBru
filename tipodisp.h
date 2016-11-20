@@ -15,6 +15,11 @@ public:
     explicit tipoDisp(QWidget *parent = 0);
     ~tipoDisp();
 
+private slots:
+    void on_botaoCancelar_clicked();
+
+    void on_botaoSalvar_clicked();
+
 private:
     Ui::tipoDisp *ui;
 };

@@ -44,7 +44,7 @@
     <item>
      <widget class="QLabel" name="label_5">
       <property name="text">
-       <string>Dispositivos</string>
+       <string>Ativos</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -126,13 +126,6 @@
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
-    <item>
-     <widget class="QPushButton" name="novoDisp">
-      <property name="text">
-       <string>Novo</string>
-      </property>
-     </widget>
-    </item>
     <item>
      <widget class="QPushButton" name="pushButton_2">
       <property name="text">

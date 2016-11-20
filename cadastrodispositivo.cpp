@@ -49,7 +49,7 @@ void cadastrodispositivo::on_pushButton_4_clicked()
 
 void cadastrodispositivo::on_pushButton_2_clicked()
 {
-    /*QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
+    QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
     db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");
     db.setDatabaseName("tccnaybru");
     db.setPassword("bu381025");
@@ -60,15 +60,30 @@ void cadastrodispositivo::on_pushButton_2_clicked()
 
     QString aux_status;
     QSqlQuery *query = new QSqlQuery(db);
-    QSqlQuery *query2 = new QSqlQuery(db);
 
-    query2->prepare("SELECT id_tipo FROM tipo_d WHERE tipo = ?");
-    query2->addBindValue(ui->comboTipo->currentText());
-    aux_status = query2->exec();
+    query->prepare("SELECT id_tipo FROM tipo_d WHERE tipo = ?");
+    query->addBindValue(ui->comboTipo->currentText());
+    aux_status = query->exec();
 
     query->prepare("INSERT INTO dispositivo (dispositivo,tipo,local) VALUES ?,?,?);
+    query->addBindValue(ui->lineNome->text());
     query->addBindValue(aux_status);
-    query->addBindValue(ui->descricaoChamado->toPlainText());
-    query->exec();
-    */
+    query->addBindValue(ui->lineLocal->text());
+
+    if(query->exec())
+       {
+        QMessageBox messageBox;
+        messageBox.critical(0,"Sucesso!","Cadastro realizado com sucesso");
+        messageBox.setFixedSize(500,200);
+        db.close();
+    }
+    else
+    {
+        erro = query->lastError().text();
+        QMessageBox messageBox;
+        messageBox.critical(0,"Erro!",erro);
+        messageBox.setFixedSize(500,200);
+
+    }
+
 }
