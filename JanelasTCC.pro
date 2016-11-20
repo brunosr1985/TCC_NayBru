@@ -30,7 +30,8 @@ SOURCES += main.cpp\
     m_raci.cpp \
     tipod.cpp \
     grupop.cpp \
-    login.cpp
+    login.cpp \
+    conectabanco.cpp
 
 HEADERS  += mainwindow.h \
     cadastropessoa.h \
@@ -50,7 +51,8 @@ HEADERS  += mainwindow.h \
     m_raci.h \
     tipod.h \
     grupop.h \
-    login.h
+    login.h \
+    conectabanco.h
 
 FORMS    += mainwindow.ui \
     cadastropessoa.ui \

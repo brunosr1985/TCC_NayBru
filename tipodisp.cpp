@@ -5,6 +5,7 @@ tipoDisp::tipoDisp(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::tipoDisp)
 {
+    parentWidget()->hide();
     ui->setupUi(this);
 }
 

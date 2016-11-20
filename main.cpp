@@ -5,7 +5,7 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
+    JanelaPrincipal w;
     Login l;
 
     //Temporariamente removido para não carregar tela de login e agilizar debug

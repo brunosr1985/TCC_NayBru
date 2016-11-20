@@ -23,6 +23,7 @@ cadastrodispositivo::cadastrodispositivo(QWidget *parent) :
     {
         lista.append(fillCombo->value(0).toString());
     }
+    db.close();
 
     ui->setupUi(this);
     ui->comboTipo->clear();
@@ -43,6 +44,7 @@ void cadastrodispositivo::on_pushButton_4_clicked()
 {
     tipoDisp *td = new tipoDisp();
     td->show();
+
 }
 
 void cadastrodispositivo::on_pushButton_2_clicked()

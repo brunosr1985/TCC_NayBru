@@ -3,22 +3,25 @@
 #include "gerenciapessoas.h"
 #include "gerenciadispositivo.h"
 #include "gerenciachamados.h"
+#include "cadastropessoa.h"
+#include "cadastrochamado.h"
+#include "cadastrodispositivo.h"
 #include "novogrupo.h"
 #include "tipodisp.h"
 
-MainWindow::MainWindow(QWidget *parent) :
+JanelaPrincipal::JanelaPrincipal(QWidget *parent) :
     QMainWindow(parent),
-    ui(new Ui::MainWindow)
+    ui(new Ui::JanelaPrincipal)
 {
     ui->setupUi(this);
 }
 
-MainWindow::~MainWindow()
+JanelaPrincipal::~JanelaPrincipal()
 {
     delete ui;
 }
 
-void MainWindow::on_actionPessoas_x_Chamados_triggered()
+void JanelaPrincipal::on_actionPessoas_x_Chamados_triggered()
 {
 
     QString erro;
@@ -45,7 +48,7 @@ void MainWindow::on_actionPessoas_x_Chamados_triggered()
 
 }
 
-void MainWindow::on_actionChamados_2_triggered()
+void JanelaPrincipal::on_actionChamados_2_triggered()
 {
     QString erro;
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
@@ -70,7 +73,7 @@ void MainWindow::on_actionChamados_2_triggered()
 
 }
 
-void MainWindow::on_actionPessoas_x_Qtde_Chamados_triggered()
+void JanelaPrincipal::on_actionPessoas_x_Qtde_Chamados_triggered()
 {
     QString erro;
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
@@ -95,32 +98,57 @@ void MainWindow::on_actionPessoas_x_Qtde_Chamados_triggered()
     db.close();
 }
 
-void MainWindow::on_actionChamados_triggered()
+void JanelaPrincipal::on_actionChamados_triggered()
 {
-    gerenciaChamados *gc = new gerenciaChamados();
-    gc->show();
+    /*gerenciaChamados *gc = new gerenciaChamados(ui->mdiArea);
+    ui->mdiArea->addSubWindow(gc);
+    gc->show();*/
 }
 
-void MainWindow::on_actionDispositivos_triggered()
+void JanelaPrincipal::on_actionDispositivos_triggered()
 {
-    gerenciaDispositivo *gd = new gerenciaDispositivo();
+    QMdiArea *md = new QMdiArea(this);
+    this->setCentralWidget(md);
+    gerenciaDispositivo *gd = new gerenciaDispositivo(md);
+    gd->setAttribute(Qt::WA_DeleteOnClose);
+    md->addSubWindow(gd);
     gd->show();
 }
 
-void MainWindow::on_actionPessoas_triggered()
+void JanelaPrincipal::on_actionPessoas_triggered()
 {
-    gerenciaPessoas *gp = new gerenciaPessoas();
-    gp->show();
+    /*gerenciaPessoas *gp = new gerenciaPessoas(ui->mdiArea);\
+    ui->mdiArea->addSubWindow(gp);
+    gp->show();*/
 }
 
-void MainWindow::on_actionNovo_Grupo_de_Pessoas_triggered()
+
+void JanelaPrincipal::on_actionPessoas_2_triggered()
 {
-    novoGrupo *ng = new novoGrupo();
-    ng->show();
+    QMdiArea *md = new QMdiArea(this);
+    this->setCentralWidget(md);
+    Cadastropessoa *cp = new Cadastropessoa(md);
+    cp->setAttribute(Qt::WA_DeleteOnClose);
+    md->addSubWindow(cp);
+    cp->show();
 }
 
-void MainWindow::on_actionNovo_Tipo_de_Dispositivo_triggered()
+void JanelaPrincipal::on_actionDispositivos_3_triggered()
 {
-    tipoDisp *td = new tipoDisp();
-    td->show();
+    QMdiArea *md = new QMdiArea(this);
+    this->setCentralWidget(md);
+    cadastrodispositivo *cd = new cadastrodispositivo(md);
+    cd->setAttribute(Qt::WA_DeleteOnClose);
+    md->addSubWindow(cd);
+    cd->show();
+}
+
+void JanelaPrincipal::on_actionChamados_3_triggered()
+{
+    QMdiArea *md = new QMdiArea(this);
+    this->setCentralWidget(md);
+    cadastrochamado *cc = new cadastrochamado(md);
+    cc->setAttribute(Qt::WA_DeleteOnClose);
+    md->addSubWindow(cc);
+    cc->show();
 }

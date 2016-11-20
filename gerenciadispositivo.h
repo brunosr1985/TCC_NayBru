@@ -1,7 +1,14 @@
 #ifndef GERENCIADISPOSITIVO_H
 #define GERENCIADISPOSITIVO_H
 
-#include <QDialog>
+#include <QWidget>
+#include <QSqlDatabase>
+#include <QString>
+#include <QSqlQuery>
+#include <QtGui>
+#include <QMessageBox>
+#include <QSqlError>
+#include <QStringList>
 
 namespace Ui {
 class gerenciaDispositivo;
@@ -16,7 +23,13 @@ public:
     ~gerenciaDispositivo();
 
 private slots:
-    void on_novoDIsp_clicked();
+    void showEditDispositivos();
+
+    void on_pushButton_3_clicked();
+
+    void on_novoDisp_clicked();
+
+    void on_toolButton_clicked();
 
 private:
     Ui::gerenciaDispositivo *ui;

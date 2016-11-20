@@ -1,6 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include "gerenciadispositivo.h"
 #include <QMainWindow>
 #include <QTableView>
 #include <QtSql/QSqlQueryModel>
@@ -18,19 +19,22 @@
 #include <QtSql/QSqlQueryModel>
 #include <QtSql/QSqlQuery>
 #include <QtSql/QSqlTableModel>
+#include <QMdiArea>
 
 namespace Ui {
-class MainWindow;
+class JanelaPrincipal;
 class CadastroPess;
 }
 
-class MainWindow : public QMainWindow
+class JanelaPrincipal : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    explicit MainWindow(QWidget *parent = 0);
-    ~MainWindow();
+    explicit JanelaPrincipal(QWidget *parent = 0);
+    ~JanelaPrincipal();
+
+
 
 private slots:
     void on_actionPessoas_x_Chamados_triggered();
@@ -49,8 +53,14 @@ private slots:
 
     void on_actionNovo_Tipo_de_Dispositivo_triggered();
 
+    void on_actionPessoas_2_triggered();
+
+    void on_actionDispositivos_3_triggered();
+
+    void on_actionChamados_3_triggered();
+
 private:
-    Ui::MainWindow *ui;
+    Ui::JanelaPrincipal *ui;
     QSqlTableModel *modelo;
     QSqlQueryModel *query;
 };
