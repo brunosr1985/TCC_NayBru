@@ -28,8 +28,13 @@ gerenciaDispositivo::gerenciaDispositivo(QWidget *parent) :
     db.close();
 
     ui->setupUi(this);
-        ui->comboTipo->clear();
+    ui->comboTipo->clear();
     ui->comboTipo->addItems(lista);
+    //Bloqueia e desbloqueia os devidos campos
+    ui->lineID->setProperty("readOnly",false);
+    ui->lineLocal->setProperty("readOnly",true);
+    ui->lineNome->setProperty("readOnly",true);
+    ui->comboTipo->setEnabled(false);
 }
 
 gerenciaDispositivo::~gerenciaDispositivo()
@@ -98,4 +103,31 @@ void gerenciaDispositivo::on_toolButton_clicked()
     query->next();
     ui->lineLocal->setText(query->value(0).toString());
     ui->lineLocal->update();
+    //Bloqueia e desbloqueia os devidos campos
+    ui->lineID->setProperty("readOnly",true);
+    ui->lineLocal->setProperty("readOnly",true);
+    ui->lineNome->setProperty("readOnly",true);
+    ui->comboTipo->setEnabled(false);
+}
+
+//Botão Editar
+void gerenciaDispositivo::on_pushButton_clicked()
+{
+
+    //Bloqueia e desbloqueia os devidos campos
+    ui->lineID->setProperty("readOnly",true);
+    ui->lineLocal->setProperty("readOnly",false);
+    ui->lineNome->setProperty("readOnly",false);
+    ui->comboTipo->setEnabled(true);
+}
+
+//Botão Salvar
+void gerenciaDispositivo::on_pushButton_2_clicked()
+{
+
+    //Bloqueia e desbloqueia os devidos campos
+    ui->lineID->setProperty("readOnly",true);
+    ui->lineLocal->setProperty("readOnly",true);
+    ui->lineNome->setProperty("readOnly",true);
+    ui->comboTipo->setEnabled(false);
 }

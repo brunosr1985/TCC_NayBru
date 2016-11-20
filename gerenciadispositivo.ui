@@ -96,7 +96,14 @@
        </widget>
       </item>
       <item>
-       <widget class="QComboBox" name="comboTipo"/>
+       <widget class="QComboBox" name="comboTipo">
+        <property name="maxVisibleItems">
+         <number>5</number>
+        </property>
+        <property name="insertPolicy">
+         <enum>QComboBox::InsertAlphabetically</enum>
+        </property>
+       </widget>
       </item>
      </layout>
     </item>
@@ -137,13 +144,6 @@
      <widget class="QPushButton" name="pushButton">
       <property name="text">
        <string>Editar</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="pushButton_3">
-      <property name="text">
-       <string>Cancelar</string>
       </property>
      </widget>
     </item>

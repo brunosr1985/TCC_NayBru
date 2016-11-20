@@ -24,13 +24,6 @@
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
-     <widget class="QPushButton" name="novaPessoa">
-      <property name="text">
-       <string>Novo</string>
-      </property>
-     </widget>
-    </item>
-    <item>
      <widget class="QPushButton" name="Pessoa_Salvar">
       <property name="text">
        <string>Salvar</string>
@@ -44,16 +37,9 @@
       </property>
      </widget>
     </item>
-    <item>
-     <widget class="QPushButton" name="Pessoa_Cancelar">
-      <property name="text">
-       <string>Cancelar</string>
-      </property>
-     </widget>
-    </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>10</x>
