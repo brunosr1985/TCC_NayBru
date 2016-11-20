@@ -2,6 +2,14 @@
 #define TIPODISP_H
 
 #include <QDialog>
+#include <QWidget>
+#include <QSqlDatabase>
+#include <QString>
+#include <QSqlQuery>
+#include <QtGui>
+#include <QMessageBox>
+#include <QSqlError>
+#include <QStringList>
 
 namespace Ui {
 class tipoDisp;

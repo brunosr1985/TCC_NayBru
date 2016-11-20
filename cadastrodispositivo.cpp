@@ -65,7 +65,7 @@ void cadastrodispositivo::on_pushButton_2_clicked()
     query->addBindValue(ui->comboTipo->currentText());
     aux_status = query->exec();
 
-    query->prepare("INSERT INTO dispositivo (dispositivo,tipo,local) VALUES ?,?,?);
+    query->prepare("INSERT INTO dispositivo (dispositivo,tipo,local) VALUES ?,?,?");
     query->addBindValue(ui->lineNome->text());
     query->addBindValue(aux_status);
     query->addBindValue(ui->lineLocal->text());
@@ -79,10 +79,10 @@ void cadastrodispositivo::on_pushButton_2_clicked()
     }
     else
     {
-        erro = query->lastError().text();
+        /*erro = query->lastError().text();
         QMessageBox messageBox;
         messageBox.critical(0,"Erro!",erro);
-        messageBox.setFixedSize(500,200);
+        messageBox.setFixedSize(500,200);*/
 
     }
 

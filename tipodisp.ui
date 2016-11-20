@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Kaizen Birth Edition</string>
   </property>
+  <property name="inputMethodHints">
+   <set>Qt::ImhTime</set>
+  </property>
   <widget class="QPushButton" name="botaoSalvar">
    <property name="geometry">
     <rect>
@@ -52,7 +55,7 @@
     <item>
      <widget class="QLabel" name="label_3">
       <property name="text">
-       <string>Novo Tipo de Dispositivo</string>
+       <string>Novo Tipo de Ativo</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -87,22 +90,19 @@
         <item>
          <layout class="QHBoxLayout" name="horizontalLayout_2">
           <item>
-           <widget class="QLineEdit" name="horasSLA"/>
-          </item>
-          <item>
-           <widget class="QLabel" name="label_4">
-            <property name="text">
-             <string>Horas</string>
+           <widget class="QLineEdit" name="horasSLA">
+            <property name="inputMethodHints">
+             <set>Qt::ImhTime</set>
+            </property>
+            <property name="inputMask">
+             <string>00:00:00</string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="minutosSLA"/>
-          </item>
-          <item>
            <widget class="QLabel" name="label_5">
             <property name="text">
-             <string>Minutos</string>
+             <string>Formato hh:mm:ss</string>
             </property>
            </widget>
           </item>
