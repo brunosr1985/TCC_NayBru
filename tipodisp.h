@@ -10,6 +10,8 @@
 #include <QMessageBox>
 #include <QSqlError>
 #include <QStringList>
+#include <QTableView>
+#include <QSqlTableModel>
 
 namespace Ui {
 class tipoDisp;
@@ -21,6 +23,10 @@ class tipoDisp : public QDialog
 
 public:
     explicit tipoDisp(QWidget *parent = 0);
+
+    QSqlDatabase db;
+    QSqlQuery *query;
+    QSqlTableModel *modelo;
     ~tipoDisp();
 
 private slots:
@@ -28,8 +34,13 @@ private slots:
 
     void on_botaoSalvar_clicked();
 
+    void on_adicionaTipo_clicked();
+
+    void on_pushButton_clicked();
+
 private:
     Ui::tipoDisp *ui;
+    void atualizaDados();
 };
 
 #endif // TIPODISP_H

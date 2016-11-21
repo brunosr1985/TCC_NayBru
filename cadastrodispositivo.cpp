@@ -64,6 +64,7 @@ void cadastrodispositivo::on_pushButton_2_clicked()
     query->prepare("SELECT id_tipo FROM tipo_d WHERE tipo = ?");
     query->addBindValue(ui->comboTipo->currentText());
     aux_status = query->exec();
+    //aux_status = query->value("id_tipo").toInt();
 
     query->prepare("INSERT INTO dispositivo (dispositivo,tipo,local) VALUES ?,?,?");
     query->addBindValue(ui->lineNome->text());

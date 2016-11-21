@@ -2,6 +2,10 @@
 #define NOVOGRUPO_H
 
 #include <QWidget>
+#include <QTableView>
+#include <QSqlTableModel>
+#include <QSqlQuery>
+#include <QMessageBox>
 
 namespace Ui {
 class novoGrupo;
@@ -13,10 +17,27 @@ class novoGrupo : public QWidget
 
 public:
     explicit novoGrupo(QWidget *parent = 0);
+    QSqlDatabase db;
+    QSqlQuery *query;
+    QSqlTableModel *modelo;
     ~novoGrupo();
+
+private slots:
+    void on_pushButton_2_clicked();
+
+    void on_pushButton_clicked();
+
+    void on_toolButton_clicked();
+
+    void on_Adicionar_clicked();
+
+    void on_botaoEditar_clicked();
+
+    void on_botaoAtualizar_clicked();
 
 private:
     Ui::novoGrupo *ui;
+    void atualizaDados();
 };
 
 #endif // NOVOGRUPO_H

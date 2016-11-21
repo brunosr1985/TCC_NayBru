@@ -42,16 +42,6 @@
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QLabel" name="label_5">
-      <property name="text">
-       <string>Ativos</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-    </item>
-    <item>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
        <widget class="QLabel" name="label">
@@ -67,6 +57,10 @@
        <widget class="QToolButton" name="toolButton">
         <property name="text">
          <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>Find.ico</normaloff>Find.ico</iconset>
         </property>
        </widget>
       </item>

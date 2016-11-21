@@ -24,27 +24,6 @@ JanelaPrincipal::~JanelaPrincipal()
 void JanelaPrincipal::on_actionPessoas_x_Chamados_triggered()
 {
 
-    QString erro;
-    QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
-    db.setHostName("localhost");
-    db.setDatabaseName("postgres");
-    db.setPassword("bu381025");
-    db.setUserName("tccnaybru");
-    db.setPort(5432);
-    erro = db.open("postgres","bu381025");
-
-//pessxchamado
-    modelo = new QSqlTableModel(parent(),db);
-
-    modelo->setTable("pessxchamado");
-    modelo->setEditStrategy(QSqlTableModel::OnManualSubmit);
-    modelo->select();
-    QTableView *pessxcham = new QTableView;
-    pessxcham->setEditTriggers(QAbstractItemView::NoEditTriggers);
-    pessxcham->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);
-    pessxcham->setModel(modelo);
-    pessxcham->show();
-    db.close();
 
 }
 
@@ -75,27 +54,7 @@ void JanelaPrincipal::on_actionChamados_2_triggered()
 
 void JanelaPrincipal::on_actionPessoas_x_Qtde_Chamados_triggered()
 {
-    QString erro;
-    QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
-    db.setHostName("localhost");
-    db.setDatabaseName("postgres");
-    db.setPassword("bu381025");
-    db.setUserName("tccnaybru");
-    db.setPort(5432);
-    erro = db.open("postgres","bu381025");
 
-
-    modelo = new QSqlTableModel(parent(),db);
-
-    modelo->setTable("pessxqtde");
-    modelo->setEditStrategy(QSqlTableModel::OnManualSubmit);
-    modelo->select();
-    QTableView *pessxqtde = new QTableView;
-    pessxqtde->setEditTriggers(QAbstractItemView::NoEditTriggers);
-    pessxqtde->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);
-    pessxqtde->setModel(modelo);
-    pessxqtde->show();
-    db.close();
 }
 
 void JanelaPrincipal::on_actionChamados_triggered()
@@ -117,9 +76,12 @@ void JanelaPrincipal::on_actionDispositivos_triggered()
 
 void JanelaPrincipal::on_actionPessoas_triggered()
 {
-    /*gerenciaPessoas *gp = new gerenciaPessoas(ui->mdiArea);\
-    ui->mdiArea->addSubWindow(gp);
-    gp->show();*/
+    QMdiArea *md = new QMdiArea(this);
+    this->setCentralWidget(md);
+    gerenciaPessoas *gp = new gerenciaPessoas(md);
+    gp->setAttribute(Qt::WA_DeleteOnClose);
+    md->addSubWindow(gp);
+    gp->show();
 }
 
 
