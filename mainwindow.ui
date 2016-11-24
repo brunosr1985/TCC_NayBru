@@ -37,10 +37,10 @@
    </property>
    <widget class="QMenu" name="menuArquivo">
     <property name="title">
-     <string>Arquivo</string>
+     <string>Administrativo</string>
     </property>
-    <addaction name="separator"/>
-    <addaction name="actionSair"/>
+    <addaction name="actionCriar_Usu_rio"/>
+    <addaction name="actionCriar_Status"/>
    </widget>
    <widget class="QMenu" name="menuGerenciar">
     <property name="title">
@@ -59,6 +59,14 @@
     <property name="title">
      <string>Relatórios</string>
     </property>
+    <widget class="QMenu" name="menuSimples">
+     <property name="title">
+      <string>Simples</string>
+     </property>
+     <addaction name="actionPessoas_3"/>
+     <addaction name="actionChamados_2"/>
+    </widget>
+    <addaction name="menuSimples"/>
    </widget>
    <widget class="QMenu" name="menuCriar">
     <property name="title">
@@ -119,6 +127,26 @@
   <action name="actionChamados_3">
    <property name="text">
     <string>Chamados</string>
+   </property>
+  </action>
+  <action name="actionPessoas_3">
+   <property name="text">
+    <string>Pessoas</string>
+   </property>
+  </action>
+  <action name="actionChamados_2">
+   <property name="text">
+    <string>Chamados</string>
+   </property>
+  </action>
+  <action name="actionCriar_Usu_rio">
+   <property name="text">
+    <string>Criar Usuário</string>
+   </property>
+  </action>
+  <action name="actionCriar_Status">
+   <property name="text">
+    <string>Criar Status</string>
    </property>
   </action>
  </widget>
