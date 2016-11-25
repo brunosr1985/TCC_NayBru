@@ -8,6 +8,7 @@
     <member refid="classcadastrochamado_1ad28991192a4b3b79126e4bdf2d0fa29b" kind="slot"><name>on_pushButton_3_clicked</name></member>
     <member refid="classcadastrochamado_1ae88b001d000591403af27c218f2d2fb8" kind="slot"><name>on_abreRACI_clicked</name></member>
     <member refid="classcadastrochamado_1a6245c6a439da2dad5d91dca10a6fd301" kind="slot"><name>on_abreDisp_clicked</name></member>
+    <member refid="classcadastrochamado_1a544b554bb68c2351fedd6637d6490171" kind="slot"><name>on_pushButton_2_clicked</name></member>
   </compound>
   <compound refid="classcadastrodispositivo" kind="class"><name>cadastrodispositivo</name>
     <member refid="classcadastrodispositivo_1a01b67037a472db99a897b27e80273d17" kind="variable"><name>ui</name></member>
@@ -15,12 +16,29 @@
     <member refid="classcadastrodispositivo_1a21c4cb426f58445706d55dbce57f4aa0" kind="function"><name>~cadastrodispositivo</name></member>
     <member refid="classcadastrodispositivo_1ae37a506685243fa3c6cccccf4d83da49" kind="slot"><name>on_pushButton_3_clicked</name></member>
     <member refid="classcadastrodispositivo_1a6b64063bde112a3e4985e7a007e30a13" kind="slot"><name>on_pushButton_4_clicked</name></member>
+    <member refid="classcadastrodispositivo_1a2ec0b0f7b4584904d3b083b0089a0d2b" kind="slot"><name>on_pushButton_2_clicked</name></member>
   </compound>
   <compound refid="classCadastropessoa" kind="class"><name>Cadastropessoa</name>
     <member refid="classCadastropessoa_1adee936267da377428b49e6c5f6a98403" kind="variable"><name>ui</name></member>
     <member refid="classCadastropessoa_1a706230f399727160a6fd25592f77da12" kind="function"><name>Cadastropessoa</name></member>
     <member refid="classCadastropessoa_1a19e6b26d15f77eb6844e67b1246661cf" kind="function"><name>~Cadastropessoa</name></member>
     <member refid="classCadastropessoa_1ad6cdadecd30df81d41df6a267855e012" kind="slot"><name>on_Novo_Grupo_clicked</name></member>
+    <member refid="classCadastropessoa_1a15a54ed3864e1a4fcbea20ef9a19303d" kind="slot"><name>on_Pessoa_Salvar_clicked</name></member>
+  </compound>
+  <compound refid="classcadastroprioridade" kind="class"><name>cadastroprioridade</name>
+    <member refid="classcadastroprioridade_1a9eaafc8fa92ac3ebd1a54a961816e132" kind="variable"><name>ui</name></member>
+    <member refid="classcadastroprioridade_1a706b9cd609c7e6e3904ba6b145954512" kind="function"><name>cadastroprioridade</name></member>
+    <member refid="classcadastroprioridade_1a8650a72fec7a3a89e4a02f740c96ed60" kind="function"><name>~cadastroprioridade</name></member>
+  </compound>
+  <compound refid="classcadastrostatus" kind="class"><name>cadastrostatus</name>
+    <member refid="classcadastrostatus_1a31649935b1ebbe1d165710ef42ccb13c" kind="variable"><name>ui</name></member>
+    <member refid="classcadastrostatus_1ab4f6edce5953354f0d7ce369d3cfd95c" kind="function"><name>cadastrostatus</name></member>
+    <member refid="classcadastrostatus_1aa43dcbe59e797e3f5eca18195d9d1b54" kind="function"><name>~cadastrostatus</name></member>
+  </compound>
+  <compound refid="classcadastrousuario" kind="class"><name>cadastrousuario</name>
+    <member refid="classcadastrousuario_1adce63bbfcb23b0aa5a32d120e1d0120d" kind="variable"><name>ui</name></member>
+    <member refid="classcadastrousuario_1aed0ce49acfa57652b76d5b522103289c" kind="function"><name>cadastrousuario</name></member>
+    <member refid="classcadastrousuario_1afb51412845a74a0e0d28ed762af5d49b" kind="function"><name>~cadastrousuario</name></member>
   </compound>
   <compound refid="classChamado" kind="class"><name>Chamado</name>
     <member refid="classChamado_1a769e962bb6d2cd3efaea3a8a2d7dbbd0" kind="variable"><name>id</name></member>
@@ -52,6 +70,12 @@
     <member refid="classChamado_1aa7aeb5e538449b9a71271756d7b39d43" kind="function"><name>getDescricao</name></member>
     <member refid="classChamado_1a970a71741ec450c40c48eb4babd2fec3" kind="function"><name>setDescricao</name></member>
   </compound>
+  <compound refid="classconectabanco" kind="class"><name>conectabanco</name>
+    <member refid="classconectabanco_1a7d1725c274b54e84c7da80bf42918f88" kind="variable"><name>db</name></member>
+    <member refid="classconectabanco_1aad9e33d02e98a22ce34d3463d76c1a85" kind="function"><name>conectabanco</name></member>
+    <member refid="classconectabanco_1a040fab5ab6e04ead7efc4b6114b32def" kind="function"><name>getDb</name></member>
+    <member refid="classconectabanco_1a2725bbd741bdcd07ab587bbae80e6205" kind="function"><name>setDb</name></member>
+  </compound>
   <compound refid="classDispositivo" kind="class"><name>Dispositivo</name>
     <member refid="classDispositivo_1a9ed6e1aa610907334a553ca041801494" kind="variable"><name>id</name></member>
     <member refid="classDispositivo_1a56a574ad1b5f59b645f5df0c5184c076" kind="variable"><name>nome</name></member>
@@ -77,13 +101,21 @@
     <member refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kind="variable"><name>ui</name></member>
     <member refid="classgerenciaDispositivo_1a245e771cf0d5c9e2929e0829d57bf97b" kind="function"><name>gerenciaDispositivo</name></member>
     <member refid="classgerenciaDispositivo_1a3dcef9c3f95ad6be653920a0952b8a0a" kind="function"><name>~gerenciaDispositivo</name></member>
-    <member refid="classgerenciaDispositivo_1ab7c595e355777a5c336cc9fedace9d1b" kind="slot"><name>on_novoDIsp_clicked</name></member>
+    <member refid="classgerenciaDispositivo_1a2b8a14702ba6500663044b35e076b1bf" kind="slot"><name>showEditDispositivos</name></member>
+    <member refid="classgerenciaDispositivo_1a36768fc14ae21ceefa233eac3acd38c1" kind="slot"><name>on_pushButton_3_clicked</name></member>
+    <member refid="classgerenciaDispositivo_1a512f1ba7f715a71788a05d7d46182db5" kind="slot"><name>on_novoDisp_clicked</name></member>
+    <member refid="classgerenciaDispositivo_1ac3c85290c564f037aa1f31a7bf326975" kind="slot"><name>on_toolButton_clicked</name></member>
+    <member refid="classgerenciaDispositivo_1a33b5e8523f5e57917ceb13bbd335a598" kind="slot"><name>on_pushButton_clicked</name></member>
+    <member refid="classgerenciaDispositivo_1a852e80b710c433ea8e2efa685b19ec07" kind="slot"><name>on_pushButton_2_clicked</name></member>
   </compound>
   <compound refid="classgerenciaPessoas" kind="class"><name>gerenciaPessoas</name>
     <member refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kind="variable"><name>ui</name></member>
     <member refid="classgerenciaPessoas_1a245ab3e4006fcdd3ec9a89815e1c60c1" kind="function"><name>gerenciaPessoas</name></member>
     <member refid="classgerenciaPessoas_1a85f9272a309472903bf5b2ad0950973c" kind="function"><name>~gerenciaPessoas</name></member>
     <member refid="classgerenciaPessoas_1a19d90661ff52549b38db8d0a53d0f638" kind="slot"><name>on_novaPessoa_clicked</name></member>
+    <member refid="classgerenciaPessoas_1a216cc3187caeffe2802099372452a231" kind="slot"><name>on_Pessoa_Editar_clicked</name></member>
+    <member refid="classgerenciaPessoas_1a1defc0976260243ac2a0fd55d14656f9" kind="slot"><name>on_Pessoa_Salvar_clicked</name></member>
+    <member refid="classgerenciaPessoas_1a296e38542b6a4fbef8908a2afba36aec" kind="slot"><name>on_toolButton_clicked</name></member>
   </compound>
   <compound refid="classGrupoP" kind="class"><name>GrupoP</name>
     <member refid="classGrupoP_1a52a44d3d593545fe36e8ad7faf2eb4b1" kind="variable"><name>id</name></member>
@@ -94,20 +126,35 @@
     <member refid="classGrupoP_1ac3b0a8d64e082b45a7d362c69d934cd7" kind="function"><name>getNome</name></member>
     <member refid="classGrupoP_1af747750583e09cf0a1cfe756bacf97bc" kind="function"><name>setNome</name></member>
   </compound>
-  <compound refid="classMainWindow" kind="class"><name>MainWindow</name>
-    <member refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" kind="variable"><name>ui</name></member>
-    <member refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kind="variable"><name>modelo</name></member>
-    <member refid="classMainWindow_1ac4551c72b3aedfdeaa2e2c18fb6ecaa4" kind="variable"><name>query</name></member>
-    <member refid="classMainWindow_1a8b244be8b7b7db1b08de2a2acb9409db" kind="function"><name>MainWindow</name></member>
-    <member refid="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" kind="function"><name>~MainWindow</name></member>
-    <member refid="classMainWindow_1ac3987416965f985c8d44c8adc1e42add" kind="slot"><name>on_actionPessoas_x_Chamados_triggered</name></member>
-    <member refid="classMainWindow_1ae982429a38d1d6d4430693322357e716" kind="slot"><name>on_actionChamados_2_triggered</name></member>
-    <member refid="classMainWindow_1a8540f34e55fcacf375edb2421c390044" kind="slot"><name>on_actionPessoas_x_Qtde_Chamados_triggered</name></member>
-    <member refid="classMainWindow_1ac107347073b88880dac081fd745fd619" kind="slot"><name>on_actionChamados_triggered</name></member>
-    <member refid="classMainWindow_1acb1d694a8b177feec62407a0848dba95" kind="slot"><name>on_actionDispositivos_triggered</name></member>
-    <member refid="classMainWindow_1a1db8061a9d0e4dd91f7a065e8782ad99" kind="slot"><name>on_actionPessoas_triggered</name></member>
-    <member refid="classMainWindow_1a1266444211ea57fed22838649b3285e5" kind="slot"><name>on_actionNovo_Grupo_de_Pessoas_triggered</name></member>
-    <member refid="classMainWindow_1af7736d52ad806d0da7eae9c325f4d694" kind="slot"><name>on_actionNovo_Tipo_de_Dispositivo_triggered</name></member>
+  <compound refid="classJanelaPrincipal" kind="class"><name>JanelaPrincipal</name>
+    <member refid="classJanelaPrincipal_1afc61ca780eca545cd709b2a72acb0dbe" kind="variable"><name>ui</name></member>
+    <member refid="classJanelaPrincipal_1aa0abac8067f0efe985ee19f357675e6b" kind="variable"><name>modelo</name></member>
+    <member refid="classJanelaPrincipal_1ad0617c58eed0f8d5907edff7dae4dae2" kind="variable"><name>query</name></member>
+    <member refid="classJanelaPrincipal_1a9eef2db6f7b786cc25d4bd3e08340ff7" kind="function"><name>JanelaPrincipal</name></member>
+    <member refid="classJanelaPrincipal_1a3aab06a1e8ce4a6a718fba7d47681d6e" kind="function"><name>~JanelaPrincipal</name></member>
+    <member refid="classJanelaPrincipal_1ab630e69d9a55364b3b3b3bc33d8867f5" kind="slot"><name>on_actionPessoas_x_Chamados_triggered</name></member>
+    <member refid="classJanelaPrincipal_1a799ac0ba94f7a60ac3b076a990336d5c" kind="slot"><name>on_actionChamados_2_triggered</name></member>
+    <member refid="classJanelaPrincipal_1abeac7e859d67b347ed8c5a6c5b7ccae8" kind="slot"><name>on_actionPessoas_x_Qtde_Chamados_triggered</name></member>
+    <member refid="classJanelaPrincipal_1a8c2d6637116f57cbe7f17bb050ce6c45" kind="slot"><name>on_actionChamados_triggered</name></member>
+    <member refid="classJanelaPrincipal_1aa475da5eb8defb554faa1aab8379749e" kind="slot"><name>on_actionDispositivos_triggered</name></member>
+    <member refid="classJanelaPrincipal_1aad2b396850d7557dcd709ce3c903bfb3" kind="slot"><name>on_actionPessoas_triggered</name></member>
+    <member refid="classJanelaPrincipal_1afd12bc1e0859bf26ae6a29e2c3ca58bb" kind="slot"><name>on_actionNovo_Grupo_de_Pessoas_triggered</name></member>
+    <member refid="classJanelaPrincipal_1a2039f9c73df3fab25f93564e7fa4dc91" kind="slot"><name>on_actionNovo_Tipo_de_Dispositivo_triggered</name></member>
+    <member refid="classJanelaPrincipal_1a1303dcb66fc6ba619709a68af71fe7c0" kind="slot"><name>on_actionPessoas_2_triggered</name></member>
+    <member refid="classJanelaPrincipal_1aafa1a37588dba39175236c34c87081df" kind="slot"><name>on_actionDispositivos_3_triggered</name></member>
+    <member refid="classJanelaPrincipal_1ab41b7f921603238b604ec41d030d18a0" kind="slot"><name>on_actionChamados_3_triggered</name></member>
+    <member refid="classJanelaPrincipal_1afe3d0afad191b17cafcae39ecc44fa57" kind="slot"><name>on_actionCriar_Usu_rio_triggered</name></member>
+    <member refid="classJanelaPrincipal_1ace76c1a0bd0c3b4b17586680d952c255" kind="slot"><name>on_actionCriar_Status_triggered</name></member>
+    <member refid="classJanelaPrincipal_1ae984cdc76dc953760b83fabe71f9b211" kind="slot"><name>on_actionCriar_Prioridade_triggered</name></member>
+  </compound>
+  <compound refid="classLogin" kind="class"><name>Login</name>
+    <member refid="classLogin_1a55fa3b19085f864462451d3dd9efd2e1" kind="variable"><name>ui</name></member>
+    <member refid="classLogin_1a021ebcfd29b2a30e3f5c5bbb36589381" kind="function"><name>Login</name></member>
+    <member refid="classLogin_1a659bc7233ec12c79b9fa523c1734fbbc" kind="function"><name>~Login</name></member>
+    <member refid="classLogin_1a221fbb2fdbe067ba581b522b75dcb310" kind="slot"><name>on_pushButton_clicked</name></member>
+    <member refid="classLogin_1acf0fce7924afeb544845253d513c511a" kind="slot"><name>on_pushButton_2_clicked</name></member>
+    <member refid="classLogin_1a1e4d555f044f6999e6206ed317ffed9c" kind="slot"><name>on_botaoNaoLoga_clicked</name></member>
+    <member refid="classLogin_1abd0e719e70b5c5df98134ab80357a862" kind="slot"><name>on_botaoLogar_clicked</name></member>
   </compound>
   <compound refid="classmatrizRACI" kind="class"><name>matrizRACI</name>
     <member refid="classmatrizRACI_1a5a7d2a46e48e4d2e172d0ccd2e0ae2cf" kind="variable"><name>ui</name></member>
@@ -138,9 +185,19 @@
     <member refid="classMRaci_1a1ddb3f56c84e1c1dc05076c90d14b48d" kind="function"><name>setPess</name></member>
   </compound>
   <compound refid="classnovoGrupo" kind="class"><name>novoGrupo</name>
+    <member refid="classnovoGrupo_1ac09ad12b6e62113e2765b4072183fa8a" kind="variable"><name>db</name></member>
+    <member refid="classnovoGrupo_1acf8a7d71e25872152e637e105630fdd0" kind="variable"><name>query</name></member>
+    <member refid="classnovoGrupo_1ae39c5a4c6e207bd2e7842b26b03bb27b" kind="variable"><name>modelo</name></member>
     <member refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kind="variable"><name>ui</name></member>
     <member refid="classnovoGrupo_1a2e343a019db9fe74eea1809e833a8517" kind="function"><name>novoGrupo</name></member>
     <member refid="classnovoGrupo_1a561957c27e43bc56cc595a37db18aa33" kind="function"><name>~novoGrupo</name></member>
+    <member refid="classnovoGrupo_1a79ea367109697e72b5aa2346230ef8e8" kind="slot"><name>on_pushButton_2_clicked</name></member>
+    <member refid="classnovoGrupo_1a7d2c7ab2cf71fbd41accd59d55e76da7" kind="slot"><name>on_pushButton_clicked</name></member>
+    <member refid="classnovoGrupo_1ae2fb2a6c7fbc496861b37b519507d539" kind="slot"><name>on_toolButton_clicked</name></member>
+    <member refid="classnovoGrupo_1ac7dcb16c06891a7c4809fed9653d5095" kind="slot"><name>on_Adicionar_clicked</name></member>
+    <member refid="classnovoGrupo_1a73e0025ce04c04b5e41c923d00998daa" kind="slot"><name>on_botaoEditar_clicked</name></member>
+    <member refid="classnovoGrupo_1a344215286fdf5b5276bb9236e60c3852" kind="slot"><name>on_botaoAtualizar_clicked</name></member>
+    <member refid="classnovoGrupo_1a38e10e90ae25accd5b29ac0d5fe4cea4" kind="function"><name>atualizaDados</name></member>
   </compound>
   <compound refid="classpessoa" kind="class"><name>pessoa</name>
     <member refid="classpessoa_1a8e80bd7d70d7d29b248ef5ec77720b5b" kind="variable"><name>id</name></member>
@@ -204,9 +261,19 @@
     <member refid="classtipod_1ad0da4edb16cb79061875519e94b768d7" kind="function"><name>setSLA</name></member>
   </compound>
   <compound refid="classtipoDisp" kind="class"><name>tipoDisp</name>
+    <member refid="classtipoDisp_1a39b9a2eb8f8d9b13897ad9b9747ef734" kind="variable"><name>db</name></member>
+    <member refid="classtipoDisp_1af4621f7e78bfb51b4fd1b829c9097cc3" kind="variable"><name>query</name></member>
+    <member refid="classtipoDisp_1a4b84d3d85207ab9a7020e44da065bbae" kind="variable"><name>modelo</name></member>
     <member refid="classtipoDisp_1a1ab1a6438473977cbfaf2b587872b7fd" kind="variable"><name>ui</name></member>
     <member refid="classtipoDisp_1a07b2e7bbbe94b97f3eab51ce63c30134" kind="function"><name>tipoDisp</name></member>
     <member refid="classtipoDisp_1a235a754bbe34fe3a8fd5826e57cf3abe" kind="function"><name>~tipoDisp</name></member>
+    <member refid="classtipoDisp_1a27486c21089e74acac17691790cdec27" kind="slot"><name>on_botaoCancelar_clicked</name></member>
+    <member refid="classtipoDisp_1a8b44dee3f55c6646e1e2682509bc97ca" kind="slot"><name>on_botaoSalvar_clicked</name></member>
+    <member refid="classtipoDisp_1ade53850a371a41f2e7653870dd0dd3f4" kind="slot"><name>on_adicionaTipo_clicked</name></member>
+    <member refid="classtipoDisp_1accc7efe84e6cd25a984b71580f95ae67" kind="slot"><name>on_pushButton_clicked</name></member>
+    <member refid="classtipoDisp_1a778e9d22bc44c955c3b4f85c9f3bc390" kind="function"><name>atualizaDados</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
   </compound>
   <compound refid="namespaceUi" kind="namespace"><name>Ui</name>
   </compound>
@@ -224,9 +291,25 @@
   </compound>
   <compound refid="cadastropessoa_8h" kind="file"><name>cadastropessoa.h</name>
   </compound>
+  <compound refid="cadastroprioridade_8cpp" kind="file"><name>cadastroprioridade.cpp</name>
+  </compound>
+  <compound refid="cadastroprioridade_8h" kind="file"><name>cadastroprioridade.h</name>
+  </compound>
+  <compound refid="cadastrostatus_8cpp" kind="file"><name>cadastrostatus.cpp</name>
+  </compound>
+  <compound refid="cadastrostatus_8h" kind="file"><name>cadastrostatus.h</name>
+  </compound>
+  <compound refid="cadastrousuario_8cpp" kind="file"><name>cadastrousuario.cpp</name>
+  </compound>
+  <compound refid="cadastrousuario_8h" kind="file"><name>cadastrousuario.h</name>
+  </compound>
   <compound refid="chamado_8cpp" kind="file"><name>chamado.cpp</name>
   </compound>
   <compound refid="chamado_8h" kind="file"><name>chamado.h</name>
+  </compound>
+  <compound refid="conectabanco_8cpp" kind="file"><name>conectabanco.cpp</name>
+  </compound>
+  <compound refid="conectabanco_8h" kind="file"><name>conectabanco.h</name>
   </compound>
   <compound refid="dispositivo_8cpp" kind="file"><name>dispositivo.cpp</name>
   </compound>
@@ -247,6 +330,10 @@
   <compound refid="grupop_8cpp" kind="file"><name>grupop.cpp</name>
   </compound>
   <compound refid="grupop_8h" kind="file"><name>grupop.h</name>
+  </compound>
+  <compound refid="login_8cpp" kind="file"><name>login.cpp</name>
+  </compound>
+  <compound refid="login_8h" kind="file"><name>login.h</name>
   </compound>
   <compound refid="m__raci_8cpp" kind="file"><name>m_raci.cpp</name>
   </compound>
@@ -290,7 +377,5 @@
   <compound refid="tipodisp_8cpp" kind="file"><name>tipodisp.cpp</name>
   </compound>
   <compound refid="tipodisp_8h" kind="file"><name>tipodisp.h</name>
-  </compound>
-  <compound refid="dir_99ae85f3ba79f3ab5fb0812f36f0edd7" kind="dir"><name>C:/Users/BrunoSR/TCC_NayBru</name>
   </compound>
 </doxygenindex>

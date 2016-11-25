@@ -3,41 +3,65 @@
   <compounddef id="novogrupo_8h" kind="file" language="C++">
     <compoundname>novogrupo.h</compoundname>
     <includes local="no">QWidget</includes>
-    <includedby refid="cadastropessoa_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.cpp</includedby>
-    <includedby refid="mainwindow_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp</includedby>
-    <includedby refid="novogrupo_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp</includedby>
+    <includes local="no">QTableView</includes>
+    <includes local="no">QSqlTableModel</includes>
+    <includes local="no">QSqlQuery</includes>
+    <includes local="no">QMessageBox</includes>
+    <includedby refid="cadastropessoa_8cpp" local="yes">cadastropessoa.cpp</includedby>
+    <includedby refid="mainwindow_8cpp" local="yes">mainwindow.cpp</includedby>
+    <includedby refid="novogrupo_8cpp" local="yes">novogrupo.cpp</includedby>
     <incdepgraph>
-      <node id="273">
+      <node id="445">
+        <label>QMessageBox</label>
+      </node>
+      <node id="441">
         <label>QWidget</label>
       </node>
-      <node id="272">
-        <label>C:/Users/BrunoSR/TCC_NayBru/novogrupo.h</label>
+      <node id="440">
+        <label>novogrupo.h</label>
         <link refid="novogrupo_8h"/>
-        <childnode refid="273" relation="include">
+        <childnode refid="441" relation="include">
         </childnode>
+        <childnode refid="442" relation="include">
+        </childnode>
+        <childnode refid="443" relation="include">
+        </childnode>
+        <childnode refid="444" relation="include">
+        </childnode>
+        <childnode refid="445" relation="include">
+        </childnode>
+      </node>
+      <node id="444">
+        <label>QSqlQuery</label>
+      </node>
+      <node id="443">
+        <label>QSqlTableModel</label>
+      </node>
+      <node id="442">
+        <label>QTableView</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="277">
-        <label>C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp</label>
+      <node id="449">
+        <label>novogrupo.cpp</label>
         <link refid="novogrupo_8cpp"/>
       </node>
-      <node id="275">
-        <label>C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.cpp</label>
+      <node id="447">
+        <label>cadastropessoa.cpp</label>
         <link refid="cadastropessoa_8cpp"/>
       </node>
-      <node id="274">
-        <label>C:/Users/BrunoSR/TCC_NayBru/novogrupo.h</label>
+      <node id="446">
+        <label>novogrupo.h</label>
         <link refid="novogrupo_8h"/>
-        <childnode refid="275" relation="include">
+        <childnode refid="447" relation="include">
         </childnode>
-        <childnode refid="276" relation="include">
+        <childnode refid="448" relation="include">
         </childnode>
-        <childnode refid="277" relation="include">
+        <childnode refid="449" relation="include">
         </childnode>
       </node>
-      <node id="276">
-        <label>C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp</label>
+      <node id="448">
+        <label>mainwindow.cpp</label>
         <link refid="mainwindow_8cpp"/>
       </node>
     </invincdepgraph>
@@ -52,24 +76,45 @@
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NOVOGRUPO_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QWidget&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceUi" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnovoGrupo" kindref="compound">novoGrupo</ref>;</highlight></codeline>
-<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QTableView&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSqlTableModel&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSqlQuery&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QMessageBox&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="classnovoGrupo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnovoGrupo" kindref="compound">novoGrupo</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QWidget</highlight></codeline>
-<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceUi" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnovoGrupo" kindref="compound">novoGrupo</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classnovoGrupo" kindref="compound">novoGrupo</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classnovoGrupo" kindref="compound">novoGrupo</ref>();</highlight></codeline>
+<codeline lineno="14" refid="classnovoGrupo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classnovoGrupo" kindref="compound">novoGrupo</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QWidget</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="19" refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::novoGrupo<sp/>*<ref refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kindref="member">ui</ref>;</highlight></codeline>
-<codeline lineno="20"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>NOVOGRUPO_H</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classnovoGrupo" kindref="compound">novoGrupo</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="20" refid="classnovoGrupo_1ac09ad12b6e62113e2765b4072183fa8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlDatabase<sp/><ref refid="classnovoGrupo_1ac09ad12b6e62113e2765b4072183fa8a" kindref="member">db</ref>;</highlight></codeline>
+<codeline lineno="21" refid="classnovoGrupo_1acf8a7d71e25872152e637e105630fdd0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlQuery<sp/>*<ref refid="classnovoGrupo_1acf8a7d71e25872152e637e105630fdd0" kindref="member">query</ref>;</highlight></codeline>
+<codeline lineno="22" refid="classnovoGrupo_1ae39c5a4c6e207bd2e7842b26b03bb27b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlTableModel<sp/>*<ref refid="classnovoGrupo_1ae39c5a4c6e207bd2e7842b26b03bb27b" kindref="member">modelo</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classnovoGrupo" kindref="compound">novoGrupo</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_pushButton_2_clicked();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_pushButton_clicked();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_toolButton_clicked();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_Adicionar_clicked();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_botaoEditar_clicked();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_botaoAtualizar_clicked();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39" refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::novoGrupo<sp/>*<ref refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kindref="member">ui</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>atualizaDados();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>NOVOGRUPO_H</highlight></codeline>
     </programlisting>
     <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h"/>
   </compounddef>

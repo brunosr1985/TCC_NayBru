@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcadastrousuario" kind="class" language="C++" prot="public">
+    <compoundname>cadastrousuario</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QDialog</basecompoundref>
+    <includes refid="cadastrousuario_8h" local="yes">cadastrousuario.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcadastrousuario_1adce63bbfcb23b0aa5a32d120e1d0120d" prot="private" static="no" mutable="no">
+        <type>Ui::cadastrousuario *</type>
+        <definition>Ui::cadastrousuario* cadastrousuario::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrousuario.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrousuario.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcadastrousuario_1aed0ce49acfa57652b76d5b522103289c" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cadastrousuario::cadastrousuario</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>cadastrousuario</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrousuario.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrousuario.cpp" bodystart="4" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classcadastrousuario_1afb51412845a74a0e0d28ed762af5d49b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cadastrousuario::~cadastrousuario</definition>
+        <argsstring>()</argsstring>
+        <name>~cadastrousuario</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrousuario.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrousuario.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="21">
+        <label>QDialog</label>
+      </node>
+      <node id="20">
+        <label>cadastrousuario</label>
+        <link refid="classcadastrousuario"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="23">
+        <label>QDialog</label>
+      </node>
+      <node id="22">
+        <label>cadastrousuario</label>
+        <link refid="classcadastrousuario"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrousuario.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrousuario.h" bodystart="10" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classcadastrousuario_1aed0ce49acfa57652b76d5b522103289c" prot="public" virt="non-virtual"><scope>cadastrousuario</scope><name>cadastrousuario</name></member>
+      <member refid="classcadastrousuario_1adce63bbfcb23b0aa5a32d120e1d0120d" prot="private" virt="non-virtual"><scope>cadastrousuario</scope><name>ui</name></member>
+      <member refid="classcadastrousuario_1afb51412845a74a0e0d28ed762af5d49b" prot="public" virt="non-virtual"><scope>cadastrousuario</scope><name>~cadastrousuario</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -4,26 +4,64 @@
     <compoundname>novogrupo.cpp</compoundname>
     <includes refid="novogrupo_8h" local="yes">novogrupo.h</includes>
     <includes local="yes">ui_novogrupo.h</includes>
+    <includes local="no">QSqlRecord</includes>
+    <includes local="no">QDebug</includes>
+    <includes local="no">QSqlError</includes>
     <incdepgraph>
-      <node id="270">
+      <node id="434">
+        <label>QMessageBox</label>
+      </node>
+      <node id="435">
         <label>ui_novogrupo.h</label>
       </node>
-      <node id="267">
-        <label>C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp</label>
+      <node id="428">
+        <label>novogrupo.cpp</label>
         <link refid="novogrupo_8cpp"/>
-        <childnode refid="268" relation="include">
+        <childnode refid="429" relation="include">
         </childnode>
-        <childnode refid="270" relation="include">
+        <childnode refid="435" relation="include">
+        </childnode>
+        <childnode refid="436" relation="include">
+        </childnode>
+        <childnode refid="437" relation="include">
+        </childnode>
+        <childnode refid="438" relation="include">
         </childnode>
       </node>
-      <node id="269">
+      <node id="437">
+        <label>QDebug</label>
+      </node>
+      <node id="430">
         <label>QWidget</label>
       </node>
-      <node id="268">
+      <node id="429">
         <label>novogrupo.h</label>
         <link refid="novogrupo_8h"/>
-        <childnode refid="269" relation="include">
+        <childnode refid="430" relation="include">
         </childnode>
+        <childnode refid="431" relation="include">
+        </childnode>
+        <childnode refid="432" relation="include">
+        </childnode>
+        <childnode refid="433" relation="include">
+        </childnode>
+        <childnode refid="434" relation="include">
+        </childnode>
+      </node>
+      <node id="438">
+        <label>QSqlError</label>
+      </node>
+      <node id="436">
+        <label>QSqlRecord</label>
+      </node>
+      <node id="433">
+        <label>QSqlQuery</label>
+      </node>
+      <node id="432">
+        <label>QSqlTableModel</label>
+      </node>
+      <node id="431">
+        <label>QTableView</label>
       </node>
     </incdepgraph>
     <briefdescription>
@@ -33,18 +71,110 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="novogrupo_8h" kindref="compound">novogrupo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_novogrupo.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4" refid="classnovoGrupo_1a2e343a019db9fe74eea1809e833a8517" refkind="member"><highlight class="normal"><ref refid="classnovoGrupo_1a2e343a019db9fe74eea1809e833a8517" kindref="member">novoGrupo::novoGrupo</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
-<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget(parent),</highlight></codeline>
-<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classnovoGrupo" kindref="compound">novoGrupo</ref>)</highlight></codeline>
-<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kindref="member">ui</ref>-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight></codeline>
-<codeline lineno="11" refid="classnovoGrupo_1a561957c27e43bc56cc595a37db18aa33" refkind="member"><highlight class="normal"><ref refid="classnovoGrupo_1a561957c27e43bc56cc595a37db18aa33" kindref="member">novoGrupo::~novoGrupo</ref>()</highlight></codeline>
-<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kindref="member">ui</ref>;</highlight></codeline>
-<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSqlRecord&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDebug&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSqlError&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classnovoGrupo_1a2e343a019db9fe74eea1809e833a8517" refkind="member"><highlight class="normal"><ref refid="classnovoGrupo_1a2e343a019db9fe74eea1809e833a8517" kindref="member">novoGrupo::novoGrupo</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget(parent),</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classnovoGrupo" kindref="compound">novoGrupo</ref>)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kindref="member">ui</ref>-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1ac09ad12b6e62113e2765b4072183fa8a" kindref="member">db</ref><sp/>=<sp/>QSqlDatabase::addDatabase(</highlight><highlight class="stringliteral">&quot;QPSQL&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;conn&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1ac09ad12b6e62113e2765b4072183fa8a" kindref="member">db</ref>.setHostName(</highlight><highlight class="stringliteral">&quot;tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1ac09ad12b6e62113e2765b4072183fa8a" kindref="member">db</ref>.setDatabaseName(</highlight><highlight class="stringliteral">&quot;tccnaybru&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1ac09ad12b6e62113e2765b4072183fa8a" kindref="member">db</ref>.setPassword(</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1ac09ad12b6e62113e2765b4072183fa8a" kindref="member">db</ref>.setUserName(</highlight><highlight class="stringliteral">&quot;brunosr&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1ac09ad12b6e62113e2765b4072183fa8a" kindref="member">db</ref>.setPort(5432);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1ac09ad12b6e62113e2765b4072183fa8a" kindref="member">db</ref>.open();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1acf8a7d71e25872152e637e105630fdd0" kindref="member">query</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlQuery(<ref refid="classnovoGrupo_1ac09ad12b6e62113e2765b4072183fa8a" kindref="member">db</ref>);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1ae39c5a4c6e207bd2e7842b26b03bb27b" kindref="member">modelo</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlTableModel(parent,<ref refid="classnovoGrupo_1ac09ad12b6e62113e2765b4072183fa8a" kindref="member">db</ref>);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1ae39c5a4c6e207bd2e7842b26b03bb27b" kindref="member">modelo</ref>-&gt;setTable(</highlight><highlight class="stringliteral">&quot;grupo_p_view&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1ae39c5a4c6e207bd2e7842b26b03bb27b" kindref="member">modelo</ref>-&gt;setEditStrategy(QSqlTableModel::OnManualSubmit);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1ae39c5a4c6e207bd2e7842b26b03bb27b" kindref="member">modelo</ref>-&gt;select();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kindref="member">ui</ref>-&gt;tableView-&gt;setEditTriggers(QAbstractItemView::NoEditTriggers);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kindref="member">ui</ref>-&gt;tableView-&gt;setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kindref="member">ui</ref>-&gt;tableView-&gt;setModel(<ref refid="classnovoGrupo_1ae39c5a4c6e207bd2e7842b26b03bb27b" kindref="member">modelo</ref>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="classnovoGrupo_1a561957c27e43bc56cc595a37db18aa33" refkind="member"><highlight class="normal"><ref refid="classnovoGrupo_1a561957c27e43bc56cc595a37db18aa33" kindref="member">novoGrupo::~novoGrupo</ref>()</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1ac09ad12b6e62113e2765b4072183fa8a" kindref="member">db</ref>.close();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classnovoGrupo_1acf8a7d71e25872152e637e105630fdd0" kindref="member">query</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kindref="member">ui</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="classnovoGrupo_1a79ea367109697e72b5aa2346230ef8e8" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnovoGrupo_1a79ea367109697e72b5aa2346230ef8e8" kindref="member">novoGrupo::on_pushButton_2_clicked</ref>()</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;close();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="classnovoGrupo_1ac7dcb16c06891a7c4809fed9653d5095" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnovoGrupo_1ac7dcb16c06891a7c4809fed9653d5095" kindref="member">novoGrupo::on_Adicionar_clicked</ref>()</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1acf8a7d71e25872152e637e105630fdd0" kindref="member">query</ref>-&gt;prepare(</highlight><highlight class="stringliteral">&quot;INSERT<sp/>INTO<sp/>grupo_p<sp/>(grupo)<sp/>VALUES<sp/>(?)&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1acf8a7d71e25872152e637e105630fdd0" kindref="member">query</ref>-&gt;addBindValue(<ref refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kindref="member">ui</ref>-&gt;lineEdit-&gt;text());</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1acf8a7d71e25872152e637e105630fdd0" kindref="member">query</ref>-&gt;exec();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1a38e10e90ae25accd5b29ac0d5fe4cea4" kindref="member">atualizaDados</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*if(query-&gt;exec())</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QMessageBox<sp/>messageBox;</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messageBox.critical(0,&quot;Sucesso!&quot;,&quot;Cadastro<sp/>realizado<sp/>com<sp/>sucesso&quot;);</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messageBox.setFixedSize(500,200);</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>db.close();</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/>else</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>erro<sp/>=<sp/>query-&gt;lastError().text();</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QMessageBox<sp/>messageBox;</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messageBox.critical(0,&quot;Erro!&quot;,erro);</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>messageBox.setFixedSize(500,200);</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"></highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/><sp/><sp/><sp/>}*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="classnovoGrupo_1a73e0025ce04c04b5e41c923d00998daa" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnovoGrupo_1a73e0025ce04c04b5e41c923d00998daa" kindref="member">novoGrupo::on_botaoEditar_clicked</ref>()</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>aux;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>auxS<sp/>=<sp/><ref refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kindref="member">ui</ref>-&gt;tableView-&gt;model()-&gt;data(<ref refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kindref="member">ui</ref>-&gt;tableView-&gt;currentIndex()).toString();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>query_string<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;SELECT<sp/>id_grupo<sp/>FROM<sp/>grupo_p<sp/>WHERE<sp/>grupo<sp/>=<sp/>&apos;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>+<sp/>auxS<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;&apos;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*query-&gt;prepare(&quot;SELECT<sp/>id_grupo<sp/>FROM<sp/>grupo_p<sp/>WHERE<sp/>grupo<sp/>=<sp/>&apos;:grupo&apos;&quot;);</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/><sp/><sp/><sp/>query-&gt;bindValue(&quot;:grupo&quot;,auxS);*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1acf8a7d71e25872152e637e105630fdd0" kindref="member">query</ref>-&gt;exec(query_string);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1acf8a7d71e25872152e637e105630fdd0" kindref="member">query</ref>-&gt;next();</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>aux<sp/>=<sp/><ref refid="classnovoGrupo_1acf8a7d71e25872152e637e105630fdd0" kindref="member">query</ref>-&gt;value(</highlight><highlight class="stringliteral">&quot;id_grupo&quot;</highlight><highlight class="normal">).toInt();</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1acf8a7d71e25872152e637e105630fdd0" kindref="member">query</ref>-&gt;prepare(</highlight><highlight class="stringliteral">&quot;UPDATE<sp/>grupo_p<sp/>SET<sp/>grupo<sp/>=<sp/>?<sp/>WHERE<sp/>id_grupo<sp/>=<sp/>?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1acf8a7d71e25872152e637e105630fdd0" kindref="member">query</ref>-&gt;addBindValue(<ref refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kindref="member">ui</ref>-&gt;lineEdit-&gt;text());</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1acf8a7d71e25872152e637e105630fdd0" kindref="member">query</ref>-&gt;addBindValue(aux);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1acf8a7d71e25872152e637e105630fdd0" kindref="member">query</ref>-&gt;exec();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1a38e10e90ae25accd5b29ac0d5fe4cea4" kindref="member">atualizaDados</ref>();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="classnovoGrupo_1a344215286fdf5b5276bb9236e60c3852" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnovoGrupo_1a344215286fdf5b5276bb9236e60c3852" kindref="member">novoGrupo::on_botaoAtualizar_clicked</ref>()</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="classnovoGrupo_1a38e10e90ae25accd5b29ac0d5fe4cea4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classnovoGrupo_1a38e10e90ae25accd5b29ac0d5fe4cea4" kindref="member">novoGrupo::atualizaDados</ref>()</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1ae39c5a4c6e207bd2e7842b26b03bb27b" kindref="member">modelo</ref>-&gt;setTable(</highlight><highlight class="stringliteral">&quot;grupo_p_view&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1ae39c5a4c6e207bd2e7842b26b03bb27b" kindref="member">modelo</ref>-&gt;setEditStrategy(QSqlTableModel::OnManualSubmit);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1ae39c5a4c6e207bd2e7842b26b03bb27b" kindref="member">modelo</ref>-&gt;select();</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kindref="member">ui</ref>-&gt;tableView-&gt;setEditTriggers(QAbstractItemView::NoEditTriggers);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kindref="member">ui</ref>-&gt;tableView-&gt;setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" kindref="member">ui</ref>-&gt;tableView-&gt;setModel(<ref refid="classnovoGrupo_1ae39c5a4c6e207bd2e7842b26b03bb27b" kindref="member">modelo</ref>);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp"/>
   </compounddef>

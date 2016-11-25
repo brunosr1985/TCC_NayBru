@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" line="22" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" bodystart="22" bodyend="-1"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" line="30" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.cpp" bodystart="5" bodyend="10"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" line="21" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.cpp" bodystart="5" bodyend="10"/>
       </memberdef>
       <memberdef kind="function" id="classCadastropessoa_1a19e6b26d15f77eb6844e67b1246661cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.cpp" bodystart="12" bodyend="15"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" line="22" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.cpp" bodystart="12" bodyend="15"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-slot">
@@ -64,7 +64,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.cpp" bodystart="17" bodyend="21"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" line="25" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.cpp" bodystart="17" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCadastropessoa_1a15a54ed3864e1a4fcbea20ef9a19303d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Cadastropessoa::on_Pessoa_Salvar_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_Pessoa_Salvar_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" line="27" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.cpp" bodystart="24" bodyend="64"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -93,10 +106,11 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" bodystart="10" bodyend="23"/>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" line="17" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastropessoa.h" bodystart="16" bodyend="31"/>
     <listofallmembers>
       <member refid="classCadastropessoa_1a706230f399727160a6fd25592f77da12" prot="public" virt="non-virtual"><scope>Cadastropessoa</scope><name>Cadastropessoa</name></member>
       <member refid="classCadastropessoa_1ad6cdadecd30df81d41df6a267855e012" prot="private" virt="non-virtual"><scope>Cadastropessoa</scope><name>on_Novo_Grupo_clicked</name></member>
+      <member refid="classCadastropessoa_1a15a54ed3864e1a4fcbea20ef9a19303d" prot="private" virt="non-virtual"><scope>Cadastropessoa</scope><name>on_Pessoa_Salvar_clicked</name></member>
       <member refid="classCadastropessoa_1adee936267da377428b49e6c5f6a98403" prot="private" virt="non-virtual"><scope>Cadastropessoa</scope><name>ui</name></member>
       <member refid="classCadastropessoa_1a19e6b26d15f77eb6844e67b1246661cf" prot="public" virt="non-virtual"><scope>Cadastropessoa</scope><name>~Cadastropessoa</name></member>
     </listofallmembers>

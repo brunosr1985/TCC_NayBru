@@ -6,6 +6,9 @@
 #include "cadastropessoa.h"
 #include "cadastrochamado.h"
 #include "cadastrodispositivo.h"
+#include "cadastroprioridade.h"
+#include "cadastrostatus.h"
+#include "cadastrousuario.h"
 #include "novogrupo.h"
 #include "tipodisp.h"
 
@@ -113,4 +116,34 @@ void JanelaPrincipal::on_actionChamados_3_triggered()
     cc->setAttribute(Qt::WA_DeleteOnClose);
     md->addSubWindow(cc);
     cc->show();
+}
+
+void JanelaPrincipal::on_actionCriar_Usu_rio_triggered()
+{
+    QMdiArea *md = new QMdiArea(this);
+    this->setCentralWidget(md);
+    cadastrousuario *cu = new cadastrousuario(md);
+    cu->setAttribute(Qt::WA_DeleteOnClose);
+    md->addSubWindow(cu);
+    cu->show();
+}
+
+void JanelaPrincipal::on_actionCriar_Status_triggered()
+{
+    QMdiArea *md = new QMdiArea(this);
+    this->setCentralWidget(md);
+    cadastrostatus *cs = new cadastrostatus(md);
+    cs->setAttribute(Qt::WA_DeleteOnClose);
+    md->addSubWindow(cs);
+    cs->show();
+}
+
+void JanelaPrincipal::on_actionCriar_Prioridade_triggered()
+{
+    QMdiArea *md = new QMdiArea(this);
+    this->setCentralWidget(md);
+    cadastroprioridade *cpr = new cadastroprioridade(md);
+    cpr->setAttribute(Qt::WA_DeleteOnClose);
+    md->addSubWindow(cpr);
+    cpr->show();
 }

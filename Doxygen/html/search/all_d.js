@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['r',['R',['../classMRaci.html#acd15929ffdaf5b16f74c20a248a5d818',1,'MRaci']]],
-  ['ramal',['ramal',['../classpessoa.html#a3263ed9356bab20fb6c364483fe0d7b7',1,'pessoa']]],
-  ['reincidente',['reincidente',['../classChamado.html#a83b8c80e772947d6e21ccb3403c8ef5e',1,'Chamado']]]
+  ['query',['query',['../classJanelaPrincipal.html#ad0617c58eed0f8d5907edff7dae4dae2',1,'JanelaPrincipal::query()'],['../classnovoGrupo.html#acf8a7d71e25872152e637e105630fdd0',1,'novoGrupo::query()'],['../classtipoDisp.html#af4621f7e78bfb51b4fd1b829c9097cc3',1,'tipoDisp::query()']]]
 ];

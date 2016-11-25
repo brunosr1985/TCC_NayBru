@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classconectabanco" kind="class" language="C++" prot="public">
+    <compoundname>conectabanco</compoundname>
+    <includes refid="conectabanco_8h" local="yes">conectabanco.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classconectabanco_1a7d1725c274b54e84c7da80bf42918f88" prot="public" static="no" mutable="no">
+        <type>QSqlDatabase</type>
+        <definition>QSqlDatabase conectabanco::db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/conectabanco.h" line="13" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/conectabanco.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classconectabanco_1aad9e33d02e98a22ce34d3463d76c1a85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>conectabanco::conectabanco</definition>
+        <argsstring>()</argsstring>
+        <name>conectabanco</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/conectabanco.h" line="14" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/conectabanco.cpp" bodystart="13" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classconectabanco_1a040fab5ab6e04ead7efc4b6114b32def" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QSqlDatabase</type>
+        <definition>QSqlDatabase conectabanco::getDb</definition>
+        <argsstring>() const</argsstring>
+        <name>getDb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/conectabanco.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/conectabanco.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classconectabanco_1a2725bbd741bdcd07ab587bbae80e6205" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void conectabanco::setDb</definition>
+        <argsstring>(const QSqlDatabase &amp;value)</argsstring>
+        <name>setDb</name>
+        <param>
+          <type>const QSqlDatabase &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/conectabanco.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/conectabanco.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="33">
+        <label>conectabanco</label>
+        <link refid="classconectabanco"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/conectabanco.h" line="9" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/conectabanco.h" bodystart="8" bodyend="17"/>
+    <listofallmembers>
+      <member refid="classconectabanco_1aad9e33d02e98a22ce34d3463d76c1a85" prot="public" virt="non-virtual"><scope>conectabanco</scope><name>conectabanco</name></member>
+      <member refid="classconectabanco_1a7d1725c274b54e84c7da80bf42918f88" prot="public" virt="non-virtual"><scope>conectabanco</scope><name>db</name></member>
+      <member refid="classconectabanco_1a040fab5ab6e04ead7efc4b6114b32def" prot="public" virt="non-virtual"><scope>conectabanco</scope><name>getDb</name></member>
+      <member refid="classconectabanco_1a2725bbd741bdcd07ab587bbae80e6205" prot="public" virt="non-virtual"><scope>conectabanco</scope><name>setDb</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

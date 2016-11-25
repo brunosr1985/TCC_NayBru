@@ -3,27 +3,27 @@
   <compounddef id="selecionaequip_8h" kind="file" language="C++">
     <compoundname>selecionaequip.h</compoundname>
     <includes local="no">QDialog</includes>
-    <includedby refid="selecionaequip_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/selecionaequip.cpp</includedby>
+    <includedby refid="selecionaequip_8cpp" local="yes">selecionaequip.cpp</includedby>
     <incdepgraph>
-      <node id="307">
-        <label>C:/Users/BrunoSR/TCC_NayBru/selecionaequip.h</label>
+      <node id="479">
+        <label>selecionaequip.h</label>
         <link refid="selecionaequip_8h"/>
-        <childnode refid="308" relation="include">
+        <childnode refid="480" relation="include">
         </childnode>
       </node>
-      <node id="308">
+      <node id="480">
         <label>QDialog</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="309">
-        <label>C:/Users/BrunoSR/TCC_NayBru/selecionaequip.h</label>
+      <node id="481">
+        <label>selecionaequip.h</label>
         <link refid="selecionaequip_8h"/>
-        <childnode refid="310" relation="include">
+        <childnode refid="482" relation="include">
         </childnode>
       </node>
-      <node id="310">
-        <label>C:/Users/BrunoSR/TCC_NayBru/selecionaequip.cpp</label>
+      <node id="482">
+        <label>selecionaequip.cpp</label>
         <link refid="selecionaequip_8cpp"/>
       </node>
     </invincdepgraph>

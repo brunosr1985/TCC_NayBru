@@ -57,24 +57,24 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="60">
+      <node id="78">
         <label>selecionaequip</label>
         <link refid="classselecionaequip"/>
-        <childnode refid="61" relation="public-inheritance">
+        <childnode refid="79" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="61">
+      <node id="79">
         <label>QDialog</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="62">
+      <node id="80">
         <label>selecionaequip</label>
         <link refid="classselecionaequip"/>
-        <childnode refid="63" relation="public-inheritance">
+        <childnode refid="81" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="63">
+      <node id="81">
         <label>QDialog</label>
       </node>
     </collaborationgraph>

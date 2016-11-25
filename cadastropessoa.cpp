@@ -17,6 +17,7 @@ Cadastropessoa::~Cadastropessoa()
 void Cadastropessoa::on_Novo_Grupo_clicked()
 {
     novoGrupo *ng = new novoGrupo();
+    ng->setAttribute(Qt::WA_DeleteOnClose);
     ng->show();
 }
 

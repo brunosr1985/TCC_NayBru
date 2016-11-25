@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>439</width>
-    <height>468</height>
+    <width>479</width>
+    <height>612</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,10 +16,10 @@
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>430</y>
-     <width>254</width>
-     <height>25</height>
+     <x>40</x>
+     <y>470</y>
+     <width>250</width>
+     <height>18</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
@@ -50,9 +50,9 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>20</y>
-     <width>421</width>
-     <height>396</height>
+     <y>10</y>
+     <width>441</width>
+     <height>441</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -163,6 +163,26 @@
         <item>
          <property name="text">
           <string>Concluído</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_13">
+      <item>
+       <widget class="QLabel" name="label_11">
+        <property name="text">
+         <string>Prioridade</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboPrioridade">
+        <item>
+         <property name="text">
+          <string>Normal</string>
          </property>
         </item>
        </widget>

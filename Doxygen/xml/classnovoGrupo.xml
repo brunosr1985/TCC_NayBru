@@ -4,6 +4,47 @@
     <compoundname>novoGrupo</compoundname>
     <basecompoundref prot="public" virt="non-virtual">QWidget</basecompoundref>
     <includes refid="novogrupo_8h" local="yes">novogrupo.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classnovoGrupo_1ac09ad12b6e62113e2765b4072183fa8a" prot="public" static="no" mutable="no">
+        <type>QSqlDatabase</type>
+        <definition>QSqlDatabase novoGrupo::db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" line="20" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnovoGrupo_1acf8a7d71e25872152e637e105630fdd0" prot="public" static="no" mutable="no">
+        <type>QSqlQuery *</type>
+        <definition>QSqlQuery* novoGrupo::query</definition>
+        <argsstring></argsstring>
+        <name>query</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" line="21" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classnovoGrupo_1ae39c5a4c6e207bd2e7842b26b03bb27b" prot="public" static="no" mutable="no">
+        <type>QSqlTableModel *</type>
+        <definition>QSqlTableModel* novoGrupo::modelo</definition>
+        <argsstring></argsstring>
+        <name>modelo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" line="22" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" prot="private" static="no" mutable="no">
         <type>Ui::novoGrupo *</type>
@@ -16,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" bodystart="19" bodyend="-1"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" line="39" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -36,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp" bodystart="4" bodyend="9"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp" bodystart="7" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="classnovoGrupo_1a561957c27e43bc56cc595a37db18aa33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -49,7 +90,102 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp" bodystart="11" bodyend="14"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" line="23" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp" bodystart="32" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classnovoGrupo_1a79ea367109697e72b5aa2346230ef8e8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void novoGrupo::on_pushButton_2_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_2_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" line="26" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="slot" id="classnovoGrupo_1a7d2c7ab2cf71fbd41accd59d55e76da7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void novoGrupo::on_pushButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="classnovoGrupo_1ae2fb2a6c7fbc496861b37b519507d539" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void novoGrupo::on_toolButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_toolButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="classnovoGrupo_1ac7dcb16c06891a7c4809fed9653d5095" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void novoGrupo::on_Adicionar_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_Adicionar_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" line="32" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp" bodystart="44" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="slot" id="classnovoGrupo_1a73e0025ce04c04b5e41c923d00998daa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void novoGrupo::on_botaoEditar_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_botaoEditar_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" line="34" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp" bodystart="71" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="slot" id="classnovoGrupo_1a344215286fdf5b5276bb9236e60c3852" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void novoGrupo::on_botaoAtualizar_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_botaoAtualizar_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" line="36" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp" bodystart="93" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classnovoGrupo_1a38e10e90ae25accd5b29ac0d5fe4cea4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void novoGrupo::atualizaDados</definition>
+        <argsstring>()</argsstring>
+        <name>atualizaDados</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" line="40" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/novogrupo.cpp" bodystart="98" bodyend="106"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -57,30 +193,40 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="49">
+      <node id="67">
         <label>novoGrupo</label>
         <link refid="classnovoGrupo"/>
-        <childnode refid="50" relation="public-inheritance">
+        <childnode refid="68" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="50">
+      <node id="68">
         <label>QWidget</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="51">
+      <node id="69">
         <label>novoGrupo</label>
         <link refid="classnovoGrupo"/>
-        <childnode refid="52" relation="public-inheritance">
+        <childnode refid="70" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="52">
+      <node id="70">
         <label>QWidget</label>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" bodystart="10" bodyend="20"/>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/novogrupo.h" bodystart="14" bodyend="41"/>
     <listofallmembers>
+      <member refid="classnovoGrupo_1a38e10e90ae25accd5b29ac0d5fe4cea4" prot="private" virt="non-virtual"><scope>novoGrupo</scope><name>atualizaDados</name></member>
+      <member refid="classnovoGrupo_1ac09ad12b6e62113e2765b4072183fa8a" prot="public" virt="non-virtual"><scope>novoGrupo</scope><name>db</name></member>
+      <member refid="classnovoGrupo_1ae39c5a4c6e207bd2e7842b26b03bb27b" prot="public" virt="non-virtual"><scope>novoGrupo</scope><name>modelo</name></member>
       <member refid="classnovoGrupo_1a2e343a019db9fe74eea1809e833a8517" prot="public" virt="non-virtual"><scope>novoGrupo</scope><name>novoGrupo</name></member>
+      <member refid="classnovoGrupo_1ac7dcb16c06891a7c4809fed9653d5095" prot="private" virt="non-virtual"><scope>novoGrupo</scope><name>on_Adicionar_clicked</name></member>
+      <member refid="classnovoGrupo_1a344215286fdf5b5276bb9236e60c3852" prot="private" virt="non-virtual"><scope>novoGrupo</scope><name>on_botaoAtualizar_clicked</name></member>
+      <member refid="classnovoGrupo_1a73e0025ce04c04b5e41c923d00998daa" prot="private" virt="non-virtual"><scope>novoGrupo</scope><name>on_botaoEditar_clicked</name></member>
+      <member refid="classnovoGrupo_1a79ea367109697e72b5aa2346230ef8e8" prot="private" virt="non-virtual"><scope>novoGrupo</scope><name>on_pushButton_2_clicked</name></member>
+      <member refid="classnovoGrupo_1a7d2c7ab2cf71fbd41accd59d55e76da7" prot="private" virt="non-virtual"><scope>novoGrupo</scope><name>on_pushButton_clicked</name></member>
+      <member refid="classnovoGrupo_1ae2fb2a6c7fbc496861b37b519507d539" prot="private" virt="non-virtual"><scope>novoGrupo</scope><name>on_toolButton_clicked</name></member>
+      <member refid="classnovoGrupo_1acf8a7d71e25872152e637e105630fdd0" prot="public" virt="non-virtual"><scope>novoGrupo</scope><name>query</name></member>
       <member refid="classnovoGrupo_1aafa50a9f60961cd22b3eb71a06043d46" prot="private" virt="non-virtual"><scope>novoGrupo</scope><name>ui</name></member>
       <member refid="classnovoGrupo_1a561957c27e43bc56cc595a37db18aa33" prot="public" virt="non-virtual"><scope>novoGrupo</scope><name>~novoGrupo</name></member>
     </listofallmembers>

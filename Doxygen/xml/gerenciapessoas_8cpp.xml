@@ -4,38 +4,66 @@
     <compoundname>gerenciapessoas.cpp</compoundname>
     <includes refid="gerenciapessoas_8h" local="yes">gerenciapessoas.h</includes>
     <includes local="yes">ui_gerenciapessoas.h</includes>
-    <includes refid="cadastropessoa_8h" local="yes">cadastropessoa.h</includes>
     <incdepgraph>
-      <node id="133">
-        <label>C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.cpp</label>
+      <node id="241">
+        <label>QMessageBox</label>
+      </node>
+      <node id="234">
+        <label>gerenciapessoas.cpp</label>
         <link refid="gerenciapessoas_8cpp"/>
-        <childnode refid="134" relation="include">
+        <childnode refid="235" relation="include">
         </childnode>
-        <childnode refid="136" relation="include">
-        </childnode>
-        <childnode refid="137" relation="include">
+        <childnode refid="245" relation="include">
         </childnode>
       </node>
-      <node id="137">
-        <label>cadastropessoa.h</label>
-        <link refid="cadastropessoa_8h"/>
-        <childnode refid="138" relation="include">
-        </childnode>
+      <node id="237">
+        <label>QSqlDatabase</label>
       </node>
-      <node id="135">
+      <node id="244">
         <label>QDialog</label>
       </node>
-      <node id="138">
+      <node id="236">
         <label>QWidget</label>
       </node>
-      <node id="134">
+      <node id="238">
+        <label>QString</label>
+      </node>
+      <node id="242">
+        <label>QSqlError</label>
+      </node>
+      <node id="235">
         <label>gerenciapessoas.h</label>
         <link refid="gerenciapessoas_8h"/>
-        <childnode refid="135" relation="include">
+        <childnode refid="236" relation="include">
+        </childnode>
+        <childnode refid="237" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="243" relation="include">
+        </childnode>
+        <childnode refid="244" relation="include">
         </childnode>
       </node>
-      <node id="136">
+      <node id="245">
         <label>ui_gerenciapessoas.h</label>
+      </node>
+      <node id="239">
+        <label>QSqlQuery</label>
+      </node>
+      <node id="243">
+        <label>QStringList</label>
+      </node>
+      <node id="240">
+        <label>QtGui</label>
       </node>
     </incdepgraph>
     <briefdescription>
@@ -45,25 +73,162 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="gerenciapessoas_8h" kindref="compound">gerenciapessoas.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_gerenciapessoas.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cadastropessoa_8h" kindref="compound">cadastropessoa.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5" refid="classgerenciaPessoas_1a245ab3e4006fcdd3ec9a89815e1c60c1" refkind="member"><highlight class="normal"><ref refid="classgerenciaPessoas_1a245ab3e4006fcdd3ec9a89815e1c60c1" kindref="member">gerenciaPessoas::gerenciaPessoas</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>QDialog(parent),</highlight></codeline>
 <codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classgerenciaPessoas" kindref="compound">gerenciaPessoas</ref>)</highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="classgerenciaPessoas_1a85f9272a309472903bf5b2ad0950973c" refkind="member"><highlight class="normal"><ref refid="classgerenciaPessoas_1a85f9272a309472903bf5b2ad0950973c" kindref="member">gerenciaPessoas::~gerenciaPessoas</ref>()</highlight></codeline>
-<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>;</highlight></codeline>
-<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="classgerenciaPessoas_1a19d90661ff52549b38db8d0a53d0f638" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgerenciaPessoas_1a19d90661ff52549b38db8d0a53d0f638" kindref="member">gerenciaPessoas::on_novaPessoa_clicked</ref>()</highlight></codeline>
-<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classCadastropessoa" kindref="compound">Cadastropessoa</ref><sp/>*cp<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classCadastropessoa" kindref="compound">Cadastropessoa</ref>();</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>cp-&gt;show();</highlight></codeline>
-<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Bloqueia<sp/>e<sp/>desbloqueia<sp/>os<sp/>devidos<sp/>campos</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineID-&gt;setReadOnly(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineCargo-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineDepto-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineEmail-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineRamal-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineTelefone-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineNome-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;comboGrupo-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classgerenciaPessoas_1a85f9272a309472903bf5b2ad0950973c" refkind="member"><highlight class="normal"><ref refid="classgerenciaPessoas_1a85f9272a309472903bf5b2ad0950973c" kindref="member">gerenciaPessoas::~gerenciaPessoas</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="classgerenciaPessoas_1a216cc3187caeffe2802099372452a231" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgerenciaPessoas_1a216cc3187caeffe2802099372452a231" kindref="member">gerenciaPessoas::on_Pessoa_Editar_clicked</ref>()</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Bloqueia<sp/>e<sp/>desbloqueia<sp/>os<sp/>devidos<sp/>campos</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineID-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineCargo-&gt;setReadOnly(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineDepto-&gt;setReadOnly(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineEmail-&gt;setReadOnly(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineRamal-&gt;setReadOnly(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineTelefone-&gt;setReadOnly(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineNome-&gt;setReadOnly(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;comboGrupo-&gt;setEnabled(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="classgerenciaPessoas_1a1defc0976260243ac2a0fd55d14656f9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgerenciaPessoas_1a1defc0976260243ac2a0fd55d14656f9" kindref="member">gerenciaPessoas::on_Pessoa_Salvar_clicked</ref>()</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>aux;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlDatabase<sp/>db<sp/>=<sp/>QSqlDatabase::addDatabase(</highlight><highlight class="stringliteral">&quot;QPSQL&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;conn&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setHostName(</highlight><highlight class="stringliteral">&quot;tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setDatabaseName(</highlight><highlight class="stringliteral">&quot;tccnaybru&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPassword(</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setUserName(</highlight><highlight class="stringliteral">&quot;brunosr&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPort(5432);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>db.open();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlQuery<sp/>*query<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlQuery(db);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;prepare(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>id_grupo<sp/>FROM<sp/>grupo_p<sp/>WHERE<sp/>grupo<sp/>=<sp/>?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;comboGrupo-&gt;currentText());</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;exec();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;next();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>query-&gt;value(0).toInt();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;prepare(</highlight><highlight class="stringliteral">&quot;UPDATE<sp/>pessoas<sp/>SET<sp/>nome<sp/>=<sp/>?,<sp/>telefone<sp/>=<sp/>?,<sp/>ramal<sp/>=<sp/>?,<sp/>email<sp/>=<sp/>?,<sp/>depto<sp/>=<sp/>?,<sp/>cargo<sp/>=<sp/>?,<sp/>grupo<sp/>=<sp/>?<sp/>WHERE<sp/>id_pessoa<sp/>=<sp/>?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineNome-&gt;text());</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineTelefone-&gt;text().toInt());</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineRamal-&gt;text().toInt());</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineEmail-&gt;text());</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineDepto-&gt;text());</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineCargo-&gt;text());</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(aux);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineID-&gt;text().toInt());</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;exec();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Bloqueia<sp/>e<sp/>desbloqueia<sp/>os<sp/>devidos<sp/>campos</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineID-&gt;setReadOnly(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineCargo-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineDepto-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineEmail-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineRamal-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineTelefone-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineNome-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;comboGrupo-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="classgerenciaPessoas_1a296e38542b6a4fbef8908a2afba36aec" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgerenciaPessoas_1a296e38542b6a4fbef8908a2afba36aec" kindref="member">gerenciaPessoas::on_toolButton_clicked</ref>()</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>aux;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlDatabase<sp/>db<sp/>=<sp/>QSqlDatabase::addDatabase(</highlight><highlight class="stringliteral">&quot;QPSQL&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;conn&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setHostName(</highlight><highlight class="stringliteral">&quot;tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setDatabaseName(</highlight><highlight class="stringliteral">&quot;tccnaybru&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPassword(</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setUserName(</highlight><highlight class="stringliteral">&quot;brunosr&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPort(5432);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>db.open();</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlQuery<sp/>*query<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlQuery(db);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;prepare(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>nome<sp/>FROM<sp/>pessoas<sp/>WHERE<sp/>id_pessoa<sp/>=<sp/>?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineID-&gt;text().toInt());</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;exec();</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;next();</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineNome-&gt;setText(query-&gt;value(0).toString());</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineNome-&gt;update();</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;prepare(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>telefone<sp/>FROM<sp/>pessoas<sp/>WHERE<sp/>id_pessoa<sp/>=<sp/>?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineTelefone-&gt;text());</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;exec();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;next();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineTelefone-&gt;setText(query-&gt;value(0).toString());</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineTelefone-&gt;update();</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;prepare(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>ramal<sp/>FROM<sp/>pessoas<sp/>WHERE<sp/>id_pessoa<sp/>=<sp/>?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineRamal-&gt;text());</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;exec();</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;next();</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineRamal-&gt;setText(query-&gt;value(0).toString());</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineRamal-&gt;update();</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;prepare(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>email<sp/>FROM<sp/>pessoas<sp/>WHERE<sp/>id_pessoa<sp/>=<sp/>?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineEmail-&gt;text());</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;exec();</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;next();</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineEmail-&gt;setText(query-&gt;value(0).toString());</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineEmail-&gt;update();</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;prepare(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>depto<sp/>FROM<sp/>pessoas<sp/>WHERE<sp/>id_pessoa<sp/>=<sp/>?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineDepto-&gt;text());</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;exec();</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;next();</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineDepto-&gt;setText(query-&gt;value(0).toString());</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineDepto-&gt;update();</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;prepare(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>cargo<sp/>FROM<sp/>pessoas<sp/>WHERE<sp/>id_pessoa<sp/>=<sp/>?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineCargo-&gt;text());</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;exec();</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;next();</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineCargo-&gt;setText(query-&gt;value(0).toString());</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineCargo-&gt;update();</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;prepare(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>grupo<sp/>FROM<sp/>pessoas<sp/>WHERE<sp/>id_pessoas<sp/>=<sp/>?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineID-&gt;text().toInt());</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;exec();</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;next();</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>query-&gt;value(0).toInt();</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;prepare(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>grupo<sp/>FROM<sp/>grupo_p<sp/>WHERE<sp/>id_grupo<sp/>=<sp/>?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(aux);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;exec();</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;next();</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;comboGrupo-&gt;setCurrentIndex(<ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;comboGrupo-&gt;findText(query-&gt;value(0).toString()));</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;comboGrupo-&gt;update();</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Bloqueia<sp/>e<sp/>desbloqueia<sp/>os<sp/>devidos<sp/>campos</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineID-&gt;setReadOnly(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineCargo-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineDepto-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineEmail-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineRamal-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineTelefone-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;lineNome-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;comboGrupo-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" kindref="member">ui</ref>-&gt;comboGrupo-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.cpp"/>
   </compounddef>

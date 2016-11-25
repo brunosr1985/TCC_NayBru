@@ -72,24 +72,24 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="24">
+      <node id="38">
         <label>QDialog</label>
       </node>
-      <node id="23">
+      <node id="37">
         <label>gerenciaChamados</label>
         <link refid="classgerenciaChamados"/>
-        <childnode refid="24" relation="public-inheritance">
+        <childnode refid="38" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="26">
+      <node id="40">
         <label>QDialog</label>
       </node>
-      <node id="25">
+      <node id="39">
         <label>gerenciaChamados</label>
         <link refid="classgerenciaChamados"/>
-        <childnode refid="26" relation="public-inheritance">
+        <childnode refid="40" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

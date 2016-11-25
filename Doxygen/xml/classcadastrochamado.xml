@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" line="42" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" bodystart="42" bodyend="-1"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" line="44" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcadastrochamado_1a2cb8eb2dc95dacac8cbc4f988fe63cf1" prot="private" static="no" mutable="no">
         <type>QSqlTableModel *</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" line="43" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" bodystart="43" bodyend="-1"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" line="45" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" line="31" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp" bodystart="8" bodyend="13"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" line="31" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp" bodystart="8" bodyend="41"/>
       </memberdef>
       <memberdef kind="function" id="classcadastrochamado_1aafb8985f35d1e6d47dbc8be3a4cf0de9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" line="32" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp" bodystart="15" bodyend="18"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" line="32" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp" bodystart="44" bodyend="47"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-slot">
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" line="35" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp" bodystart="20" bodyend="23"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" line="35" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp" bodystart="49" bodyend="52"/>
       </memberdef>
       <memberdef kind="slot" id="classcadastrochamado_1ae88b001d000591403af27c218f2d2fb8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" line="37" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp" bodystart="25" bodyend="41"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" line="37" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp" bodystart="54" bodyend="59"/>
       </memberdef>
       <memberdef kind="slot" id="classcadastrochamado_1a6245c6a439da2dad5d91dca10a6fd301" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -103,7 +103,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" line="39" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp" bodystart="43" bodyend="48"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" line="39" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp" bodystart="61" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="slot" id="classcadastrochamado_1a544b554bb68c2351fedd6637d6490171" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cadastrochamado::on_pushButton_2_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_2_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" line="41" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp" bodystart="68" bodyend="91"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -132,12 +145,13 @@
         <label>QWidget</label>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" line="27" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" bodystart="26" bodyend="45"/>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" line="27" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.h" bodystart="26" bodyend="47"/>
     <listofallmembers>
       <member refid="classcadastrochamado_1a626bec1c5a76c3fe062f70f3fe857c3f" prot="public" virt="non-virtual"><scope>cadastrochamado</scope><name>cadastrochamado</name></member>
       <member refid="classcadastrochamado_1a2cb8eb2dc95dacac8cbc4f988fe63cf1" prot="private" virt="non-virtual"><scope>cadastrochamado</scope><name>modelo</name></member>
       <member refid="classcadastrochamado_1a6245c6a439da2dad5d91dca10a6fd301" prot="private" virt="non-virtual"><scope>cadastrochamado</scope><name>on_abreDisp_clicked</name></member>
       <member refid="classcadastrochamado_1ae88b001d000591403af27c218f2d2fb8" prot="private" virt="non-virtual"><scope>cadastrochamado</scope><name>on_abreRACI_clicked</name></member>
+      <member refid="classcadastrochamado_1a544b554bb68c2351fedd6637d6490171" prot="private" virt="non-virtual"><scope>cadastrochamado</scope><name>on_pushButton_2_clicked</name></member>
       <member refid="classcadastrochamado_1ad28991192a4b3b79126e4bdf2d0fa29b" prot="private" virt="non-virtual"><scope>cadastrochamado</scope><name>on_pushButton_3_clicked</name></member>
       <member refid="classcadastrochamado_1abb4512bd6342bcea8792f9b59f2616d0" prot="private" virt="non-virtual"><scope>cadastrochamado</scope><name>ui</name></member>
       <member refid="classcadastrochamado_1aafb8985f35d1e6d47dbc8be3a4cf0de9" prot="public" virt="non-virtual"><scope>cadastrochamado</scope><name>~cadastrochamado</name></member>

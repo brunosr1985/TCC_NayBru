@@ -26,11 +26,20 @@ cadastrochamado::cadastrochamado(QWidget *parent) :
     {
         lista.append(fillCombo->value(0).toString());
     }
+    lista.clear();
+
+    fillCombo->prepare("SELECT prioridade FROM prioridade");
+    fillCombo->exec();
+    while(fillCombo->next())
+    {
+        lista.append(fillCombo->value(0).toString());
+    }
 
     ui->setupUi(this);
-    ui->comboStatus->clear();
-    ui->comboStatus->addItems(lista);
+    ui->comboPrioridade->clear();
+    ui->comboPrioridade->addItems(lista);
 }
+
 
 cadastrochamado::~cadastrochamado()
 {

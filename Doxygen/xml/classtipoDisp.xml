@@ -4,6 +4,47 @@
     <compoundname>tipoDisp</compoundname>
     <basecompoundref prot="public" virt="non-virtual">QDialog</basecompoundref>
     <includes refid="tipodisp_8h" local="yes">tipodisp.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtipoDisp_1a39b9a2eb8f8d9b13897ad9b9747ef734" prot="public" static="no" mutable="no">
+        <type>QSqlDatabase</type>
+        <definition>QSqlDatabase tipoDisp::db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="27" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtipoDisp_1af4621f7e78bfb51b4fd1b829c9097cc3" prot="public" static="no" mutable="no">
+        <type>QSqlQuery *</type>
+        <definition>QSqlQuery* tipoDisp::query</definition>
+        <argsstring></argsstring>
+        <name>query</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="28" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtipoDisp_1a4b84d3d85207ab9a7020e44da065bbae" prot="public" static="no" mutable="no">
+        <type>QSqlTableModel *</type>
+        <definition>QSqlTableModel* tipoDisp::modelo</definition>
+        <argsstring></argsstring>
+        <name>modelo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="29" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classtipoDisp_1a1ab1a6438473977cbfaf2b587872b7fd" prot="private" static="no" mutable="no">
         <type>Ui::tipoDisp *</type>
@@ -16,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" bodystart="19" bodyend="-1"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="42" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -36,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.cpp" bodystart="4" bodyend="9"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="25" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.cpp" bodystart="4" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="classtipoDisp_1a235a754bbe34fe3a8fd5826e57cf3abe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -49,7 +90,76 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.cpp" bodystart="11" bodyend="14"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="30" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.cpp" bodystart="27" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classtipoDisp_1a27486c21089e74acac17691790cdec27" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tipoDisp::on_botaoCancelar_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_botaoCancelar_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="33" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.cpp" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="slot" id="classtipoDisp_1a8b44dee3f55c6646e1e2682509bc97ca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tipoDisp::on_botaoSalvar_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_botaoSalvar_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="35" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.cpp" bodystart="40" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="slot" id="classtipoDisp_1ade53850a371a41f2e7653870dd0dd3f4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tipoDisp::on_adicionaTipo_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_adicionaTipo_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="37" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.cpp" bodystart="64" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="slot" id="classtipoDisp_1accc7efe84e6cd25a984b71580f95ae67" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tipoDisp::on_pushButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="39" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.cpp" bodystart="83" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtipoDisp_1a778e9d22bc44c955c3b4f85c9f3bc390" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tipoDisp::atualizaDados</definition>
+        <argsstring>()</argsstring>
+        <name>atualizaDados</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="43" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.cpp" bodystart="73" bodyend="81"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -57,29 +167,37 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="69">
+      <node id="87">
         <label>QDialog</label>
       </node>
-      <node id="68">
+      <node id="86">
         <label>tipoDisp</label>
         <link refid="classtipoDisp"/>
-        <childnode refid="69" relation="public-inheritance">
+        <childnode refid="87" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="71">
+      <node id="89">
         <label>QDialog</label>
       </node>
-      <node id="70">
+      <node id="88">
         <label>tipoDisp</label>
         <link refid="classtipoDisp"/>
-        <childnode refid="71" relation="public-inheritance">
+        <childnode refid="89" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" bodystart="10" bodyend="20"/>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" line="21" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/tipodisp.h" bodystart="20" bodyend="44"/>
     <listofallmembers>
+      <member refid="classtipoDisp_1a778e9d22bc44c955c3b4f85c9f3bc390" prot="private" virt="non-virtual"><scope>tipoDisp</scope><name>atualizaDados</name></member>
+      <member refid="classtipoDisp_1a39b9a2eb8f8d9b13897ad9b9747ef734" prot="public" virt="non-virtual"><scope>tipoDisp</scope><name>db</name></member>
+      <member refid="classtipoDisp_1a4b84d3d85207ab9a7020e44da065bbae" prot="public" virt="non-virtual"><scope>tipoDisp</scope><name>modelo</name></member>
+      <member refid="classtipoDisp_1ade53850a371a41f2e7653870dd0dd3f4" prot="private" virt="non-virtual"><scope>tipoDisp</scope><name>on_adicionaTipo_clicked</name></member>
+      <member refid="classtipoDisp_1a27486c21089e74acac17691790cdec27" prot="private" virt="non-virtual"><scope>tipoDisp</scope><name>on_botaoCancelar_clicked</name></member>
+      <member refid="classtipoDisp_1a8b44dee3f55c6646e1e2682509bc97ca" prot="private" virt="non-virtual"><scope>tipoDisp</scope><name>on_botaoSalvar_clicked</name></member>
+      <member refid="classtipoDisp_1accc7efe84e6cd25a984b71580f95ae67" prot="private" virt="non-virtual"><scope>tipoDisp</scope><name>on_pushButton_clicked</name></member>
+      <member refid="classtipoDisp_1af4621f7e78bfb51b4fd1b829c9097cc3" prot="public" virt="non-virtual"><scope>tipoDisp</scope><name>query</name></member>
       <member refid="classtipoDisp_1a07b2e7bbbe94b97f3eab51ce63c30134" prot="public" virt="non-virtual"><scope>tipoDisp</scope><name>tipoDisp</name></member>
       <member refid="classtipoDisp_1a1ab1a6438473977cbfaf2b587872b7fd" prot="private" virt="non-virtual"><scope>tipoDisp</scope><name>ui</name></member>
       <member refid="classtipoDisp_1a235a754bbe34fe3a8fd5826e57cf3abe" prot="public" virt="non-virtual"><scope>tipoDisp</scope><name>~tipoDisp</name></member>

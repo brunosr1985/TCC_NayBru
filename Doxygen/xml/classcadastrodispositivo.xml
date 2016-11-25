@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" line="24" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" bodystart="24" bodyend="-1"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" line="33" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.cpp" bodystart="5" bodyend="10"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" line="22" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.cpp" bodystart="5" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="classcadastrodispositivo_1a21c4cb426f58445706d55dbce57f4aa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.cpp" bodystart="12" bodyend="15"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" line="23" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.cpp" bodystart="33" bodyend="36"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-slot">
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.cpp" bodystart="17" bodyend="20"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" line="26" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.cpp" bodystart="38" bodyend="41"/>
       </memberdef>
       <memberdef kind="slot" id="classcadastrodispositivo_1a6b64063bde112a3e4985e7a007e30a13" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -77,7 +77,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" line="21" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.cpp" bodystart="22" bodyend="26"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" line="28" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.cpp" bodystart="43" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="slot" id="classcadastrodispositivo_1a2ec0b0f7b4584904d3b083b0089a0d2b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void cadastrodispositivo::on_pushButton_2_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_2_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" line="30" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.cpp" bodystart="51" bodyend="91"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -106,9 +119,10 @@
         <label>QWidget</label>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" bodystart="10" bodyend="25"/>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" line="18" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h" bodystart="17" bodyend="34"/>
     <listofallmembers>
       <member refid="classcadastrodispositivo_1a759ec481f21cb002c55d5ca50e8cdf9c" prot="public" virt="non-virtual"><scope>cadastrodispositivo</scope><name>cadastrodispositivo</name></member>
+      <member refid="classcadastrodispositivo_1a2ec0b0f7b4584904d3b083b0089a0d2b" prot="private" virt="non-virtual"><scope>cadastrodispositivo</scope><name>on_pushButton_2_clicked</name></member>
       <member refid="classcadastrodispositivo_1ae37a506685243fa3c6cccccf4d83da49" prot="private" virt="non-virtual"><scope>cadastrodispositivo</scope><name>on_pushButton_3_clicked</name></member>
       <member refid="classcadastrodispositivo_1a6b64063bde112a3e4985e7a007e30a13" prot="private" virt="non-virtual"><scope>cadastrodispositivo</scope><name>on_pushButton_4_clicked</name></member>
       <member refid="classcadastrodispositivo_1a01b67037a472db99a897b27e80273d17" prot="private" virt="non-virtual"><scope>cadastrodispositivo</scope><name>ui</name></member>

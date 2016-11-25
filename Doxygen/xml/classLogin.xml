@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classLogin" kind="class" language="C++" prot="public">
+    <compoundname>Login</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QDialog</basecompoundref>
+    <includes refid="login_8h" local="yes">login.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classLogin_1a55fa3b19085f864462451d3dd9efd2e1" prot="private" static="no" mutable="no">
+        <type>Ui::Login *</type>
+        <definition>Ui::Login* Login::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/login.h" line="32" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/login.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classLogin_1a021ebcfd29b2a30e3f5c5bbb36589381" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Login::Login</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>Login</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/login.h" line="20" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/login.cpp" bodystart="4" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classLogin_1a659bc7233ec12c79b9fa523c1734fbbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Login::~Login</definition>
+        <argsstring>()</argsstring>
+        <name>~Login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/login.h" line="21" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/login.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classLogin_1a221fbb2fdbe067ba581b522b75dcb310" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Login::on_pushButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/login.h" line="24" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/login.cpp" bodystart="16" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="slot" id="classLogin_1acf0fce7924afeb544845253d513c511a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Login::on_pushButton_2_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_2_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/login.h" line="25" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/login.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="slot" id="classLogin_1a1e4d555f044f6999e6206ed317ffed9c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Login::on_botaoNaoLoga_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_botaoNaoLoga_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/login.h" line="27" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/login.cpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="slot" id="classLogin_1abd0e719e70b5c5df98134ab80357a862" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Login::on_botaoLogar_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_botaoLogar_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/login.h" line="29" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/login.cpp" bodystart="33" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="56">
+        <label>QDialog</label>
+      </node>
+      <node id="55">
+        <label>Login</label>
+        <link refid="classLogin"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="58">
+        <label>QDialog</label>
+      </node>
+      <node id="57">
+        <label>Login</label>
+        <link refid="classLogin"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/login.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/login.h" bodystart="15" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classLogin_1a021ebcfd29b2a30e3f5c5bbb36589381" prot="public" virt="non-virtual"><scope>Login</scope><name>Login</name></member>
+      <member refid="classLogin_1abd0e719e70b5c5df98134ab80357a862" prot="private" virt="non-virtual"><scope>Login</scope><name>on_botaoLogar_clicked</name></member>
+      <member refid="classLogin_1a1e4d555f044f6999e6206ed317ffed9c" prot="private" virt="non-virtual"><scope>Login</scope><name>on_botaoNaoLoga_clicked</name></member>
+      <member refid="classLogin_1acf0fce7924afeb544845253d513c511a" prot="private" virt="non-virtual"><scope>Login</scope><name>on_pushButton_2_clicked</name></member>
+      <member refid="classLogin_1a221fbb2fdbe067ba581b522b75dcb310" prot="private" virt="non-virtual"><scope>Login</scope><name>on_pushButton_clicked</name></member>
+      <member refid="classLogin_1a55fa3b19085f864462451d3dd9efd2e1" prot="private" virt="non-virtual"><scope>Login</scope><name>ui</name></member>
+      <member refid="classLogin_1a659bc7233ec12c79b9fa523c1734fbbc" prot="public" virt="non-virtual"><scope>Login</scope><name>~Login</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -12,6 +12,7 @@ var searchData=
   ['geta',['getA',['../classMRaci.html#a1d5eac204c97254d14c95e0dfa5d5d60',1,'MRaci']]],
   ['getc',['getC',['../classMRaci.html#aedc01e2a415e47516e205d20b75aa35a',1,'MRaci']]],
   ['getcargo',['getCargo',['../classpessoa.html#a07fe59858c0c8ff2d3bb6bc3879de6b3',1,'pessoa']]],
+  ['getdb',['getDb',['../classconectabanco.html#a040fab5ab6e04ead7efc4b6114b32def',1,'conectabanco']]],
   ['getdepto',['getDepto',['../classpessoa.html#a1acfd4c15d0b8bfc1140f6063a1739ae',1,'pessoa']]],
   ['getdescricao',['getDescricao',['../classChamado.html#aa7aeb5e538449b9a71271756d7b39d43',1,'Chamado']]],
   ['getdisp',['getDisp',['../classChamado.html#a1388c89d1f5ae80b7cfac8106c48dbc9',1,'Chamado']]],

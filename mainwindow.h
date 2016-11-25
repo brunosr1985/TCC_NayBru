@@ -49,15 +49,17 @@ private slots:
 
     void on_actionPessoas_triggered();
 
-    void on_actionNovo_Grupo_de_Pessoas_triggered();
-
-    void on_actionNovo_Tipo_de_Dispositivo_triggered();
-
     void on_actionPessoas_2_triggered();
 
     void on_actionDispositivos_3_triggered();
 
     void on_actionChamados_3_triggered();
+
+    void on_actionCriar_Usu_rio_triggered();
+
+    void on_actionCriar_Status_triggered();
+
+    void on_actionCriar_Prioridade_triggered();
 
 private:
     Ui::JanelaPrincipal *ui;

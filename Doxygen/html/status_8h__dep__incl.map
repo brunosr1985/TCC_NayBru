@@ -1,5 +1,5 @@
-<map id="C:/Users/BrunoSR/TCC_NayBru/status.h" name="C:/Users/BrunoSR/TCC_NayBru/status.h">
-<area shape="rect" id="node2" href="$chamado_8h.html" title="C:/Users/BrunoSR/TCC\l_NayBru/chamado.h" alt="" coords="5,95,164,136"/>
-<area shape="rect" id="node4" href="$status_8cpp.html" title="C:/Users/BrunoSR/TCC\l_NayBru/status.cpp" alt="" coords="188,95,347,136"/>
-<area shape="rect" id="node3" href="$chamado_8cpp.html" title="C:/Users/BrunoSR/TCC\l_NayBru/chamado.cpp" alt="" coords="5,184,164,225"/>
+<map id="status.h" name="status.h">
+<area shape="rect" id="node2" href="$chamado_8h.html" title="chamado.h" alt="" coords="12,81,99,107"/>
+<area shape="rect" id="node4" href="$status_8cpp.html" title="status.cpp" alt="" coords="123,81,206,107"/>
+<area shape="rect" id="node3" href="$chamado_8cpp.html" title="chamado.cpp" alt="" coords="5,155,105,182"/>
 </map>

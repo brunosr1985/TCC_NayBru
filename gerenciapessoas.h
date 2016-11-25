@@ -24,7 +24,6 @@ public:
     ~gerenciaPessoas();
 
 private slots:
-    void on_novaPessoa_clicked();
 
     void on_Pessoa_Editar_clicked();
 

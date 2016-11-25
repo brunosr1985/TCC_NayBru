@@ -197,14 +197,14 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="21">
+      <node id="35">
         <label>Dispositivo</label>
         <link refid="classDispositivo"/>
-        <childnode refid="22" relation="usage">
+        <childnode refid="36" relation="usage">
           <edgelabel>-tipo</edgelabel>
         </childnode>
       </node>
-      <node id="22">
+      <node id="36">
         <label>tipod</label>
         <link refid="classtipod"/>
       </node>

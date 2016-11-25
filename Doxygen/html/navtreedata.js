@@ -2,23 +2,23 @@ var NAVTREE =
 [
   [ "Kaizen", "index.html", [
     [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.html", "namespaces" ]
+      [ "Lista de Namespaces", "namespaces.html", "namespaces" ]
     ] ],
-    [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ]
+    [ "Estruturas de Dados", "annotated.html", [
+      [ "Estruturas de Dados", "annotated.html", "annotated_dup" ],
+      [ "Índice das Estruturas de Dados", "classes.html", null ],
+      [ "Hierarquia de Classes", "hierarchy.html", "hierarchy" ],
+      [ "Campos de Dados", "functions.html", [
+        [ "Todos", "functions.html", "functions_dup" ],
+        [ "Funções", "functions_func.html", null ],
+        [ "Variáveis", "functions_vars.html", null ]
       ] ]
     ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ]
+    [ "Arquivos", null, [
+      [ "Lista de Arquivos", "files.html", "files" ],
+      [ "Globais", "globals.html", [
+        [ "Todos", "globals.html", null ],
+        [ "Funções", "globals_func.html", null ]
       ] ]
     ] ]
   ] ]
@@ -27,8 +27,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"gerenciadispositivo_8h.html"
+"classnovoGrupo.html#a73e0025ce04c04b5e41c923d00998daa"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'clique para desativar a sincronização do painel';
+var SYNCOFFMSG = 'clique para ativar a sincronização do painel';

@@ -3,34 +3,83 @@
   <compounddef id="cadastrodispositivo_8h" kind="file" language="C++">
     <compoundname>cadastrodispositivo.h</compoundname>
     <includes local="no">QWidget</includes>
-    <includedby refid="cadastrodispositivo_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.cpp</includedby>
-    <includedby refid="gerenciadispositivo_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.cpp</includedby>
+    <includes local="no">QSqlDatabase</includes>
+    <includes local="no">QString</includes>
+    <includes local="no">QSqlQuery</includes>
+    <includes local="no">QtGui</includes>
+    <includes local="no">QMessageBox</includes>
+    <includes local="no">QSqlError</includes>
+    <includes local="no">QStringList</includes>
+    <includedby refid="cadastrodispositivo_8cpp" local="yes">cadastrodispositivo.cpp</includedby>
+    <includedby refid="gerenciadispositivo_8cpp" local="yes">gerenciadispositivo.cpp</includedby>
+    <includedby refid="mainwindow_8cpp" local="yes">mainwindow.cpp</includedby>
     <incdepgraph>
-      <node id="46">
-        <label>C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h</label>
+      <node id="62">
+        <label>QMessageBox</label>
+      </node>
+      <node id="56">
+        <label>cadastrodispositivo.h</label>
         <link refid="cadastrodispositivo_8h"/>
-        <childnode refid="47" relation="include">
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="58">
+        <label>QSqlDatabase</label>
+      </node>
+      <node id="57">
         <label>QWidget</label>
+      </node>
+      <node id="59">
+        <label>QString</label>
+      </node>
+      <node id="63">
+        <label>QSqlError</label>
+      </node>
+      <node id="60">
+        <label>QSqlQuery</label>
+      </node>
+      <node id="64">
+        <label>QStringList</label>
+      </node>
+      <node id="61">
+        <label>QtGui</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="48">
-        <label>C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h</label>
+      <node id="65">
+        <label>cadastrodispositivo.h</label>
         <link refid="cadastrodispositivo_8h"/>
-        <childnode refid="49" relation="include">
+        <childnode refid="66" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
         </childnode>
       </node>
-      <node id="50">
-        <label>C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.cpp</label>
+      <node id="68">
+        <label>mainwindow.cpp</label>
+        <link refid="mainwindow_8cpp"/>
+      </node>
+      <node id="67">
+        <label>gerenciadispositivo.cpp</label>
         <link refid="gerenciadispositivo_8cpp"/>
       </node>
-      <node id="49">
-        <label>C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.cpp</label>
+      <node id="66">
+        <label>cadastrodispositivo.cpp</label>
         <link refid="cadastrodispositivo_8cpp"/>
       </node>
     </invincdepgraph>
@@ -45,29 +94,39 @@
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CADASTRODISPOSITIVO_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QWidget&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceUi" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref>;</highlight></codeline>
-<codeline lineno="8"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10" refid="classcadastrodispositivo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QWidget</highlight></codeline>
-<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref>();</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_pushButton_3_clicked();</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSqlDatabase&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QString&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSqlQuery&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtGui&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QMessageBox&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSqlError&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QStringList&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceUi" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="classcadastrodispositivo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QWidget</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_pushButton_4_clicked();</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="24" refid="classcadastrodispositivo_1a01b67037a472db99a897b27e80273d17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::cadastrodispositivo<sp/>*<ref refid="classcadastrodispositivo_1a01b67037a472db99a897b27e80273d17" kindref="member">ui</ref>;</highlight></codeline>
-<codeline lineno="25"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CADASTRODISPOSITIVO_H</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_pushButton_3_clicked();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_pushButton_4_clicked();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_pushButton_2_clicked();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33" refid="classcadastrodispositivo_1a01b67037a472db99a897b27e80273d17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::cadastrodispositivo<sp/>*<ref refid="classcadastrodispositivo_1a01b67037a472db99a897b27e80273d17" kindref="member">ui</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CADASTRODISPOSITIVO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrodispositivo.h"/>
   </compounddef>

@@ -31,7 +31,10 @@ SOURCES += main.cpp\
     tipod.cpp \
     grupop.cpp \
     login.cpp \
-    conectabanco.cpp
+    conectabanco.cpp \
+    cadastrousuario.cpp \
+    cadastrostatus.cpp \
+    cadastroprioridade.cpp
 
 HEADERS  += mainwindow.h \
     cadastropessoa.h \
@@ -52,7 +55,10 @@ HEADERS  += mainwindow.h \
     tipod.h \
     grupop.h \
     login.h \
-    conectabanco.h
+    conectabanco.h \
+    cadastrousuario.h \
+    cadastrostatus.h \
+    cadastroprioridade.h
 
 FORMS    += mainwindow.ui \
     cadastropessoa.ui \
@@ -65,6 +71,12 @@ FORMS    += mainwindow.ui \
     gerenciadispositivo.ui \
     novogrupo.ui \
     tipodisp.ui \
-    login.ui
+    login.ui \
+    cadastrousuario.ui \
+    cadastrostatus.ui \
+    cadastroprioridade.ui
 
 DISTFILES +=
+
+STATECHARTS += \
+    Modelo de classes.scxml

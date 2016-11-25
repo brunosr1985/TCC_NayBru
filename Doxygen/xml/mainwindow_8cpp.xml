@@ -7,139 +7,322 @@
     <includes refid="gerenciapessoas_8h" local="yes">gerenciapessoas.h</includes>
     <includes refid="gerenciadispositivo_8h" local="yes">gerenciadispositivo.h</includes>
     <includes refid="gerenciachamados_8h" local="yes">gerenciachamados.h</includes>
+    <includes refid="cadastropessoa_8h" local="yes">cadastropessoa.h</includes>
+    <includes refid="cadastrochamado_8h" local="yes">cadastrochamado.h</includes>
+    <includes refid="cadastrodispositivo_8h" local="yes">cadastrodispositivo.h</includes>
+    <includes refid="cadastroprioridade_8h" local="yes">cadastroprioridade.h</includes>
+    <includes refid="cadastrostatus_8h" local="yes">cadastrostatus.h</includes>
+    <includes refid="cadastrousuario_8h" local="yes">cadastrousuario.h</includes>
     <includes refid="novogrupo_8h" local="yes">novogrupo.h</includes>
     <includes refid="tipodisp_8h" local="yes">tipodisp.h</includes>
     <incdepgraph>
-      <node id="206">
+      <node id="354">
         <label>QtDebug</label>
       </node>
-      <node id="204">
+      <node id="365">
+        <label>cadastrousuario.h</label>
+        <link refid="cadastrousuario_8h"/>
+        <childnode refid="358" relation="include">
+        </childnode>
+      </node>
+      <node id="361">
+        <label>cadastrochamado.h</label>
+        <link refid="cadastrochamado_8h"/>
+        <childnode refid="337" relation="include">
+        </childnode>
+        <childnode refid="346" relation="include">
+        </childnode>
+        <childnode refid="347" relation="include">
+        </childnode>
+        <childnode refid="348" relation="include">
+        </childnode>
+        <childnode refid="349" relation="include">
+        </childnode>
+        <childnode refid="338" relation="include">
+        </childnode>
+        <childnode refid="350" relation="include">
+        </childnode>
+        <childnode refid="351" relation="include">
+        </childnode>
+        <childnode refid="352" relation="include">
+        </childnode>
+        <childnode refid="341" relation="include">
+        </childnode>
+        <childnode refid="343" relation="include">
+        </childnode>
+        <childnode refid="342" relation="include">
+        </childnode>
+        <childnode refid="353" relation="include">
+        </childnode>
+        <childnode refid="354" relation="include">
+        </childnode>
+      </node>
+      <node id="342">
         <label>QMessageBox</label>
       </node>
-      <node id="205">
+      <node id="363">
+        <label>cadastroprioridade.h</label>
+        <link refid="cadastroprioridade_8h"/>
+        <childnode refid="358" relation="include">
+        </childnode>
+      </node>
+      <node id="353">
         <label>QtSql/QSqlDatabase</label>
       </node>
-      <node id="192">
+      <node id="335">
         <label>mainwindow.h</label>
         <link refid="mainwindow_8h"/>
-        <childnode refid="193" relation="include">
+        <childnode refid="336" relation="include">
         </childnode>
-        <childnode refid="194" relation="include">
+        <childnode refid="345" relation="include">
         </childnode>
-        <childnode refid="195" relation="include">
+        <childnode refid="346" relation="include">
         </childnode>
-        <childnode refid="196" relation="include">
+        <childnode refid="347" relation="include">
         </childnode>
-        <childnode refid="197" relation="include">
+        <childnode refid="348" relation="include">
         </childnode>
-        <childnode refid="198" relation="include">
+        <childnode refid="349" relation="include">
         </childnode>
-        <childnode refid="199" relation="include">
+        <childnode refid="338" relation="include">
         </childnode>
-        <childnode refid="200" relation="include">
+        <childnode refid="350" relation="include">
         </childnode>
-        <childnode refid="201" relation="include">
+        <childnode refid="351" relation="include">
         </childnode>
-        <childnode refid="202" relation="include">
+        <childnode refid="352" relation="include">
         </childnode>
-        <childnode refid="203" relation="include">
+        <childnode refid="341" relation="include">
         </childnode>
-        <childnode refid="204" relation="include">
+        <childnode refid="343" relation="include">
         </childnode>
-        <childnode refid="205" relation="include">
+        <childnode refid="342" relation="include">
         </childnode>
-        <childnode refid="206" relation="include">
+        <childnode refid="353" relation="include">
+        </childnode>
+        <childnode refid="354" relation="include">
+        </childnode>
+        <childnode refid="355" relation="include">
         </childnode>
       </node>
-      <node id="196">
+      <node id="348">
         <label>QtSql/QSqlQuery</label>
       </node>
-      <node id="193">
+      <node id="345">
         <label>QMainWindow</label>
       </node>
-      <node id="197">
+      <node id="355">
+        <label>QMdiArea</label>
+      </node>
+      <node id="349">
         <label>QtSql/QSqlTableModel</label>
       </node>
-      <node id="211">
+      <node id="362">
+        <label>cadastrodispositivo.h</label>
+        <link refid="cadastrodispositivo_8h"/>
+        <childnode refid="337" relation="include">
+        </childnode>
+        <childnode refid="338" relation="include">
+        </childnode>
+        <childnode refid="339" relation="include">
+        </childnode>
+        <childnode refid="340" relation="include">
+        </childnode>
+        <childnode refid="341" relation="include">
+        </childnode>
+        <childnode refid="342" relation="include">
+        </childnode>
+        <childnode refid="343" relation="include">
+        </childnode>
+        <childnode refid="344" relation="include">
+        </childnode>
+      </node>
+      <node id="359">
         <label>gerenciachamados.h</label>
         <link refid="gerenciachamados_8h"/>
-        <childnode refid="209" relation="include">
+        <childnode refid="358" relation="include">
         </childnode>
       </node>
-      <node id="201">
+      <node id="360">
+        <label>cadastropessoa.h</label>
+        <link refid="cadastropessoa_8h"/>
+        <childnode refid="337" relation="include">
+        </childnode>
+        <childnode refid="338" relation="include">
+        </childnode>
+        <childnode refid="339" relation="include">
+        </childnode>
+        <childnode refid="340" relation="include">
+        </childnode>
+        <childnode refid="341" relation="include">
+        </childnode>
+        <childnode refid="342" relation="include">
+        </childnode>
+        <childnode refid="343" relation="include">
+        </childnode>
+      </node>
+      <node id="352">
         <label>QtCore</label>
       </node>
-      <node id="198">
+      <node id="338">
         <label>QSqlDatabase</label>
       </node>
-      <node id="195">
+      <node id="347">
         <label>QtSql/QSqlQueryModel</label>
       </node>
-      <node id="210">
+      <node id="336">
         <label>gerenciadispositivo.h</label>
         <link refid="gerenciadispositivo_8h"/>
-        <childnode refid="209" relation="include">
+        <childnode refid="337" relation="include">
+        </childnode>
+        <childnode refid="338" relation="include">
+        </childnode>
+        <childnode refid="339" relation="include">
+        </childnode>
+        <childnode refid="340" relation="include">
+        </childnode>
+        <childnode refid="341" relation="include">
+        </childnode>
+        <childnode refid="342" relation="include">
+        </childnode>
+        <childnode refid="343" relation="include">
+        </childnode>
+        <childnode refid="344" relation="include">
         </childnode>
       </node>
-      <node id="209">
+      <node id="358">
         <label>QDialog</label>
       </node>
-      <node id="207">
+      <node id="356">
         <label>ui_mainwindow.h</label>
       </node>
-      <node id="199">
+      <node id="350">
         <label>QDebug</label>
       </node>
-      <node id="213">
+      <node id="337">
         <label>QWidget</label>
       </node>
-      <node id="212">
+      <node id="366">
         <label>novogrupo.h</label>
         <link refid="novogrupo_8h"/>
-        <childnode refid="213" relation="include">
+        <childnode refid="337" relation="include">
+        </childnode>
+        <childnode refid="346" relation="include">
+        </childnode>
+        <childnode refid="367" relation="include">
+        </childnode>
+        <childnode refid="340" relation="include">
+        </childnode>
+        <childnode refid="342" relation="include">
         </childnode>
       </node>
-      <node id="203">
+      <node id="339">
+        <label>QString</label>
+      </node>
+      <node id="343">
         <label>QSqlError</label>
       </node>
-      <node id="208">
+      <node id="357">
         <label>gerenciapessoas.h</label>
         <link refid="gerenciapessoas_8h"/>
-        <childnode refid="209" relation="include">
+        <childnode refid="337" relation="include">
+        </childnode>
+        <childnode refid="338" relation="include">
+        </childnode>
+        <childnode refid="339" relation="include">
+        </childnode>
+        <childnode refid="340" relation="include">
+        </childnode>
+        <childnode refid="341" relation="include">
+        </childnode>
+        <childnode refid="342" relation="include">
+        </childnode>
+        <childnode refid="343" relation="include">
+        </childnode>
+        <childnode refid="344" relation="include">
+        </childnode>
+        <childnode refid="358" relation="include">
         </childnode>
       </node>
-      <node id="200">
+      <node id="351">
         <label>QSql</label>
       </node>
-      <node id="191">
-        <label>C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp</label>
+      <node id="340">
+        <label>QSqlQuery</label>
+      </node>
+      <node id="334">
+        <label>mainwindow.cpp</label>
         <link refid="mainwindow_8cpp"/>
-        <childnode refid="192" relation="include">
+        <childnode refid="335" relation="include">
         </childnode>
-        <childnode refid="207" relation="include">
+        <childnode refid="356" relation="include">
         </childnode>
-        <childnode refid="208" relation="include">
+        <childnode refid="357" relation="include">
         </childnode>
-        <childnode refid="210" relation="include">
+        <childnode refid="336" relation="include">
         </childnode>
-        <childnode refid="211" relation="include">
+        <childnode refid="359" relation="include">
         </childnode>
-        <childnode refid="212" relation="include">
+        <childnode refid="360" relation="include">
         </childnode>
-        <childnode refid="214" relation="include">
+        <childnode refid="361" relation="include">
+        </childnode>
+        <childnode refid="362" relation="include">
+        </childnode>
+        <childnode refid="363" relation="include">
+        </childnode>
+        <childnode refid="364" relation="include">
+        </childnode>
+        <childnode refid="365" relation="include">
+        </childnode>
+        <childnode refid="366" relation="include">
+        </childnode>
+        <childnode refid="368" relation="include">
         </childnode>
       </node>
-      <node id="194">
+      <node id="367">
+        <label>QSqlTableModel</label>
+      </node>
+      <node id="346">
         <label>QTableView</label>
       </node>
-      <node id="214">
+      <node id="344">
+        <label>QStringList</label>
+      </node>
+      <node id="368">
         <label>tipodisp.h</label>
         <link refid="tipodisp_8h"/>
-        <childnode refid="209" relation="include">
+        <childnode refid="358" relation="include">
+        </childnode>
+        <childnode refid="337" relation="include">
+        </childnode>
+        <childnode refid="338" relation="include">
+        </childnode>
+        <childnode refid="339" relation="include">
+        </childnode>
+        <childnode refid="340" relation="include">
+        </childnode>
+        <childnode refid="341" relation="include">
+        </childnode>
+        <childnode refid="342" relation="include">
+        </childnode>
+        <childnode refid="343" relation="include">
+        </childnode>
+        <childnode refid="344" relation="include">
+        </childnode>
+        <childnode refid="346" relation="include">
+        </childnode>
+        <childnode refid="367" relation="include">
         </childnode>
       </node>
-      <node id="202">
+      <node id="341">
         <label>QtGui</label>
+      </node>
+      <node id="364">
+        <label>cadastrostatus.h</label>
+        <link refid="cadastrostatus_8h"/>
+        <childnode refid="358" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <briefdescription>
@@ -152,128 +335,150 @@
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="gerenciapessoas_8h" kindref="compound">gerenciapessoas.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="gerenciadispositivo_8h" kindref="compound">gerenciadispositivo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="gerenciachamados_8h" kindref="compound">gerenciachamados.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="novogrupo_8h" kindref="compound">novogrupo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tipodisp_8h" kindref="compound">tipodisp.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight></codeline>
-<codeline lineno="9" refid="classMainWindow_1a8b244be8b7b7db1b08de2a2acb9409db" refkind="member"><highlight class="normal"><ref refid="classMainWindow_1a8b244be8b7b7db1b08de2a2acb9409db" kindref="member">MainWindow::MainWindow</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>QMainWindow(parent),</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classMainWindow" kindref="compound">MainWindow</ref>)</highlight></codeline>
-<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" kindref="member">ui</ref>-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cadastropessoa_8h" kindref="compound">cadastropessoa.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cadastrochamado_8h" kindref="compound">cadastrochamado.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cadastrodispositivo_8h" kindref="compound">cadastrodispositivo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cadastroprioridade_8h" kindref="compound">cadastroprioridade.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cadastrostatus_8h" kindref="compound">cadastrostatus.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cadastrousuario_8h" kindref="compound">cadastrousuario.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="novogrupo_8h" kindref="compound">novogrupo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tipodisp_8h" kindref="compound">tipodisp.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" refkind="member"><highlight class="normal"><ref refid="classMainWindow_1ae98d00a93bc118200eeef9f9bba1dba7" kindref="member">MainWindow::~MainWindow</ref>()</highlight></codeline>
+<codeline lineno="15" refid="classJanelaPrincipal_1a9eef2db6f7b786cc25d4bd3e08340ff7" refkind="member"><highlight class="normal"><ref refid="classJanelaPrincipal_1a9eef2db6f7b786cc25d4bd3e08340ff7" kindref="member">JanelaPrincipal::JanelaPrincipal</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>QMainWindow(parent),</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classJanelaPrincipal" kindref="compound">JanelaPrincipal</ref>)</highlight></codeline>
 <codeline lineno="18"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" kindref="member">ui</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classJanelaPrincipal_1afc61ca780eca545cd709b2a72acb0dbe" kindref="member">ui</ref>-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="20"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="classMainWindow_1ac3987416965f985c8d44c8adc1e42add" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMainWindow_1ac3987416965f985c8d44c8adc1e42add" kindref="member">MainWindow::on_actionPessoas_x_Chamados_triggered</ref>()</highlight></codeline>
+<codeline lineno="22" refid="classJanelaPrincipal_1a3aab06a1e8ce4a6a718fba7d47681d6e" refkind="member"><highlight class="normal"><ref refid="classJanelaPrincipal_1a3aab06a1e8ce4a6a718fba7d47681d6e" kindref="member">JanelaPrincipal::~JanelaPrincipal</ref>()</highlight></codeline>
 <codeline lineno="23"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>erro;</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlDatabase<sp/>db<sp/>=<sp/>QSqlDatabase::addDatabase(</highlight><highlight class="stringliteral">&quot;QPSQL&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;conn&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setHostName(</highlight><highlight class="stringliteral">&quot;localhost&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setDatabaseName(</highlight><highlight class="stringliteral">&quot;postgres&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPassword(</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setUserName(</highlight><highlight class="stringliteral">&quot;tccnaybru&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPort(5432);</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>erro<sp/>=<sp/>db.open(</highlight><highlight class="stringliteral">&quot;postgres&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//pessxchamado</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlTableModel(parent(),db);</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>-&gt;setTable(</highlight><highlight class="stringliteral">&quot;pessxchamado&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>-&gt;setEditStrategy(QSqlTableModel::OnManualSubmit);</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>-&gt;select();</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>QTableView<sp/>*pessxcham<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QTableView;</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>pessxcham-&gt;setEditTriggers(QAbstractItemView::NoEditTriggers);</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>pessxcham-&gt;setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>pessxcham-&gt;setModel(<ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>);</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>pessxcham-&gt;show();</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>db.close();</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="classMainWindow_1ae982429a38d1d6d4430693322357e716" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMainWindow_1ae982429a38d1d6d4430693322357e716" kindref="member">MainWindow::on_actionChamados_2_triggered</ref>()</highlight></codeline>
-<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>erro;</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlDatabase<sp/>db<sp/>=<sp/>QSqlDatabase::addDatabase(</highlight><highlight class="stringliteral">&quot;QPSQL&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;conn&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setHostName(</highlight><highlight class="stringliteral">&quot;localhost&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setDatabaseName(</highlight><highlight class="stringliteral">&quot;postgres&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPassword(</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setUserName(</highlight><highlight class="stringliteral">&quot;tccnaybru&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPort(5432);</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>erro<sp/>=<sp/>db.open(</highlight><highlight class="stringliteral">&quot;postgres&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlTableModel(parent(),db);</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>-&gt;setTable(</highlight><highlight class="stringliteral">&quot;chamados1&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>-&gt;setEditStrategy(QSqlTableModel::OnManualSubmit);</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>-&gt;select();</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>QTableView<sp/>*chamados<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QTableView;</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>chamados-&gt;setEditTriggers(QAbstractItemView::NoEditTriggers);</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>chamados-&gt;setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>chamados-&gt;setModel(<ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>);</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>chamados-&gt;show();</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>db.close();</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="classMainWindow_1a8540f34e55fcacf375edb2421c390044" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMainWindow_1a8540f34e55fcacf375edb2421c390044" kindref="member">MainWindow::on_actionPessoas_x_Qtde_Chamados_triggered</ref>()</highlight></codeline>
-<codeline lineno="75"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>erro;</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlDatabase<sp/>db<sp/>=<sp/>QSqlDatabase::addDatabase(</highlight><highlight class="stringliteral">&quot;QPSQL&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;conn&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setHostName(</highlight><highlight class="stringliteral">&quot;localhost&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setDatabaseName(</highlight><highlight class="stringliteral">&quot;postgres&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPassword(</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setUserName(</highlight><highlight class="stringliteral">&quot;tccnaybru&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPort(5432);</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>erro<sp/>=<sp/>db.open(</highlight><highlight class="stringliteral">&quot;postgres&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlTableModel(parent(),db);</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>-&gt;setTable(</highlight><highlight class="stringliteral">&quot;pessxqtde&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>-&gt;setEditStrategy(QSqlTableModel::OnManualSubmit);</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>-&gt;select();</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>QTableView<sp/>*pessxqtde<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QTableView;</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>pessxqtde-&gt;setEditTriggers(QAbstractItemView::NoEditTriggers);</highlight></codeline>
-<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>pessxqtde-&gt;setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);</highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>pessxqtde-&gt;setModel(<ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>);</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>pessxqtde-&gt;show();</highlight></codeline>
-<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>db.close();</highlight></codeline>
-<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="classMainWindow_1ac107347073b88880dac081fd745fd619" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMainWindow_1ac107347073b88880dac081fd745fd619" kindref="member">MainWindow::on_actionChamados_triggered</ref>()</highlight></codeline>
-<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaChamados" kindref="compound">gerenciaChamados</ref><sp/>*gc<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classgerenciaChamados" kindref="compound">gerenciaChamados</ref>();</highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>gc-&gt;show();</highlight></codeline>
-<codeline lineno="103"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="classMainWindow_1acb1d694a8b177feec62407a0848dba95" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMainWindow_1acb1d694a8b177feec62407a0848dba95" kindref="member">MainWindow::on_actionDispositivos_triggered</ref>()</highlight></codeline>
-<codeline lineno="106"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo" kindref="compound">gerenciaDispositivo</ref><sp/>*gd<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classgerenciaDispositivo" kindref="compound">gerenciaDispositivo</ref>();</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>gd-&gt;show();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classJanelaPrincipal_1afc61ca780eca545cd709b2a72acb0dbe" kindref="member">ui</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="classJanelaPrincipal_1ab630e69d9a55364b3b3b3bc33d8867f5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classJanelaPrincipal_1ab630e69d9a55364b3b3b3bc33d8867f5" kindref="member">JanelaPrincipal::on_actionPessoas_x_Chamados_triggered</ref>()</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classJanelaPrincipal_1a799ac0ba94f7a60ac3b076a990336d5c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classJanelaPrincipal_1a799ac0ba94f7a60ac3b076a990336d5c" kindref="member">JanelaPrincipal::on_actionChamados_2_triggered</ref>()</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>erro;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlDatabase<sp/>db<sp/>=<sp/>QSqlDatabase::addDatabase(</highlight><highlight class="stringliteral">&quot;QPSQL&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;conn&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setHostName(</highlight><highlight class="stringliteral">&quot;localhost&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setDatabaseName(</highlight><highlight class="stringliteral">&quot;postgres&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPassword(</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setUserName(</highlight><highlight class="stringliteral">&quot;tccnaybru&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPort(5432);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>erro<sp/>=<sp/>db.open(</highlight><highlight class="stringliteral">&quot;postgres&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classJanelaPrincipal_1aa0abac8067f0efe985ee19f357675e6b" kindref="member">modelo</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlTableModel(parent(),db);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classJanelaPrincipal_1aa0abac8067f0efe985ee19f357675e6b" kindref="member">modelo</ref>-&gt;setTable(</highlight><highlight class="stringliteral">&quot;chamados1&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classJanelaPrincipal_1aa0abac8067f0efe985ee19f357675e6b" kindref="member">modelo</ref>-&gt;setEditStrategy(QSqlTableModel::OnManualSubmit);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classJanelaPrincipal_1aa0abac8067f0efe985ee19f357675e6b" kindref="member">modelo</ref>-&gt;select();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>QTableView<sp/>*chamados<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QTableView;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>chamados-&gt;setEditTriggers(QAbstractItemView::NoEditTriggers);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>chamados-&gt;setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>chamados-&gt;setModel(<ref refid="classJanelaPrincipal_1aa0abac8067f0efe985ee19f357675e6b" kindref="member">modelo</ref>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>chamados-&gt;show();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>db.close();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="classJanelaPrincipal_1abeac7e859d67b347ed8c5a6c5b7ccae8" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classJanelaPrincipal_1abeac7e859d67b347ed8c5a6c5b7ccae8" kindref="member">JanelaPrincipal::on_actionPessoas_x_Qtde_Chamados_triggered</ref>()</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="classJanelaPrincipal_1a8c2d6637116f57cbe7f17bb050ce6c45" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classJanelaPrincipal_1a8c2d6637116f57cbe7f17bb050ce6c45" kindref="member">JanelaPrincipal::on_actionChamados_triggered</ref>()</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*gerenciaChamados<sp/>*gc<sp/>=<sp/>new<sp/>gerenciaChamados(ui-&gt;mdiArea);</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/><sp/>ui-&gt;mdiArea-&gt;addSubWindow(gc);</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/><sp/>gc-&gt;show();*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="classJanelaPrincipal_1aa475da5eb8defb554faa1aab8379749e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classJanelaPrincipal_1aa475da5eb8defb554faa1aab8379749e" kindref="member">JanelaPrincipal::on_actionDispositivos_triggered</ref>()</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>QMdiArea<sp/>*md<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QMdiArea(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;setCentralWidget(md);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo" kindref="compound">gerenciaDispositivo</ref><sp/>*gd<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classgerenciaDispositivo" kindref="compound">gerenciaDispositivo</ref>(md);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>gd-&gt;setAttribute(Qt::WA_DeleteOnClose);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>md-&gt;addSubWindow(gd);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>gd-&gt;show();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="classJanelaPrincipal_1aad2b396850d7557dcd709ce3c903bfb3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classJanelaPrincipal_1aad2b396850d7557dcd709ce3c903bfb3" kindref="member">JanelaPrincipal::on_actionPessoas_triggered</ref>()</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>QMdiArea<sp/>*md<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QMdiArea(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;setCentralWidget(md);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas" kindref="compound">gerenciaPessoas</ref><sp/>*gp<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classgerenciaPessoas" kindref="compound">gerenciaPessoas</ref>(md);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>gp-&gt;setAttribute(Qt::WA_DeleteOnClose);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>md-&gt;addSubWindow(gp);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>gp-&gt;show();</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="classJanelaPrincipal_1a1303dcb66fc6ba619709a68af71fe7c0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classJanelaPrincipal_1a1303dcb66fc6ba619709a68af71fe7c0" kindref="member">JanelaPrincipal::on_actionPessoas_2_triggered</ref>()</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>QMdiArea<sp/>*md<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QMdiArea(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;setCentralWidget(md);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classCadastropessoa" kindref="compound">Cadastropessoa</ref><sp/>*cp<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classCadastropessoa" kindref="compound">Cadastropessoa</ref>(md);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>cp-&gt;setAttribute(Qt::WA_DeleteOnClose);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>md-&gt;addSubWindow(cp);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>cp-&gt;show();</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="classJanelaPrincipal_1aafa1a37588dba39175236c34c87081df" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classJanelaPrincipal_1aafa1a37588dba39175236c34c87081df" kindref="member">JanelaPrincipal::on_actionDispositivos_3_triggered</ref>()</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>QMdiArea<sp/>*md<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QMdiArea(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;setCentralWidget(md);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref><sp/>*cd<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref>(md);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>cd-&gt;setAttribute(Qt::WA_DeleteOnClose);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>md-&gt;addSubWindow(cd);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>cd-&gt;show();</highlight></codeline>
 <codeline lineno="109"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="classMainWindow_1a1db8061a9d0e4dd91f7a065e8782ad99" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMainWindow_1a1db8061a9d0e4dd91f7a065e8782ad99" kindref="member">MainWindow::on_actionPessoas_triggered</ref>()</highlight></codeline>
+<codeline lineno="111" refid="classJanelaPrincipal_1ab41b7f921603238b604ec41d030d18a0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classJanelaPrincipal_1ab41b7f921603238b604ec41d030d18a0" kindref="member">JanelaPrincipal::on_actionChamados_3_triggered</ref>()</highlight></codeline>
 <codeline lineno="112"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaPessoas" kindref="compound">gerenciaPessoas</ref><sp/>*gp<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classgerenciaPessoas" kindref="compound">gerenciaPessoas</ref>();</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>gp-&gt;show();</highlight></codeline>
-<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="classMainWindow_1a1266444211ea57fed22838649b3285e5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMainWindow_1a1266444211ea57fed22838649b3285e5" kindref="member">MainWindow::on_actionNovo_Grupo_de_Pessoas_triggered</ref>()</highlight></codeline>
-<codeline lineno="118"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classnovoGrupo" kindref="compound">novoGrupo</ref><sp/>*ng<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classnovoGrupo" kindref="compound">novoGrupo</ref>();</highlight></codeline>
-<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>ng-&gt;show();</highlight></codeline>
-<codeline lineno="121"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="classMainWindow_1af7736d52ad806d0da7eae9c325f4d694" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMainWindow_1af7736d52ad806d0da7eae9c325f4d694" kindref="member">MainWindow::on_actionNovo_Tipo_de_Dispositivo_triggered</ref>()</highlight></codeline>
-<codeline lineno="124"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtipoDisp" kindref="compound">tipoDisp</ref><sp/>*td<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classtipoDisp" kindref="compound">tipoDisp</ref>();</highlight></codeline>
-<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>td-&gt;show();</highlight></codeline>
-<codeline lineno="127"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>QMdiArea<sp/>*md<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QMdiArea(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;setCentralWidget(md);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classcadastrochamado" kindref="compound">cadastrochamado</ref><sp/>*cc<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classcadastrochamado" kindref="compound">cadastrochamado</ref>(md);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>cc-&gt;setAttribute(Qt::WA_DeleteOnClose);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>md-&gt;addSubWindow(cc);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>cc-&gt;show();</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="classJanelaPrincipal_1afe3d0afad191b17cafcae39ecc44fa57" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classJanelaPrincipal_1afe3d0afad191b17cafcae39ecc44fa57" kindref="member">JanelaPrincipal::on_actionCriar_Usu_rio_triggered</ref>()</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>QMdiArea<sp/>*md<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QMdiArea(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;setCentralWidget(md);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classcadastrousuario" kindref="compound">cadastrousuario</ref><sp/>*cu<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classcadastrousuario" kindref="compound">cadastrousuario</ref>(md);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>cu-&gt;setAttribute(Qt::WA_DeleteOnClose);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>md-&gt;addSubWindow(cu);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>cu-&gt;show();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="classJanelaPrincipal_1ace76c1a0bd0c3b4b17586680d952c255" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classJanelaPrincipal_1ace76c1a0bd0c3b4b17586680d952c255" kindref="member">JanelaPrincipal::on_actionCriar_Status_triggered</ref>()</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>QMdiArea<sp/>*md<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QMdiArea(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;setCentralWidget(md);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classcadastrostatus" kindref="compound">cadastrostatus</ref><sp/>*cs<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classcadastrostatus" kindref="compound">cadastrostatus</ref>(md);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>cs-&gt;setAttribute(Qt::WA_DeleteOnClose);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>md-&gt;addSubWindow(cs);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>cs-&gt;show();</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="classJanelaPrincipal_1ae984cdc76dc953760b83fabe71f9b211" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classJanelaPrincipal_1ae984cdc76dc953760b83fabe71f9b211" kindref="member">JanelaPrincipal::on_actionCriar_Prioridade_triggered</ref>()</highlight></codeline>
+<codeline lineno="142"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>QMdiArea<sp/>*md<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QMdiArea(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;setCentralWidget(md);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classcadastroprioridade" kindref="compound">cadastroprioridade</ref><sp/>*cpr<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classcadastroprioridade" kindref="compound">cadastroprioridade</ref>(md);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>cpr-&gt;setAttribute(Qt::WA_DeleteOnClose);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>md-&gt;addSubWindow(cpr);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>cpr-&gt;show();</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp"/>
   </compounddef>

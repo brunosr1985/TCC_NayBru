@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="cadastroprioridade_8cpp" kind="file" language="C++">
+    <compoundname>cadastroprioridade.cpp</compoundname>
+    <includes refid="cadastroprioridade_8h" local="yes">cadastroprioridade.h</includes>
+    <includes local="yes">ui_cadastroprioridade.h</includes>
+    <incdepgraph>
+      <node id="97">
+        <label>cadastroprioridade.h</label>
+        <link refid="cadastroprioridade_8h"/>
+        <childnode refid="98" relation="include">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>QDialog</label>
+      </node>
+      <node id="96">
+        <label>cadastroprioridade.cpp</label>
+        <link refid="cadastroprioridade_8cpp"/>
+        <childnode refid="97" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+      </node>
+      <node id="99">
+        <label>ui_cadastroprioridade.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cadastroprioridade_8h" kindref="compound">cadastroprioridade.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_cadastroprioridade.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classcadastroprioridade_1a706b9cd609c7e6e3904ba6b145954512" refkind="member"><highlight class="normal"><ref refid="classcadastroprioridade_1a706b9cd609c7e6e3904ba6b145954512" kindref="member">cadastroprioridade::cadastroprioridade</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>QDialog(parent),</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classcadastroprioridade" kindref="compound">cadastroprioridade</ref>)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classcadastroprioridade_1a9eaafc8fa92ac3ebd1a54a961816e132" kindref="member">ui</ref>-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classcadastroprioridade_1a8650a72fec7a3a89e4a02f740c96ed60" refkind="member"><highlight class="normal"><ref refid="classcadastroprioridade_1a8650a72fec7a3a89e4a02f740c96ed60" kindref="member">cadastroprioridade::~cadastroprioridade</ref>()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classcadastroprioridade_1a9eaafc8fa92ac3ebd1a54a961816e132" kindref="member">ui</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/cadastroprioridade.cpp"/>
+  </compounddef>
+</doxygen>

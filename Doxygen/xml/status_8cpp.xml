@@ -4,21 +4,21 @@
     <compoundname>status.cpp</compoundname>
     <includes refid="status_8h" local="yes">status.h</includes>
     <incdepgraph>
-      <node id="311">
-        <label>C:/Users/BrunoSR/TCC_NayBru/status.cpp</label>
+      <node id="483">
+        <label>status.cpp</label>
         <link refid="status_8cpp"/>
-        <childnode refid="312" relation="include">
+        <childnode refid="484" relation="include">
         </childnode>
       </node>
-      <node id="312">
+      <node id="484">
         <label>status.h</label>
         <link refid="status_8h"/>
-        <childnode refid="312" relation="include">
+        <childnode refid="484" relation="include">
         </childnode>
-        <childnode refid="313" relation="include">
+        <childnode refid="485" relation="include">
         </childnode>
       </node>
-      <node id="313">
+      <node id="485">
         <label>QString</label>
       </node>
     </incdepgraph>

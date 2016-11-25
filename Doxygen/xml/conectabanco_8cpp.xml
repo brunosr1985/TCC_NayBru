@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="conectabanco_8cpp" kind="file" language="C++">
+    <compoundname>conectabanco.cpp</compoundname>
+    <includes refid="conectabanco_8h" local="yes">conectabanco.h</includes>
+    <incdepgraph>
+      <node id="148">
+        <label>QSqlDatabase</label>
+      </node>
+      <node id="150">
+        <label>QSqlError</label>
+      </node>
+      <node id="146">
+        <label>conectabanco.cpp</label>
+        <link refid="conectabanco_8cpp"/>
+        <childnode refid="147" relation="include">
+        </childnode>
+      </node>
+      <node id="147">
+        <label>conectabanco.h</label>
+        <link refid="conectabanco_8h"/>
+        <childnode refid="148" relation="include">
+        </childnode>
+        <childnode refid="149" relation="include">
+        </childnode>
+        <childnode refid="150" relation="include">
+        </childnode>
+      </node>
+      <node id="149">
+        <label>QSqlQuery</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="conectabanco_8h" kindref="compound">conectabanco.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="classconectabanco_1a040fab5ab6e04ead7efc4b6114b32def" refkind="member"><highlight class="normal">QSqlDatabase<sp/><ref refid="classconectabanco_1a040fab5ab6e04ead7efc4b6114b32def" kindref="member">conectabanco::getDb</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="4"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classconectabanco_1a7d1725c274b54e84c7da80bf42918f88" kindref="member">db</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classconectabanco_1a2725bbd741bdcd07ab587bbae80e6205" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classconectabanco_1a2725bbd741bdcd07ab587bbae80e6205" kindref="member">conectabanco::setDb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QSqlDatabase<sp/>&amp;value)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classconectabanco_1a7d1725c274b54e84c7da80bf42918f88" kindref="member">db</ref><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classconectabanco_1aad9e33d02e98a22ce34d3463d76c1a85" refkind="member"><highlight class="normal"><ref refid="classconectabanco_1aad9e33d02e98a22ce34d3463d76c1a85" kindref="member">conectabanco::conectabanco</ref>()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlDatabase<sp/><ref refid="classconectabanco_1a7d1725c274b54e84c7da80bf42918f88" kindref="member">db</ref><sp/>=<sp/>QSqlDatabase::addDatabase(</highlight><highlight class="stringliteral">&quot;QPSQL&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;conn&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setHostName(</highlight><highlight class="stringliteral">&quot;tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setDatabaseName(</highlight><highlight class="stringliteral">&quot;tccnaybru&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPassword(</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setUserName(</highlight><highlight class="stringliteral">&quot;brunosr&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPort(5432);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>db.open();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/conectabanco.cpp"/>
+  </compounddef>
+</doxygen>

@@ -5,36 +5,157 @@
     <includes refid="gerenciadispositivo_8h" local="yes">gerenciadispositivo.h</includes>
     <includes local="yes">ui_gerenciadispositivo.h</includes>
     <includes refid="cadastrodispositivo_8h" local="yes">cadastrodispositivo.h</includes>
+    <includes refid="mainwindow_8h" local="yes">mainwindow.h</includes>
+    <includes local="no">QMdiArea</includes>
     <incdepgraph>
-      <node id="124">
+      <node id="217">
+        <label>QtDebug</label>
+      </node>
+      <node id="202">
+        <label>QMessageBox</label>
+      </node>
+      <node id="205">
         <label>ui_gerenciadispositivo.h</label>
       </node>
-      <node id="125">
+      <node id="216">
+        <label>QtSql/QSqlDatabase</label>
+      </node>
+      <node id="207">
+        <label>mainwindow.h</label>
+        <link refid="mainwindow_8h"/>
+        <childnode refid="196" relation="include">
+        </childnode>
+        <childnode refid="208" relation="include">
+        </childnode>
+        <childnode refid="209" relation="include">
+        </childnode>
+        <childnode refid="210" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+        <childnode refid="212" relation="include">
+        </childnode>
+        <childnode refid="198" relation="include">
+        </childnode>
+        <childnode refid="213" relation="include">
+        </childnode>
+        <childnode refid="214" relation="include">
+        </childnode>
+        <childnode refid="215" relation="include">
+        </childnode>
+        <childnode refid="201" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="216" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
+      </node>
+      <node id="211">
+        <label>QtSql/QSqlQuery</label>
+      </node>
+      <node id="208">
+        <label>QMainWindow</label>
+      </node>
+      <node id="218">
+        <label>QMdiArea</label>
+      </node>
+      <node id="212">
+        <label>QtSql/QSqlTableModel</label>
+      </node>
+      <node id="206">
         <label>cadastrodispositivo.h</label>
         <link refid="cadastrodispositivo_8h"/>
-        <childnode refid="126" relation="include">
+        <childnode refid="197" relation="include">
+        </childnode>
+        <childnode refid="198" relation="include">
+        </childnode>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="200" relation="include">
+        </childnode>
+        <childnode refid="201" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
         </childnode>
       </node>
-      <node id="122">
+      <node id="215">
+        <label>QtCore</label>
+      </node>
+      <node id="198">
+        <label>QSqlDatabase</label>
+      </node>
+      <node id="210">
+        <label>QtSql/QSqlQueryModel</label>
+      </node>
+      <node id="196">
         <label>gerenciadispositivo.h</label>
         <link refid="gerenciadispositivo_8h"/>
-        <childnode refid="123" relation="include">
+        <childnode refid="197" relation="include">
+        </childnode>
+        <childnode refid="198" relation="include">
+        </childnode>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="200" relation="include">
+        </childnode>
+        <childnode refid="201" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
         </childnode>
       </node>
-      <node id="123">
-        <label>QDialog</label>
+      <node id="213">
+        <label>QDebug</label>
       </node>
-      <node id="126">
+      <node id="197">
         <label>QWidget</label>
       </node>
-      <node id="121">
-        <label>C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.cpp</label>
+      <node id="199">
+        <label>QString</label>
+      </node>
+      <node id="203">
+        <label>QSqlError</label>
+      </node>
+      <node id="214">
+        <label>QSql</label>
+      </node>
+      <node id="200">
+        <label>QSqlQuery</label>
+      </node>
+      <node id="209">
+        <label>QTableView</label>
+      </node>
+      <node id="204">
+        <label>QStringList</label>
+      </node>
+      <node id="201">
+        <label>QtGui</label>
+      </node>
+      <node id="195">
+        <label>gerenciadispositivo.cpp</label>
         <link refid="gerenciadispositivo_8cpp"/>
-        <childnode refid="122" relation="include">
+        <childnode refid="196" relation="include">
         </childnode>
-        <childnode refid="124" relation="include">
+        <childnode refid="205" relation="include">
         </childnode>
-        <childnode refid="125" relation="include">
+        <childnode refid="206" relation="include">
+        </childnode>
+        <childnode refid="207" relation="include">
+        </childnode>
+        <childnode refid="218" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -46,24 +167,161 @@
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="gerenciadispositivo_8h" kindref="compound">gerenciadispositivo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_gerenciadispositivo.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cadastrodispositivo_8h" kindref="compound">cadastrodispositivo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight></codeline>
-<codeline lineno="5" refid="classgerenciaDispositivo_1a245e771cf0d5c9e2929e0829d57bf97b" refkind="member"><highlight class="normal"><ref refid="classgerenciaDispositivo_1a245e771cf0d5c9e2929e0829d57bf97b" kindref="member">gerenciaDispositivo::gerenciaDispositivo</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
-<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>QDialog(parent),</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classgerenciaDispositivo" kindref="compound">gerenciaDispositivo</ref>)</highlight></codeline>
-<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12" refid="classgerenciaDispositivo_1a3dcef9c3f95ad6be653920a0952b8a0a" refkind="member"><highlight class="normal"><ref refid="classgerenciaDispositivo_1a3dcef9c3f95ad6be653920a0952b8a0a" kindref="member">gerenciaDispositivo::~gerenciaDispositivo</ref>()</highlight></codeline>
-<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>;</highlight></codeline>
-<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="classgerenciaDispositivo_1ab7c595e355777a5c336cc9fedace9d1b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgerenciaDispositivo_1ab7c595e355777a5c336cc9fedace9d1b" kindref="member">gerenciaDispositivo::on_novoDIsp_clicked</ref>()</highlight></codeline>
-<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref><sp/>*novoD<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref>();</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>novoD-&gt;show();</highlight></codeline>
-<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="mainwindow_8h" kindref="compound">mainwindow.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QMdiArea&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classgerenciaDispositivo_1a245e771cf0d5c9e2929e0829d57bf97b" refkind="member"><highlight class="normal"><ref refid="classgerenciaDispositivo_1a245e771cf0d5c9e2929e0829d57bf97b" kindref="member">gerenciaDispositivo::gerenciaDispositivo</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>QDialog(parent),</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classgerenciaDispositivo" kindref="compound">gerenciaDispositivo</ref>)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlDatabase<sp/>db<sp/>=<sp/>QSqlDatabase::addDatabase(</highlight><highlight class="stringliteral">&quot;QPSQL&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;conn&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setHostName(</highlight><highlight class="stringliteral">&quot;tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setDatabaseName(</highlight><highlight class="stringliteral">&quot;tccnaybru&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPassword(</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setUserName(</highlight><highlight class="stringliteral">&quot;brunosr&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPort(5432);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>db.open();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlQuery<sp/>*fillCombo<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlQuery(db);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>QStringList<sp/>lista;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>fillCombo-&gt;prepare(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>tipo<sp/>FROM<sp/>tipo_d&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>fillCombo-&gt;exec();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(fillCombo-&gt;next())</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lista.append(fillCombo-&gt;value(0).toString());</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>db.close();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;comboTipo-&gt;clear();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;comboTipo-&gt;addItems(lista);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Bloqueia<sp/>e<sp/>desbloqueia<sp/>os<sp/>devidos<sp/>campos</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineID-&gt;setReadOnly(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineLocal-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineNome-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;comboTipo-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="classgerenciaDispositivo_1a3dcef9c3f95ad6be653920a0952b8a0a" refkind="member"><highlight class="normal"><ref refid="classgerenciaDispositivo_1a3dcef9c3f95ad6be653920a0952b8a0a" kindref="member">gerenciaDispositivo::~gerenciaDispositivo</ref>()</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="classgerenciaDispositivo_1a2b8a14702ba6500663044b35e076b1bf" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgerenciaDispositivo_1a2b8a14702ba6500663044b35e076b1bf" kindref="member">gerenciaDispositivo::showEditDispositivos</ref>()</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="classgerenciaDispositivo_1a512f1ba7f715a71788a05d7d46182db5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgerenciaDispositivo_1a512f1ba7f715a71788a05d7d46182db5" kindref="member">gerenciaDispositivo::on_novoDisp_clicked</ref>()</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>QMdiArea<sp/>*md<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QMdiArea<sp/>(qobject_cast&lt;QMdiArea<sp/>*&gt;(parent()));</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classJanelaPrincipal" kindref="compound">JanelaPrincipal</ref><sp/>*jp<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classJanelaPrincipal" kindref="compound">JanelaPrincipal</ref><sp/>(qobject_cast&lt;JanelaPrincipal<sp/>*&gt;(parent()));</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref><sp/>*cd<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classcadastrodispositivo" kindref="compound">cadastrodispositivo</ref>();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>jp-&gt;setCentralWidget(md);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>cd-&gt;setAttribute(Qt::WA_DeleteOnClose);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>md-&gt;addSubWindow(cd);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>md-&gt;show();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>cd-&gt;show();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classgerenciaDispositivo_1a3dcef9c3f95ad6be653920a0952b8a0a" kindref="member">~gerenciaDispositivo</ref>();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="classgerenciaDispositivo_1a36768fc14ae21ceefa233eac3acd38c1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgerenciaDispositivo_1a36768fc14ae21ceefa233eac3acd38c1" kindref="member">gerenciaDispositivo::on_pushButton_3_clicked</ref>()</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>parent();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//Botão<sp/>de<sp/>busca</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="classgerenciaDispositivo_1ac3c85290c564f037aa1f31a7bf326975" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgerenciaDispositivo_1ac3c85290c564f037aa1f31a7bf326975" kindref="member">gerenciaDispositivo::on_toolButton_clicked</ref>()</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>aux;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlDatabase<sp/>db<sp/>=<sp/>QSqlDatabase::addDatabase(</highlight><highlight class="stringliteral">&quot;QPSQL&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;conn&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setHostName(</highlight><highlight class="stringliteral">&quot;tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setDatabaseName(</highlight><highlight class="stringliteral">&quot;tccnaybru&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPassword(</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setUserName(</highlight><highlight class="stringliteral">&quot;brunosr&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPort(5432);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>db.open();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlQuery<sp/>*query<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlQuery(db);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;prepare(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>dispositivo<sp/>FROM<sp/>dispositivo<sp/>WHERE<sp/>id_dispositivo<sp/>=<sp/>?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineID-&gt;text().toInt());</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;exec();</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;next();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineNome-&gt;setText(query-&gt;value(0).toString());</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineNome-&gt;update();</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;prepare(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>tipo<sp/>FROM<sp/>dispositivo<sp/>WHERE<sp/>id_dispositivo<sp/>=<sp/>?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineID-&gt;text().toInt());</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;exec();</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;next();</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>query-&gt;value(0).toInt();</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;prepare(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>tipo<sp/>FROM<sp/>tipo_d<sp/>WHERE<sp/>id_tipo<sp/>=<sp/>?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(aux);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;exec();</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;next();</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;comboTipo-&gt;setCurrentIndex(<ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;comboTipo-&gt;findText(query-&gt;value(0).toString()));</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;comboTipo-&gt;update();</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;prepare(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>local<sp/>FROM<sp/>dispositivo<sp/>WHERE<sp/>id_dispositivo<sp/>=<sp/>?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineID-&gt;text().toInt());</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;exec();</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;next();</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineLocal-&gt;setText(query-&gt;value(0).toString());</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineLocal-&gt;update();</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Bloqueia<sp/>e<sp/>desbloqueia<sp/>os<sp/>devidos<sp/>campos</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineID-&gt;setReadOnly(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineLocal-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineNome-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;comboTipo-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="comment">//Botão<sp/>Editar</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="classgerenciaDispositivo_1a33b5e8523f5e57917ceb13bbd335a598" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgerenciaDispositivo_1a33b5e8523f5e57917ceb13bbd335a598" kindref="member">gerenciaDispositivo::on_pushButton_clicked</ref>()</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Bloqueia<sp/>e<sp/>desbloqueia<sp/>os<sp/>devidos<sp/>campos</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineID-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineLocal-&gt;setReadOnly(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineNome-&gt;setReadOnly(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;comboTipo-&gt;setEnabled(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="comment">//Botão<sp/>Salvar</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="classgerenciaDispositivo_1a852e80b710c433ea8e2efa685b19ec07" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgerenciaDispositivo_1a852e80b710c433ea8e2efa685b19ec07" kindref="member">gerenciaDispositivo::on_pushButton_2_clicked</ref>()</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>aux;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlDatabase<sp/>db<sp/>=<sp/>QSqlDatabase::addDatabase(</highlight><highlight class="stringliteral">&quot;QPSQL&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;conn&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setHostName(</highlight><highlight class="stringliteral">&quot;tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setDatabaseName(</highlight><highlight class="stringliteral">&quot;tccnaybru&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPassword(</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setUserName(</highlight><highlight class="stringliteral">&quot;brunosr&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPort(5432);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>db.open();</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlQuery<sp/>*query<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlQuery(db);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;prepare(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>id_tipo<sp/>FROM<sp/>tipo_d<sp/>WHERE<sp/>tipo<sp/>=<sp/>?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;comboTipo-&gt;currentText());</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;exec();</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;next();</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>query-&gt;value(0).toInt();</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;prepare(</highlight><highlight class="stringliteral">&quot;UPDATE<sp/>dispositivo<sp/>SET<sp/>dispositivo<sp/>=<sp/>?,<sp/>tipo<sp/>=<sp/>?,<sp/>local<sp/>=<sp/>?<sp/>WHERE<sp/>id_dispositivo<sp/>=<sp/>?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineNome-&gt;text());</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(aux);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineLocal-&gt;text().toInt());</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;exec();</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Bloqueia<sp/>e<sp/>desbloqueia<sp/>os<sp/>devidos<sp/>campos</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineID-&gt;setReadOnly(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineLocal-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;lineNome-&gt;setReadOnly(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" kindref="member">ui</ref>-&gt;comboTipo-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.cpp"/>
   </compounddef>

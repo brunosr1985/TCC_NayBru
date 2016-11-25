@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['cadastrochamado',['cadastrochamado',['../classcadastrochamado.html#a626bec1c5a76c3fe062f70f3fe857c3f',1,'cadastrochamado']]],
-  ['cadastrodispositivo',['cadastrodispositivo',['../classcadastrodispositivo.html#a759ec481f21cb002c55d5ca50e8cdf9c',1,'cadastrodispositivo']]],
-  ['cadastropessoa',['Cadastropessoa',['../classCadastropessoa.html#a706230f399727160a6fd25592f77da12',1,'Cadastropessoa']]],
-  ['chamado',['Chamado',['../classChamado.html#aeca5f123901cef6b33104291dc3b2fc0',1,'Chamado']]]
+  ['atualizadados',['atualizaDados',['../classnovoGrupo.html#a38e10e90ae25accd5b29ac0d5fe4cea4',1,'novoGrupo::atualizaDados()'],['../classtipoDisp.html#a778e9d22bc44c955c3b4f85c9f3bc390',1,'tipoDisp::atualizaDados()']]]
 ];

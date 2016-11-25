@@ -1,3 +1,12 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classChamado.html" title="Chamado" alt="" coords="5,5,83,32"/>
+<map id="Gráfico de Hierarquia de Classes" name="Gráfico de Hierarquia de Classes">
+<area shape="rect" id="node2" href="$classcadastroprioridade.html" title="cadastroprioridade" alt="" coords="124,5,252,32"/>
+<area shape="rect" id="node3" href="$classcadastrostatus.html" title="cadastrostatus" alt="" coords="134,56,242,83"/>
+<area shape="rect" id="node4" href="$classcadastrousuario.html" title="cadastrousuario" alt="" coords="131,107,245,133"/>
+<area shape="rect" id="node5" href="$classgerenciaChamados.html" title="gerenciaChamados" alt="" coords="121,157,255,184"/>
+<area shape="rect" id="node6" href="$classgerenciaDispositivo.html" title="gerenciaDispositivo" alt="" coords="121,208,255,235"/>
+<area shape="rect" id="node7" href="$classgerenciaPessoas.html" title="gerenciaPessoas" alt="" coords="127,259,249,285"/>
+<area shape="rect" id="node8" href="$classLogin.html" title="Login" alt="" coords="161,309,215,336"/>
+<area shape="rect" id="node9" href="$classselecionadisp.html" title="selecionadisp" alt="" coords="137,360,239,387"/>
+<area shape="rect" id="node10" href="$classselecionaequip.html" title="selecionaequip" alt="" coords="134,411,242,437"/>
+<area shape="rect" id="node11" href="$classtipoDisp.html" title="tipoDisp" alt="" coords="153,461,223,488"/>
 </map>

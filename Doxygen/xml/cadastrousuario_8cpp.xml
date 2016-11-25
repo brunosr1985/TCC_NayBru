@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="cadastrousuario_8cpp" kind="file" language="C++">
+    <compoundname>cadastrousuario.cpp</compoundname>
+    <includes refid="cadastrousuario_8h" local="yes">cadastrousuario.h</includes>
+    <includes local="yes">ui_cadastrousuario.h</includes>
+    <incdepgraph>
+      <node id="117">
+        <label>cadastrousuario.h</label>
+        <link refid="cadastrousuario_8h"/>
+        <childnode refid="118" relation="include">
+        </childnode>
+      </node>
+      <node id="119">
+        <label>ui_cadastrousuario.h</label>
+      </node>
+      <node id="116">
+        <label>cadastrousuario.cpp</label>
+        <link refid="cadastrousuario_8cpp"/>
+        <childnode refid="117" relation="include">
+        </childnode>
+        <childnode refid="119" relation="include">
+        </childnode>
+      </node>
+      <node id="118">
+        <label>QDialog</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="cadastrousuario_8h" kindref="compound">cadastrousuario.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ui_cadastrousuario.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classcadastrousuario_1aed0ce49acfa57652b76d5b522103289c" refkind="member"><highlight class="normal"><ref refid="classcadastrousuario_1aed0ce49acfa57652b76d5b522103289c" kindref="member">cadastrousuario::cadastrousuario</ref>(QWidget<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>QDialog(parent),</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classcadastrousuario" kindref="compound">cadastrousuario</ref>)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classcadastrousuario_1adce63bbfcb23b0aa5a32d120e1d0120d" kindref="member">ui</ref>-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classcadastrousuario_1afb51412845a74a0e0d28ed762af5d49b" refkind="member"><highlight class="normal"><ref refid="classcadastrousuario_1afb51412845a74a0e0d28ed762af5d49b" kindref="member">cadastrousuario::~cadastrousuario</ref>()</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classcadastrousuario_1adce63bbfcb23b0aa5a32d120e1d0120d" kindref="member">ui</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrousuario.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,20 +1,7 @@
 var searchData=
 [
-  ['on_5fabredisp_5fclicked',['on_abreDisp_clicked',['../classcadastrochamado.html#a6245c6a439da2dad5d91dca10a6fd301',1,'cadastrochamado']]],
-  ['on_5fabreraci_5fclicked',['on_abreRACI_clicked',['../classcadastrochamado.html#ae88b001d000591403af27c218f2d2fb8',1,'cadastrochamado']]],
-  ['on_5factionchamados_5f2_5ftriggered',['on_actionChamados_2_triggered',['../classMainWindow.html#ae982429a38d1d6d4430693322357e716',1,'MainWindow']]],
-  ['on_5factionchamados_5ftriggered',['on_actionChamados_triggered',['../classMainWindow.html#ac107347073b88880dac081fd745fd619',1,'MainWindow']]],
-  ['on_5factiondispositivos_5ftriggered',['on_actionDispositivos_triggered',['../classMainWindow.html#acb1d694a8b177feec62407a0848dba95',1,'MainWindow']]],
-  ['on_5factionnovo_5fgrupo_5fde_5fpessoas_5ftriggered',['on_actionNovo_Grupo_de_Pessoas_triggered',['../classMainWindow.html#a1266444211ea57fed22838649b3285e5',1,'MainWindow']]],
-  ['on_5factionnovo_5ftipo_5fde_5fdispositivo_5ftriggered',['on_actionNovo_Tipo_de_Dispositivo_triggered',['../classMainWindow.html#af7736d52ad806d0da7eae9c325f4d694',1,'MainWindow']]],
-  ['on_5factionpessoas_5ftriggered',['on_actionPessoas_triggered',['../classMainWindow.html#a1db8061a9d0e4dd91f7a065e8782ad99',1,'MainWindow']]],
-  ['on_5factionpessoas_5fx_5fchamados_5ftriggered',['on_actionPessoas_x_Chamados_triggered',['../classMainWindow.html#ac3987416965f985c8d44c8adc1e42add',1,'MainWindow']]],
-  ['on_5factionpessoas_5fx_5fqtde_5fchamados_5ftriggered',['on_actionPessoas_x_Qtde_Chamados_triggered',['../classMainWindow.html#a8540f34e55fcacf375edb2421c390044',1,'MainWindow']]],
-  ['on_5fnovapessoa_5fclicked',['on_novaPessoa_clicked',['../classgerenciaPessoas.html#a19d90661ff52549b38db8d0a53d0f638',1,'gerenciaPessoas']]],
-  ['on_5fnovo_5fgrupo_5fclicked',['on_Novo_Grupo_clicked',['../classCadastropessoa.html#ad6cdadecd30df81d41df6a267855e012',1,'Cadastropessoa']]],
-  ['on_5fnovochamado_5fclicked',['on_novoChamado_clicked',['../classgerenciaChamados.html#a8c221694a99ede8953a8de0c37627b55',1,'gerenciaChamados']]],
-  ['on_5fnovodisp_5fclicked',['on_novoDIsp_clicked',['../classgerenciaDispositivo.html#ab7c595e355777a5c336cc9fedace9d1b',1,'gerenciaDispositivo']]],
-  ['on_5fpushbutton_5f3_5fclicked',['on_pushButton_3_clicked',['../classcadastrochamado.html#ad28991192a4b3b79126e4bdf2d0fa29b',1,'cadastrochamado::on_pushButton_3_clicked()'],['../classcadastrodispositivo.html#ae37a506685243fa3c6cccccf4d83da49',1,'cadastrodispositivo::on_pushButton_3_clicked()']]],
-  ['on_5fpushbutton_5f4_5fclicked',['on_pushButton_4_clicked',['../classcadastrodispositivo.html#a6b64063bde112a3e4985e7a007e30a13',1,'cadastrodispositivo']]],
-  ['on_5fracicarregar_5fclicked',['on_raciCarregar_clicked',['../classmatrizRACI.html#a25457f6fa5d1df55d4ffb0dab8e24b5f',1,'matrizRACI']]]
+  ['nome',['nome',['../classDispositivo.html#a56a574ad1b5f59b645f5df0c5184c076',1,'Dispositivo::nome()'],['../classGrupoP.html#aacc97177556f1e6afdaee58daa2bb880',1,'GrupoP::nome()'],['../classpessoa.html#aa0865641711741f9da9bd6f85a4169a7',1,'pessoa::nome()']]],
+  ['novogrupo',['novoGrupo',['../classnovoGrupo.html',1,'novoGrupo'],['../classnovoGrupo.html#a2e343a019db9fe74eea1809e833a8517',1,'novoGrupo::novoGrupo()']]],
+  ['novogrupo_2ecpp',['novogrupo.cpp',['../novogrupo_8cpp.html',1,'']]],
+  ['novogrupo_2eh',['novogrupo.h',['../novogrupo_8h.html',1,'']]]
 ];

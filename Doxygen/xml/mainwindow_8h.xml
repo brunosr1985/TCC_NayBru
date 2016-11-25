@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
   <compounddef id="mainwindow_8h" kind="file" language="C++">
     <compoundname>mainwindow.h</compoundname>
+    <includes refid="gerenciadispositivo_8h" local="yes">gerenciadispositivo.h</includes>
     <includes local="no">QMainWindow</includes>
     <includes local="no">QTableView</includes>
     <includes local="no">QtSql/QSqlQueryModel</includes>
@@ -16,103 +17,150 @@
     <includes local="no">QMessageBox</includes>
     <includes local="no">QtSql/QSqlDatabase</includes>
     <includes local="no">QtDebug</includes>
-    <includedby refid="main_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/main.cpp</includedby>
-    <includedby refid="mainwindow_8cpp" local="yes">C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp</includedby>
+    <includes local="no">QMdiArea</includes>
+    <includedby refid="gerenciadispositivo_8cpp" local="yes">gerenciadispositivo.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">main.cpp</includedby>
+    <includedby refid="mainwindow_8cpp" local="yes">mainwindow.cpp</includedby>
     <incdepgraph>
-      <node id="230">
+      <node id="389">
         <label>QtDebug</label>
       </node>
-      <node id="228">
+      <node id="377">
         <label>QMessageBox</label>
       </node>
-      <node id="229">
+      <node id="388">
         <label>QtSql/QSqlDatabase</label>
       </node>
-      <node id="216">
-        <label>C:/Users/BrunoSR/TCC_NayBru/mainwindow.h</label>
+      <node id="370">
+        <label>mainwindow.h</label>
         <link refid="mainwindow_8h"/>
-        <childnode refid="217" relation="include">
+        <childnode refid="371" relation="include">
         </childnode>
-        <childnode refid="218" relation="include">
+        <childnode refid="380" relation="include">
         </childnode>
-        <childnode refid="219" relation="include">
+        <childnode refid="381" relation="include">
         </childnode>
-        <childnode refid="220" relation="include">
+        <childnode refid="382" relation="include">
         </childnode>
-        <childnode refid="221" relation="include">
+        <childnode refid="383" relation="include">
         </childnode>
-        <childnode refid="222" relation="include">
+        <childnode refid="384" relation="include">
         </childnode>
-        <childnode refid="223" relation="include">
+        <childnode refid="373" relation="include">
         </childnode>
-        <childnode refid="224" relation="include">
+        <childnode refid="385" relation="include">
         </childnode>
-        <childnode refid="225" relation="include">
+        <childnode refid="386" relation="include">
         </childnode>
-        <childnode refid="226" relation="include">
+        <childnode refid="387" relation="include">
         </childnode>
-        <childnode refid="227" relation="include">
+        <childnode refid="376" relation="include">
         </childnode>
-        <childnode refid="228" relation="include">
+        <childnode refid="378" relation="include">
         </childnode>
-        <childnode refid="229" relation="include">
+        <childnode refid="377" relation="include">
         </childnode>
-        <childnode refid="230" relation="include">
+        <childnode refid="388" relation="include">
+        </childnode>
+        <childnode refid="389" relation="include">
+        </childnode>
+        <childnode refid="390" relation="include">
         </childnode>
       </node>
-      <node id="220">
+      <node id="383">
         <label>QtSql/QSqlQuery</label>
       </node>
-      <node id="217">
+      <node id="380">
         <label>QMainWindow</label>
       </node>
-      <node id="221">
+      <node id="390">
+        <label>QMdiArea</label>
+      </node>
+      <node id="384">
         <label>QtSql/QSqlTableModel</label>
       </node>
-      <node id="225">
+      <node id="387">
         <label>QtCore</label>
       </node>
-      <node id="222">
+      <node id="373">
         <label>QSqlDatabase</label>
       </node>
-      <node id="219">
+      <node id="382">
         <label>QtSql/QSqlQueryModel</label>
       </node>
-      <node id="223">
+      <node id="371">
+        <label>gerenciadispositivo.h</label>
+        <link refid="gerenciadispositivo_8h"/>
+        <childnode refid="372" relation="include">
+        </childnode>
+        <childnode refid="373" relation="include">
+        </childnode>
+        <childnode refid="374" relation="include">
+        </childnode>
+        <childnode refid="375" relation="include">
+        </childnode>
+        <childnode refid="376" relation="include">
+        </childnode>
+        <childnode refid="377" relation="include">
+        </childnode>
+        <childnode refid="378" relation="include">
+        </childnode>
+        <childnode refid="379" relation="include">
+        </childnode>
+      </node>
+      <node id="385">
         <label>QDebug</label>
       </node>
-      <node id="227">
+      <node id="372">
+        <label>QWidget</label>
+      </node>
+      <node id="374">
+        <label>QString</label>
+      </node>
+      <node id="378">
         <label>QSqlError</label>
       </node>
-      <node id="224">
+      <node id="386">
         <label>QSql</label>
       </node>
-      <node id="218">
+      <node id="375">
+        <label>QSqlQuery</label>
+      </node>
+      <node id="381">
         <label>QTableView</label>
       </node>
-      <node id="226">
+      <node id="379">
+        <label>QStringList</label>
+      </node>
+      <node id="376">
         <label>QtGui</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="231">
-        <label>C:/Users/BrunoSR/TCC_NayBru/mainwindow.h</label>
+      <node id="391">
+        <label>mainwindow.h</label>
         <link refid="mainwindow_8h"/>
-        <childnode refid="232" relation="include">
+        <childnode refid="392" relation="include">
         </childnode>
-        <childnode refid="233" relation="include">
+        <childnode refid="393" relation="include">
+        </childnode>
+        <childnode refid="394" relation="include">
         </childnode>
       </node>
-      <node id="232">
-        <label>C:/Users/BrunoSR/TCC_NayBru/main.cpp</label>
+      <node id="393">
+        <label>main.cpp</label>
         <link refid="main_8cpp"/>
       </node>
-      <node id="233">
-        <label>C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp</label>
+      <node id="394">
+        <label>mainwindow.cpp</label>
         <link refid="mainwindow_8cpp"/>
       </node>
+      <node id="392">
+        <label>gerenciadispositivo.cpp</label>
+        <link refid="gerenciadispositivo_8cpp"/>
+      </node>
     </invincdepgraph>
-    <innerclass refid="classMainWindow" prot="public">MainWindow</innerclass>
+    <innerclass refid="classJanelaPrincipal" prot="public">JanelaPrincipal</innerclass>
     <innernamespace refid="namespaceUi">Ui</innernamespace>
     <briefdescription>
     </briefdescription>
@@ -122,63 +170,79 @@
 <codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>MAINWINDOW_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAINWINDOW_H</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QMainWindow&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QTableView&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlQueryModel&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlQuery&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlTableModel&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSqlDatabase&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDebug&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSql&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtCore&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtGui&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSqlError&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QMessageBox&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlDatabase&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtDebug&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlQueryModel&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlQuery&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlTableModel&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceUi" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMainWindow" kindref="compound">MainWindow</ref>;</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">CadastroPess;</highlight></codeline>
-<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="classMainWindow" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMainWindow" kindref="compound">MainWindow</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QMainWindow</highlight></codeline>
-<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classMainWindow" kindref="compound">MainWindow</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classMainWindow" kindref="compound">MainWindow</ref>();</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionPessoas_x_Chamados_triggered();</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="gerenciadispositivo_8h" kindref="compound">gerenciadispositivo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QMainWindow&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QTableView&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlQueryModel&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlQuery&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlTableModel&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSqlDatabase&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QDebug&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSql&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtCore&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtGui&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QSqlError&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QMessageBox&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlDatabase&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtDebug&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlQueryModel&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlQuery&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtSql/QSqlTableModel&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QMdiArea&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceUi" kindref="compound">Ui</ref><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classJanelaPrincipal" kindref="compound">JanelaPrincipal</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">CadastroPess;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="classJanelaPrincipal" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classJanelaPrincipal" kindref="compound">JanelaPrincipal</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QMainWindow</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="classJanelaPrincipal" kindref="compound">JanelaPrincipal</ref>(QWidget<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="classJanelaPrincipal" kindref="compound">JanelaPrincipal</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionChamados_2_triggered();</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionPessoas_x_Qtde_Chamados_triggered();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionPessoas_x_Chamados_triggered();</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionChamados_triggered();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionChamados_2_triggered();</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionDispositivos_triggered();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionPessoas_x_Qtde_Chamados_triggered();</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionPessoas_triggered();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionChamados_triggered();</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionNovo_Grupo_de_Pessoas_triggered();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionDispositivos_triggered();</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionNovo_Tipo_de_Dispositivo_triggered();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionPessoas_triggered();</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="53" refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::MainWindow<sp/>*<ref refid="classMainWindow_1a35466a70ed47252a0191168126a352a5" kindref="member">ui</ref>;</highlight></codeline>
-<codeline lineno="54" refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlTableModel<sp/>*<ref refid="classMainWindow_1ace399ef4d5b35fc09b1c497a6b89c548" kindref="member">modelo</ref>;</highlight></codeline>
-<codeline lineno="55" refid="classMainWindow_1ac4551c72b3aedfdeaa2e2c18fb6ecaa4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlQueryModel<sp/>*<ref refid="classMainWindow_1ac4551c72b3aedfdeaa2e2c18fb6ecaa4" kindref="member">query</ref>;</highlight></codeline>
-<codeline lineno="56"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionNovo_Grupo_de_Pessoas_triggered();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionNovo_Tipo_de_Dispositivo_triggered();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionPessoas_2_triggered();</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionDispositivos_3_triggered();</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>MAINWINDOW_H</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionChamados_3_triggered();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionCriar_Usu_rio_triggered();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionCriar_Status_triggered();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>on_actionCriar_Prioridade_triggered();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="69" refid="classJanelaPrincipal_1afc61ca780eca545cd709b2a72acb0dbe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Ui::JanelaPrincipal<sp/>*<ref refid="classJanelaPrincipal_1afc61ca780eca545cd709b2a72acb0dbe" kindref="member">ui</ref>;</highlight></codeline>
+<codeline lineno="70" refid="classJanelaPrincipal_1aa0abac8067f0efe985ee19f357675e6b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlTableModel<sp/>*<ref refid="classJanelaPrincipal_1aa0abac8067f0efe985ee19f357675e6b" kindref="member">modelo</ref>;</highlight></codeline>
+<codeline lineno="71" refid="classJanelaPrincipal_1ad0617c58eed0f8d5907edff7dae4dae2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlQueryModel<sp/>*<ref refid="classJanelaPrincipal_1ad0617c58eed0f8d5907edff7dae4dae2" kindref="member">query</ref>;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>MAINWINDOW_H</highlight></codeline>
     </programlisting>
     <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h"/>
   </compounddef>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['novogrupo',['novoGrupo',['../classnovoGrupo.html#a2e343a019db9fe74eea1809e833a8517',1,'novoGrupo']]]
+  ['janelaprincipal',['JanelaPrincipal',['../classJanelaPrincipal.html#a9eef2db6f7b786cc25d4bd3e08340ff7',1,'JanelaPrincipal']]]
 ];

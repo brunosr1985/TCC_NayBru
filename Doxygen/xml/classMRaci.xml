@@ -283,21 +283,21 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="46">
+      <node id="64">
         <label>MRaci</label>
         <link refid="classMRaci"/>
-        <childnode refid="47" relation="usage">
+        <childnode refid="65" relation="usage">
           <edgelabel>-pess</edgelabel>
         </childnode>
       </node>
-      <node id="48">
+      <node id="66">
         <label>GrupoP</label>
         <link refid="classGrupoP"/>
       </node>
-      <node id="47">
+      <node id="65">
         <label>pessoa</label>
         <link refid="classpessoa"/>
-        <childnode refid="48" relation="usage">
+        <childnode refid="66" relation="usage">
           <edgelabel>+grupo</edgelabel>
         </childnode>
       </node>

@@ -369,14 +369,14 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="55">
+      <node id="73">
         <label>GrupoP</label>
         <link refid="classGrupoP"/>
       </node>
-      <node id="54">
+      <node id="72">
         <label>pessoa</label>
         <link refid="classpessoa"/>
-        <childnode refid="55" relation="usage">
+        <childnode refid="73" relation="usage">
           <edgelabel>+grupo</edgelabel>
         </childnode>
       </node>

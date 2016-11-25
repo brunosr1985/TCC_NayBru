@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.h" line="22" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.h" bodystart="22" bodyend="-1"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.h" line="36" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.cpp" bodystart="5" bodyend="10"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.h" line="23" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.cpp" bodystart="5" bodyend="19"/>
       </memberdef>
       <memberdef kind="function" id="classgerenciaPessoas_1a85f9272a309472903bf5b2ad0950973c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.cpp" bodystart="12" bodyend="15"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.h" line="24" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.cpp" bodystart="21" bodyend="24"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-slot">
@@ -64,7 +64,46 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.cpp" bodystart="17" bodyend="21"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="classgerenciaPessoas_1a216cc3187caeffe2802099372452a231" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gerenciaPessoas::on_Pessoa_Editar_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_Pessoa_Editar_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.h" line="29" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.cpp" bodystart="26" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="slot" id="classgerenciaPessoas_1a1defc0976260243ac2a0fd55d14656f9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gerenciaPessoas::on_Pessoa_Salvar_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_Pessoa_Salvar_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.h" line="31" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.cpp" bodystart="39" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="slot" id="classgerenciaPessoas_1a296e38542b6a4fbef8908a2afba36aec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gerenciaPessoas::on_toolButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_toolButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.h" line="33" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.cpp" bodystart="81" bodyend="158"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -72,31 +111,34 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="31">
+      <node id="45">
         <label>gerenciaPessoas</label>
         <link refid="classgerenciaPessoas"/>
-        <childnode refid="32" relation="public-inheritance">
+        <childnode refid="46" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="32">
+      <node id="46">
         <label>QDialog</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="33">
+      <node id="47">
         <label>gerenciaPessoas</label>
         <link refid="classgerenciaPessoas"/>
-        <childnode refid="34" relation="public-inheritance">
+        <childnode refid="48" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="34">
+      <node id="48">
         <label>QDialog</label>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.h" bodystart="10" bodyend="23"/>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciapessoas.h" bodystart="18" bodyend="37"/>
     <listofallmembers>
       <member refid="classgerenciaPessoas_1a245ab3e4006fcdd3ec9a89815e1c60c1" prot="public" virt="non-virtual"><scope>gerenciaPessoas</scope><name>gerenciaPessoas</name></member>
       <member refid="classgerenciaPessoas_1a19d90661ff52549b38db8d0a53d0f638" prot="private" virt="non-virtual"><scope>gerenciaPessoas</scope><name>on_novaPessoa_clicked</name></member>
+      <member refid="classgerenciaPessoas_1a216cc3187caeffe2802099372452a231" prot="private" virt="non-virtual"><scope>gerenciaPessoas</scope><name>on_Pessoa_Editar_clicked</name></member>
+      <member refid="classgerenciaPessoas_1a1defc0976260243ac2a0fd55d14656f9" prot="private" virt="non-virtual"><scope>gerenciaPessoas</scope><name>on_Pessoa_Salvar_clicked</name></member>
+      <member refid="classgerenciaPessoas_1a296e38542b6a4fbef8908a2afba36aec" prot="private" virt="non-virtual"><scope>gerenciaPessoas</scope><name>on_toolButton_clicked</name></member>
       <member refid="classgerenciaPessoas_1aea53154e1834e414a195804b7d0b6e7b" prot="private" virt="non-virtual"><scope>gerenciaPessoas</scope><name>ui</name></member>
       <member refid="classgerenciaPessoas_1a85f9272a309472903bf5b2ad0950973c" prot="public" virt="non-virtual"><scope>gerenciaPessoas</scope><name>~gerenciaPessoas</name></member>
     </listofallmembers>

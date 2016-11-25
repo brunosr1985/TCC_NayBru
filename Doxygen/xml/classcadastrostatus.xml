@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classcadastrostatus" kind="class" language="C++" prot="public">
+    <compoundname>cadastrostatus</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QDialog</basecompoundref>
+    <includes refid="cadastrostatus_8h" local="yes">cadastrostatus.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcadastrostatus_1a31649935b1ebbe1d165710ef42ccb13c" prot="private" static="no" mutable="no">
+        <type>Ui::cadastrostatus *</type>
+        <definition>Ui::cadastrostatus* cadastrostatus::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrostatus.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrostatus.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcadastrostatus_1ab4f6edce5953354f0d7ce369d3cfd95c" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cadastrostatus::cadastrostatus</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>cadastrostatus</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrostatus.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrostatus.cpp" bodystart="4" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classcadastrostatus_1aa43dcbe59e797e3f5eca18195d9d1b54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cadastrostatus::~cadastrostatus</definition>
+        <argsstring>()</argsstring>
+        <name>~cadastrostatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrostatus.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrostatus.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>cadastrostatus</label>
+        <link refid="classcadastrostatus"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>QDialog</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="18">
+        <label>cadastrostatus</label>
+        <link refid="classcadastrostatus"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>QDialog</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrostatus.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/cadastrostatus.h" bodystart="10" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classcadastrostatus_1ab4f6edce5953354f0d7ce369d3cfd95c" prot="public" virt="non-virtual"><scope>cadastrostatus</scope><name>cadastrostatus</name></member>
+      <member refid="classcadastrostatus_1a31649935b1ebbe1d165710ef42ccb13c" prot="private" virt="non-virtual"><scope>cadastrostatus</scope><name>ui</name></member>
+      <member refid="classcadastrostatus_1aa43dcbe59e797e3f5eca18195d9d1b54" prot="public" virt="non-virtual"><scope>cadastrostatus</scope><name>~cadastrostatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

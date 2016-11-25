@@ -1,31 +1,4 @@
 var searchData=
 [
-  ['selecionadisp',['selecionadisp',['../classselecionadisp.html#a23cbf45ded7e90e20f7d3ea8679f856a',1,'selecionadisp']]],
-  ['selecionaequip',['selecionaequip',['../classselecionaequip.html#a3ccee0d0b533a3c3d7bb53f951f022ba',1,'selecionaequip']]],
-  ['seta',['setA',['../classMRaci.html#ac54730e0687cae31a3bd45727ce674ab',1,'MRaci']]],
-  ['setc',['setC',['../classMRaci.html#ad7b3c1d332bf913e97251ea978f495e9',1,'MRaci']]],
-  ['setcargo',['setCargo',['../classpessoa.html#a1a6ebf59740db53d42fbac357f6219b5',1,'pessoa']]],
-  ['setdepto',['setDepto',['../classpessoa.html#a4a32656512ade652bec82a5c749ad7d1',1,'pessoa']]],
-  ['setdescricao',['setDescricao',['../classChamado.html#a970a71741ec450c40c48eb4babd2fec3',1,'Chamado']]],
-  ['setdisp',['setDisp',['../classChamado.html#aedfd2171f66178c80462e0477b49a0f0',1,'Chamado']]],
-  ['setemail',['setEmail',['../classpessoa.html#a79249a39e2a46cca19acef0476c34bf2',1,'pessoa']]],
-  ['setgrupo',['setGrupo',['../classpessoa.html#a6d5ee1ef25af3e07366b093af99ebd50',1,'pessoa']]],
-  ['sethora_5fabertura',['setHora_abertura',['../classChamado.html#a2513e3474003230bee760aeb28da8188',1,'Chamado']]],
-  ['sethora_5ffechamento',['setHora_fechamento',['../classChamado.html#a4517fc2b385ef3ed227289c3444a0208',1,'Chamado']]],
-  ['seti',['setI',['../classMRaci.html#a9d2f32c2ac580027e68d28d6cd6206f4',1,'MRaci']]],
-  ['setid',['setId',['../classChamado.html#ad9d1c6ef5c44c56921711fa96ae27277',1,'Chamado::setId()'],['../classDispositivo.html#a186a8fdf627e6e9326a196fa7ad59846',1,'Dispositivo::setId()'],['../classGrupoP.html#a540f8d78b7468b26b647485cc72fd7ca',1,'GrupoP::setId()'],['../classMRaci.html#a5d41e168ae4d2eb42870c5111c5ced66',1,'MRaci::setId()'],['../classpessoa.html#ab528a41c403719b847f8e43c0893e14c',1,'pessoa::setId()'],['../classStatus.html#ac2f0322cbfc1326c117eb2b244600d67',1,'Status::setId()'],['../classtipod.html#ae3f6b8df170353ef58a862b746d3d288',1,'tipod::setId()']]],
-  ['setid_5fchamado',['setId_chamado',['../classStatus.html#aca91a7dbe10715ce9696f4b0252546ac',1,'Status']]],
-  ['setlocal',['setLocal',['../classDispositivo.html#a033c98bd8e7be483677b06ead506fe9d',1,'Dispositivo']]],
-  ['setmatriz_5fr',['setMatriz_r',['../classChamado.html#a5f8f04ee1b58b3bbb46f8ba6a9c22342',1,'Chamado']]],
-  ['setnome',['setNome',['../classDispositivo.html#a8bafe761c02216dd6bc7465eb4ff0064',1,'Dispositivo::setNome()'],['../classGrupoP.html#af747750583e09cf0a1cfe756bacf97bc',1,'GrupoP::setNome()'],['../classpessoa.html#a1212ac1dfede6a2a83adf84be6b9c321',1,'pessoa::setNome()']]],
-  ['setpess',['setPess',['../classMRaci.html#a1ddb3f56c84e1c1dc05076c90d14b48d',1,'MRaci']]],
-  ['setr',['setR',['../classMRaci.html#a24d39e1a619e1636fe764d1fc1fec557',1,'MRaci']]],
-  ['setramal',['setRamal',['../classpessoa.html#a4e6fa1b22e8824e270fd2aee4c9866e7',1,'pessoa']]],
-  ['setreincidente',['setReincidente',['../classChamado.html#a0abb993bda04f1bd32ed474abf06d0ad',1,'Chamado']]],
-  ['setsla',['setSLA',['../classtipod.html#ad0da4edb16cb79061875519e94b768d7',1,'tipod']]],
-  ['setstat',['setStat',['../classChamado.html#a8a695ce190dcd9acf05e8b7880579fec',1,'Chamado::setStat()'],['../classStatus.html#aa0507ec449fc02cccb63293fed3232a4',1,'Status::setStat()']]],
-  ['settelefone',['setTelefone',['../classpessoa.html#a6c7b481abf0bc292e5ff28367f5e7512',1,'pessoa']]],
-  ['settempo',['setTempo',['../classChamado.html#a918eb6053797974911821b777695b0c2',1,'Chamado']]],
-  ['settipo',['setTipo',['../classDispositivo.html#ada239ce7b043c5ae4d426cf4f1d0cf8f',1,'Dispositivo::setTipo()'],['../classtipod.html#a2430c9b9e742243038b3fdb43a7bd429',1,'tipod::setTipo()']]],
-  ['status',['Status',['../classStatus.html#a944586fb328a3524805748c8f7b17f32',1,'Status']]]
+  ['novogrupo',['novoGrupo',['../classnovoGrupo.html#a2e343a019db9fe74eea1809e833a8517',1,'novoGrupo']]]
 ];

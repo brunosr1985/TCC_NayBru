@@ -64,7 +64,7 @@
         <label>QtSql/QSqlQueryModel</label>
       </node>
       <node id="0">
-        <label>C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp</label>
+        <label>cadastrochamado.cpp</label>
         <link refid="cadastrochamado_8cpp"/>
         <childnode refid="1" relation="include">
         </childnode>
@@ -148,43 +148,86 @@
 <codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget(parent),</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>ui(new<sp/><ref refid="namespaceUi" kindref="compound">Ui</ref>::<ref refid="classcadastrochamado" kindref="compound">cadastrochamado</ref>)</highlight></codeline>
 <codeline lineno="11"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classcadastrochamado_1abb4512bd6342bcea8792f9b59f2616d0" kindref="member">ui</ref>-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="13"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="classcadastrochamado_1aafb8985f35d1e6d47dbc8be3a4cf0de9" refkind="member"><highlight class="normal"><ref refid="classcadastrochamado_1aafb8985f35d1e6d47dbc8be3a4cf0de9" kindref="member">cadastrochamado::~cadastrochamado</ref>()</highlight></codeline>
-<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classcadastrochamado_1abb4512bd6342bcea8792f9b59f2616d0" kindref="member">ui</ref>;</highlight></codeline>
-<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlDatabase<sp/>db<sp/>=<sp/>QSqlDatabase::addDatabase(</highlight><highlight class="stringliteral">&quot;QPSQL&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;conn&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setHostName(</highlight><highlight class="stringliteral">&quot;tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setDatabaseName(</highlight><highlight class="stringliteral">&quot;tccnaybru&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPassword(</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setUserName(</highlight><highlight class="stringliteral">&quot;brunosr&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPort(5432);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>db.open();</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="classcadastrochamado_1ad28991192a4b3b79126e4bdf2d0fa29b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcadastrochamado_1ad28991192a4b3b79126e4bdf2d0fa29b" kindref="member">cadastrochamado::on_pushButton_3_clicked</ref>()</highlight></codeline>
-<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlQuery<sp/>*fillCombo<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlQuery(db);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>QStringList<sp/>lista;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25" refid="classcadastrochamado_1ae88b001d000591403af27c218f2d2fb8" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcadastrochamado_1ae88b001d000591403af27c218f2d2fb8" kindref="member">cadastrochamado::on_abreRACI_clicked</ref>()</highlight></codeline>
-<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/><sp/><sp/>QString<sp/>erro;</highlight></codeline>
-<codeline lineno="28"><highlight class="comment"><sp/><sp/><sp/><sp/>QSqlDatabase<sp/>db<sp/>=<sp/>QSqlDatabase::addDatabase(&quot;QPSQL&quot;,&quot;conn&quot;);</highlight></codeline>
-<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/><sp/>db.setHostName(&quot;localhost&quot;);</highlight></codeline>
-<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/><sp/>db.setDatabaseName(&quot;postgres&quot;);</highlight></codeline>
-<codeline lineno="31"><highlight class="comment"><sp/><sp/><sp/><sp/>db.setPassword(&quot;bu381025&quot;);</highlight></codeline>
-<codeline lineno="32"><highlight class="comment"><sp/><sp/><sp/><sp/>db.setUserName(&quot;tccnaybru&quot;);</highlight></codeline>
-<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/><sp/>db.setPort(5432);</highlight></codeline>
-<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/><sp/>erro<sp/>=<sp/>db.open(&quot;postgres&quot;,&quot;bu381025&quot;);</highlight></codeline>
-<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/><sp/>db.close();</highlight></codeline>
-<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>fillCombo-&gt;prepare(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>estado<sp/>FROM<sp/>status&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>fillCombo-&gt;exec();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(fillCombo-&gt;next())</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lista.append(fillCombo-&gt;value(0).toString());</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>lista.clear();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>fillCombo-&gt;prepare(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>prioridade<sp/>FROM<sp/>prioridade&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>fillCombo-&gt;exec();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(fillCombo-&gt;next())</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lista.append(fillCombo-&gt;value(0).toString());</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classmatrizRACI" kindref="compound">matrizRACI</ref><sp/>*raci<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classmatrizRACI" kindref="compound">matrizRACI</ref>();</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>raci-&gt;show();</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classcadastrochamado_1abb4512bd6342bcea8792f9b59f2616d0" kindref="member">ui</ref>-&gt;setupUi(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classcadastrochamado_1abb4512bd6342bcea8792f9b59f2616d0" kindref="member">ui</ref>-&gt;comboPrioridade-&gt;clear();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classcadastrochamado_1abb4512bd6342bcea8792f9b59f2616d0" kindref="member">ui</ref>-&gt;comboPrioridade-&gt;addItems(lista);</highlight></codeline>
 <codeline lineno="41"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="classcadastrochamado_1a6245c6a439da2dad5d91dca10a6fd301" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcadastrochamado_1a6245c6a439da2dad5d91dca10a6fd301" kindref="member">cadastrochamado::on_abreDisp_clicked</ref>()</highlight></codeline>
-<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classselecionadisp" kindref="compound">selecionadisp</ref><sp/>*disp<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classselecionadisp" kindref="compound">selecionadisp</ref>();</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>disp-&gt;show();</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="classcadastrochamado_1aafb8985f35d1e6d47dbc8be3a4cf0de9" refkind="member"><highlight class="normal"><ref refid="classcadastrochamado_1aafb8985f35d1e6d47dbc8be3a4cf0de9" kindref="member">cadastrochamado::~cadastrochamado</ref>()</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/><ref refid="classcadastrochamado_1abb4512bd6342bcea8792f9b59f2616d0" kindref="member">ui</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="classcadastrochamado_1ad28991192a4b3b79126e4bdf2d0fa29b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcadastrochamado_1ad28991192a4b3b79126e4bdf2d0fa29b" kindref="member">cadastrochamado::on_pushButton_3_clicked</ref>()</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="classcadastrochamado_1ae88b001d000591403af27c218f2d2fb8" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcadastrochamado_1ae88b001d000591403af27c218f2d2fb8" kindref="member">cadastrochamado::on_abreRACI_clicked</ref>()</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classmatrizRACI" kindref="compound">matrizRACI</ref><sp/>*raci<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classmatrizRACI" kindref="compound">matrizRACI</ref>();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>raci-&gt;show();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="classcadastrochamado_1a6245c6a439da2dad5d91dca10a6fd301" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcadastrochamado_1a6245c6a439da2dad5d91dca10a6fd301" kindref="member">cadastrochamado::on_abreDisp_clicked</ref>()</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classselecionadisp" kindref="compound">selecionadisp</ref><sp/>*disp<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classselecionadisp" kindref="compound">selecionadisp</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>disp-&gt;show();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="classcadastrochamado_1a544b554bb68c2351fedd6637d6490171" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcadastrochamado_1a544b554bb68c2351fedd6637d6490171" kindref="member">cadastrochamado::on_pushButton_2_clicked</ref>()</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlDatabase<sp/>db<sp/>=<sp/>QSqlDatabase::addDatabase(</highlight><highlight class="stringliteral">&quot;QPSQL&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;conn&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setHostName(</highlight><highlight class="stringliteral">&quot;tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setDatabaseName(</highlight><highlight class="stringliteral">&quot;tccnaybru&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPassword(</highlight><highlight class="stringliteral">&quot;bu381025&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setUserName(</highlight><highlight class="stringliteral">&quot;brunosr&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>db.setPort(5432);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>db.open();</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>aux_status;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlQuery<sp/>*query<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlQuery(db);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>QSqlQuery<sp/>*query2<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSqlQuery(db);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>query2-&gt;prepare(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>id_status<sp/>FROM<sp/>status<sp/>WHERE<sp/>statusNome<sp/>=<sp/>?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>query2-&gt;addBindValue(<ref refid="classcadastrochamado_1abb4512bd6342bcea8792f9b59f2616d0" kindref="member">ui</ref>-&gt;comboStatus-&gt;currentText());</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>aux_status<sp/>=<sp/>query2-&gt;exec();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;prepare(</highlight><highlight class="stringliteral">&quot;INSERT<sp/>INTO<sp/>chamado<sp/>(status,descricao)<sp/>VALUES<sp/>?,?&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(aux_status);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;addBindValue(<ref refid="classcadastrochamado_1abb4512bd6342bcea8792f9b59f2616d0" kindref="member">ui</ref>-&gt;descricaoChamado-&gt;toPlainText());</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>query-&gt;exec();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="C:/Users/BrunoSR/TCC_NayBru/cadastrochamado.cpp"/>
   </compounddef>

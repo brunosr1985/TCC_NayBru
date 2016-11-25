@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="classJanelaPrincipal" kind="class" language="C++" prot="public">
+    <compoundname>JanelaPrincipal</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMainWindow</basecompoundref>
+    <includes refid="mainwindow_8h" local="yes">mainwindow.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classJanelaPrincipal_1afc61ca780eca545cd709b2a72acb0dbe" prot="private" static="no" mutable="no">
+        <type>Ui::JanelaPrincipal *</type>
+        <definition>Ui::JanelaPrincipal* JanelaPrincipal::ui</definition>
+        <argsstring></argsstring>
+        <name>ui</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="69" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classJanelaPrincipal_1aa0abac8067f0efe985ee19f357675e6b" prot="private" static="no" mutable="no">
+        <type>QSqlTableModel *</type>
+        <definition>QSqlTableModel* JanelaPrincipal::modelo</definition>
+        <argsstring></argsstring>
+        <name>modelo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="70" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classJanelaPrincipal_1ad0617c58eed0f8d5907edff7dae4dae2" prot="private" static="no" mutable="no">
+        <type>QSqlQueryModel *</type>
+        <definition>QSqlQueryModel* JanelaPrincipal::query</definition>
+        <argsstring></argsstring>
+        <name>query</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="71" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classJanelaPrincipal_1a9eef2db6f7b786cc25d4bd3e08340ff7" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>JanelaPrincipal::JanelaPrincipal</definition>
+        <argsstring>(QWidget *parent=0)</argsstring>
+        <name>JanelaPrincipal</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="34" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="15" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classJanelaPrincipal_1a3aab06a1e8ce4a6a718fba7d47681d6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>JanelaPrincipal::~JanelaPrincipal</definition>
+        <argsstring>()</argsstring>
+        <name>~JanelaPrincipal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="35" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="22" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classJanelaPrincipal_1ab630e69d9a55364b3b3b3bc33d8867f5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JanelaPrincipal::on_actionPessoas_x_Chamados_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionPessoas_x_Chamados_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="40" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="slot" id="classJanelaPrincipal_1a799ac0ba94f7a60ac3b076a990336d5c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JanelaPrincipal::on_actionChamados_2_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionChamados_2_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="42" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="33" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="slot" id="classJanelaPrincipal_1abeac7e859d67b347ed8c5a6c5b7ccae8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JanelaPrincipal::on_actionPessoas_x_Qtde_Chamados_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionPessoas_x_Qtde_Chamados_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="44" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="slot" id="classJanelaPrincipal_1a8c2d6637116f57cbe7f17bb050ce6c45" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JanelaPrincipal::on_actionChamados_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionChamados_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="46" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="63" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="slot" id="classJanelaPrincipal_1aa475da5eb8defb554faa1aab8379749e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JanelaPrincipal::on_actionDispositivos_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionDispositivos_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="48" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="70" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="slot" id="classJanelaPrincipal_1aad2b396850d7557dcd709ce3c903bfb3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JanelaPrincipal::on_actionPessoas_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionPessoas_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="50" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="80" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="slot" id="classJanelaPrincipal_1afd12bc1e0859bf26ae6a29e2c3ca58bb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JanelaPrincipal::on_actionNovo_Grupo_de_Pessoas_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionNovo_Grupo_de_Pessoas_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="classJanelaPrincipal_1a2039f9c73df3fab25f93564e7fa4dc91" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JanelaPrincipal::on_actionNovo_Tipo_de_Dispositivo_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionNovo_Tipo_de_Dispositivo_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="slot" id="classJanelaPrincipal_1a1303dcb66fc6ba619709a68af71fe7c0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JanelaPrincipal::on_actionPessoas_2_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionPessoas_2_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="56" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="91" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="slot" id="classJanelaPrincipal_1aafa1a37588dba39175236c34c87081df" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JanelaPrincipal::on_actionDispositivos_3_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionDispositivos_3_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="58" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="101" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="slot" id="classJanelaPrincipal_1ab41b7f921603238b604ec41d030d18a0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JanelaPrincipal::on_actionChamados_3_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionChamados_3_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="60" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="111" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="slot" id="classJanelaPrincipal_1afe3d0afad191b17cafcae39ecc44fa57" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JanelaPrincipal::on_actionCriar_Usu_rio_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionCriar_Usu_rio_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="62" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="121" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="slot" id="classJanelaPrincipal_1ace76c1a0bd0c3b4b17586680d952c255" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JanelaPrincipal::on_actionCriar_Status_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionCriar_Status_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="64" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="131" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="slot" id="classJanelaPrincipal_1ae984cdc76dc953760b83fabe71f9b211" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void JanelaPrincipal::on_actionCriar_Prioridade_triggered</definition>
+        <argsstring>()</argsstring>
+        <name>on_actionCriar_Prioridade_triggered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="66" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.cpp" bodystart="141" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="52">
+        <label>QMainWindow</label>
+      </node>
+      <node id="51">
+        <label>JanelaPrincipal</label>
+        <link refid="classJanelaPrincipal"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="54">
+        <label>QMainWindow</label>
+      </node>
+      <node id="53">
+        <label>JanelaPrincipal</label>
+        <link refid="classJanelaPrincipal"/>
+        <childnode refid="54" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" line="30" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/mainwindow.h" bodystart="29" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classJanelaPrincipal_1a9eef2db6f7b786cc25d4bd3e08340ff7" prot="public" virt="non-virtual"><scope>JanelaPrincipal</scope><name>JanelaPrincipal</name></member>
+      <member refid="classJanelaPrincipal_1aa0abac8067f0efe985ee19f357675e6b" prot="private" virt="non-virtual"><scope>JanelaPrincipal</scope><name>modelo</name></member>
+      <member refid="classJanelaPrincipal_1a799ac0ba94f7a60ac3b076a990336d5c" prot="private" virt="non-virtual"><scope>JanelaPrincipal</scope><name>on_actionChamados_2_triggered</name></member>
+      <member refid="classJanelaPrincipal_1ab41b7f921603238b604ec41d030d18a0" prot="private" virt="non-virtual"><scope>JanelaPrincipal</scope><name>on_actionChamados_3_triggered</name></member>
+      <member refid="classJanelaPrincipal_1a8c2d6637116f57cbe7f17bb050ce6c45" prot="private" virt="non-virtual"><scope>JanelaPrincipal</scope><name>on_actionChamados_triggered</name></member>
+      <member refid="classJanelaPrincipal_1ae984cdc76dc953760b83fabe71f9b211" prot="private" virt="non-virtual"><scope>JanelaPrincipal</scope><name>on_actionCriar_Prioridade_triggered</name></member>
+      <member refid="classJanelaPrincipal_1ace76c1a0bd0c3b4b17586680d952c255" prot="private" virt="non-virtual"><scope>JanelaPrincipal</scope><name>on_actionCriar_Status_triggered</name></member>
+      <member refid="classJanelaPrincipal_1afe3d0afad191b17cafcae39ecc44fa57" prot="private" virt="non-virtual"><scope>JanelaPrincipal</scope><name>on_actionCriar_Usu_rio_triggered</name></member>
+      <member refid="classJanelaPrincipal_1aafa1a37588dba39175236c34c87081df" prot="private" virt="non-virtual"><scope>JanelaPrincipal</scope><name>on_actionDispositivos_3_triggered</name></member>
+      <member refid="classJanelaPrincipal_1aa475da5eb8defb554faa1aab8379749e" prot="private" virt="non-virtual"><scope>JanelaPrincipal</scope><name>on_actionDispositivos_triggered</name></member>
+      <member refid="classJanelaPrincipal_1afd12bc1e0859bf26ae6a29e2c3ca58bb" prot="private" virt="non-virtual"><scope>JanelaPrincipal</scope><name>on_actionNovo_Grupo_de_Pessoas_triggered</name></member>
+      <member refid="classJanelaPrincipal_1a2039f9c73df3fab25f93564e7fa4dc91" prot="private" virt="non-virtual"><scope>JanelaPrincipal</scope><name>on_actionNovo_Tipo_de_Dispositivo_triggered</name></member>
+      <member refid="classJanelaPrincipal_1a1303dcb66fc6ba619709a68af71fe7c0" prot="private" virt="non-virtual"><scope>JanelaPrincipal</scope><name>on_actionPessoas_2_triggered</name></member>
+      <member refid="classJanelaPrincipal_1aad2b396850d7557dcd709ce3c903bfb3" prot="private" virt="non-virtual"><scope>JanelaPrincipal</scope><name>on_actionPessoas_triggered</name></member>
+      <member refid="classJanelaPrincipal_1ab630e69d9a55364b3b3b3bc33d8867f5" prot="private" virt="non-virtual"><scope>JanelaPrincipal</scope><name>on_actionPessoas_x_Chamados_triggered</name></member>
+      <member refid="classJanelaPrincipal_1abeac7e859d67b347ed8c5a6c5b7ccae8" prot="private" virt="non-virtual"><scope>JanelaPrincipal</scope><name>on_actionPessoas_x_Qtde_Chamados_triggered</name></member>
+      <member refid="classJanelaPrincipal_1ad0617c58eed0f8d5907edff7dae4dae2" prot="private" virt="non-virtual"><scope>JanelaPrincipal</scope><name>query</name></member>
+      <member refid="classJanelaPrincipal_1afc61ca780eca545cd709b2a72acb0dbe" prot="private" virt="non-virtual"><scope>JanelaPrincipal</scope><name>ui</name></member>
+      <member refid="classJanelaPrincipal_1a3aab06a1e8ce4a6a718fba7d47681d6e" prot="public" virt="non-virtual"><scope>JanelaPrincipal</scope><name>~JanelaPrincipal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

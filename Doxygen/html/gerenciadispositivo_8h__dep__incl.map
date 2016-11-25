@@ -1,4 +1,6 @@
-<map id="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" name="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h">
-<area shape="rect" id="node2" href="$gerenciadispositivo_8cpp.html" title="C:/Users/BrunoSR/TCC\l_NayBru/gerenciadispositivo.cpp" alt="" coords="5,95,216,136"/>
-<area shape="rect" id="node3" href="$mainwindow_8cpp.html" title="C:/Users/BrunoSR/TCC\l_NayBru/mainwindow.cpp" alt="" coords="240,95,411,136"/>
+<map id="gerenciadispositivo.h" name="gerenciadispositivo.h">
+<area shape="rect" id="node2" href="$gerenciadispositivo_8cpp.html" title="gerenciadispositivo.cpp" alt="" coords="5,155,161,181"/>
+<area shape="rect" id="node3" href="$mainwindow_8h.html" title="mainwindow.h" alt="" coords="172,80,275,107"/>
+<area shape="rect" id="node5" href="$mainwindow_8cpp.html" title="mainwindow.cpp" alt="" coords="285,155,402,181"/>
+<area shape="rect" id="node4" href="$main_8cpp.html" title="main.cpp" alt="" coords="186,155,261,181"/>
 </map>

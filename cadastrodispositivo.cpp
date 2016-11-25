@@ -43,6 +43,7 @@ void cadastrodispositivo::on_pushButton_3_clicked()
 void cadastrodispositivo::on_pushButton_4_clicked()
 {
     tipoDisp *td = new tipoDisp();
+    td->setAttribute(Qt::WA_DeleteOnClose);
     td->show();
 
 }

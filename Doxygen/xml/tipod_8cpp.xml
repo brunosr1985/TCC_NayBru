@@ -4,19 +4,19 @@
     <compoundname>tipod.cpp</compoundname>
     <includes refid="tipod_8h" local="yes">tipod.h</includes>
     <incdepgraph>
-      <node id="321">
-        <label>C:/Users/BrunoSR/TCC_NayBru/tipod.cpp</label>
+      <node id="493">
+        <label>tipod.cpp</label>
         <link refid="tipod_8cpp"/>
-        <childnode refid="322" relation="include">
+        <childnode refid="494" relation="include">
         </childnode>
       </node>
-      <node id="322">
+      <node id="494">
         <label>tipod.h</label>
         <link refid="tipod_8h"/>
-        <childnode refid="323" relation="include">
+        <childnode refid="495" relation="include">
         </childnode>
       </node>
-      <node id="323">
+      <node id="495">
         <label>QString</label>
       </node>
     </incdepgraph>

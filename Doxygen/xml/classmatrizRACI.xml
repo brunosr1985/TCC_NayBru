@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/matrizraci.h" line="29" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/matrizraci.cpp" bodystart="23" bodyend="38"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/matrizraci.h" line="29" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/matrizraci.cpp" bodystart="23" bodyend="47"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -85,24 +85,24 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="41">
+      <node id="59">
         <label>matrizRACI</label>
         <link refid="classmatrizRACI"/>
-        <childnode refid="42" relation="public-inheritance">
+        <childnode refid="60" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="42">
+      <node id="60">
         <label>QWidget</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="43">
+      <node id="61">
         <label>matrizRACI</label>
         <link refid="classmatrizRACI"/>
-        <childnode refid="44" relation="public-inheritance">
+        <childnode refid="62" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="44">
+      <node id="62">
         <label>QWidget</label>
       </node>
     </collaborationgraph>

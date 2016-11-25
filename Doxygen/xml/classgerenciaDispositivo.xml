@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" line="22" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" bodystart="22" bodyend="-1"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" line="39" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" line="15" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.cpp" bodystart="5" bodyend="10"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" line="22" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.cpp" bodystart="7" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="classgerenciaDispositivo_1a3dcef9c3f95ad6be653920a0952b8a0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -49,22 +49,87 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" line="16" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.cpp" bodystart="12" bodyend="15"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" line="23" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.cpp" bodystart="41" bodyend="44"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-slot">
-      <memberdef kind="slot" id="classgerenciaDispositivo_1ab7c595e355777a5c336cc9fedace9d1b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="slot" id="classgerenciaDispositivo_1a2b8a14702ba6500663044b35e076b1bf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
-        <definition>void gerenciaDispositivo::on_novoDIsp_clicked</definition>
+        <definition>void gerenciaDispositivo::showEditDispositivos</definition>
         <argsstring>()</argsstring>
-        <name>on_novoDIsp_clicked</name>
+        <name>showEditDispositivos</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" line="19" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.cpp" bodystart="17" bodyend="21"/>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" line="26" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.cpp" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="slot" id="classgerenciaDispositivo_1a36768fc14ae21ceefa233eac3acd38c1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gerenciaDispositivo::on_pushButton_3_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_3_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" line="28" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.cpp" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="slot" id="classgerenciaDispositivo_1a512f1ba7f715a71788a05d7d46182db5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gerenciaDispositivo::on_novoDisp_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_novoDisp_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" line="30" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.cpp" bodystart="51" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="slot" id="classgerenciaDispositivo_1ac3c85290c564f037aa1f31a7bf326975" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gerenciaDispositivo::on_toolButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_toolButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" line="32" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.cpp" bodystart="69" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="slot" id="classgerenciaDispositivo_1a33b5e8523f5e57917ceb13bbd335a598" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gerenciaDispositivo::on_pushButton_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" line="34" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.cpp" bodystart="116" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="slot" id="classgerenciaDispositivo_1a852e80b710c433ea8e2efa685b19ec07" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gerenciaDispositivo::on_pushButton_2_clicked</definition>
+        <argsstring>()</argsstring>
+        <name>on_pushButton_2_clicked</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" line="36" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.cpp" bodystart="127" bodyend="158"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -72,31 +137,36 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="27">
+      <node id="41">
         <label>gerenciaDispositivo</label>
         <link refid="classgerenciaDispositivo"/>
-        <childnode refid="28" relation="public-inheritance">
+        <childnode refid="42" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="28">
+      <node id="42">
         <label>QDialog</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="29">
+      <node id="43">
         <label>gerenciaDispositivo</label>
         <link refid="classgerenciaDispositivo"/>
-        <childnode refid="30" relation="public-inheritance">
+        <childnode refid="44" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="30">
+      <node id="44">
         <label>QDialog</label>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" line="11" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" bodystart="10" bodyend="23"/>
+    <location file="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" line="18" column="1" bodyfile="C:/Users/BrunoSR/TCC_NayBru/gerenciadispositivo.h" bodystart="17" bodyend="40"/>
     <listofallmembers>
       <member refid="classgerenciaDispositivo_1a245e771cf0d5c9e2929e0829d57bf97b" prot="public" virt="non-virtual"><scope>gerenciaDispositivo</scope><name>gerenciaDispositivo</name></member>
-      <member refid="classgerenciaDispositivo_1ab7c595e355777a5c336cc9fedace9d1b" prot="private" virt="non-virtual"><scope>gerenciaDispositivo</scope><name>on_novoDIsp_clicked</name></member>
+      <member refid="classgerenciaDispositivo_1a512f1ba7f715a71788a05d7d46182db5" prot="private" virt="non-virtual"><scope>gerenciaDispositivo</scope><name>on_novoDisp_clicked</name></member>
+      <member refid="classgerenciaDispositivo_1a852e80b710c433ea8e2efa685b19ec07" prot="private" virt="non-virtual"><scope>gerenciaDispositivo</scope><name>on_pushButton_2_clicked</name></member>
+      <member refid="classgerenciaDispositivo_1a36768fc14ae21ceefa233eac3acd38c1" prot="private" virt="non-virtual"><scope>gerenciaDispositivo</scope><name>on_pushButton_3_clicked</name></member>
+      <member refid="classgerenciaDispositivo_1a33b5e8523f5e57917ceb13bbd335a598" prot="private" virt="non-virtual"><scope>gerenciaDispositivo</scope><name>on_pushButton_clicked</name></member>
+      <member refid="classgerenciaDispositivo_1ac3c85290c564f037aa1f31a7bf326975" prot="private" virt="non-virtual"><scope>gerenciaDispositivo</scope><name>on_toolButton_clicked</name></member>
+      <member refid="classgerenciaDispositivo_1a2b8a14702ba6500663044b35e076b1bf" prot="private" virt="non-virtual"><scope>gerenciaDispositivo</scope><name>showEditDispositivos</name></member>
       <member refid="classgerenciaDispositivo_1ad893ac5955c91c8bea1cdf301c7126a4" prot="private" virt="non-virtual"><scope>gerenciaDispositivo</scope><name>ui</name></member>
       <member refid="classgerenciaDispositivo_1a3dcef9c3f95ad6be653920a0952b8a0a" prot="public" virt="non-virtual"><scope>gerenciaDispositivo</scope><name>~gerenciaDispositivo</name></member>
     </listofallmembers>
