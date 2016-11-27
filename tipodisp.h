@@ -36,7 +36,7 @@ private slots:
 
     void on_adicionaTipo_clicked();
 
-    void on_pushButton_clicked();
+    void on_botaoEditar_clicked();
 
 private:
     Ui::tipoDisp *ui;

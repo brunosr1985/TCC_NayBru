@@ -17,47 +17,30 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Kaizen Birth Edition</string>
+   <string>Cadastro de Novo Tipo</string>
   </property>
   <property name="inputMethodHints">
    <set>Qt::ImhTime</set>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="0" column="0" colspan="2">
-    <widget class="QLabel" name="label_3">
-     <property name="text">
-      <string>Novo Tipo de Ativo</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-    </widget>
-   </item>
-   <item row="1" column="0">
-    <widget class="QLabel" name="label">
-     <property name="text">
-      <string>Tipo:</string>
-     </property>
-    </widget>
-   </item>
-   <item row="1" column="1" colspan="2">
-    <widget class="QLineEdit" name="lineTipo"/>
-   </item>
-   <item row="1" column="3">
+   <item row="0" column="3">
     <widget class="QPushButton" name="adicionaTipo">
      <property name="text">
       <string>Adicionar</string>
      </property>
     </widget>
    </item>
-   <item row="2" column="0">
-    <widget class="QLabel" name="label_2">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
      <property name="text">
-      <string>SLA</string>
+      <string>Tipo:</string>
      </property>
     </widget>
    </item>
-   <item row="2" column="1">
+   <item row="0" column="1" colspan="2">
+    <widget class="QLineEdit" name="lineTipo"/>
+   </item>
+   <item row="1" column="1">
     <widget class="QLineEdit" name="horasSLA">
      <property name="maximumSize">
       <size>
@@ -73,14 +56,17 @@
      </property>
     </widget>
    </item>
-   <item row="2" column="3">
-    <widget class="QLabel" name="label_5">
+   <item row="3" column="0" colspan="2">
+    <widget class="QPushButton" name="botaoSalvar">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
      <property name="text">
-      <string>Formato hh:mm:ss</string>
+      <string>Substituir Tipo Selecionado</string>
      </property>
     </widget>
    </item>
-   <item row="3" column="0" colspan="4">
+   <item row="2" column="0" colspan="3">
     <widget class="QTableView" name="tableView">
      <property name="editTriggers">
       <set>QAbstractItemView::SelectedClicked</set>
@@ -99,27 +85,24 @@
      </property>
     </widget>
    </item>
-   <item row="4" column="0" colspan="2">
-    <widget class="QPushButton" name="botaoSalvar">
-     <property name="enabled">
-      <bool>false</bool>
-     </property>
-     <property name="text">
-      <string>Substituir Tipo Selecionado</string>
-     </property>
-    </widget>
-   </item>
-   <item row="4" column="2">
-    <widget class="QPushButton" name="pushButton">
+   <item row="3" column="2">
+    <widget class="QPushButton" name="botaoEditar">
      <property name="text">
       <string>Habilitar Substituição</string>
      </property>
     </widget>
    </item>
-   <item row="4" column="3">
-    <widget class="QPushButton" name="botaoCancelar">
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_2">
      <property name="text">
-      <string>Cancelar</string>
+      <string>SLA</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>Formato hh:mm:ss</string>
      </property>
     </widget>
    </item>

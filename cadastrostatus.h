@@ -1,6 +1,11 @@
 #ifndef CADASTROSTATUS_H
 #define CADASTROSTATUS_H
 
+#include <QWidget>
+#include <QTableView>
+#include <QSqlTableModel>
+#include <QSqlQuery>
+#include <QMessageBox>
 #include <QDialog>
 
 namespace Ui {
@@ -13,10 +18,20 @@ class cadastrostatus : public QDialog
 
 public:
     explicit cadastrostatus(QWidget *parent = 0);
+    QSqlDatabase db;
+    QSqlQuery *query;
+    QSqlTableModel *modelo;
     ~cadastrostatus();
+
+private slots:
+    void on_Adicionar_clicked();
+
+
+    void on_botaoEditar_clicked();
 
 private:
     Ui::cadastrostatus *ui;
+    void atualizaDados();
 };
 
 #endif // CADASTROSTATUS_H

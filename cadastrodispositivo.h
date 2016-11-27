@@ -20,6 +20,7 @@ class cadastrodispositivo : public QWidget
 
 public:
     explicit cadastrodispositivo(QWidget *parent = 0);
+    void atualizadados();
     ~cadastrodispositivo();
 
 private slots:
@@ -29,8 +30,14 @@ private slots:
 
     void on_pushButton_2_clicked();
 
+
+    void on_botaoAtualizar_clicked();
+
+    void on_botaoNovo_clicked();
+
 private:
     Ui::cadastrodispositivo *ui;
+
 };
 
 #endif // CADASTRODISPOSITIVO_H

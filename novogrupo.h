@@ -6,6 +6,7 @@
 #include <QSqlTableModel>
 #include <QSqlQuery>
 #include <QMessageBox>
+#include <QDialog>
 
 namespace Ui {
 class novoGrupo;

@@ -5,15 +5,13 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    JanelaPrincipal w;
     Login l;
-
+    l.show();
     //Temporariamente removido para não carregar tela de login e agilizar debug
     /*if(l.exec() == QDialog::Accepted)
     {
+    JanelaPrincipal w;
     w.show();
-    }
-    */
-            w.show();
+    }*/
     return a.exec();
 }

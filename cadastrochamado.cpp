@@ -10,7 +10,7 @@ cadastrochamado::cadastrochamado(QWidget *parent) :
     ui(new Ui::cadastrochamado)
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
-    db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");
+    db.setHostName("localhost");/*db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");*/
     db.setDatabaseName("tccnaybru");
     db.setPassword("bu381025");
     db.setUserName("brunosr");
@@ -53,7 +53,8 @@ void cadastrochamado::on_pushButton_3_clicked()
 
 void cadastrochamado::on_abreRACI_clicked()
 {
-    matrizRACI *raci = new matrizRACI();
+    matrizRACI *raci = new matrizRACI(NULL,ui->lineID->text().toInt());
+    raci->setAttribute(Qt::WA_DeleteOnClose);
     raci->show();
 
 }
@@ -61,6 +62,7 @@ void cadastrochamado::on_abreRACI_clicked()
 void cadastrochamado::on_abreDisp_clicked()
 {
     selecionadisp *disp = new selecionadisp();
+    disp->setAttribute(Qt::WA_DeleteOnClose);
     disp->show();
 
 }
@@ -68,7 +70,7 @@ void cadastrochamado::on_abreDisp_clicked()
 void cadastrochamado::on_pushButton_2_clicked()
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
-    db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");
+    db.setHostName("localhost");/*db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");*/
     db.setDatabaseName("tccnaybru");
     db.setPassword("bu381025");
     db.setUserName("brunosr");

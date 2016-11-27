@@ -10,7 +10,7 @@ novoGrupo::novoGrupo(QWidget *parent) :
 {
     ui->setupUi(this);
     db = QSqlDatabase::addDatabase("QPSQL","conn");
-    db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");
+    db.setHostName("localhost");/*db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");*/
     db.setDatabaseName("tccnaybru");
     db.setPassword("bu381025");
     db.setUserName("brunosr");
@@ -19,12 +19,7 @@ novoGrupo::novoGrupo(QWidget *parent) :
     query = new QSqlQuery(db);
 
     modelo = new QSqlTableModel(parent,db);
-    modelo->setTable("grupo_p_view");
-    modelo->setEditStrategy(QSqlTableModel::OnManualSubmit);
-    modelo->select();
-    ui->tableView->setEditTriggers(QAbstractItemView::NoEditTriggers);
-    ui->tableView->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);
-    ui->tableView->setModel(modelo);
+    atualizaDados();
 
 
 }

@@ -34,6 +34,7 @@ void gerenciaPessoas::on_Pessoa_Editar_clicked()
     ui->lineTelefone->setReadOnly(false);
     ui->lineNome->setReadOnly(false);
     ui->comboGrupo->setEnabled(true);
+    ui->Pessoa_Salvar->setEnabled(true);
 }
 
 void gerenciaPessoas::on_Pessoa_Salvar_clicked()
@@ -41,7 +42,7 @@ void gerenciaPessoas::on_Pessoa_Salvar_clicked()
     int aux;
 
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
-    db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");
+    db.setHostName("localhost");/*db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");*/
     db.setDatabaseName("tccnaybru");
     db.setPassword("bu381025");
     db.setUserName("brunosr");
@@ -83,7 +84,7 @@ void gerenciaPessoas::on_toolButton_clicked()
     int aux;
 
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
-    db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");
+    db.setHostName("localhost");/*db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");*/
     db.setDatabaseName("tccnaybru");
     db.setPassword("bu381025");
     db.setUserName("brunosr");

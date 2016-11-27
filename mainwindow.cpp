@@ -17,7 +17,28 @@ JanelaPrincipal::JanelaPrincipal(QWidget *parent) :
     ui(new Ui::JanelaPrincipal)
 {
     ui->setupUi(this);
-}
+
+
+    QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
+    db.setHostName("localhost");/*db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");*/
+    db.setDatabaseName("tccnaybru");
+    db.setPassword("bu381025");
+    db.setUserName("brunosr");
+    db.setPort(5432);
+    db.open();
+
+    QSqlQuery *permissao = new QSqlQuery(db);
+    bool administrativo;
+
+    permissao->exec("SELECT situacao FROM permissoes WHERE permissao = 'administrativo'");
+    permissao->first();
+    administrativo = permissao->value("situacao").toBool();
+    if(!administrativo)
+    {
+        ui->menuArquivo->setEnabled(false);
+    }
+
+ }
 
 JanelaPrincipal::~JanelaPrincipal()
 {

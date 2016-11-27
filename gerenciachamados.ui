@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>618</width>
-    <height>500</height>
+    <width>678</width>
+    <height>981</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -208,8 +208,8 @@
   <widget class="QWidget" name="layoutWidget_2">
    <property name="geometry">
     <rect>
-     <x>170</x>
-     <y>440</y>
+     <x>120</x>
+     <y>870</y>
      <width>320</width>
      <height>25</height>
     </rect>
@@ -244,6 +244,29 @@
      </widget>
     </item>
    </layout>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>430</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>510</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Acompanhamentos</string>
+   </property>
   </widget>
  </widget>
  <resources/>

@@ -22,11 +22,15 @@ class matrizRACI : public QWidget
     Q_OBJECT
 
 public:
+    matrizRACI(QWidget *parent = 0, int aux = 0);
     explicit matrizRACI(QWidget *parent = 0);
+    QSqlDatabase db;
     ~matrizRACI();
 
 private slots:
     void on_raciCarregar_clicked();
+
+    void on_incluirPessoa_clicked();
 
 private:
     Ui::matrizRACI *ui;

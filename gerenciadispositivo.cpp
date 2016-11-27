@@ -9,7 +9,7 @@ gerenciaDispositivo::gerenciaDispositivo(QWidget *parent) :
     ui(new Ui::gerenciaDispositivo)
 {
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
-    db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");
+    db.setHostName("localhost");/*db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");*/
     db.setDatabaseName("tccnaybru");
     db.setPassword("bu381025");
     db.setUserName("brunosr");
@@ -71,7 +71,7 @@ void gerenciaDispositivo::on_toolButton_clicked()
     int aux;
 
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
-    db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");
+    db.setHostName("localhost");/*db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");*/
     db.setDatabaseName("tccnaybru");
     db.setPassword("bu381025");
     db.setUserName("brunosr");
@@ -129,7 +129,7 @@ void gerenciaDispositivo::on_pushButton_2_clicked()
     int aux;
 
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
-    db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");
+    db.setHostName("localhost");/*db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");*/
     db.setDatabaseName("tccnaybru");
     db.setPassword("bu381025");
     db.setUserName("brunosr");
