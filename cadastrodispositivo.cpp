@@ -51,7 +51,7 @@ void cadastrodispositivo::on_pushButton_4_clicked()
 void cadastrodispositivo::on_pushButton_2_clicked()
 {
     QString auxS = NULL;
-    QString aux_status;
+    int aux_status;
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
     QString aux1 = ui->lineNome->text();
     QString aux2 = ui->lineLocal->text();
@@ -69,20 +69,21 @@ void cadastrodispositivo::on_pushButton_2_clicked()
     query->prepare("SELECT id_tipo FROM tipo_d WHERE tipo = ?");
     query->addBindValue(ui->comboTipo->currentText());
     query->exec();
-    aux_status = query->next();
+    query->next();
+    aux_status = query->value(0).toInt();
 
     //aux_status = query->value("id_tipo").toInt();
 
-    query->prepare("INSERT INTO dispositivo (dispositivo,tipo,local) VALUES '"+aux1+"',"+aux_status+",'"+aux2+"'");
-    /*query->addBindValue(aux1);
+    query->prepare("INSERT INTO dispositivo (dispositivo,tipo,local) VALUES (?,?,?)");
+    query->addBindValue(aux1);
     query->addBindValue(aux_status);
-    query->addBindValue(aux2);*/
+    query->addBindValue(aux2);
 
 
     if(query->exec())
        {
         QMessageBox messageBox;
-        messageBox.critical(0,"Sucesso!","Cadastro realizado com sucesso");
+        messageBox.information(0,"Sucesso!","Cadastro realizado com sucesso");
         messageBox.setFixedSize(500,200);
         query->exec("SELECT id_dispositivos FROM dispositivos");
         query->last();
