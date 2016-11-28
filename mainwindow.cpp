@@ -11,6 +11,7 @@
 #include "cadastrousuario.h"
 #include "novogrupo.h"
 #include "tipodisp.h"
+#include "relatoriosimples.h"
 
 JanelaPrincipal::JanelaPrincipal(QWidget *parent) :
     QMainWindow(parent),
@@ -167,4 +168,14 @@ void JanelaPrincipal::on_actionCriar_Prioridade_triggered()
     cpr->setAttribute(Qt::WA_DeleteOnClose);
     md->addSubWindow(cpr);
     cpr->show();
+}
+
+void JanelaPrincipal::on_actionSimples_triggered()
+{
+    QMdiArea *md = new QMdiArea(this);
+    this->setCentralWidget(md);
+    relatorioSimples *rs = new relatorioSimples(md);
+    rs->setAttribute(Qt::WA_DeleteOnClose);
+    md->addSubWindow(rs);
+    rs->show();
 }

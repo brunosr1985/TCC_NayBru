@@ -68,16 +68,8 @@
     <property name="title">
      <string>Relatórios</string>
     </property>
-    <widget class="QMenu" name="menuSimples">
-     <property name="title">
-      <string>Simples</string>
-     </property>
-     <addaction name="actionPessoas_3"/>
-     <addaction name="actionAtivos"/>
-     <addaction name="actionChamados_2"/>
-    </widget>
-    <addaction name="menuSimples"/>
     <addaction name="actionComplexos"/>
+    <addaction name="actionSimples"/>
    </widget>
    <widget class="QMenu" name="menuCriar">
     <property name="title">
@@ -165,6 +157,11 @@
   <action name="actionComplexos">
    <property name="text">
     <string>Complexos</string>
+   </property>
+  </action>
+  <action name="actionSimples">
+   <property name="text">
+    <string>Simples</string>
    </property>
   </action>
  </widget>

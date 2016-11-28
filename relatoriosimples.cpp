@@ -43,9 +43,9 @@ void relatorioSimples::on_comboBox_currentIndexChanged(int index)
     switch(select)
     {
     case 1:
-
+        atualizadados("relat_ativos");
     case 2:
-
+        atualizadados("relat_pessoas");
     case 3:
         atualizadados("relat_cham");
     }
@@ -59,4 +59,21 @@ void relatorioSimples::atualizadados(QString aux)
     ui->tableView->setEditTriggers(QAbstractItemView::NoEditTriggers);
     ui->tableView->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);
     ui->tableView->setModel(modelo);
+}
+
+void relatorioSimples::on_comboBox_activated(const QString &arg1)
+{
+    QString aux = ui->comboBox->currentText();
+    int select = 0;
+
+    if(aux == "Ativos")
+    {
+        atualizadados("relat_ativos");
+    }else if(aux == "Pessoas")
+    {
+         atualizadados("relat_pessoas");
+    }else if(aux == "Chamados")
+    {
+       atualizadados("relat_cham");
+    }
 }

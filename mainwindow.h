@@ -61,6 +61,8 @@ private slots:
 
     void on_actionCriar_Prioridade_triggered();
 
+    void on_actionSimples_triggered();
+
 private:
     Ui::JanelaPrincipal *ui;
     QSqlTableModel *modelo;
