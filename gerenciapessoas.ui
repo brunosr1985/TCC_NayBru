@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Buscar Oessias</string>
+   <string>Buscar Pessoas</string>
   </property>
   <widget class="QWidget" name="layoutWidget_2">
    <property name="geometry">

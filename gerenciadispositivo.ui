@@ -29,7 +29,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Dispositivos</string>
+   <string>Buscar Ativos</string>
   </property>
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
