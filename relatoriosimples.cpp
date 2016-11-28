@@ -17,6 +17,12 @@ relatorioSimples::relatorioSimples(QWidget *parent) :
     query = new QSqlQuery(db);
 
     modelo = new QSqlTableModel(parent,db);
+    modelo->setTable("relat_cham");
+    modelo->setEditStrategy(QSqlTableModel::OnManualSubmit);
+    modelo->select();
+    ui->tableView->setEditTriggers(QAbstractItemView::NoEditTriggers);
+    ui->tableView->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);
+    ui->tableView->setModel(modelo);
 }
 
 relatorioSimples::~relatorioSimples()
@@ -31,24 +37,17 @@ void relatorioSimples::on_comboBox_currentIndexChanged(int index)
 
     if(aux == "Ativos")
     {
-        select = 1;
-    }else if(aux == "Pessoas")
-    {
-        select = 2;
-    }else if(aux == "Chamados")
-    {
-        select = 3;
-    }
-
-    switch(select)
-    {
-    case 1:
         atualizadados("relat_ativos");
-    case 2:
-        atualizadados("relat_pessoas");
-    case 3:
+    }
+    else if(aux == "Pessoas")
+    {
+       atualizadados("relat_pessoas");
+    }
+    else if(aux == "Chamados")
+    {
         atualizadados("relat_cham");
     }
+
 }
 
 void relatorioSimples::atualizadados(QString aux)
