@@ -34,7 +34,8 @@ SOURCES += main.cpp\
     conectabanco.cpp \
     cadastrousuario.cpp \
     cadastrostatus.cpp \
-    cadastroprioridade.cpp
+    cadastroprioridade.cpp \
+    relatoriosimples.cpp
 
 HEADERS  += mainwindow.h \
     cadastropessoa.h \
@@ -58,7 +59,8 @@ HEADERS  += mainwindow.h \
     conectabanco.h \
     cadastrousuario.h \
     cadastrostatus.h \
-    cadastroprioridade.h
+    cadastroprioridade.h \
+    relatoriosimples.h
 
 FORMS    += mainwindow.ui \
     cadastropessoa.ui \
@@ -74,7 +76,8 @@ FORMS    += mainwindow.ui \
     login.ui \
     cadastrousuario.ui \
     cadastrostatus.ui \
-    cadastroprioridade.ui
+    cadastroprioridade.ui \
+    relatoriosimples.ui
 
 DISTFILES +=
 

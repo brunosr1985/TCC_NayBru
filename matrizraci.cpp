@@ -7,6 +7,7 @@
 #include <QtSql/QSqlQuery>
 #include <QtSql/QSqlTableModel>
 #include <QCompleter>
+#include <iostream>
 
 matrizRACI::matrizRACI(QWidget *parent, int aux) :
     QWidget(parent),
@@ -34,8 +35,8 @@ matrizRACI::matrizRACI(QWidget *parent, int aux) :
         ui->setupUi(this);
         ui->comboPessoa->clear();
         ui->comboPessoa->addItems(lista);
-        ui->linhaChamado->setText("1");
-        QString qry = "SELECT pessoas.nome,matriz.id_chamado,matriz.responsible,matriz.accountable,matriz.consult,matriz.inform FROM matriz INNER JOIN pessoas ON matriz.id_pessoa = pessoas.id_pessoa WHERE matriz.id_chamado = "+ui->linhaChamado->text();
+        ui->spinBox->setValue(aux);
+        QString qry = "SELECT pessoas.nome,matriz.id_chamado,matriz.responsible,matriz.accountable,matriz.consult,matriz.inform FROM matriz INNER JOIN pessoas ON matriz.id_pessoa = pessoas.id_pessoa WHERE matriz.id_chamado = "+ui->spinBox->value();
         //QString qry = "SELECT * FROM matriz WHERE id_chamado = "+ui->linhaChamado->text();
         QSqlQueryModel *modelo = new QSqlQueryModel();
         modelo->setQuery(qry,db);
@@ -66,12 +67,17 @@ void matrizRACI::on_raciCarregar_clicked()
 void matrizRACI::on_incluirPessoa_clicked()
 {
     QSqlQuery *query = new QSqlQuery(db);
-    int chamado = ui->linhaChamado->text().toInt();
-    int pessoa = 0;
-    bool responsible = ui->Responsible->isChecked();
-    bool accountable = ui->Accountable->isChecked();
-    bool consult = ui->Consulted->isChecked();
-    bool inform = ui->Informed->isChecked();
+    int aux_chamado = ui->spinBox->value();
+    QString chamado = QString::number(aux_chamado);
+    QString pessoa = 0;
+    bool aux_responsible = ui->Responsible->isChecked();
+    QString responsible = QString(aux_responsible ? "true" : "false");
+    bool aux_accountable = ui->Accountable->isChecked();
+    QString accountable = QString(aux_accountable ? "true" : "false");
+    bool aux_consult = ui->Consulted->isChecked();
+    QString consult = QString(aux_consult ? "true" : "false");
+    bool aux_inform = ui->Informed->isChecked();
+    QString inform = QString(aux_inform ? "true" : "false");
 //    QTableWidgetItem *aux_pessoa = new QTableWidgetItem(pessoa);
 //    QTableWidgetItem *aux_R = new QTableWidgetItem(responsible);
 //    QTableWidgetItem *aux_A = new QTableWidgetItem(accountable);
@@ -83,7 +89,7 @@ void matrizRACI::on_incluirPessoa_clicked()
     + auxP + "'";
     query->exec(query_string);
     query->next();
-    pessoa = query->value("id_pessoa").toInt();
+    pessoa = query->value("id_pessoa").toString();
 //    ui->tableWidget->setItem(ui->tableWidget->rowCount()+1,1,aux_pessoa);
 //    ui->tableWidget->setItem(ui->tableWidget->rowCount()+1,2,aux_R);
 //    ui->tableWidget->setItem(ui->tableWidget->rowCount()+1,3,aux_A);
@@ -91,19 +97,14 @@ void matrizRACI::on_incluirPessoa_clicked()
 //    ui->tableWidget->setItem(ui->tableWidget->rowCount()+1,5,aux_I);
 //    ui->tableWidget->show();
 
-    query->prepare("INSERT INTO matriz (id_pessoa,id_chamado,responsible,accountable,consult,inform) VALUES (?,?,?,?,?,?)");
-    query->addBindValue(pessoa);
-    query->addBindValue(1);
-    query->addBindValue(responsible);
-    query->addBindValue(accountable);
-    query->addBindValue(consult);
-    query->addBindValue(inform);
-    query->exec();
+    QString qry = "INSERT INTO matriz (id_pessoa,id_chamado,responsible,accountable,consult,inform) VALUES ("+pessoa+","+chamado+","+responsible+","+accountable+","+consult+","+inform+")";
+    query->exec(qry);
 
-    QString qry = "SELECT pessoas.nome,matriz.id_chamado,matriz.responsible,matriz.accountable,matriz.consult,matriz.inform FROM matriz INNER JOIN pessoas ON matriz.id_pessoa = pessoas.id_pessoa WHERE matriz.id_chamado = "+ui->linhaChamado->text();
+    qry = "SELECT pessoas.nome,matriz.id_chamado,matriz.responsible,matriz.accountable,matriz.consult,matriz.inform FROM matriz INNER JOIN pessoas ON matriz.id_pessoa = pessoas.id_pessoa WHERE matriz.id_chamado = "+chamado;
+    query->exec(qry);
     //QString qry = "SELECT * FROM matriz WHERE id_chamado = "+ui->linhaChamado->text();
     QSqlQueryModel *modelo = new QSqlQueryModel();
-    modelo->setQuery(qry,db);
+    modelo->setQuery(query->lastQuery(),db);
     ui->tableView->setModel(modelo);
     ui->tableView->show();
 }
