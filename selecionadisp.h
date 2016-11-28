@@ -27,12 +27,8 @@ public:
     ~selecionadisp();
 
 private slots:
-
-
     void on_comboBox_currentIndexChanged(int index);
-
     void on_botaoSalva_clicked();
-
 private:
     Ui::selecionadisp *ui;
 

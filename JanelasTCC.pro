@@ -79,7 +79,8 @@ FORMS    += mainwindow.ui \
     cadastroprioridade.ui \
     relatoriosimples.ui
 
-DISTFILES +=
+DISTFILES += \
+    diagrama_de_classes.qmodel
 
 STATECHARTS += \
     Modelo de classes.scxml
