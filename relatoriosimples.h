@@ -1,36 +1,39 @@
 #ifndef RELATORIOSIMPLES_H
 #define RELATORIOSIMPLES_H
 
-#include <QDialog>
 #include <QWidget>
 #include <QTableView>
-#include <QSqlTableModel>
+#include <QSqlQueryModel>
 #include <QSqlQuery>
 #include <QMessageBox>
 #include <QDialog>
 
 namespace Ui {
-class relatorioSimples;
+class relatoriosimples;
 }
 
-class relatorioSimples : public QDialog
+class relatoriosimples : public QWidget
 {
     Q_OBJECT
 
 public:
-    explicit relatorioSimples(QWidget *parent = 0);
+    explicit relatoriosimples(QWidget *parent = 0);
     QSqlDatabase db;
     QSqlQuery *query;
-    QSqlTableModel *modelo;
-    ~relatorioSimples();
+    QSqlQueryModel *modelo;
+    ~relatoriosimples();
 
 private slots:
-    void on_comboBox_currentIndexChanged(int index);
 
-    void on_comboBox_activated(const QString &arg1);
+
+    void on_botaoAtivos_clicked();
+
+    void on_botaoPessoas_clicked();
+
+    void on_botaoChamados_clicked();
 
 private:
-    Ui::relatorioSimples *ui;
+    Ui::relatoriosimples *ui;
     void atualizadados(QString tabela);
 };
 

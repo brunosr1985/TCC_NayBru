@@ -36,7 +36,8 @@ matrizRACI::matrizRACI(QWidget *parent, int aux) :
         ui->comboPessoa->clear();
         ui->comboPessoa->addItems(lista);
         ui->spinBox->setValue(aux);
-        QString qry = "SELECT pessoas.nome,matriz.id_chamado,matriz.responsible,matriz.accountable,matriz.consult,matriz.inform FROM matriz INNER JOIN pessoas ON matriz.id_pessoa = pessoas.id_pessoa WHERE matriz.id_chamado = "+ui->spinBox->value();
+        QString auxString = QString::number(aux);
+        QString qry = "SELECT pessoas.nome,matriz.id_chamado,matriz.responsible,matriz.accountable,matriz.consult,matriz.inform FROM matriz INNER JOIN pessoas ON matriz.id_pessoa = pessoas.id_pessoa WHERE matriz.id_chamado = "+auxString;
         //QString qry = "SELECT * FROM matriz WHERE id_chamado = "+ui->linhaChamado->text();
         QSqlQueryModel *modelo = new QSqlQueryModel();
         modelo->setQuery(qry,db);
@@ -107,4 +108,9 @@ void matrizRACI::on_incluirPessoa_clicked()
     modelo->setQuery(query->lastQuery(),db);
     ui->tableView->setModel(modelo);
     ui->tableView->show();
+}
+
+void matrizRACI::on_raciSalvar_clicked()
+{
+    this->close();
 }

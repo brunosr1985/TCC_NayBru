@@ -29,8 +29,8 @@ public:
 
 private slots:
     void on_botaoNovo_clicked();
-
     void on_alteraSenha_clicked();
+    void atualizadados();
 
 private:
     Ui::cadastrousuario *ui;

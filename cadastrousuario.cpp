@@ -13,16 +13,10 @@ cadastrousuario::cadastrousuario(QWidget *parent) :
     db.setUserName("brunosr");
     db.setPort(5432);
     db.open();
-
     query = new QSqlQuery(db);
-
     modelo = new QSqlTableModel(parent,db);
-    modelo->setTable("login");
-    modelo->setEditStrategy(QSqlTableModel::OnManualSubmit);
-    modelo->select();
-    ui->tableUsuarios->setEditTriggers(QAbstractItemView::NoEditTriggers);
-    ui->tableUsuarios->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);
-    ui->tableUsuarios->setModel(modelo);
+    atualizadados();
+
 }
 
 cadastrousuario::~cadastrousuario()
@@ -53,8 +47,8 @@ void cadastrousuario::on_botaoNovo_clicked()
 
     novoUsuario->prepare("INSERT INTO login(usuario,senha,administrativo) VALUES ('"+usuario+"','"+senha+"',"+admin+")");
     novoUsuario->exec();
-    novoUsuario->finish();
-    modelo->select();
+    //novoUsuario->finish();
+    atualizadados();
 }
 
 
@@ -64,5 +58,18 @@ void cadastrousuario::on_alteraSenha_clicked()
     QString senha = ui->lineSenha->text();
     query->exec("UPDATE login SET senha = '"+senha+"' WHERE usuario = '"+usuario+"'");
     //query->finish();
-    modelo->select();
+    atualizadados();
 }
+
+void cadastrousuario::atualizadados()
+{
+    modelo->setTable("usuarios");
+    modelo->setEditStrategy(QSqlTableModel::OnManualSubmit);
+    modelo->select();
+    ui->tableUsuarios->setEditTriggers(QAbstractItemView::NoEditTriggers);
+    ui->tableUsuarios->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);
+    ui->tableUsuarios->setModel(modelo);
+
+
+ }
+

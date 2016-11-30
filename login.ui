@@ -6,31 +6,61 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>229</width>
+    <width>242</width>
     <height>129</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>229</width>
+    <width>242</width>
     <height>129</height>
    </size>
   </property>
   <property name="windowTitle">
    <string>Kaizen Birth Edition</string>
   </property>
-  <widget class="QWidget" name="formLayoutWidget">
+  <widget class="QWidget" name="">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>20</y>
-     <width>221</width>
-     <height>91</height>
+     <x>11</x>
+     <y>21</y>
+     <width>166</width>
+     <height>68</height>
     </rect>
    </property>
-   <layout class="QFormLayout" name="formLayout">
-    <item row="3" column="0">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Login</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="nomeUsuario"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Senha</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="senhaUsuario">
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
      <widget class="QPushButton" name="botaoLogar">
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>14</height>
+       </size>
+      </property>
       <property name="focusPolicy">
        <enum>Qt::StrongFocus</enum>
       </property>
@@ -39,34 +69,10 @@
       </property>
      </widget>
     </item>
-    <item row="3" column="1">
+    <item row="2" column="1">
      <widget class="QPushButton" name="botaoNaoLoga">
       <property name="text">
        <string>Cancelar</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="0">
-     <widget class="QLabel" name="label_2">
-      <property name="text">
-       <string>Senha</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="1">
-     <widget class="QLineEdit" name="nomeUsuario"/>
-    </item>
-    <item row="2" column="1">
-     <widget class="QLineEdit" name="senhaUsuario">
-      <property name="echoMode">
-       <enum>QLineEdit::Password</enum>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="0">
-     <widget class="QLabel" name="label">
-      <property name="text">
-       <string>Login</string>
       </property>
      </widget>
     </item>

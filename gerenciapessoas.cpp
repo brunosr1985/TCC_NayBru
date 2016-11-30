@@ -8,6 +8,29 @@ gerenciaPessoas::gerenciaPessoas(QWidget *parent) :
 {
     ui->setupUi(this);
     //Bloqueia e desbloqueia os devidos campos
+
+    QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
+    db.setHostName("localhost");/*db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");*/
+    db.setDatabaseName("tccnaybru");
+    db.setPassword("bu381025");
+    db.setUserName("brunosr");
+    db.setPort(5432);
+    db.open();
+
+    QSqlQuery *fillCombo = new QSqlQuery(db);
+    QStringList lista;
+
+    fillCombo->prepare("SELECT grupo FROM grupo_p");
+    fillCombo->exec();
+    while(fillCombo->next())
+    {
+        lista.append(fillCombo->value(0).toString());
+    }
+    db.close();
+
+    ui->comboGrupo->clear();
+    ui->comboGrupo->addItems(lista);
+
     ui->lineID->setReadOnly(false);
     ui->lineCargo->setReadOnly(true);
     ui->lineDepto->setReadOnly(true);
@@ -16,6 +39,7 @@ gerenciaPessoas::gerenciaPessoas(QWidget *parent) :
     ui->lineTelefone->setReadOnly(true);
     ui->lineNome->setReadOnly(true);
     ui->comboGrupo->setEnabled(false);
+
 }
 
 gerenciaPessoas::~gerenciaPessoas()
@@ -82,6 +106,12 @@ void gerenciaPessoas::on_Pessoa_Salvar_clicked()
 void gerenciaPessoas::on_toolButton_clicked()
 {
     int aux;
+    QString Nome;
+    QString Telefone;
+    QString Ramal;
+    QString Email;
+    QString Depto;
+    QString Cargo;
 
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
     db.setHostName("localhost");/*db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");*/
@@ -92,59 +122,38 @@ void gerenciaPessoas::on_toolButton_clicked()
     db.open();
 
     QSqlQuery *query = new QSqlQuery(db);
-    query->prepare("SELECT nome FROM pessoas WHERE id_pessoa = ?");
+    query->prepare("SELECT * FROM pessoas WHERE id_pessoa = ?");
     query->addBindValue(ui->lineID->text().toInt());
     query->exec();
-    query->next();
-    ui->lineNome->setText(query->value(0).toString());
+    query->last();
+    Nome = query->value("nome").toString();
+    ui->lineNome->setText(Nome);
     ui->lineNome->update();
-
-    query->prepare("SELECT telefone FROM pessoas WHERE id_pessoa = ?");
-    query->addBindValue(ui->lineTelefone->text());
-    query->exec();
-    query->next();
-    ui->lineTelefone->setText(query->value(0).toString());
+    Telefone = query->value("telefone").toString();
+    ui->lineTelefone->setText(Telefone);
     ui->lineTelefone->update();
-
-    query->prepare("SELECT ramal FROM pessoas WHERE id_pessoa = ?");
-    query->addBindValue(ui->lineRamal->text());
-    query->exec();
-    query->next();
-    ui->lineRamal->setText(query->value(0).toString());
+    Ramal = query->value("ramal").toString();
+    ui->lineRamal->setText(Ramal);
     ui->lineRamal->update();
-
-    query->prepare("SELECT email FROM pessoas WHERE id_pessoa = ?");
-    query->addBindValue(ui->lineEmail->text());
-    query->exec();
-    query->next();
-    ui->lineEmail->setText(query->value(0).toString());
+    Email = query->value("email").toString();
+    ui->lineEmail->setText(Email);
     ui->lineEmail->update();
-
-    query->prepare("SELECT depto FROM pessoas WHERE id_pessoa = ?");
-    query->addBindValue(ui->lineDepto->text());
-    query->exec();
-    query->next();
-    ui->lineDepto->setText(query->value(0).toString());
+    Depto = query->value("depto").toString();
+    ui->lineDepto->setText(Depto);
     ui->lineDepto->update();
-
-    query->prepare("SELECT cargo FROM pessoas WHERE id_pessoa = ?");
-    query->addBindValue(ui->lineCargo->text());
-    query->exec();
-    query->next();
-    ui->lineCargo->setText(query->value(0).toString());
+    Cargo = query->value("cargo").toString();
+    ui->lineCargo->setText(Cargo);
     ui->lineCargo->update();
-
-    query->prepare("SELECT grupo FROM pessoas WHERE id_pessoas = ?");
-    query->addBindValue(ui->lineID->text().toInt());
-    query->exec();
-    query->next();
-    aux = query->value(0).toInt();
+    aux = query->value("grupo").toInt();
     query->prepare("SELECT grupo FROM grupo_p WHERE id_grupo = ?");
     query->addBindValue(aux);
     query->exec();
-    query->next();
+    query->last();
+    ui->comboGrupo->setEnabled(true);
     ui->comboGrupo->setCurrentIndex(ui->comboGrupo->findText(query->value(0).toString()));
     ui->comboGrupo->update();
+    ui->comboGrupo->setEnabled(false);
+
 
     //Bloqueia e desbloqueia os devidos campos
     ui->lineID->setReadOnly(false);

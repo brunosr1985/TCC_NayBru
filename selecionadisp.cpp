@@ -29,6 +29,16 @@ selecionadisp::selecionadisp(QWidget *parent, int aux) :
     ui->comboBox->addItem(vazio);
     ui->comboBox->addItems(lista);
     ui->spinBox->setValue(aux);
+    QSqlQuery *query = new QSqlQuery(db);
+    int auxC = aux;
+    QString auxD = ui->comboBox->currentText();
+    QString chamado = QString::number(aux);
+
+    QString qry = "SELECT dispositivo.dispositivo,dispositivo.tipo,tipo_d.sla FROM chamxativo INNER JOIN dispositivo ON chamxativo.id_ativo = dispositivo.id_dispositivo INNER JOIN tipo_d ON dispositivo.tipo = tipo_d.id_tipo WHERE chamxativo.id_chamado = "+chamado;
+    QSqlQueryModel *modelo = new QSqlQueryModel();
+    modelo->setQuery(qry,db);
+    ui->tableDispositivos->setModel(modelo);
+    ui->tableDispositivos->show();
 
 }
 selecionadisp::selecionadisp(QWidget *parent) :
@@ -65,16 +75,34 @@ void selecionadisp::on_botaoSalva_clicked()
 {
     QSqlQuery *salva = new QSqlQuery(db);
     QSqlQuery *dispositivo = new QSqlQuery(db);
+    QSqlQuery *chamado = new QSqlQuery(db);
     QString auxD = NULL;
-    int auxC = ui->spinBox->value();;
+    QString auxC = NULL;
 
-    dispositivo->exec("SELECT id_dispositivo WHERE dispositivo = '"+ui->comboBox->currentText()+"'");
+    dispositivo->exec("SELECT id_dispositivo FROM dispositivo WHERE dispositivo = '"+ui->comboBox->currentText()+"'");
     dispositivo->next();
     auxD = dispositivo->value("id_dispositivo").toString();
 
-    salva->prepare("INSERT INTO chamxativo(id_chamado,id_ativo) VALUES (?,?)");
-    salva->addBindValue(auxC);
-    salva->addBindValue(auxD);
-    salva->exec()            ;
+    chamado->exec("SELECT id_chamado FROM chamado");
+    chamado->last();
+    auxC = chamado->value("id_chamado").toString();
+
+    salva->prepare("INSERT INTO chamxativo(id_chamado,id_ativo) VALUES ("+auxC+","+auxD+")");
+    if(salva->exec())
+       {
+        QMessageBox messageBox;
+        messageBox.information(0,"Sucesso!","Cadastro realizado com sucesso");
+        messageBox.setFixedSize(500,200);
+        ui->botaoSalva->setEnabled(false);
+        db.close();
+    }
+    else
+    {
+        QMessageBox messageBox;
+        messageBox.critical(0,"Erro!","Erro na seleção do dispositivo");
+        messageBox.setFixedSize(500,200);
+
+    }
+
 }
 

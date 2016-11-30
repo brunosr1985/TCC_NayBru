@@ -47,7 +47,7 @@ cadastrochamado::cadastrochamado(QWidget *parent) :
         lista.append(fillCombo->value(0).toString());
     }
 
-
+    ui->tempoAbertura->setDateTime(QDateTime::currentDateTime());
     ui->comboPrioridade->clear();
     ui->comboPrioridade->addItems(lista);
 
@@ -91,7 +91,7 @@ void cadastrochamado::on_pushButton_2_clicked()
     db.setPort(5432);
     db.open();
 
-
+    QString aberto = QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss");
     QString status;
     QString aux_status = ui->comboStatus->currentText();
     QString prioridade;
@@ -99,6 +99,7 @@ void cadastrochamado::on_pushButton_2_clicked()
     bool aux_reincidente = ui->checkReinc->isChecked();
     QString reincidente = QString(aux_reincidente ? "true" : "false");
     QString descricao = ui->descricaoChamado->toPlainText();
+    QString sla = NULL;
     QString qry;
 
     QSqlQuery *query = new QSqlQuery(db);
@@ -114,13 +115,29 @@ void cadastrochamado::on_pushButton_2_clicked()
     query2->last();
     prioridade = query2->value("id_prioridade").toString();
 
-    qry = "INSERT INTO chamado (status,prioridade, reincidente, descricao, aberto) VALUES ("+status+","+prioridade+","+reincidente+",'"+descricao+"', (SELECT NOW()))";
-    query->exec(qry);
+    qry = "INSERT INTO chamado (id_chamado,status,prioridade, reincidente, descricao, aberto) VALUES (nextval('chamado_id_chamado_seq'::regclass),"+status+","+prioridade+","+reincidente+",'"+descricao+"',timestamp '"+aberto+"')";
 
-    qry = "SELECT id_chamado FROM chamado";
-    query->exec(qry);
-    query->last();
-    ui->spinBox->setValue(query->value("id_chamado").toInt());
+    if(query->exec(qry))
+       {
+        QMessageBox messageBox;
+        messageBox.information(0,"Sucesso!","Cadastro do chamado aberto com sucesso, favor cadastrar RACI e Ativos");
+        messageBox.setFixedSize(500,200);
+        qry = "SELECT id_chamado FROM chamado";
+        query->exec(qry);
+        query->last();
+        ui->spinBox->setValue(query->value("id_chamado").toInt());
+        ui->pushButton_2->setEnabled(false);
+
+        db.close();
+    }
+    else
+    {
+        /*erro = query->lastError().text();
+        QMessageBox messageBox;
+        messageBox.critical(0,"Erro!",erro);
+        messageBox.setFixedSize(500,200);*/
+
+    }
 
     ui->abreDisp->setEnabled(true);
     ui->abreRACI->setEnabled(true);

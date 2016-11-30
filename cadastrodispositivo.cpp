@@ -89,7 +89,7 @@ void cadastrodispositivo::on_pushButton_2_clicked()
         query->last();
         auxS = query->value(0).toString();
         ui->lineID->clear();
-        ui->lineID->insert(auxS);
+        ui->lineID->setText(auxS);
         db.close();
     }
     else

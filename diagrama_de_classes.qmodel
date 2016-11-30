@@ -51,7 +51,7 @@
                          <context>TCC NayBru</context>
                          <name>cadastrochamado</name>
                          <pos>x:660;y:390</pos>
-                         <rect>x:-130;y:-95;w:260;h:190</rect>
+                         <rect>x:-135;y:-100;w:270;h:200</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -72,8 +72,8 @@
                          <object>{091041d5-82a8-44b5-aa23-dec9b9c6afa0}</object>
                          <context>TCC NayBru</context>
                          <name>cadastrodispositivo</name>
-                         <pos>x:1125;y:375</pos>
-                         <rect>x:-135;y:-85;w:270;h:170</rect>
+                         <pos>x:1365;y:205</pos>
+                         <rect>x:-135;y:-90;w:270;h:180</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -95,7 +95,7 @@
                          <context>TCC NayBru</context>
                          <name>Cadastropessoa</name>
                          <pos>x:210;y:415</pos>
-                         <rect>x:-130;y:-85;w:260;h:170</rect>
+                         <rect>x:-130;y:-90;w:260;h:180</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -117,7 +117,7 @@
                          <context>TCC NayBru</context>
                          <name>cadastroprioridade</name>
                          <pos>x:145;y:895</pos>
-                         <rect>x:-135;y:-95;w:270;h:190</rect>
+                         <rect>x:-135;y:-100;w:270;h:200</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -139,7 +139,7 @@
                          <context>TCC NayBru</context>
                          <name>cadastrousuario</name>
                          <pos>x:445;y:1105</pos>
-                         <rect>x:-130;y:-90;w:260;h:180</rect>
+                         <rect>x:-130;y:-95;w:260;h:190</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -160,8 +160,8 @@
                          <object>{807a22ed-bbf8-497c-9b94-9655af5fdebe}</object>
                          <context>TCC NayBru</context>
                          <name>gerenciaDispositivo</name>
-                         <pos>x:1590;y:955</pos>
-                         <rect>x:-135;y:-95;w:270;h:190</rect>
+                         <pos>x:1810;y:925</pos>
+                         <rect>x:-135;y:-100;w:270;h:200</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -182,8 +182,8 @@
                          <object>{20dffb34-3c8b-44cc-b2f5-70ac49b68386}</object>
                          <context>TCC NayBru</context>
                          <name>gerenciaPessoas</name>
-                         <pos>x:1580;y:680</pos>
-                         <rect>x:-130;y:-75;w:260;h:150</rect>
+                         <pos>x:1820;y:610</pos>
+                         <rect>x:-130;y:-80;w:260;h:160</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -204,8 +204,8 @@
                          <object>{a11dce92-b592-4bea-8708-c5de03ffda6e}</object>
                          <context>TCC NayBru</context>
                          <name>Login</name>
-                         <pos>x:925;y:1205</pos>
-                         <rect>x:-100;y:-85;w:200;h:170</rect>
+                         <pos>x:735;y:1225</pos>
+                         <rect>x:-105;y:-90;w:210;h:180</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -226,8 +226,8 @@
                          <object>{6ccf7492-6bb7-494b-95a0-9477cceabeed}</object>
                          <context>TCC NayBru</context>
                          <name>JanelaPrincipal</name>
-                         <pos>x:925;y:855</pos>
-                         <rect>x:-150;y:-150;w:300;h:300</rect>
+                         <pos>x:1380;y:720</pos>
+                         <rect>x:-150;y:-160;w:300;h:320</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -248,8 +248,8 @@
                          <object>{ad56617a-c749-4d65-b9c7-e1e6ca4e514a}</object>
                          <context>TCC NayBru</context>
                          <name>matrizRACI</name>
-                         <pos>x:855;y:95</pos>
-                         <rect>x:-130;y:-90;w:260;h:180</rect>
+                         <pos>x:875;y:145</pos>
+                         <rect>x:-130;y:-95;w:260;h:190</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -271,7 +271,7 @@
                          <context>TCC NayBru</context>
                          <name>novoGrupo</name>
                          <pos>x:175;y:145</pos>
-                         <rect>x:-95;y:-75;w:190;h:150</rect>
+                         <rect>x:-95;y:-80;w:190;h:160</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -292,8 +292,8 @@
                          <object>{903d955e-f3ba-451a-8e99-a331a4e34d33}</object>
                          <context>TCC NayBru</context>
                          <name>tipoDisp</name>
-                         <pos>x:1165;y:95</pos>
-                         <rect>x:-110;y:-110;w:220;h:220</rect>
+                         <pos>x:1725;y:360</pos>
+                         <rect>x:-110;y:-115;w:220;h:230</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -315,7 +315,7 @@
                          <context>TCC NayBru</context>
                          <name>selecionadisp</name>
                          <pos>x:500;y:155</pos>
-                         <rect>x:-140;y:-85;w:280;h:170</rect>
+                         <rect>x:-145;y:-90;w:290;h:180</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -336,8 +336,8 @@
                          <object>{81095e65-db2b-4751-8808-c9c941eb24bc}</object>
                          <context>TCC NayBru</context>
                          <name>relatorioSimples</name>
-                         <pos>x:1245;y:1110</pos>
-                         <rect>x:-140;y:-90;w:280;h:180</rect>
+                         <pos>x:1350;y:1225</pos>
+                         <rect>x:-130;y:-115;w:260;h:230</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -359,7 +359,7 @@
                          <context>TCC NayBru</context>
                          <name>cadastrostatus</name>
                          <pos>x:205;y:650</pos>
-                         <rect>x:-125;y:-95;w:250;h:190</rect>
+                         <rect>x:-125;y:-100;w:250;h:200</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -664,9 +664,54 @@
                       </DAssociation>
                      </instance>
                     </item>
+                    <item>
+                     <instance type="DClass">
+                      <DClass>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{1c8d59d4-ad3b-4565-a6b5-673b631d7287}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{96dad5ca-9106-454c-973c-a2a670cb5f65}</object>
+                         <context>TCC NayBru</context>
+                         <name>gerenciaChamados</name>
+                         <pos>x:1730;y:1215</pos>
+                         <rect>x:-135;y:-115;w:270;h:230</rect>
+                         <visual-role>0</visual-role>
+                        </DObject>
+                       </base-DObject>
+                       <show-all-members>true</show-all-members>
+                      </DClass>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DAssociation">
+                      <DAssociation>
+                       <base-DRelation>
+                        <DRelation>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{7d08a11d-be46-42a7-8965-d25cb9d0e84c}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{d0bba01e-dc35-4190-9384-d37844fe7dc1}</object>
+                         <a>{f3bddf21-0172-4889-b1b5-5f81807a618f}</a>
+                         <b>{1c8d59d4-ad3b-4565-a6b5-673b631d7287}</b>
+                        </DRelation>
+                       </base-DRelation>
+                       <a>
+                        <DAssociationEnd>
+                         <navigable>true</navigable>
+                        </DAssociationEnd>
+                       </a>
+                      </DAssociation>
+                     </instance>
+                    </item>
                    </qlist>
                   </elements>
-                  <last-modified>1480366429625</last-modified>
+                  <last-modified>1480534237065</last-modified>
                   <toolbarid>General</toolbarid>
                  </MDiagram>
                 </base-MDiagram>
@@ -1005,7 +1050,7 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{b2b89870-c802-49db-9677-22911df8f3b7}</uid>
+                               <uid>{94f6458c-7d71-42b1-bf20-2d765e519162}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>explicit cadastrodispositivo(QWidget *parent = 0)</declaration>
@@ -1013,7 +1058,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{4270dc70-f20d-4f33-aea2-ce1e823321b5}</uid>
+                               <uid>{e3e68cdb-264f-4ce2-bb3e-32402d77598e}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>void atualizadados()</declaration>
@@ -1021,7 +1066,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{3269cb66-6fb0-4da6-a2f6-720b5e2f22e2}</uid>
+                               <uid>{42c04029-e449-4697-ac92-64cf6a73e4e8}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~cadastrodispositivo()</declaration>
@@ -1029,7 +1074,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{baab7376-3acd-4eb7-85ad-bf2e234e9f54}</uid>
+                               <uid>{b24d57ad-244a-4d00-a905-2c36d16cee6f}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_pushButton_3_clicked()</declaration>
@@ -1037,7 +1082,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{fc0e3ad4-309a-45d9-9b10-598ce318d5b9}</uid>
+                               <uid>{222b688b-b821-40a1-b219-a1a7676d1855}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_pushButton_4_clicked()</declaration>
@@ -1045,7 +1090,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{2c635ee4-49c3-4f4c-b80e-57f4611b8c76}</uid>
+                               <uid>{c0126de9-2185-419e-8f7b-ba4cf13981e2}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_pushButton_2_clicked()</declaration>
@@ -1053,7 +1098,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{bf90aad6-429c-4d2c-a271-011e65b2bd83}</uid>
+                               <uid>{67dd7c8c-043e-47bc-9e01-0de5f988bb80}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_botaoAtualizar_clicked()</declaration>
@@ -1061,7 +1106,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{6c0cf998-39b5-4fa7-a78a-cedc5259fc90}</uid>
+                               <uid>{52399200-28b2-4300-8bd7-a09cee69435d}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_botaoNovo_clicked()</declaration>
@@ -1457,6 +1502,98 @@
                              <name>gerenciaChamados</name>
                             </MObject>
                            </base-MObject>
+                           <members>
+                            <qlist>
+                             <item>
+                              <MClassMember>
+                               <uid>{1a8f9e1c-4127-46f3-aa68-0a6f27aaf966}</uid>
+                               <visibility>1</visibility>
+                               <type>2</type>
+                               <declaration>explicit gerenciaChamados(QWidget *parent = 0)</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{77a722bf-4f1a-4554-8765-dd03c41985d3}</uid>
+                               <visibility>1</visibility>
+                               <type>1</type>
+                               <declaration>QSqlDatabase db</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{a7ecac81-31c2-4475-9f38-49f396f6e3ea}</uid>
+                               <visibility>1</visibility>
+                               <type>1</type>
+                               <declaration>QSqlQuery *query</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{09f16ba0-c8d0-4a91-890f-9a878f73a836}</uid>
+                               <visibility>1</visibility>
+                               <type>1</type>
+                               <declaration>QSqlTableModel *modelo</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{908e1e78-d720-4f8e-9d01-477e946f3fb9}</uid>
+                               <visibility>1</visibility>
+                               <type>2</type>
+                               <declaration>~gerenciaChamados()</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{5b5f0131-a927-47f9-b898-75c3707db4bd}</uid>
+                               <visibility>5</visibility>
+                               <type>2</type>
+                               <declaration>void on_adicionaAcompanhamento_clicked()</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{225b15f3-fc95-4b70-afb3-0f0f608b823c}</uid>
+                               <visibility>5</visibility>
+                               <type>2</type>
+                               <declaration>void atualizadados()</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{d9df4bc1-12de-468c-8af3-86b29260ff36}</uid>
+                               <visibility>5</visibility>
+                               <type>2</type>
+                               <declaration>void on_toolButton_clicked()</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{1f52ba29-b48f-45e1-96c5-047923040d0f}</uid>
+                               <visibility>5</visibility>
+                               <type>2</type>
+                               <declaration>void on_abreRACI_clicked()</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{2c9c6800-56de-475c-a781-d0e7e78c30db}</uid>
+                               <visibility>5</visibility>
+                               <type>2</type>
+                               <declaration>void on_abreDisp_clicked()</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{0a6ecb10-082a-4e56-bbc0-40b87aea9468}</uid>
+                               <visibility>3</visibility>
+                               <type>1</type>
+                               <declaration>Ui::gerenciaChamados *ui</declaration>
+                              </MClassMember>
+                             </item>
+                            </qlist>
+                           </members>
                           </MClass>
                          </instance>
                         </target>
@@ -1483,7 +1620,7 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{27809ae6-834b-43aa-9eb5-325faa4343bc}</uid>
+                               <uid>{4683002b-1494-4bcc-89a0-f372ef94866e}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>explicit gerenciaDispositivo(QWidget *parent = 0)</declaration>
@@ -1491,7 +1628,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{7aaa85e7-d3e2-4a7a-b22b-dd596b5b51a2}</uid>
+                               <uid>{78da0ca2-7079-4ca9-a924-48f4761c0ada}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~gerenciaDispositivo()</declaration>
@@ -1499,7 +1636,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{a1b2ce18-41f0-42d4-8aad-0bf5c973c0a5}</uid>
+                               <uid>{26efd2f8-f587-47a3-a606-ff0b2c67a9a6}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void showEditDispositivos()</declaration>
@@ -1507,7 +1644,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{c2018822-78f6-48e5-a1a2-15a1c1c52c18}</uid>
+                               <uid>{348bc373-0113-4569-95c2-2b536706ef77}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_pushButton_3_clicked()</declaration>
@@ -1515,7 +1652,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{2b46e4a1-69bc-4397-bbb7-e42e34835192}</uid>
+                               <uid>{018bf316-b080-404d-acb9-aba3820ffb55}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_novoDisp_clicked()</declaration>
@@ -1523,7 +1660,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{2dd96cc6-90bd-4ad0-afa0-0c207628a517}</uid>
+                               <uid>{715dab94-d061-46f8-865e-d070014b210d}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_toolButton_clicked()</declaration>
@@ -1531,7 +1668,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{378a1a33-6917-4ec3-8e0b-abc5e7a0cb35}</uid>
+                               <uid>{55839b80-3019-4dd5-a351-c33a4b2db441}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_pushButton_clicked()</declaration>
@@ -1539,7 +1676,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{a37719bb-a57a-4e3d-b238-6c8faf37e860}</uid>
+                               <uid>{e0d7976c-9b04-4192-b6c6-4051713a5102}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_pushButton_2_clicked()</declaration>
@@ -1547,7 +1684,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{e42a418b-92c7-4c8d-8032-c45e30371b7c}</uid>
+                               <uid>{a2a5390a-ecbd-4f6f-93ab-8f44afd22667}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>Ui::gerenciaDispositivo *ui</declaration>
@@ -1581,7 +1718,7 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{f6fe866f-39ac-4d92-a67f-cbf54703abd2}</uid>
+                               <uid>{d5947dc8-f3a6-41d9-b0a8-87ff6ff44885}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>explicit gerenciaPessoas(QWidget *parent = 0)</declaration>
@@ -1589,7 +1726,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{369c858b-15dc-4e75-bf92-c332a374091d}</uid>
+                               <uid>{2c18640b-89c8-4cae-a5c8-34fd09e7beef}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~gerenciaPessoas()</declaration>
@@ -1597,7 +1734,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{bf43dec8-547b-4e17-bf99-f738c698ef65}</uid>
+                               <uid>{d85dc389-ecf7-4c2f-aaea-0838a10785fd}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_Pessoa_Editar_clicked()</declaration>
@@ -1605,7 +1742,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{5cb02acd-32d0-475e-b3a3-c72c327eb733}</uid>
+                               <uid>{66f4706c-0343-4312-8e2b-2834bf77a2b5}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_Pessoa_Salvar_clicked()</declaration>
@@ -1613,7 +1750,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{e2c39543-a979-4eef-808b-5042d24c5092}</uid>
+                               <uid>{b1f023f4-4cab-4822-b845-06ced546e08b}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_toolButton_clicked()</declaration>
@@ -1621,7 +1758,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{9d255418-a180-4971-a57c-0f51f32813ac}</uid>
+                               <uid>{a1cd03fe-46d1-4b9f-9585-bcf64a4d7426}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>Ui::gerenciaPessoas *ui</declaration>
@@ -1655,7 +1792,7 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{990eb1af-b79e-45e0-bd3c-ddc3e99ea0f1}</uid>
+                               <uid>{c4815362-14bc-4c33-957e-1b4378ce8b8d}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>explicit Login(QWidget *parent = 0)</declaration>
@@ -1663,7 +1800,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{054c8576-de34-4ebe-8d5a-e585a81c97e7}</uid>
+                               <uid>{f9985379-9332-44f8-af7c-817cf7f3ae3a}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~Login()</declaration>
@@ -1671,7 +1808,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{31fc269e-0d6f-4c55-925a-b76e396d9ab0}</uid>
+                               <uid>{5b31053b-7eb3-420f-ad9d-2144e4fc675d}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_pushButton_clicked()</declaration>
@@ -1679,7 +1816,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{1ff60fad-87b0-4ca3-be79-5e0374a04836}</uid>
+                               <uid>{078e72c2-bbf4-4f18-ae08-d17010d484e3}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_pushButton_2_clicked()</declaration>
@@ -1687,7 +1824,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{611408af-aa4e-4da9-b397-cbdcc2ff5a43}</uid>
+                               <uid>{2fa848e8-ef42-40ba-b76f-f9868cbd5269}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_botaoNaoLoga_clicked()</declaration>
@@ -1695,7 +1832,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{8ec1e49f-917f-464e-a0f4-2df778fd1895}</uid>
+                               <uid>{902a1b73-fe99-40c6-ad40-b120de48dbb5}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_botaoLogar_clicked()</declaration>
@@ -1703,7 +1840,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{c66b0fda-1897-492e-a8cd-920301727582}</uid>
+                               <uid>{227a214b-1584-4400-ad20-0c6f5c2fd94d}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>Ui::Login *ui</declaration>
@@ -2037,7 +2174,7 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{5dbb0a8c-35d1-4dd7-babf-2e35e7efb659}</uid>
+                               <uid>{6e517f71-5e80-4ed1-9f99-ae05775bf1e4}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>explicit JanelaPrincipal(QWidget *parent = 0)</declaration>
@@ -2045,7 +2182,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{3eb98fe8-8a00-4d1b-b5d1-e00838f965f5}</uid>
+                               <uid>{03cd158d-fb8e-44a3-94c0-e2daa98495b9}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~JanelaPrincipal()</declaration>
@@ -2053,7 +2190,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{2222511c-12af-4959-bb8a-3a687b74097a}</uid>
+                               <uid>{8ed8c742-6dbb-49a8-8df3-7f352cf01c63}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_actionPessoas_x_Chamados_triggered()</declaration>
@@ -2061,7 +2198,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{76fba46e-5852-4c9d-9da6-c256cca012d1}</uid>
+                               <uid>{75701af9-e56a-450d-b348-7c25ac5d5fb8}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_actionChamados_2_triggered()</declaration>
@@ -2069,7 +2206,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{159e1d9d-12ec-4fbd-a5d6-61958e28e34e}</uid>
+                               <uid>{a7b8e1ce-29a4-4fc6-9c87-738f39ebe60c}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_actionPessoas_x_Qtde_Chamados_triggered()</declaration>
@@ -2077,7 +2214,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{5b56d199-a6c6-4946-9ed2-a66dcaa37960}</uid>
+                               <uid>{957d64ae-28dd-406a-bdb1-3de2f5756c3a}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_actionChamados_triggered()</declaration>
@@ -2085,7 +2222,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{933ff2a1-06ed-406b-b2de-51a4752e98cc}</uid>
+                               <uid>{c9413128-d802-4f6b-a561-daf24e9be7e2}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_actionDispositivos_triggered()</declaration>
@@ -2093,7 +2230,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{4863871d-e1c8-4c79-a92a-232f629affcc}</uid>
+                               <uid>{78824cb9-4579-470f-9c8f-ef2d2127dee8}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_actionPessoas_triggered()</declaration>
@@ -2101,7 +2238,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{75bd7489-0e93-46d6-8851-153553c324ea}</uid>
+                               <uid>{a4a660d7-eac2-4899-b05c-f18481223c92}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_actionPessoas_2_triggered()</declaration>
@@ -2109,7 +2246,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{363a6fc8-baec-4bbe-b1eb-d42fe21abfdc}</uid>
+                               <uid>{c493517c-162f-4f8e-83a1-0900e60733d8}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_actionDispositivos_3_triggered()</declaration>
@@ -2117,7 +2254,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{19ab5e20-c11a-494f-958e-4ca7d0f95e9c}</uid>
+                               <uid>{98fc47e1-86cb-42c5-8019-00ae3c8dc44c}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_actionChamados_3_triggered()</declaration>
@@ -2125,7 +2262,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{dca106a1-9b79-43c2-bf26-be52baaf96b0}</uid>
+                               <uid>{e9dc0ab7-e7f1-47ec-93f0-bddd6f9d0d0f}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_actionCriar_Usu_rio_triggered()</declaration>
@@ -2133,7 +2270,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{7529c443-e2c7-4d37-8748-0c93ec89ecef}</uid>
+                               <uid>{b5ffbea1-4cbf-465e-833f-656112768f4b}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_actionCriar_Status_triggered()</declaration>
@@ -2141,7 +2278,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{2f3f3708-9dfa-4aeb-8837-8ac970f36b3d}</uid>
+                               <uid>{a0d721d0-087f-4b6c-8e3b-1d6b518e7f16}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_actionCriar_Prioridade_triggered()</declaration>
@@ -2149,7 +2286,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{da92d061-8a52-4010-8fbe-a73d505ee547}</uid>
+                               <uid>{27782687-c29e-477c-a1ff-39194f8d583a}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>Ui::JanelaPrincipal *ui</declaration>
@@ -2157,7 +2294,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{52f66d0a-08a6-4479-a221-3870e9adad2b}</uid>
+                               <uid>{512aa4ae-eb28-4b94-8e7f-90ab3c8e0400}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>QSqlTableModel *modelo</declaration>
@@ -2165,7 +2302,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{135834f6-ab41-4e34-87d0-552e3bc8eb04}</uid>
+                               <uid>{8bc5fd3d-b794-45f3-955f-8862756a8a91}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>QSqlQueryModel *query</declaration>
@@ -2199,7 +2336,7 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{1d01c41e-1792-495c-8fd5-1aa838be88b6}</uid>
+                               <uid>{b2f547ff-268c-4859-bd32-525cfc029723}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>matrizRACI(QWidget *parent = 0, int aux = 0)</declaration>
@@ -2207,7 +2344,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{487068ea-928d-4f35-a282-11ab48d0fa60}</uid>
+                               <uid>{8a164fcb-30a9-4457-8206-676428c84e02}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>explicit matrizRACI(QWidget *parent = 0)</declaration>
@@ -2215,7 +2352,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{a2dcf28b-20d5-4d04-a215-6446182cf14f}</uid>
+                               <uid>{ee7a3dbf-6bff-4b1f-8226-096ea65e6aa5}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
                                <declaration>QSqlDatabase db</declaration>
@@ -2223,7 +2360,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{5bf54ddf-6c6a-4877-9317-b1591efb0aa4}</uid>
+                               <uid>{228980dd-6914-4b97-a4d1-7b0f9233f76f}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~matrizRACI()</declaration>
@@ -2231,7 +2368,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{8ca208df-80a2-42fb-962a-6de5572bee2c}</uid>
+                               <uid>{df322382-5804-4c42-9033-f8f89878f68a}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_raciCarregar_clicked()</declaration>
@@ -2239,7 +2376,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{33904def-62c6-4ef6-b9c1-0620aa0aae82}</uid>
+                               <uid>{cb427c0c-3c54-4f7f-b632-b9cc5b56443f}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_incluirPessoa_clicked()</declaration>
@@ -2247,7 +2384,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{dbee391f-764a-42f1-a1cb-39e37a89413b}</uid>
+                               <uid>{658d95f5-4ea9-48eb-a47c-0644ca549012}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>Ui::matrizRACI *ui</declaration>
@@ -2255,7 +2392,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{53650287-2b5c-4990-8423-7ae67dcb29f4}</uid>
+                               <uid>{706e23f0-270c-4d54-8df3-01a3a41946ad}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>QSqlTableModel *modelo</declaration>
@@ -2393,7 +2530,7 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{f8308241-4f8d-4c4e-b86d-d32ec59a020a}</uid>
+                               <uid>{fc03bde8-7986-4464-97c9-33ac8c927c37}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>explicit tipoDisp(QWidget *parent = 0)</declaration>
@@ -2401,7 +2538,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{89ce0c1b-ce67-4087-ae84-8a782937204f}</uid>
+                               <uid>{20bebb25-0f4d-45fe-9c66-26e14b4146f8}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
                                <declaration>QSqlDatabase db</declaration>
@@ -2409,7 +2546,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{61884d56-8d15-4e41-afdd-901210b6f8d3}</uid>
+                               <uid>{01d29d24-0cd6-48b0-9a09-0e26db40fe08}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
                                <declaration>QSqlQuery *query</declaration>
@@ -2417,7 +2554,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{67e0c480-10c3-4f49-ab1f-c499335eff3e}</uid>
+                               <uid>{e1a6e1c3-c1eb-4012-a616-b2d859107559}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
                                <declaration>QSqlTableModel *modelo</declaration>
@@ -2425,7 +2562,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{84a5f021-6380-4e62-9c83-b9768f830549}</uid>
+                               <uid>{be838e73-b5e1-4b9f-ac46-f5b3faec9f0c}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~tipoDisp()</declaration>
@@ -2433,7 +2570,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{2afcfc92-00bb-4c41-8f38-6b6eeb7c6cc0}</uid>
+                               <uid>{09f0529f-0078-4b9c-82c0-ecf544a84a2f}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_botaoCancelar_clicked()</declaration>
@@ -2441,7 +2578,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{2ad69027-1cc6-4c22-bc73-074c6abf838b}</uid>
+                               <uid>{55295b6e-1634-41ea-8fde-450b7139d3ae}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_botaoSalvar_clicked()</declaration>
@@ -2449,7 +2586,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{52a83615-9259-4450-89ea-978057b11bf2}</uid>
+                               <uid>{138e8c7b-219a-4577-bf81-dcc743c14bd9}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_adicionaTipo_clicked()</declaration>
@@ -2457,7 +2594,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{e91d9d44-d27c-43c0-856f-ada0b8439ad8}</uid>
+                               <uid>{17c3c2a0-84b2-4bfb-acbc-ed0202396215}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_botaoEditar_clicked()</declaration>
@@ -2465,7 +2602,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{ae755bbd-75a7-4662-adf6-f908a8771dbd}</uid>
+                               <uid>{9014e548-7e38-45cf-a216-642456029c41}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>Ui::tipoDisp *ui</declaration>
@@ -2473,7 +2610,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{137ec528-adaf-4001-b723-5551f34c6a60}</uid>
+                               <uid>{3b923bbb-a051-4d54-92d6-9baafca34af0}</uid>
                                <visibility>3</visibility>
                                <type>2</type>
                                <declaration>void atualizaDados()</declaration>
@@ -2589,15 +2726,15 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{829ed52d-7dff-4b86-b53d-89516e7a6b21}</uid>
+                               <uid>{92273d85-54ad-4ffb-83ab-15cd07878fc2}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
-                               <declaration>explicit relatorioSimples(QWidget *parent = 0)</declaration>
+                               <declaration>explicit relatoriosimples(QWidget *parent = 0)</declaration>
                               </MClassMember>
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{3d2dac67-dc23-4355-bcd6-16d77ff24f08}</uid>
+                               <uid>{48981359-ce13-4d38-9b2a-21cc7d817c7a}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
                                <declaration>QSqlDatabase db</declaration>
@@ -2605,7 +2742,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{0a5a3e82-fa38-4635-a0e6-89b424f7f154}</uid>
+                               <uid>{7df45c7c-28b3-432c-abf0-1e45842b18a1}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
                                <declaration>QSqlQuery *query</declaration>
@@ -2613,42 +2750,66 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{894effb2-b65f-40c3-a7c3-8b47a73f5869}</uid>
+                               <uid>{a2ce28df-1616-45be-ad1c-a767394d48e7}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
-                               <declaration>QSqlTableModel *modelo</declaration>
+                               <declaration>QSqlQueryModel *modelo</declaration>
                               </MClassMember>
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{cd83ce11-da48-4640-989a-3f7ad32617fd}</uid>
+                               <uid>{30148980-11c1-4adb-a22a-825543bde046}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
-                               <declaration>~relatorioSimples()</declaration>
+                               <declaration>~relatoriosimples()</declaration>
                               </MClassMember>
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{0ece7119-3e32-4692-a083-46e9c3ea2783}</uid>
+                               <uid>{4b6766d8-6a7a-4953-b227-ca2a9829b912}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
-                               <declaration>void on_comboBox_currentIndexChanged(int index)</declaration>
+                               <declaration>void on_botaoAtivos_clicked()</declaration>
                               </MClassMember>
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{ef2cd3ea-9c49-4bb9-80b1-cdd24d282d9c}</uid>
+                               <uid>{0f13097e-d3ab-450a-93c2-8ece359a98e6}</uid>
+                               <visibility>5</visibility>
+                               <type>2</type>
+                               <declaration>void on_botaoPessoas_clicked()</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{86a27d28-1b0a-4a13-99f2-cbdf8a666586}</uid>
+                               <visibility>5</visibility>
+                               <type>2</type>
+                               <declaration>void on_botaoChamados_clicked()</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{c7118abb-8915-4682-a64c-d89d3f7d69f6}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
-                               <declaration>Ui::relatorioSimples *ui</declaration>
+                               <declaration>Ui::relatoriosimples *ui</declaration>
                               </MClassMember>
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{fe73be4e-615c-42b7-882c-a179918a0405}</uid>
+                               <uid>{69898234-f638-423d-bef7-bdce7afcc51d}</uid>
                                <visibility>3</visibility>
                                <type>2</type>
                                <declaration>void atualizadados(QString tabela)</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{392fc23b-34a0-4008-a4c2-e883cb835b25}</uid>
+                               <visibility>3</visibility>
+                               <type>1</type>
+                               <declaration>}</declaration>
                               </MClassMember>
                              </item>
                             </qlist>

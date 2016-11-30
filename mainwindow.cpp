@@ -84,9 +84,12 @@ void JanelaPrincipal::on_actionPessoas_x_Qtde_Chamados_triggered()
 
 void JanelaPrincipal::on_actionChamados_triggered()
 {
-    /*gerenciaChamados *gc = new gerenciaChamados(ui->mdiArea);
-    ui->mdiArea->addSubWindow(gc);
-    gc->show();*/
+    QMdiArea *md = new QMdiArea(this);
+    this->setCentralWidget(md);
+    gerenciaChamados *gc = new gerenciaChamados(md);
+    gc->setAttribute(Qt::WA_DeleteOnClose);
+    md->addSubWindow(gc);
+    gc->show();
 }
 
 void JanelaPrincipal::on_actionDispositivos_triggered()
@@ -174,7 +177,7 @@ void JanelaPrincipal::on_actionSimples_triggered()
 {
     QMdiArea *md = new QMdiArea(this);
     this->setCentralWidget(md);
-    relatorioSimples *rs = new relatorioSimples(md);
+    relatoriosimples *rs = new relatoriosimples(md);
     rs->setAttribute(Qt::WA_DeleteOnClose);
     md->addSubWindow(rs);
     rs->show();

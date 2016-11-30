@@ -28,6 +28,7 @@ Cadastropessoa::Cadastropessoa(QWidget *parent) :
     ui->setupUi(this);
     ui->pessoaGrupo->clear();
     ui->pessoaGrupo->addItems(lista);
+    ui->pushButton->setEnabled(false);
 }
 
 Cadastropessoa::~Cadastropessoa()
@@ -94,7 +95,7 @@ void Cadastropessoa::on_Pessoa_Salvar_clicked()
 
         messageBox.information(0,"Sucesso!","Cadastro realizado com sucesso");
         messageBox.setFixedSize(500,200);
-
+        ui->pushButton->setEnabled(true);
         db.close();
     }
     else

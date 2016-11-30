@@ -32,6 +32,8 @@ private slots:
 
     void on_incluirPessoa_clicked();
 
+    void on_raciSalvar_clicked();
+
 private:
     Ui::matrizRACI *ui;
     QSqlTableModel *modelo;

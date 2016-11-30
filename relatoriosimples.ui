@@ -1,58 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>relatorioSimples</class>
- <widget class="QDialog" name="relatorioSimples">
+ <class>relatoriosimples</class>
+ <widget class="QWidget" name="relatoriosimples">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>685</width>
-    <height>474</height>
+    <width>515</width>
+    <height>361</height>
    </rect>
   </property>
-  <property name="minimumSize">
-   <size>
-    <width>685</width>
-    <height>474</height>
-   </size>
-  </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Relatório Simples</string>
   </property>
-  <widget class="QWidget" name="">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>10</y>
-     <width>661</width>
-     <height>451</height>
-    </rect>
-   </property>
-   <layout class="QGridLayout" name="gridLayout">
-    <item row="0" column="0">
-     <widget class="QComboBox" name="comboBox">
-      <item>
-       <property name="text">
-        <string>Ativos</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Pessoas</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Chamados</string>
-       </property>
-      </item>
-     </widget>
-    </item>
-    <item row="1" column="0">
-     <widget class="QTableView" name="tableView"/>
-    </item>
-   </layout>
-  </widget>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="lineNome">
+     <property name="maximumSize">
+      <size>
+       <width>160</width>
+       <height>16777215</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="3">
+    <widget class="QTableView" name="tableResultados"/>
+   </item>
+   <item row="0" column="2">
+    <widget class="QPushButton" name="botaoChamados">
+     <property name="text">
+      <string>Chamados</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QPushButton" name="botaoPessoas">
+     <property name="text">
+      <string>Pessoas</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QComboBox" name="comboTipo"/>
+   </item>
+   <item row="1" column="2">
+    <widget class="QDateEdit" name="dateAbertura"/>
+   </item>
+   <item row="0" column="0">
+    <widget class="QPushButton" name="botaoAtivos">
+     <property name="text">
+      <string>Ativos</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
  </widget>
  <resources/>
  <connections/>
