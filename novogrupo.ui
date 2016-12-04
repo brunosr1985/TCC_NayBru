@@ -65,6 +65,13 @@
         </property>
        </widget>
       </item>
+      <item>
+       <widget class="QPushButton" name="botaoInativo">
+        <property name="text">
+         <string>Inativar Grupo</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </item>
     <item row="1" column="0">

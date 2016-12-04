@@ -83,12 +83,31 @@
     </item>
     <item row="0" column="2">
      <widget class="QToolButton" name="toolButton">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
       <property name="text">
        <string>...</string>
       </property>
       <property name="icon">
-       <iconset>
-        <normaloff>Iconleak-Atrous-Search.ico</normaloff>Iconleak-Atrous-Search.ico</iconset>
+       <iconset theme="Icon">
+        <normaloff>Iconleak-Atrous-Search.ico</normaloff>
+        <normalon>Iconleak-Atrous-Search.ico</normalon>
+        <disabledoff>Iconleak-Atrous-Search.ico</disabledoff>
+        <disabledon>Iconleak-Atrous-Search.ico</disabledon>
+        <activeoff>Iconleak-Atrous-Search.ico</activeoff>
+        <activeon>Iconleak-Atrous-Search.ico</activeon>
+        <selectedoff>Iconleak-Atrous-Search.ico</selectedoff>
+        <selectedon>Iconleak-Atrous-Search.ico</selectedon>Iconleak-Atrous-Search.ico</iconset>
       </property>
      </widget>
     </item>

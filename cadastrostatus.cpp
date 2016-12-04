@@ -78,3 +78,8 @@ void cadastrostatus::atualizaDados()
     ui->tableStatus->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);
     ui->tableStatus->setModel(modelo);
 }
+
+void cadastrostatus::on_botaoInativo_clicked()
+{
+
+}

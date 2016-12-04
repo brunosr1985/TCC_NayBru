@@ -38,6 +38,8 @@ private slots:
 
     void on_botaoEditar_clicked();
 
+    void on_botaoInativo_clicked();
+
 private:
     Ui::tipoDisp *ui;
     void atualizaDados();

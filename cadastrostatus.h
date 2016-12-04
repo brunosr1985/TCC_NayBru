@@ -29,6 +29,8 @@ private slots:
 
     void on_botaoEditar_clicked();
 
+    void on_botaoInativo_clicked();
+
 private:
     Ui::cadastrostatus *ui;
     void atualizaDados();

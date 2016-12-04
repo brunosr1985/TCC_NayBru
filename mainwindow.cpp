@@ -19,7 +19,6 @@ JanelaPrincipal::JanelaPrincipal(QWidget *parent) :
 {
     ui->setupUi(this);
 
-
     QSqlDatabase db = QSqlDatabase::addDatabase("QPSQL","conn");
     db.setHostName("localhost");/*db.setHostName("tccnaybru.cgqgmlbbcd8e.us-west-2.rds.amazonaws.com");*/
     db.setDatabaseName("tccnaybru");

@@ -99,3 +99,8 @@ void novoGrupo::atualizaDados()
     ui->tableView->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);
     ui->tableView->setModel(modelo);
 }
+
+void novoGrupo::on_botaoInativo_clicked()
+{
+
+}

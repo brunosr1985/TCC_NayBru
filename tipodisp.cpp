@@ -87,3 +87,8 @@ void tipoDisp::on_botaoEditar_clicked()
     ui->botaoSalvar->setProperty("enable",true);
     ui->botaoSalvar->setEnabled(true);
 }
+
+void tipoDisp::on_botaoInativo_clicked()
+{
+
+}

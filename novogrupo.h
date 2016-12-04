@@ -28,6 +28,8 @@ private slots:
     void on_Adicionar_clicked();
     void on_botaoEditar_clicked();
     void on_botaoAtualizar_clicked();
+    void on_botaoInativo_clicked();
+
 private:
     Ui::novoGrupo *ui;
     void atualizaDados();

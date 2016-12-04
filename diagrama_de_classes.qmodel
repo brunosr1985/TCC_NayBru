@@ -51,7 +51,7 @@
                          <context>TCC NayBru</context>
                          <name>cadastrochamado</name>
                          <pos>x:660;y:390</pos>
-                         <rect>x:-135;y:-100;w:270;h:200</rect>
+                         <rect>x:-130;y:-95;w:260;h:190</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -73,7 +73,7 @@
                          <context>TCC NayBru</context>
                          <name>cadastrodispositivo</name>
                          <pos>x:1365;y:205</pos>
-                         <rect>x:-135;y:-90;w:270;h:180</rect>
+                         <rect>x:-135;y:-85;w:270;h:170</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -95,7 +95,7 @@
                          <context>TCC NayBru</context>
                          <name>Cadastropessoa</name>
                          <pos>x:210;y:415</pos>
-                         <rect>x:-130;y:-90;w:260;h:180</rect>
+                         <rect>x:-130;y:-85;w:260;h:170</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -117,7 +117,7 @@
                          <context>TCC NayBru</context>
                          <name>cadastroprioridade</name>
                          <pos>x:145;y:895</pos>
-                         <rect>x:-135;y:-100;w:270;h:200</rect>
+                         <rect>x:-135;y:-105;w:270;h:210</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -139,7 +139,7 @@
                          <context>TCC NayBru</context>
                          <name>cadastrousuario</name>
                          <pos>x:445;y:1105</pos>
-                         <rect>x:-130;y:-95;w:260;h:190</rect>
+                         <rect>x:-130;y:-90;w:260;h:180</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -161,7 +161,7 @@
                          <context>TCC NayBru</context>
                          <name>gerenciaDispositivo</name>
                          <pos>x:1810;y:925</pos>
-                         <rect>x:-135;y:-100;w:270;h:200</rect>
+                         <rect>x:-135;y:-95;w:270;h:190</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -183,7 +183,7 @@
                          <context>TCC NayBru</context>
                          <name>gerenciaPessoas</name>
                          <pos>x:1820;y:610</pos>
-                         <rect>x:-130;y:-80;w:260;h:160</rect>
+                         <rect>x:-130;y:-75;w:260;h:150</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -204,8 +204,8 @@
                          <object>{a11dce92-b592-4bea-8708-c5de03ffda6e}</object>
                          <context>TCC NayBru</context>
                          <name>Login</name>
-                         <pos>x:735;y:1225</pos>
-                         <rect>x:-105;y:-90;w:210;h:180</rect>
+                         <pos>x:780;y:1205</pos>
+                         <rect>x:-100;y:-85;w:200;h:170</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -227,7 +227,7 @@
                          <context>TCC NayBru</context>
                          <name>JanelaPrincipal</name>
                          <pos>x:1380;y:720</pos>
-                         <rect>x:-150;y:-160;w:300;h:320</rect>
+                         <rect>x:-150;y:-150;w:300;h:300</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -249,7 +249,7 @@
                          <context>TCC NayBru</context>
                          <name>matrizRACI</name>
                          <pos>x:875;y:145</pos>
-                         <rect>x:-130;y:-95;w:260;h:190</rect>
+                         <rect>x:-130;y:-90;w:260;h:180</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -271,7 +271,7 @@
                          <context>TCC NayBru</context>
                          <name>novoGrupo</name>
                          <pos>x:175;y:145</pos>
-                         <rect>x:-95;y:-80;w:190;h:160</rect>
+                         <rect>x:-95;y:-75;w:190;h:150</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -293,7 +293,7 @@
                          <context>TCC NayBru</context>
                          <name>tipoDisp</name>
                          <pos>x:1725;y:360</pos>
-                         <rect>x:-110;y:-115;w:220;h:230</rect>
+                         <rect>x:-110;y:-110;w:220;h:220</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -315,7 +315,7 @@
                          <context>TCC NayBru</context>
                          <name>selecionadisp</name>
                          <pos>x:500;y:155</pos>
-                         <rect>x:-145;y:-90;w:290;h:180</rect>
+                         <rect>x:-140;y:-85;w:280;h:170</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -337,7 +337,7 @@
                          <context>TCC NayBru</context>
                          <name>relatorioSimples</name>
                          <pos>x:1350;y:1225</pos>
-                         <rect>x:-130;y:-115;w:260;h:230</rect>
+                         <rect>x:-125;y:-110;w:250;h:220</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -359,7 +359,7 @@
                          <context>TCC NayBru</context>
                          <name>cadastrostatus</name>
                          <pos>x:205;y:650</pos>
-                         <rect>x:-125;y:-100;w:250;h:200</rect>
+                         <rect>x:-125;y:-95;w:250;h:190</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -678,7 +678,7 @@
                          <context>TCC NayBru</context>
                          <name>gerenciaChamados</name>
                          <pos>x:1730;y:1215</pos>
-                         <rect>x:-135;y:-115;w:270;h:230</rect>
+                         <rect>x:-135;y:-110;w:270;h:220</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -711,7 +711,7 @@
                     </item>
                    </qlist>
                   </elements>
-                  <last-modified>1480534237065</last-modified>
+                  <last-modified>1480848501485</last-modified>
                   <toolbarid>General</toolbarid>
                  </MDiagram>
                 </base-MDiagram>
@@ -1296,7 +1296,7 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{5b8ec0b8-c835-4c58-b44c-9c4cd08472f5}</uid>
+                               <uid>{a1e88ac3-ee5d-4183-a1fa-4cb0af74d3d0}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>explicit cadastroprioridade(QWidget *parent = 0)</declaration>
@@ -1304,7 +1304,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{fee328a1-9eff-47ef-96f0-1ee8f97031f6}</uid>
+                               <uid>{84eabff8-800e-465f-afc5-73f5754f4ce5}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
                                <declaration>QSqlDatabase db</declaration>
@@ -1312,7 +1312,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{58dfca06-a3d5-470d-88ac-d9ab882d17f0}</uid>
+                               <uid>{71962aa3-7c66-40cf-ad9f-3fcad629277e}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
                                <declaration>QSqlQuery *query</declaration>
@@ -1320,7 +1320,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{32b6b4e9-86d3-4ff8-99bc-e54f4d5875e5}</uid>
+                               <uid>{33058a40-8a3f-496c-8729-f4ab4ca42961}</uid>
                                <visibility>1</visibility>
                                <type>1</type>
                                <declaration>QSqlTableModel *modelo</declaration>
@@ -1328,7 +1328,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{73ccf255-bf2a-4d32-953a-03bb092a0af3}</uid>
+                               <uid>{6364534e-b49a-4124-ad7d-f7426b8311a2}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~cadastroprioridade()</declaration>
@@ -1336,7 +1336,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{8ef8f491-e1a3-471c-8d2b-48ff193b2e0e}</uid>
+                               <uid>{59801895-d8b5-43fd-82e6-71455e8d50d8}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_botaoAdicionar_clicked()</declaration>
@@ -1344,7 +1344,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{5f1af75c-07dd-40c6-bf21-b72b08522350}</uid>
+                               <uid>{a58f3327-06be-4748-9019-547708311c28}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_botaoEditar_clicked()</declaration>
@@ -1352,7 +1352,15 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{dfebfcc4-fa3e-4ff7-be29-e05fe32cfaab}</uid>
+                               <uid>{5ff685a0-d817-488a-ade2-9fc2916987e5}</uid>
+                               <visibility>5</visibility>
+                               <type>2</type>
+                               <declaration>void on_botaoInativo_clicked()</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{6ee08917-bad8-4ec8-993e-302585962fb3}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>Ui::cadastroprioridade *ui</declaration>
@@ -1360,7 +1368,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{3ed08d49-6aa8-41a5-aa08-7d1f9c60e364}</uid>
+                               <uid>{1532f35d-81b2-4c89-a6a7-efd4f86258fe}</uid>
                                <visibility>3</visibility>
                                <type>2</type>
                                <declaration>void atualizaDados()</declaration>
@@ -1792,7 +1800,7 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{c4815362-14bc-4c33-957e-1b4378ce8b8d}</uid>
+                               <uid>{01477986-153f-4d57-a2c8-6cb91047e024}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>explicit Login(QWidget *parent = 0)</declaration>
@@ -1800,7 +1808,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{f9985379-9332-44f8-af7c-817cf7f3ae3a}</uid>
+                               <uid>{d96a3839-4c76-4bb0-80ad-0dbdfc779c59}</uid>
                                <visibility>1</visibility>
                                <type>2</type>
                                <declaration>~Login()</declaration>
@@ -1808,7 +1816,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{5b31053b-7eb3-420f-ad9d-2144e4fc675d}</uid>
+                               <uid>{77306373-ff4a-44be-83e5-e83e5e3da825}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_pushButton_clicked()</declaration>
@@ -1816,7 +1824,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{078e72c2-bbf4-4f18-ae08-d17010d484e3}</uid>
+                               <uid>{66989987-3304-41f1-b461-039c5577e780}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_pushButton_2_clicked()</declaration>
@@ -1824,7 +1832,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{2fa848e8-ef42-40ba-b76f-f9868cbd5269}</uid>
+                               <uid>{5943b56c-97f2-4710-993d-89925503c933}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_botaoNaoLoga_clicked()</declaration>
@@ -1832,7 +1840,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{902a1b73-fe99-40c6-ad40-b120de48dbb5}</uid>
+                               <uid>{18ccaeec-f7ff-4e54-9c94-f8b7012aaf36}</uid>
                                <visibility>5</visibility>
                                <type>2</type>
                                <declaration>void on_botaoLogar_clicked()</declaration>
@@ -1840,7 +1848,7 @@
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{227a214b-1584-4400-ad20-0c6f5c2fd94d}</uid>
+                               <uid>{e577c984-4b5d-44a9-8c2c-275d30104782}</uid>
                                <visibility>3</visibility>
                                <type>1</type>
                                <declaration>Ui::Login *ui</declaration>

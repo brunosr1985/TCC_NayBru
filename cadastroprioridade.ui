@@ -53,10 +53,17 @@
      </property>
     </widget>
    </item>
-   <item row="2" column="0" colspan="3">
+   <item row="2" column="0" colspan="2">
     <widget class="QPushButton" name="botaoEditar">
      <property name="text">
       <string>Substituir Prioridade Selecionado</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QPushButton" name="botaoInativo">
+     <property name="text">
+      <string>Inativar Prioridade</string>
      </property>
     </widget>
    </item>

@@ -60,3 +60,8 @@ void cadastroprioridade::atualizaDados()
     ui->tablePrioridade->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);
     ui->tablePrioridade->setModel(modelo);
 }
+
+void cadastroprioridade::on_botaoInativo_clicked()
+{
+
+}
