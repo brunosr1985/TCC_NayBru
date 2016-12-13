@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>283</width>
-    <height>270</height>
+    <width>292</width>
+    <height>162</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -18,8 +18,8 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>283</width>
-    <height>270</height>
+    <width>292</width>
+    <height>162</height>
    </size>
   </property>
   <property name="maximumSize">
@@ -31,84 +31,102 @@
   <property name="windowTitle">
    <string>Cadastro de Ativos</string>
   </property>
-  <layout class="QGridLayout" name="gridLayout">
-   <item row="0" column="0">
-    <widget class="QLabel" name="label">
-     <property name="text">
-      <string>ID</string>
-     </property>
-    </widget>
-   </item>
-   <item row="0" column="1" colspan="3">
-    <widget class="QLineEdit" name="lineID">
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </item>
-   <item row="1" column="0">
-    <widget class="QLabel" name="label_2">
-     <property name="text">
-      <string>Nome</string>
-     </property>
-    </widget>
-   </item>
-   <item row="1" column="1" colspan="3">
-    <widget class="QLineEdit" name="lineNome"/>
-   </item>
-   <item row="2" column="0">
-    <widget class="QLabel" name="label_3">
-     <property name="text">
-      <string>Tipo</string>
-     </property>
-    </widget>
-   </item>
-   <item row="2" column="1" colspan="2">
-    <widget class="QComboBox" name="comboTipo"/>
-   </item>
-   <item row="2" column="3">
-    <widget class="QToolButton" name="botaoAtualizar">
-     <property name="text">
-      <string>...</string>
-     </property>
-     <property name="icon">
-      <iconset theme="update">
-       <normaloff>.</normaloff>.</iconset>
-     </property>
-    </widget>
-   </item>
-   <item row="3" column="0">
-    <widget class="QLabel" name="label_4">
-     <property name="text">
-      <string>Local</string>
-     </property>
-    </widget>
-   </item>
-   <item row="3" column="1" colspan="3">
-    <widget class="QLineEdit" name="lineLocal"/>
-   </item>
-   <item row="4" column="0" colspan="2">
-    <widget class="QPushButton" name="pushButton_4">
-     <property name="text">
-      <string>Novo Tipo</string>
-     </property>
-    </widget>
-   </item>
-   <item row="4" column="2">
-    <widget class="QPushButton" name="botaoNovo">
-     <property name="text">
-      <string>Novo Ativo</string>
-     </property>
-    </widget>
-   </item>
-   <item row="4" column="3">
-    <widget class="QPushButton" name="pushButton_2">
-     <property name="text">
-      <string>Salvar</string>
-     </property>
-    </widget>
-   </item>
-  </layout>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>274</width>
+     <height>154</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QComboBox" name="comboTipo"/>
+      </item>
+      <item>
+       <widget class="QToolButton" name="botaoAtualizar">
+        <property name="text">
+         <string>...</string>
+        </property>
+        <property name="icon">
+         <iconset theme="update">
+          <normaloff>.</normaloff>.</iconset>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="4" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="text">
+         <string>Novo Tipo</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="botaoNovo">
+        <property name="text">
+         <string>Novo Ativo</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="text">
+         <string>Salvar</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lineID">
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Nome</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lineNome"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Tipo</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Local</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="lineLocal"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
  </widget>
  <resources/>
  <connections/>

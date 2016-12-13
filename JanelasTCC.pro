@@ -80,7 +80,8 @@ FORMS    += mainwindow.ui \
     relatoriosimples.ui
 
 DISTFILES += \
-    diagrama_de_classes.qmodel
+    diagrama_de_classes.qmodel \
+    Iconleak-Atrous-Search.ico
 
 STATECHARTS += \
     Modelo de classes.scxml
